@@ -8,8 +8,8 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|x<rsup|2>*d
     x|1-x<rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|-<big|int><around*|(|<frac|x<rsup|2>-1|x<rsup|2>-1>+<frac|1|x<rsup|2>-1>|)>*d
-    x>>|<row|<cell|>|<cell|=>|<cell|-x+<frac|1|2>*<big|int><around*|(|<frac|1|x-1>-<frac|1|x+1>|)>*d
-    x>>|<row|<cell|>|<cell|=>|<cell|-x+<frac|1|2>*l
+    x>>|<row|<cell|>|<cell|=>|<cell|-x-<frac|1|2>*<big|int><around*|(|<frac|1|x-1>-<frac|1|x+1>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|-x-<frac|1|2>*l
     n<around*|\||<frac|x-1|x+1>|\|>>>>>
   </eqnarray*>
 
@@ -84,7 +84,7 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|e<rsup|3*x>+1|e<rsup|x>+1>*d
     x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<around*|(|e<rsup|x>+1|)>*<around*|(|e<rsup|2*x>-e<rsup|x>+1|)>|e<rsup|x>+1>*d
-    x=<frac|1|2>*e<rsup|2*x>-e<rsup|x>>>>>
+    x=<frac|1|2>*e<rsup|2*x>-e<rsup|x>+x>>>>
   </eqnarray*>
 
   \;

@@ -9,7 +9,7 @@
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
     x|1+sin x>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|1-sin
     x|1-sin<rsup|2> x>*d x=<big|int><around*|(|<frac|1|cos<rsup|2>
-    x>-<frac|sin x|cos<rsup|2> x>|)>*d x>>|<row|<cell|>|<cell|=>|<cell|tag
+    x>-<frac|sin x|cos<rsup|2> x>|)>*d x>>|<row|<cell|>|<cell|=>|<cell|tan
     x-<frac|1|cos x>>>>>
   </eqnarray*>
 

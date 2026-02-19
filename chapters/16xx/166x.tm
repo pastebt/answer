@@ -110,7 +110,7 @@
     x|1-cos x>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|1+cos
     x|1-cos<rsup|2> x>*d x=<big|int><around*|(|<frac|1|sin<rsup|2>
     x>+<frac|cos x|sin<rsup|2> x>|)>*d x>>|<row|<cell|>|<cell|=>|<cell|-cot<around*|(|x|)>-<frac|1|sin
-    x>>>>>
+    x>=-cot*<frac|x|2>>>>>
   </eqnarray*>
 </body>
 

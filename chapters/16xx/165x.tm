@@ -41,7 +41,7 @@
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>coth<rsup|2>
     x*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|cosh<rsup|2>
     x|sinh<rsup|2> x>*d x=<big|int><frac|sinh<rsup|2>+1|sinh<rsup|2> x>*d
-    x=x+coth x>>>>
+    x=x-coth x>>>>
   </eqnarray*>
 
   \;

@@ -48,8 +48,8 @@
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|<sqrt|x>-2*<sqrt|x<rsup|2>|3>+1|<sqrt|x|4>>*d
-    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|x<rsup|<frac|1|4>>-x<rsup|<around*|(|<frac|2|3>-<frac|1|4>|)>>+x<rsup|<frac|-1|4>>|)>*d
-    x>>|<row|<cell|>|<cell|=>|<cell|<frac|4|5>*x<rsup|<frac|5|4>>-<frac|12|17>*x<rsup|<frac|17|12>>+<frac|4|3>*x<rsup|<frac|3|4>>>>>>
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|x<rsup|<frac|1|4>>-2*x<rsup|<around*|(|<frac|2|3>-<frac|1|4>|)>>+x<rsup|<frac|-1|4>>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|4|5>*x<rsup|<frac|5|4>>-<frac|2\<times\>12|17>*x<rsup|<frac|17|12>>+<frac|4|3>*x<rsup|<frac|3|4>>>>>>
   </eqnarray*>
 
   \;
