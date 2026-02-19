@@ -42,6 +42,21 @@
     <tformat|<table|<row|<cell|<frac|1|4>*arctan<around*|(|<frac|x<rsup|2>|2>|)>>|<cell|\<neq\>>|<cell|<frac|1|2>\<times\>l
     n<around*|(|4+x<rsup|2>|)>>>>>
   </eqnarray*>
+
+  1687:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|2*sgn x*l n<around*|(|<sqrt|<around*|\||x|\|>>+<sqrt|<around*|\||x+1|\|>>|)>>|<cell|\<neq\>>|<cell|2*l
+    n<around*|\||<sqrt|x>+<sqrt|x+1>|\|>>>>>
+  </eqnarray*>
+
+  1694:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|l n<around*|\||l n<around*|(|l n
+    x|)>|\|>>|<cell|\<neq\>>|<cell|l n<around*|(|l n<around*|(|l n
+    x|)>|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>

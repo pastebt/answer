@@ -46,7 +46,7 @@
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
     x|x*<sqrt|x<rsup|2>-1>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<frac|1|x<rsup|2>>*d
     x|<frac|1|x>*<sqrt|x<rsup|2>-1>>=<big|int><frac|-d<around*|(|<frac|1|x>|)>|<sqrt|1-<around*|(|<frac|1|x>|)><rsup|2>>>>>|<row|<cell|>|<cell|IV.>|<cell|<big|int><frac|d
-    x|<sqrt|a<rsup|2>-x<rsup|2>>>=arcsin*<frac|x|a>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-arcsin<around*|(|<frac|1|x>|)>>>>>
+    x|<sqrt|a<rsup|2>-x<rsup|2>>>=arcsin*<frac|x|a>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-arcsin<around*|\||<frac|1|x>|\|>>>>>
   </eqnarray*>
 
   \;

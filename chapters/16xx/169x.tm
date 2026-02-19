@@ -32,7 +32,7 @@
     x|<sqrt|1+e<rsup|2*x>>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|e<rsup|-x>*d
     x|e<rsup|-x>*<sqrt|1+e<rsup|2*x>>>=<big|int><frac|-d<around*|(|e<rsup|-x>|)>|<sqrt|e<rsup|-2*x>+1>>>>|<row|<cell|>|<cell|V.>|<cell|<big|int><frac|d
     x|<sqrt|x<rsup|2>\<pm\>a<rsup|2>>>=l n<around*|\||x+<sqrt|x<rsup|2>\<pm\>a<rsup|2>>|\|>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-l
-    n<around*|(|e<rsup|-x>+<sqrt|e<rsup|-x>+1>|)>>>>>
+    n<around*|(|e<rsup|-x>+<sqrt|e<rsup|-2*x>+1>|)>>>>>
   </eqnarray*>
 
   \;
@@ -104,7 +104,9 @@
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|sin
     x+cos x|<sqrt|sin x-cos x|3>>*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|d<around*|(|-cos
     x+sin x|)>|<sqrt|sin x-cos x|3>>=<frac|3|2><around*|(|sin x-cos
-    x|)><rsup|<frac|2|3>>>>>>
+    x|)><rsup|<frac|2|3>>>>|<row|<cell|>|<cell|=>|<cell|<frac|3|2>*<sqrt|sin<rsup|2>
+    x-2*sin x*cos x+cos<rsup|2> x|3>>>|<row|<cell|>|<cell|=>|<cell|<frac|3|2>\<times\><sqrt|1-2*sin
+    x*cos x|3>=<frac|3|2>*<sqrt|1-sin 2*x|3>>>>>
   </eqnarray*>
 </body>
 
