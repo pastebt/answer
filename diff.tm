@@ -57,6 +57,23 @@
     x|)>|\|>>|<cell|\<neq\>>|<cell|l n<around*|(|l n<around*|(|l n
     x|)>|)>>>>>
   </eqnarray*>
+
+  1700:(d)
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|1|<sqrt|2>>*l n<around*|(|<sqrt|2>*cosh
+    x+<sqrt|cosh 2*x>|)>>|<cell|\<neq\>>|<cell|<frac|1|<sqrt|2>>*l
+    n<around*|\||<sqrt|2>*cosh x+<sqrt|cosh 2*x>|\|>>>>>
+  </eqnarray*>
+
+  1718:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|1|2>*arctan<around*|(|cos
+    2*x|)>>|<cell|\<neq\>>|<cell|<frac|1|2>*arctan<around*|(|2*sin<rsup|2>
+    x-1|)>>>|<row|<cell|>|<cell|>|<cell|cos 2*x=2*cos<rsup|2>
+    x-1=1-2*sin<rsup|2> x>>>>
+  </eqnarray*>
 </body>
 
 <\initial>

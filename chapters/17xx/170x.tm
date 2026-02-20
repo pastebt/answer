@@ -66,7 +66,7 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
     x|sin<rsup|2> x*<sqrt|cot x|4>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|-d<around*|(|cot
-    x|)>|<around*|(|cot x|)><rsup|<frac|1|4>>>=-<frac|3|4><around*|(|cot
+    x|)>|<around*|(|cot x|)><rsup|<frac|1|4>>>=-<frac|4|3><around*|(|cot
     x|)><rsup|<frac|3|4>>>>>>
   </eqnarray*>
 

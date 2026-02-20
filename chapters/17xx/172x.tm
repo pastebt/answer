@@ -40,7 +40,7 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|1+x|1-x>*d
     x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|1+x|1-x>\<times\><around*|(|-d<around*|(|1-x|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<around*|(|1-x|)>-2|1-x>*d<around*|(|1-x|)>>>|<row|<cell|>|<cell|=>|<cell|1-x-2*l
-    n<around*|\||1-x|\|>>>>>
+    n<around*|\||1-x|\|>=-x-2*l n<around*|\||1-x|\|>+C>>>>
   </eqnarray*>
 
   \;

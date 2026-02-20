@@ -147,7 +147,8 @@
     n<around*|\||<frac|a+x|a-x>|\|>+C<space|1em><around*|(|a\<neq\>0|)><space|1em>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2*l
     n<around*|(|<frac|2|3>|)>>*l n<around*|\||<frac|1+<around*|(|<frac|2|3>|)><rsup|x>|1-<around*|(|<frac|2|3>|)><rsup|x>>|\|>=<frac|l
     n<around*|\||<frac|3<rsup|x>+2<rsup|x>|3<rsup|x>-2<rsup|x>>|\|>|2*<around*|(|l
-    n 2-l n 3|)>>>>>>
+    n 2-l n 3|)>>=<frac|l n<around*|\||<frac|3<rsup|x>-2<rsup|x>|3<rsup|x>+2<rsup|x>>|\|>|2*<around*|(|l
+    n 3-l n 2|)>>>>>>
   </eqnarray*>
 </body>
 
