@@ -74,6 +74,12 @@
     x-1|)>>>|<row|<cell|>|<cell|>|<cell|cos 2*x=2*cos<rsup|2>
     x-1=1-2*sin<rsup|2> x>>>>
   </eqnarray*>
+
+  1746:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|1|12>*cos<around*|(|x+<frac|5*\<mathpi\>|12>|)>-<frac|1|10>*cos<around*|(|5*x+<frac|\<mathpi\>|12>|)>>|<cell|\<neq\>>|<cell|<frac|1|2>*cos<around*|(|x+<frac|5*\<mathpi\>|12>|)>-<frac|1|10>*cos<around*|(|5*x+<frac|\<mathpi\>|12>|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
