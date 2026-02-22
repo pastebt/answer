@@ -129,7 +129,56 @@
   1756:
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>>>>>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|sin x*cos<rsup|3> x>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|sin<rsup|2>
+    x+cos<rsup|2> x|sin x*cos<rsup|3> x>*d x=<big|int><around*|(|<frac|sin
+    x|cos<rsup|3> x>+<frac|1|sin x*cos x>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|-d<around*|(|cos
+    x|)>|cos<rsup|3> x>+<big|int><frac|sin<rsup|2> x+cos<rsup|2> x|sin x*cos
+    x>*d x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2*cos<rsup|2>
+    x>+<big|int><around*|(|<frac|sin x|cos x>+<frac|cos x|sin x>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2*cos<rsup|2> x>-l
+    n<around*|\||cos x|\|>+l n<around*|\||sin
+    x|\|>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2*cos<rsup|2> x>+l
+    n<around*|\||tan x|\|>>>>>
+  </eqnarray*>
+
+  \;
+
+  1757:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|cos<rsup|3>
+    x|sin x>*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|cos
+    x-sin<rsup|2> x*cos x|sin x>*d x=<big|int><around*|(|<frac|cos x|sin
+    x>-sin x*cos x|)>*d x>>|<row|<cell|>|<cell|=>|<cell|l n<around*|\||sin
+    x|\|>+<frac|1|2>*cos<rsup|2> x>>|<row|<cell|>|<cell|=>|<cell|l
+    n<around*|\||sin x|\|>-<frac|1|2>*sin<rsup|2> x+C>>>>
+  </eqnarray*>
+
+  \;
+
+  1758:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|cos<rsup|4> x>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|sin<rsup|2>
+    x+cos<rsup|2> x|cos<rsup|4> x>*d x=<big|int><around*|(|<frac|sin<rsup|2>
+    x|cos<rsup|4> x>+<frac|1|cos<rsup|2> x>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|tan<rsup|2> x|cos<rsup|2>
+    x>*d x+<big|int><frac|d x|cos<rsup|2>
+    x>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|3>*tan<rsup|3> x+tan x>>>>
+  </eqnarray*>
+
+  \;
+
+  1759:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|1+e<rsup|x>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|1+e<rsup|x>-e<rsup|x>|1+e<rsup|x>>*d
+    x=x-<big|int><frac|d<around*|(|1+e<rsup|x>|)>|1+e<rsup|x>>>>|<row|<cell|>|<cell|=>|<cell|x-l
+    n<around*|(|1+e<rsup|x>|)>>>>>
   </eqnarray*>
 </body>
 
