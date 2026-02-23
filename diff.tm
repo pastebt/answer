@@ -80,6 +80,16 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|<frac|1|12>*cos<around*|(|x+<frac|5*\<mathpi\>|12>|)>-<frac|1|10>*cos<around*|(|5*x+<frac|\<mathpi\>|12>|)>>|<cell|\<neq\>>|<cell|<frac|1|2>*cos<around*|(|x+<frac|5*\<mathpi\>|12>|)>-<frac|1|10>*cos<around*|(|5*x+<frac|\<mathpi\>|12>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  1775:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|-x-2*e<rsup|-<frac|\<mathpi\>|2>>+2*l
+    n<around*|(|1+e<rsup|<frac|x|2>>|)>>|<cell|\<neq\>>|<cell|2*l
+    n<around*|(|1+e<rsup|<frac|x|2>>|)>-2*e<rsup|<frac|-x|2>>-x>>>>
+  </eqnarray*>
 </body>
 
 <\initial>

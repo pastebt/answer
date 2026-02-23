@@ -61,6 +61,50 @@
     x|cos<rsup|6> x>+<frac|sin<rsup|2> x|cos<rsup|4> x>|)>*d
     x=<frac|1|5>*tan<rsup|5> x+<frac|1|3>*tan<rsup|3> x>>>>
   </eqnarray*>
+
+  \;
+
+  1774:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|l
+    n x|x*<sqrt|1+l n x>>*d x>>|<row|<cell|>|<cell|>|<cell|d<around*|(|l n
+    x|)>=<frac|1|x>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|l
+    n x|<sqrt|1+l n x>>*d<around*|(|l n x|)>=<big|int><around*|(|<sqrt|1+l n
+    x>-<frac|1|<sqrt|1+l n x>>|)>*d<around*|(|1+l n
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|3>*<around*|(|1+l n
+    x|)><rsup|<frac|3|2>>-2*<sqrt|1+l n x>=<frac|2|3>*<sqrt|1+l n
+    x>*<around*|(|1+l n x-3|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|3>*<sqrt|1+l
+    n x>*<around*|(|l n x-2|)>>>>>
+  </eqnarray*>
+
+  \;
+
+  1775:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|e<rsup|<frac|x|2>>+e<rsup|x>>>>|<row|<cell|>|<cell|>|<cell|y=e<rsup|<frac|x|2>>>>|<row|<cell|>|<cell|>|<cell|d
+    y=<frac|1|2>*e<rsup|<frac|x|2>>*d x>>|<row|<cell|>|<cell|>|<cell|d
+    x=<frac|2|y>*d y>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|2*d
+    y|y<rsup|2>+y<rsup|3>>=2*<big|int><frac|1|y>*<around*|(|<frac|1|y>-<frac|1|1+y>|)>*d
+    y=2*<big|int><around*|(|<frac|1|y<rsup|2>>-<frac|1|y*<around*|(|1+y|)>>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|2*<big|int><around*|(|<frac|1|y<rsup|2>>-<frac|1|y>+<frac|1|1+y>|)>*d
+    y=2\<times\><around*|(|-<frac|1|y>-l n y+l
+    n<around*|\||1+y|\|>|)>>>|<row|<cell|>|<cell|=>|<cell|2*l
+    n<around*|\||<frac|1+y|y>|\|>-<frac|2|y>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|2*l
+    n<around*|(|<frac|1+e<rsup|<frac|x|2>>|e<rsup|<frac|x|2>>>|)>-2*e<rsup|<frac|-x|2>>=2*l
+    n<around*|(|1+e<rsup|<frac|x|2>>|)>-2*e<rsup|<frac|-x|2>>-x>>>>
+  </eqnarray*>
+
+  \;
+
+  1776:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<sqrt|1+e<rsup|x>>>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
