@@ -90,6 +90,13 @@
     n<around*|(|1+e<rsup|<frac|x|2>>|)>>|<cell|\<neq\>>|<cell|2*l
     n<around*|(|1+e<rsup|<frac|x|2>>|)>-2*e<rsup|<frac|-x|2>>-x>>>>
   </eqnarray*>
+
+  1779:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|\<neq\>>|<cell|<space|0.8spc>not using
+    trigonometric replacement>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
