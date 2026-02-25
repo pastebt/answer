@@ -63,6 +63,26 @@
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|1-x+x<rsup|2>|<sqrt|1+x-x<rsup|2>>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|2-<around*|(|1+x-x<rsup|2>|)>|<sqrt|1+x-x<rsup|2>>>*d
+    x=2*<big|int><frac|d x|<sqrt|1+x-x<rsup|2>>>-<big|int><sqrt|1+x-x<rsup|2>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|2*<big|int><frac|d
+    x|<sqrt|<frac|5|4>-<around*|(|<frac|1|4>-x+x<rsup|2>|)>>>-<big|int><sqrt|<frac|5|4>-<around*|(|<frac|1|4>-x+x<rsup|2>|)>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|2*<big|int><frac|d
+    x|<sqrt|<around*|(|<frac|<sqrt|5>|2>|)><rsup|2>-<around*|(|<frac|1|2>-x|)><rsup|2>>>-<big|int><sqrt|<around*|(|<frac|<sqrt|5>|2>|)><rsup|2>-<around*|(|<frac|1|2>-x|)><rsup|2>>*d
+    x>>|<row|<cell|book:>|<cell|IV.>|<cell|<big|int><frac|d
+    x|<sqrt|a<rsup|2>-x<rsup|2>>>=arcsin*<frac|x|a>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|>|<cell|VI
+    \<Iota\>.>|<cell|<big|int><sqrt|a<rsup|2>-x<rsup|2>>*d
+    x=<frac|x|2>*<sqrt|a<rsup|2>-x<rsup|2>>+<frac|a<rsup|2>|2>*arcsin
+    <frac|x|a>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|>|<cell|>|<cell|d<around*|(|<frac|1|2>-x|)>=-d
+    x>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-2*arcsin<around*|(|<frac|<frac|1|2>-x|<frac|<sqrt|5>|2>>|)>+<frac|<frac|1|2>-x|2>*<sqrt|1+x-x<rsup|2>>+<frac|<frac|5|4>|2>*arcsin<around*|(|<frac|<frac|1|2>-x|<frac|<sqrt|5>|2>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1-2*x|4>*<sqrt|1+x-x<rsup|2>>-<frac|11|8>*arcsin<around*|(|<frac|1-2*x|<sqrt|5>>|)>>>>>
+  </eqnarray*>
+
+  \;
+
+  1943:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|x<rsup|3>|<sqrt|1+2*x-x<rsup|2>>>*d
     x>>>>
   </eqnarray*>
 </body>
