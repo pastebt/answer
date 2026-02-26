@@ -97,6 +97,14 @@
     <tformat|<table|<row|<cell|>|<cell|\<neq\>>|<cell|<space|0.8spc>not using
     trigonometric replacement>>>>
   </eqnarray*>
+
+  \;
+
+  1945:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|(|<frac|1|6>*x<rsup|5>-<frac|*a<rsup|2>|24>*x<rsup|3>-<frac|*a<rsup|4>|16>*x|)>*<sqrt|a<rsup|2>-x<rsup|2>>+<frac|*a<rsup|6>|16>*arcsin<around*|(|<frac|x|<around*|\||a|\|>>|)>>|<cell|\<neq\>>|<cell|<around*|(|<frac|1|6>*x<rsup|5>-<frac|*a<rsup|2>|24>*x<rsup|3>-<frac|*a<rsup|4>|16>*x|)>*<sqrt|a<rsup|2>-x<rsup|2>>+<frac|*a<rsup|6>|16>*arcsin<around*|(|<frac|x|a>|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>

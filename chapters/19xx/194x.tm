@@ -113,6 +113,15 @@
     x|<sqrt|a<rsup|2>-x<rsup|2>>>>>|<row|<cell|book:>|<cell|IV.>|<cell|<big|int><frac|d
     x|<sqrt|a<rsup|2>-x<rsup|2>>>=arcsin*<frac|x|a>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<around*|(|<frac|1|6>*x<rsup|5>-<frac|*a<rsup|2>|24>*x<rsup|3>-<frac|*a<rsup|4>|16>*x|)>*<sqrt|a<rsup|2>-x<rsup|2>>+<frac|*a<rsup|6>|16>*arcsin<around*|(|<frac|x|a>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  1946:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|x<rsup|3>-6*x<rsup|2>+11*x-6|<sqrt|x<rsup|2>+4*x+3>>*d
+    x>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
