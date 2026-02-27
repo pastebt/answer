@@ -100,11 +100,21 @@
 
   \;
 
+  1785:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|2*x-<around*|(|a+b|)>|4>*<sqrt|<around*|(|x-a|)>*<around*|(|b-a|)>>+<frac|<around*|(|b-a|)><rsup|2>|4>*arcsin<around*|(|<sqrt|<frac|x-a|b-a>>|)>>|<cell|\<neq\>>|<cell|<frac|2*<sqrt|b-a>|3>*<around*|(|x-a|)><rsup|<frac|3|2>>>>>>
+  </eqnarray*>
+
+  \;
+
   1945:
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|<around*|(|<frac|1|6>*x<rsup|5>-<frac|*a<rsup|2>|24>*x<rsup|3>-<frac|*a<rsup|4>|16>*x|)>*<sqrt|a<rsup|2>-x<rsup|2>>+<frac|*a<rsup|6>|16>*arcsin<around*|(|<frac|x|<around*|\||a|\|>>|)>>|<cell|\<neq\>>|<cell|<around*|(|<frac|1|6>*x<rsup|5>-<frac|*a<rsup|2>|24>*x<rsup|3>-<frac|*a<rsup|4>|16>*x|)>*<sqrt|a<rsup|2>-x<rsup|2>>+<frac|*a<rsup|6>|16>*arcsin<around*|(|<frac|x|a>|)>>>>>
   </eqnarray*>
+
+  \;
 </body>
 
 <\initial>

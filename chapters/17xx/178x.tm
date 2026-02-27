@@ -177,7 +177,65 @@
     \<theta\>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|8><around*|(|\<theta\>+sin
     \<theta\>*cos \<theta\>|)>-<frac|1|4>*cos<rsup|3> \<theta\>*sin
     \<theta\>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<frac|2*x-<around*|(|a+b|)>|4>*<sqrt|<around*|(|x-a|)>*<around*|(|b-a|)>>+<frac|<around*|(|b-a|)><rsup|2>|4>*arcsin<around*|(|<sqrt|<frac|x-a|b-a>>|)>>>|<row|<cell|>|<cell|>|<cell|<frac|d|d
-    x>*arcsin x=<frac|1|<sqrt|1-x<rsup|2>>>>>|<row|<cell|F<rsub|1><rprime|'><around*|(|x|)>>|<cell|=>|<cell|<frac|1|4>*<around*|(|2*<sqrt|<around*|(|x-a|)>*<around*|(|b-a|)>>+<frac|<around*|(|2*x-<around*|(|a+b|)>|)>|2*<sqrt|<around*|(|x-a|)>*<around*|(|b-a|)>>>+<around*|(|b-a|)><rsup|2>*<frac|1|<sqrt|1-<around*|(|<frac|x-a|b-a>|)>>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4>*<around*|(|<frac|4*<around*|(|x-a|)>*<around*|(|b-a|)>+2*x-a-b|2*<sqrt|<around*|(|x-a|)>*<around*|(|b-a|)>>>+<frac|<around*|(|b-a|)><rsup|2>*<sqrt|b-a>|<sqrt|b-x>>|)>>>>>
+    x>*arcsin x=<frac|1|<sqrt|1-x<rsup|2>>>>>|<row|<cell|F<rsub|1><rprime|'><around*|(|x|)>>|<cell|=>|<cell|<frac|1|4>*<around*|(|<sqrt|b-a>*<around*|(|2*<sqrt|x-a>+<frac|2*x-a-b|2*<sqrt|x-a>>|)>+<around*|(|b-a|)><rsup|2>*<frac|1|<sqrt|1-<around*|(|<frac|x-a|b-a>|)>>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4>*<around*|(|<frac|4*<around*|(|x-a|)>+2*x-a-b|2*<sqrt|<around*|(|x-a|)>>>*<sqrt|b-a>+<frac|<around*|(|b-a|)><rsup|2>*<sqrt|b-a>|<sqrt|b-x>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|<sqrt|b-a>|4>*<around*|(|<frac|6*x-5*a-b|2*<sqrt|<around*|(|x-a|)>>>+<frac|<around*|(|b-a|)><rsup|2>|<sqrt|b-x>>|)>>>>>
+  </eqnarray*>
+
+  \;
+
+  1786:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><sqrt|a<rsup|2>+x<rsup|2>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|cosh<rsup|2> x-sinh<rsup|2>
+    x=1>>|<row|<cell|>|<cell|>|<cell|x=a*sinh
+    \<theta\>>>|<row|<cell|>|<cell|>|<cell|d x=a*cosh \<theta\>*d
+    \<theta\>>>|<row|<cell|F<around*|(|\<theta\>|)>>|<cell|=>|<cell|a*<big|int><sqrt|1+sinh<rsup|2>
+    \<theta\>>*a*cosh \<theta\>*d \<theta\>=a<rsup|2>*<big|int>cosh<rsup|2>
+    \<theta\>*d \<theta\>>>|<row|<cell|>|<cell|>|<cell|u=cosh \<theta\>,d
+    v=cosh \<theta\>,v=sinh \<theta\>>>|<row|<cell|f<rsub|1><around*|(|\<theta\>|)>>|<cell|=>|<cell|<big|int>cosh<rsup|2>
+    \<theta\>*d \<theta\>=<big|int>u*d v=u*v-<big|int>v*d u=cosh
+    \<theta\>*sinh \<theta\>-<big|int>sinh \<theta\>*d<around*|(|cosh
+    \<theta\>|)>>>|<row|<cell|>|<cell|=>|<cell|cosh \<theta\>*sinh
+    \<theta\>-<big|int>sinh<rsup|2> \<theta\>*d \<theta\>=cosh \<theta\>*sinh
+    \<theta\>-<big|int><around*|(|cosh<rsup|2> \<theta\>-1|)>*d
+    \<theta\>>>|<row|<cell|>|<cell|=>|<cell|cosh \<theta\>*sinh
+    \<theta\>+\<theta\>-f<rsub|1><around*|(|\<theta\>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<around*|(|cosh
+    \<theta\>*sinh \<theta\>+\<theta\>|)>>>|<row|<cell|F<around*|(|\<theta\>|)>>|<cell|=>|<cell|<frac|a<rsup|2>|2>*<around*|(|cosh
+    \<theta\>*sinh \<theta\>+\<theta\>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|a<rsup|2>|2><around*|(|cosh<around*|(|arsinh<around*|(|<frac|x|a>|)>|)>*<frac|x|a>+arsinh<around*|(|<frac|x|a>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|a<rsup|2>|2><around*|(|<sqrt|1+<around*|(|<frac|x|a>|)><rsup|2>>*<frac|x|a>+arsinh<around*|(|<frac|x|a>|)>|)>=<frac|x|2>*<sqrt|a<rsup|2>+x<rsup|2>>+<frac|a<rsup|2>|2>*arsinh<around*|(|<frac|x|a>|)>>>|<row|<cell|>|<cell|>|<cell|arsinh<around*|(|x|)>=l
+    n<around*|(|x+<sqrt|x<rsup|2>+1>|)>>>|<row|<cell|>|<cell|>|<cell|arsinh<around*|(|<frac|x|a>|)>=l
+    n<around*|(|<frac|x|a>+<sqrt|<around*|(|<frac|x|a>|)><rsup|2>+1>|)>=l
+    n<around*|(|x+<sqrt|x<rsup|2>+a<rsup|2>>|)>+l
+    n<around*|(|<frac|1|a>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|x|2>*<sqrt|a<rsup|2>+x<rsup|2>>+<frac|a<rsup|2>|2>*l
+    n<around*|(|x+<sqrt|x<rsup|2>+a<rsup|2>>|)>>>>>
+  </eqnarray*>
+
+  \;
+
+  1787:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|x<rsup|2>*d
+    x|<sqrt|a<rsup|2>+x<rsup|2>>>>>|<row|<cell|>|<cell|>|<cell|cosh<rsup|2>
+    x-sinh<rsup|2> x=1>>|<row|<cell|>|<cell|>|<cell|x=a*sinh
+    \<theta\>>>|<row|<cell|>|<cell|>|<cell|d x=a*cosh \<theta\>*d
+    \<theta\>>>|<row|<cell|F<around*|(|\<theta\>|)>>|<cell|=>|<cell|<big|int><frac|a<rsup|2>*sinh<rsup|2>
+    \<theta\>\<times\>a*cosh \<theta\>*d \<theta\>|<sqrt|a<rsup|2>+a<rsup|2>*sinh<rsup|2>
+    \<theta\>>>>>|<row|<cell|>|<cell|=>|<cell|a<rsup|2>*<big|int>sinh<rsup|2>
+    \<theta\>*d \<theta\>=a<rsup|2>*<big|int><around*|(|cosh<rsup|2>
+    \<theta\>-1|)>*d \<theta\>>>|<row|<cell|1786:>|<cell|>|<cell|<big|int>cosh<rsup|2>
+    \<theta\>*d \<theta\>=<frac|1|2>*<around*|(|cosh \<theta\>*sinh
+    \<theta\>+\<theta\>|)>>>|<row|<cell|F<around*|(|\<theta\>|)>>|<cell|=>|<cell|<frac|a<rsup|2>|2>*<around*|(|cosh
+    \<theta\>*sinh \<theta\>-\<theta\>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|x|2>*<sqrt|a<rsup|2>+x<rsup|2>>-<frac|a<rsup|2>|2>*l
+    n<around*|(|x+<sqrt|x<rsup|2>+a<rsup|2>>|)>>>>>
+  </eqnarray*>
+
+  \;
+
+  1788:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><sqrt|<frac|x-a|x+a>>*d
+    x>>>>
   </eqnarray*>
 </body>
 
