@@ -152,7 +152,32 @@
     y|b-a>>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int>y\<times\><frac|2*y*d
     y|b-a>=<frac|2|b-a>*<big|int>y<rsup|2>*d
     y=<frac|2*y<rsup|3>|3*<around*|(|b-a|)>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|2|3*<around*|(|b-a|)>>*<around*|(|<sqrt|<around*|(|x-a|)>*<around*|(|b-a|)>>|)><rsup|3>=<frac|2*<sqrt|b-a>|3>*<around*|(|<sqrt|x-a>|)><rsup|3>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><sqrt|<around*|(|x-a|)>*<around*|(|b-a|)>>*d
-    x>>|<row|<cell|>|<cell|=>|<cell|<sqrt|b-a>*<big|int><sqrt|x-a>*d<around*|(|x-a|)>=<frac|2*<sqrt|b-a>|3>*<around*|(|x-a|)><rsup|<frac|3|2>>>>>>
+    x>>|<row|<cell|>|<cell|=>|<cell|<sqrt|b-a>*<big|int><sqrt|x-a>*d<around*|(|x-a|)>=<frac|2*<sqrt|b-a>|3>*<around*|(|x-a|)><rsup|<frac|3|2>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><sqrt|<around*|(|x-a|)>*<around*|(|b-x|)>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|x-a=<around*|(|b-a|)>*sin<rsup|2>
+    \<theta\>>>|<row|<cell|>|<cell|>|<cell|sin
+    \<theta\>=<sqrt|<frac|x-a|b-a>>>>|<row|<cell|>|<cell|>|<cell|x=a+<around*|(|b-a|)>*sin<rsup|2>
+    \<theta\>>>|<row|<cell|>|<cell|>|<cell|d x=2*<around*|(|b-a|)>*sin
+    \<theta\>*cos \<theta\>*d \<theta\>>>|<row|<cell|>|<cell|>|<cell|b-x=b-a-<around*|(|b-a|)>*sin<rsup|2>
+    \<theta\>=<around*|(|b-a|)>*<around*|(|1-sin<rsup|2>
+    x|)>=<around*|(|b-a|)>*cos<rsup|2> \<theta\>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><sqrt|<around*|(|b-a|)>*sin<rsup|2>
+    \<theta\>*<around*|(|b-a|)>*cos<rsup|2>
+    \<theta\>>*2*<around*|(|b-a|)>*sin \<theta\>*cos \<theta\>*d
+    \<theta\>>>|<row|<cell|>|<cell|=>|<cell|2*<around*|(|b-a|)><rsup|2>*<big|int>sin<rsup|2>
+    \<theta\>*cos<rsup|2> \<theta\>*d \<theta\>=2*<around*|(|b-a|)><rsup|2>*<big|int><around*|(|1-cos<rsup|2>
+    \<theta\>|)>*cos<rsup|2> \<theta\>*d \<theta\>>>|<row|<cell|>|<cell|=>|<cell|2*<around*|(|b-a|)><rsup|2>*<big|int><around*|(|cos<rsup|2>
+    \<theta\>-cos<rsup|4> \<theta\>|)>*d \<theta\>>>|<row|<cell|1742:>|<cell|>|<cell|<big|int>cos<rsup|2>
+    \<theta\>*d \<theta\>=<frac|1|2>*<around*|(|\<theta\>+sin \<theta\>*cos
+    \<theta\>|)>>>|<row|<cell|>|<cell|>|<cell|<big|int>cos<rsup|4>
+    \<theta\>*d \<theta\>=<frac|1|4>*<around*|(|cos<rsup|3> \<theta\>*sin
+    \<theta\>+<frac|3|2>*<around*|(|\<theta\>+sin \<theta\>*cos
+    \<theta\>|)>|)>>>|<row|<cell|f<rsub|1><around*|(|\<theta\>|)>>|<cell|=>|<cell|<big|int><around*|(|cos<rsup|2>
+    \<theta\>-cos<rsup|4> \<theta\>|)>*d \<theta\>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<around*|(|\<theta\>+sin
+    \<theta\>*cos \<theta\>|)>-<frac|1|4>*<around*|(|cos<rsup|3>
+    \<theta\>*sin \<theta\>+<frac|3|2>*<around*|(|\<theta\>+sin \<theta\>*cos
+    \<theta\>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|8><around*|(|\<theta\>+sin
+    \<theta\>*cos \<theta\>|)>-<frac|1|4>*cos<rsup|3> \<theta\>*sin
+    \<theta\>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<frac|2*x-<around*|(|a+b|)>|4>*<sqrt|<around*|(|x-a|)>*<around*|(|b-a|)>>+<frac|<around*|(|b-a|)><rsup|2>|4>*arcsin<around*|(|<sqrt|<frac|x-a|b-a>>|)>>>|<row|<cell|>|<cell|>|<cell|<frac|d|d
+    x>*arcsin x=<frac|1|<sqrt|1-x<rsup|2>>>>>|<row|<cell|F<rsub|1><rprime|'><around*|(|x|)>>|<cell|=>|<cell|<frac|1|4>*<around*|(|2*<sqrt|<around*|(|x-a|)>*<around*|(|b-a|)>>+<frac|<around*|(|2*x-<around*|(|a+b|)>|)>|2*<sqrt|<around*|(|x-a|)>*<around*|(|b-a|)>>>+<around*|(|b-a|)><rsup|2>*<frac|1|<sqrt|1-<around*|(|<frac|x-a|b-a>|)>>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4>*<around*|(|<frac|4*<around*|(|x-a|)>*<around*|(|b-a|)>+2*x-a-b|2*<sqrt|<around*|(|x-a|)>*<around*|(|b-a|)>>>+<frac|<around*|(|b-a|)><rsup|2>*<sqrt|b-a>|<sqrt|b-x>>|)>>>>>
   </eqnarray*>
 </body>
 
