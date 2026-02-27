@@ -108,6 +108,20 @@
 
   \;
 
+  1788:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|\<neq\>>|<cell|x\<less\>-a>>>>
+  </eqnarray*>
+
+  1789:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|\<neq\>>|<cell|x+a\<less\>0,x+b\<less\>0>>>>
+  </eqnarray*>
+
+  \;
+
   1945:
 
   <\eqnarray*>
