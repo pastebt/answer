@@ -145,6 +145,23 @@
   1796:
 
   <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>x<rsup|2>*e<rsup|-2*x>*d
+    x>>|<row|<cell|>|<cell|>|<cell|u=x<rsup|2>,d v=e<rsup|-2*x>*d
+    x,v=-<frac|1|2>*e<rsup|-2*x>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u=-<frac|1|2>*e<rsup|-2*x>*x<rsup|2>+<frac|1|2>*<big|int>e<rsup|-2*x>*2*x*d
+    x>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|2>*e<rsup|-2*x>*x<rsup|2>+<big|int>x*e<rsup|-2*x>*d
+    x>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int>x*e<rsup|-2*x>*d
+    x>>|<row|<cell|>|<cell|>|<cell|u=x,d v=e<rsup|-2*x>*d
+    x,v=-<frac|1|2>*e<rsup|-2*x>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u=-<frac|1|2>*e<rsup|-2*x>*x+<frac|1|2>*<big|int>e<rsup|-2*x>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|2>*e<rsup|-2*x>*x+<frac|1|2>\<times\><frac|-1|2>\<times\>e<rsup|-2*x>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-<frac|1|2>*e<rsup|-2*x>*x<rsup|2>-<frac|1|2>*e<rsup|-2*x>*x-<frac|1|4>*e<rsup|-2*x>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|2>*e<rsup|-2*x>*<around*|(|x<rsup|2>+x+<frac|1|2>|)>>>>>
+  </eqnarray*>
+
+  \;
+
+  1797:
+
+  <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>>>>>
   </eqnarray*>
 
