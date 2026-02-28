@@ -77,6 +77,26 @@
   1804:
 
   <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>x*arctan
+    x*d x>>|<row|<cell|>|<cell|>|<cell|u=arctan x,d v=x*d
+    x,v=<frac|1|2>*x<rsup|2>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u=<frac|1|2>*x<rsup|2>*arctan
+    x-<frac|1|2>*<big|int>x<rsup|2>*d<around*|(|arctan
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*x<rsup|2>*arctan
+    x-<frac|1|2>*<big|int><frac|x<rsup|2>*d
+    x|1+x<rsup|2>>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|x<rsup|2>*d
+    x|1+x<rsup|2>>=<big|int><around*|(|<frac|x<rsup|2>+1-1|1+x<rsup|2>>|)>*d
+    x=<big|int><around*|(|1-<frac|1|1+x<rsup|2>>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|x-arctan
+    x>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>*x<rsup|2>*arctan
+    x-<frac|1|2>*x+<frac|1|2>*arctan x>>>>
+  </eqnarray*>
+
+  \;
+
+  1805:
+
+  <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>>>>>
   </eqnarray*>
 </body>
