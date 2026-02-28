@@ -84,7 +84,30 @@
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><around*|(|<frac|l
-    n x|x>|)><rsup|2>*d x>>>>
+    n x|x>|)><rsup|2>*d x>>|<row|<cell|>|<cell|>|<cell|u=l n<rsup|2> x,d
+    v=<frac|1|x<rsup|2>>,v=<frac|-1|x>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u=-<frac|l n<rsup|2>
+    x|x>+<big|int><frac|1|x>*d<around*|(|l n<rsup|2>
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|-<frac|l n<rsup|2>
+    x|x>+2*<big|int><frac|l n x|x<rsup|2>>*d
+    x>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|l
+    n x|x<rsup|2>>*d x>>|<row|<cell|>|<cell|>|<cell|u=l n x,d
+    v=<frac|1|x<rsup|2>>,v=-<frac|1|x>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u=-<frac|l n x|x>+<big|int><frac|1|x>*d<around*|(|l n
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|-<frac|l n x|x>+<big|int><frac|d
+    x|x<rsup|2>>=-<frac|l n x|x>-<frac|1|x>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-<frac|l
+    n<rsup|2> x|x>+2*<around*|(|-<frac|l n
+    x|x>-<frac|1|x>|)>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|x>*<around*|(|l
+    n<rsup|2> x+2*l n x+2|)>>>>>
+  </eqnarray*>
+
+  \;
+
+  1794:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><sqrt|x>*l
+    n<rsup|2> x*d x>>>>
   </eqnarray*>
 </body>
 
