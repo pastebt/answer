@@ -174,7 +174,29 @@
   1798:
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>>>>>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>x*cos
+    x*d x>>|<row|<cell|>|<cell|>|<cell|u=x,d v=cos x*d x,v=sin
+    x>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u=x*sin x-<big|int>sin x*d
+    x>>|<row|<cell|>|<cell|=>|<cell|x*sin x+cos x>>>>
+  </eqnarray*>
+
+  \;
+
+  1799:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>x<rsup|2>*sin
+    2*x*d x>>|<row|<cell|>|<cell|>|<cell|u=x<rsup|2>,d v=sin 2*x*d
+    x,v=-<frac|1|2>*cos 2*x>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u=-<frac|1|2>*cos 2*x\<times\>x<rsup|2>+<frac|1|2>*<big|int>cos
+    2*x*d<around*|(|x<rsup|2>|)>>>|<row|<cell|>|<cell|=>|<cell|-<frac|x<rsup|2>|2>*cos
+    2*x+<big|int>x*cos 2*x*d x=-<frac|x<rsup|2>|2>*cos
+    2*x+<frac|1|4>*<big|int>2*x*cos 2*x*d<around*|(|2*x|)>>>|<row|<cell|1798:>|<cell|>|<cell|<big|int>x*cos
+    x*d x=x*sin x+cos x>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-<frac|x<rsup|2>|2>*cos
+    2*x+<frac|1|4>*<around*|(|2*x*sin 2*x+cos
+    2*x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1-x<rsup|2>|4>*cos
+    2*x+<frac|x*sin 2*x|2>>>>>
   </eqnarray*>
 
   \;
