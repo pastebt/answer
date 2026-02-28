@@ -50,6 +50,42 @@
     n<around*|(|<sqrt|<frac|x+a|b-a>>+<sqrt|<around*|(|<sqrt|<frac|x+a|b-a>>|)><rsup|2>-1>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|2*x+a+b|)>|4>*<sqrt|<around*|(|x+a|)>*<around*|(|x+b|)>>-<frac|<around*|(|b-a|)><rsup|2>|4>*l
     n<around*|(|<sqrt|x+a>+<sqrt|x+b>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  1791:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>l n
+    x*d x>>|<row|<cell|>|<cell|>|<cell|u=l n x,d v=d
+    x,v=x>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u=x*l n x-<big|int>x*d<around*|(|l n
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|x*l n x-<big|int>d x=x*l n x-x>>>>
+  </eqnarray*>
+
+  \;
+
+  1792:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>x<rsup|n>*l
+    n x*d x<application-space|1em><around*|(|n\<neq\>-1|)>>>|<row|<cell|>|<cell|>|<cell|u=l
+    n x,d v=x<rsup|n>*d x,v=<frac|x<rsup|n+1>|n+1>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u=<frac|x<rsup|n+1>|n+1>*l n
+    x-<big|int><frac|x<rsup|n+1>|n+1>\<times\><frac|1|x>\<times\>d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|n+1>|n+1>*l n
+    x-<big|int><frac|x<rsup|n>|n+1>*d x>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|n+1>|n+1>*l
+    n x-<frac|x<rsup|n+1>|<around*|(|n+1|)><rsup|2>>>>>>
+  </eqnarray*>
+
+  \;
+
+  1793:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><around*|(|<frac|l
+    n x|x>|)><rsup|2>*d x>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
