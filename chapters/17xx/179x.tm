@@ -27,21 +27,28 @@
     \<theta\>>>|<row|<cell|f<rsub|1><around*|(|\<theta\>|)>>|<cell|=>|<cell|<big|int>u*d
     v=u*v-<big|int>v*d u=sinh<rsup|3> \<theta\>*cosh \<theta\>-<big|int>cosh
     \<theta\>*d<around*|(|sinh<rsup|3> \<theta\>|)>>>|<row|<cell|>|<cell|=>|<cell|sinh<rsup|3>
-    \<theta\>*cosh \<theta\>-<big|int>cosh \<theta\>*2*sinh<rsup|2>
+    \<theta\>*cosh \<theta\>-3*<big|int>cosh \<theta\>*2*sinh<rsup|2>
     \<theta\>*cosh \<theta\>*d \<theta\>=sinh<rsup|3> \<theta\>*cosh
-    \<theta\>-<big|int>sinh<rsup|2> \<theta\>*cosh<rsup|2> \<theta\>*d
+    \<theta\>-3*<big|int>sinh<rsup|2> \<theta\>*cosh<rsup|2> \<theta\>*d
     \<theta\>>>|<row|<cell|>|<cell|=>|<cell|sinh<rsup|3> \<theta\>*cosh
-    \<theta\>-<big|int>sinh<rsup|2> \<theta\>*d
-    \<theta\>-<big|int>sinh<rsup|4> \<theta\>*d \<theta\>=sinh<rsup|3>
-    \<theta\>*cosh \<theta\>-<big|int>sinh<rsup|2> \<theta\>*d
-    \<theta\>-f<rsub|1><around*|(|\<theta\>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<around*|(|sinh<rsup|3>
-    \<theta\>*cosh \<theta\>-<frac|1|2>*<around*|(|cosh \<theta\>*sinh
+    \<theta\>-3*<big|int>sinh<rsup|2> \<theta\>*d
+    \<theta\>-3*<big|int>sinh<rsup|4> \<theta\>*d \<theta\>=sinh<rsup|3>
+    \<theta\>*cosh \<theta\>-3*<big|int>sinh<rsup|2> \<theta\>*d
+    \<theta\>-3*f<rsub|1><around*|(|\<theta\>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4>*<around*|(|sinh<rsup|3>
+    \<theta\>*cosh \<theta\>-<frac|3|2>*<around*|(|cosh \<theta\>*sinh
     \<theta\>-\<theta\>|)>|)>>>|<row|<cell|F<around*|(|\<theta\>|)>>|<cell|=>|<cell|2*<around*|(|b-a|)><rsup|2>*<around*|(|<frac|1|2>*<around*|(|cosh
-    \<theta\>*sinh \<theta\>-\<theta\>|)>+<frac|1|2>*<around*|(|sinh<rsup|3>
-    \<theta\>*cosh \<theta\>-<frac|1|2>*<around*|(|cosh \<theta\>*sinh
-    \<theta\>-\<theta\>|)>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|b-a|)><rsup|2>*<around*|(|sinh<rsup|3>
-    \<theta\>*cosh \<theta\>+<frac|1|2>*<around*|(|cosh \<theta\>*sinh
-    \<theta\>-\<theta\>|)>|)>>>>>
+    \<theta\>*sinh \<theta\>-\<theta\>|)>+<frac|1|4>*<around*|(|sinh<rsup|3>
+    \<theta\>*cosh \<theta\>-<frac|3|2>*<around*|(|cosh \<theta\>*sinh
+    \<theta\>-\<theta\>|)>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|b-a|)><rsup|2>*<around*|(|<frac|1|2>*sinh<rsup|3>
+    \<theta\>*cosh \<theta\>+<frac|1|4>*<around*|(|cosh \<theta\>*sinh
+    \<theta\>-\<theta\>|)>|)>>>|<row|<cell|>|<cell|>|<cell|sinh<around*|(|arsinh
+    t|)>=t>>|<row|<cell|>|<cell|>|<cell|cosh<around*|(|arsinh
+    t|)>=<sqrt|1+sinh<rsup|2><around*|(|arsinh
+    t|)>>=<sqrt|1+t<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|cosh \<theta\>*sinh
+    \<theta\>=<sqrt|1+<frac|x+a|b-a>>\<times\><sqrt|<frac|x+a|b-a>>=<frac|1|b-a>\<times\><sqrt|<around*|(|x+b|)>*<around*|(|x+a|)>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<around*|(|b-a|)><rsup|2>*<around*|(|<frac|1|2>\<times\><frac|x+a|b-a>\<times\><frac|<sqrt|<around*|(|x+b|)>*<around*|(|x+a|)>>|b-a>+<frac|<sqrt|<around*|(|x+b|)>*<around*|(|x+a|)>>|4<around*|(|b-a|)>>-<frac|1|4>*arsinh<around*|(|<sqrt|<frac|x+a|b-a>>|)>|)>>>|<row|<cell|>|<cell|>|<cell|arcosh<around*|(|x|)>=l
+    n<around*|(|x+<sqrt|x<rsup|2>-1>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|<around*|(|2*x+2*a+b-a|)>|4>*<sqrt|<around*|(|x+b|)>*<around*|(|x+a|)>>-<frac|<around*|(|b-a|)><rsup|2>|4>*l
+    n<around*|(|<sqrt|<frac|x+a|b-a>>+<sqrt|<around*|(|<sqrt|<frac|x+a|b-a>>|)><rsup|2>-1>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|2*x+a+b|)>|4>*<sqrt|<around*|(|x+a|)>*<around*|(|x+b|)>>-<frac|<around*|(|b-a|)><rsup|2>|4>*l
+    n<around*|(|<sqrt|x+a>+<sqrt|x+b>|)>>>>>
   </eqnarray*>
 </body>
 
