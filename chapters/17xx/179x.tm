@@ -107,8 +107,48 @@
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><sqrt|x>*l
-    n<rsup|2> x*d x>>>>
+    n<rsup|2> x*d x>>|<row|<cell|>|<cell|>|<cell|u=l n<rsup|2> x,d
+    v=<sqrt|x>*d x,v=<frac|2|3>*x<rsup|<frac|3|2>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u=<frac|2|3>*x<rsup|<frac|3|2>>*l n<rsup|2>
+    x-<frac|2|3>*<big|int>x<rsup|<frac|3|2>>*d<around*|(|l n<rsup|2>
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|3>*x<rsup|<frac|3|2>>*l
+    n<rsup|2> x-<frac|2|3>*<big|int>x<rsup|<frac|3|2>>\<times\>2\<times\>l n
+    x\<times\><frac|1|x>*d x>>|<row|<cell|>|<cell|=>|<cell|<frac|2|3>*x<rsup|<frac|3|2>>*l
+    n<rsup|2> x-<frac|4|3>*<big|int><sqrt|x>*l n x*d
+    x>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><sqrt|x>*l
+    n x*d x>>|<row|<cell|>|<cell|>|<cell|u=l n x,d v=<sqrt|x>*d
+    x,v=<frac|2|3>*x<rsup|<frac|3|2>>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u=<frac|2|3>*x<rsup|<frac|3|2>>*l n
+    x-<frac|2|3>*<big|int>x<rsup|<frac|3|2>>*d<around*|(|l n
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|3>*x<rsup|<frac|3|2>>*l n
+    x-<frac|2|3>*<big|int>x<rsup|<frac|1|2>>*d
+    x=<frac|2|3>*x<rsup|<frac|3|2>>*l n x-<frac|2|3>\<times\><frac|2|3>\<times\>x<rsup|<frac|3|2>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|2|3>*x<rsup|<frac|3|2>>*l
+    n<rsup|2> x-<frac|4|3>*<around*|(|<frac|2|3>*x<rsup|<frac|3|2>>*l n
+    x-<frac|4|9>*x<rsup|<frac|3|2>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|3>*x<rsup|<frac|3|2>>*<around*|(|l
+    n<rsup|2> x-<frac|4|3>*l n x+<frac|8|9>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  1795:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>x*e<rsup|-x>*d
+    x>>|<row|<cell|>|<cell|>|<cell|u=x,d v=e<rsup|-x>*d
+    x,v=-e<rsup|-x>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u=-x*e<rsup|-x>+<big|int>e<rsup|-x>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|-x*e<rsup|-x>-e<rsup|-x>>>>>
+  </eqnarray*>
+
+  \;
+
+  1796:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>>>>>
+  </eqnarray*>
+
+  \;
 </body>
 
 <\initial>
