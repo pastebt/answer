@@ -49,7 +49,35 @@
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>arctan
-    x*d x>>>>
+    x*d x>>|<row|<cell|>|<cell|>|<cell|u=arctan x,d v=d
+    x,v=x>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u=x*arctan x-<big|int>x*d<around*|(|arctan
+    x|)>>>|<row|<cell|>|<cell|>|<cell|<frac|d|d x>*arctan
+    x=<frac|1|1+x<rsup|2>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|x*arctan
+    x-<big|int><frac|x*d x|1+x<rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|x*arctan
+    x-<frac|1|2>*l n<around*|(|1+x<rsup|2>|)>>>>>
+  </eqnarray*>
+
+  \;
+
+  1803:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>arcsin
+    x*d x>>|<row|<cell|>|<cell|>|<cell|u=arcsin x,d v=d
+    x,v=x>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u=x*arcsin x-<big|int>x*d<around*|(|arcsin<around*|(|x|)>|)>>>|<row|<cell|>|<cell|>|<cell|<frac|d|d
+    x>*arcsin x=<frac|1|<sqrt|1-x<rsup|2>>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|x*arcsin
+    x-<big|int><frac|x*d x|<sqrt|1-x<rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|x*arcsin
+    x+<sqrt|1-x<rsup|2>>>>>>
+  </eqnarray*>
+
+  \;
+
+  1804:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>>>>>
   </eqnarray*>
 </body>
 
