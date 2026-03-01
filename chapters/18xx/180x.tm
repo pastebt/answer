@@ -160,7 +160,32 @@
   1808:
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>>>>>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>x*l
+    n<around*|(|<frac|1+x|1-x>|)>*d x>>|<row|<cell|>|<cell|>|<cell|u=l n
+    <frac|1+x|1-x>,d v=x*d x,v=<frac|1|2>*x<rsup|2>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u=<frac|1|2>*x<rsup|2>*l n
+    <frac|1+x|1-x>-<frac|1|2>*<big|int>x<rsup|2>*d<around*|(|l n
+    <frac|1+x|1-x>|)>>>|<row|<cell|>|<cell|>|<cell|<around*|(|l n
+    <frac|1+x|1-x>|)><rprime|'>=<frac|1-x|1+x>\<times\><frac|1-x-<around*|(|1+x|)>*<around*|(|-1|)>|<around*|(|1-x|)><rsup|2>>=<frac|1-x+1+x|<around*|(|1+x|)>*<around*|(|1-x|)>>=<frac|2|1-x<rsup|2>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>*x<rsup|2>*l
+    n <frac|1+x|1-x>-<big|int><frac|x<rsup|2>*d
+    x|1-x<rsup|2>>=<frac|1|2>*x<rsup|2>*l n
+    <frac|1+x|1-x>-<big|int><around*|(|<frac|1|1-x<rsup|2>>-<frac|1-x<rsup|2>|1-x<rsup|2>>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*x<rsup|2>*l n
+    <frac|1+x|1-x>+x-<frac|1|2>*l n <frac|1+x|1-x>>>|<row|<cell|>|<cell|=>|<cell|x+<frac|x<rsup|2>-1|2>*l
+    n <frac|1+x|1-x>>>>>
+  </eqnarray*>
+
+  \;
+
+  1809:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>arctan
+    <sqrt|x>*d x>>|<row|<cell|>|<cell|>|<cell|d<around*|(|<sqrt|x>|)>=<frac|d
+    x|2*<sqrt|x>>\<rightarrow\>d x=2*<sqrt|x>*d<around*|(|<sqrt|x>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|2*<big|int><sqrt|x>*arctan<around*|(|<sqrt|x>|)>*d<around*|(|<sqrt|x>|)>>>|<row|<cell|1804:>|<cell|>|<cell|<big|int>x*arctan
+    x*d x=<frac|1|2>*x<rsup|2>*arctan x-<frac|1|2>*x+<frac|1|2>*arctan
+    x=<frac|1|2>*arctan x*<around*|(|x<rsup|2>+1|)>-<frac|1|2>*x>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<around*|(|x+1|)>*arctan
+    <sqrt|x>-<sqrt|x>>>>>
   </eqnarray*>
 
   \;
