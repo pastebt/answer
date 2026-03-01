@@ -37,6 +37,30 @@
   1812:
 
   <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><around*|(|arcsin
+    x|)><rsup|2>*d x>>|<row|<cell|>|<cell|>|<cell|u=<around*|(|arcsin
+    x|)><rsup|2>,d v=d x,v=x>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u=x<around*|(|arcsin
+    x|)><rsup|2>-<big|int>x*d<around*|(|<around*|(|arcsin
+    x|)><rsup|2>|)>>>|<row|<cell|>|<cell|=>|<cell|x<around*|(|arcsin
+    x|)><rsup|2>-2*<big|int>x*arcsin x*d<around*|(|arcsin
+    x|)>>>|<row|<cell|>|<cell|>|<cell|<frac|d|d x>*arcsin
+    x=<frac|1|<sqrt|1-x<rsup|2>>>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int>arcsin
+    x\<times\><frac|x|<sqrt|1-x<rsup|2>>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|u=arcsin x,d
+    v=<frac|x|<sqrt|1-x<rsup|2>>>,v=-<sqrt|1-x<rsup|2>>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u=-<sqrt|1-x<rsup|2>>*arcsin
+    x+<big|int><sqrt|1-x<rsup|2>>*d<around*|(|arcsin
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|-<sqrt|1-x<rsup|2>>*arcsin
+    x+x>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|x<around*|(|arcsin
+    x|)><rsup|2>+2*<sqrt|1-x<rsup|2>>*arcsin x-2*x>>>>
+  </eqnarray*>
+
+  \;
+
+  1813:
+
+  <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>>>>>
   </eqnarray*>
 </body>
