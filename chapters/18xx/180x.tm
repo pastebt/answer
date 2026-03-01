@@ -97,8 +97,32 @@
   1805:
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>>>>>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>x<rsup|2>*arccos
+    x*d x>>|<row|<cell|>|<cell|>|<cell|u=arccos x,d v=x<rsup|2>*d
+    x,v=<frac|1|3>*x<rsup|3>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u=<frac|1|3>*x<rsup|3>*arccos
+    x-<frac|1|3>*<big|int>x<rsup|3>*d<around*|(|arccos
+    x|)>>>|<row|<cell|>|<cell|>|<cell|<frac|d|d x>*arccos
+    x=<frac|-1|<sqrt|1-x<rsup|2>>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|3>*x<rsup|3>*arccos
+    x+<frac|1|3>*<big|int><frac|x<rsup|3>|<sqrt|1-x<rsup|2>>>*d
+    x>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|x<rsup|3>|<sqrt|1-x<rsup|2>>>*d
+    x=<big|int>x*<around*|(|<frac|1-<around*|(|1-x<rsup|2>|)>|<sqrt|1-x<rsup|2>>>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|<frac|x|<sqrt|1-x<rsup|2>>>-x*<sqrt|1-x<rsup|2>>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|-<sqrt|1-x<rsup|2>>+<frac|1|3>*<around*|(|1-x<rsup|2>|)><rsup|<frac|3|2>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|3>*x<rsup|3>*arccos
+    x+<frac|1|3>*<around*|(|-<sqrt|1-x<rsup|2>>+<frac|1|3>*<around*|(|1-x<rsup|2>|)><rsup|<frac|3|2>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|3>*x<rsup|3>*arccos
+    x-<frac|2+x<rsup|2>|9>*<sqrt|1-x<rsup|2>>>>>>
   </eqnarray*>
+
+  \;
+
+  1806:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|arcsin
+    x|x<rsup|2>>*d x>>>>
+  </eqnarray*>
+
+  \;
 </body>
 
 <\initial>
