@@ -119,7 +119,48 @@
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|arcsin
-    x|x<rsup|2>>*d x>>>>
+    x|x<rsup|2>>*d x>>|<row|<cell|>|<cell|>|<cell|u=arcsin x,d
+    v=<frac|1|x<rsup|2>>*d x,v=-<frac|1|x>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u=-<frac|1|x>*arcsin
+    x+<big|int><frac|1|x>*d<around*|(|arcsin
+    x|)>>>|<row|<cell|>|<cell|>|<cell|<frac|d|d x>*arcsin
+    x=<frac|1|<sqrt|1-x<rsup|2>>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-<frac|1|x>*arcsin
+    x+<big|int><frac|d x|x*<sqrt|1-x<rsup|2>>>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|x*<sqrt|1-x<rsup|2>>>>>|<row|<cell|>|<cell|>|<cell|y=<frac|1|x>\<rightarrow\>d
+    y=<frac|-d x|x<rsup|2>>\<rightarrow\>d x=-<frac|1|y<rsup|2>>*d
+    y>>|<row|<cell|f<rsub|1><around*|(|y|)>>|<cell|=>|<cell|-<big|int><frac|y*<suppressed|<tiny-box>>\<times\><frac|1|y<rsup|2>>\<times\>d
+    y|<sqrt|1-<frac|1|y<rsup|2>>>>=-<big|int><frac|d
+    y|<sqrt|y<rsup|2>-1>>>>|<row|<cell|book:>|<cell|V.>|<cell|<big|int><frac|d
+    x|<sqrt|x<rsup|2>\<pm\>a<rsup|2>>>=l n<around*|\||x+<sqrt|x<rsup|2>\<pm\>a<rsup|2>>|\|>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|f<rsub|1><around*|(|y|)>>|<cell|=>|<cell|-l
+    n<around*|\||y+<sqrt|y<rsup|2>-1>|\|>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|-l
+    n<around*|\||<frac|1|x>+<sqrt|<frac|1|x<rsup|2>>-1>|\|>=-l
+    n<around*|\||<frac|1+<sqrt|1-x<rsup|2>>|x>|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-<frac|1|x>*arcsin
+    x-l n<around*|\||<frac|1+<sqrt|1-x<rsup|2>>|x>|\|>>>>>
+  </eqnarray*>
+
+  \;
+
+  1807:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>l
+    n<around*|(|x+<sqrt|1+x<rsup|2>>|)>*d x>>|<row|<cell|>|<cell|>|<cell|u=l
+    n<around*|(|x+<sqrt|1+x<rsup|2>>|)>,d v=d
+    x,v=x>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u=x*l n<around*|(|x+<sqrt|1+x<rsup|2>>|)>-<big|int>x*d<around*|(|l
+    n<around*|(|x+<sqrt|1+x<rsup|2>>|)>|)>>>|<row|<cell|>|<cell|>|<cell|<around*|(|l
+    n<around*|(|x+<sqrt|1+x<rsup|2>>|)>|)><rprime|'>=<frac|1+<frac|2*x|2*<sqrt|1+x<rsup|2>>>|x+<sqrt|1+x<rsup|2>>>=<frac|x+<sqrt|1+x<rsup|2>>|<around*|(|x+<sqrt|1+x<rsup|2>>|)>*<sqrt|1+x<rsup|2>>>=<frac|1|<sqrt|1+x<rsup|2>>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|x*l
+    n<around*|(|x+<sqrt|1+x<rsup|2>>|)>-<big|int><frac|x*d
+    x|<sqrt|1+x<rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|x*l
+    n<around*|(|x+<sqrt|1+x<rsup|2>>|)>-<sqrt|1+x<rsup|2>>>>>>
+  </eqnarray*>
+
+  \;
+
+  1808:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>>>>>
   </eqnarray*>
 
   \;
