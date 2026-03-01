@@ -61,8 +61,40 @@
   1813:
 
   <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>x*<around*|(|arctan
+    x|)><rsup|2>*d x>>|<row|<cell|>|<cell|>|<cell|u=<around*|(|arctan
+    x|)><rsup|2>,d v=x*d x,v=<frac|1|2>*x<rsup|2>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u=<frac|1|2>*x<rsup|2>*<around*|(|arctan
+    x|)><rsup|2>-<frac|1|2>*<big|int>x<rsup|2>*d<around*|(|<around*|(|arctan
+    x|)><rsup|2>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*x<rsup|2>*<around*|(|arctan
+    x|)><rsup|2>-<big|int>x<rsup|2>*arctan x*d<around*|(|arctan
+    x|)>>>|<row|<cell|>|<cell|>|<cell|<frac|d|d x>*arctan
+    x=<frac|1|1+x<rsup|2>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>*x<rsup|2>*<around*|(|arctan
+    x|)><rsup|2>-<big|int><frac|x<rsup|2>|1+x<rsup|2>>*arctan x*d
+    x>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|x<rsup|2>|1+x<rsup|2>>*arctan
+    x*d x=<big|int><frac|x<rsup|2>+1-1|1+x<rsup|2>>*arctan x*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int>arctan x*d
+    x-<big|int><frac|arctan x|1+x<rsup|2>>*d x=<big|int>arctan x*d
+    x-<big|int>arctan x*d<around*|(|arctan
+    x|)>>>|<row|<cell|1802:>|<cell|>|<cell|<big|int>arctan x*d x=x*arctan
+    x-<frac|1|2>*l n<around*|(|1+x<rsup|2>|)>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|x*arctan
+    x-<frac|1|2>*l n<around*|(|1+x<rsup|2>|)>-<frac|1|2>*<around*|(|arctan
+    x|)><rsup|2>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>*x<rsup|2>*<around*|(|arctan
+    x|)><rsup|2>-x*arctan x+<frac|1|2>*l n<around*|(|1+x<rsup|2>|)>+<frac|1|2>*<around*|(|arctan
+    x|)><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<around*|(|arctan
+    x|)><rsup|2>*<around*|(|x<rsup|2>+1|)>-x*arctan x+<frac|1|2>*l
+    n<around*|(|1+x<rsup|2>|)>>>>>
+  </eqnarray*>
+
+  \;
+
+  1814:
+
+  <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>>>>>
   </eqnarray*>
+
+  \;
 </body>
 
 <\initial>
