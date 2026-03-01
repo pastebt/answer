@@ -91,6 +91,28 @@
   1814:
 
   <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>x<rsup|2>*l
+    n <frac|1-x|1+x>*d x>>|<row|<cell|>|<cell|>|<cell|u=l n <frac|1-x|1+x>,d
+    v=x<rsup|2>*d x,v=<frac|1|3>*x<rsup|3>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u=<frac|1|3>*x<rsup|3>*l n
+    <frac|1-x|1+x>-<frac|1|3>*<big|int>x<rsup|3>*d<around*|(|l n
+    <frac|1-x|1+x>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|3>*x<rsup|3>*l n
+    <frac|1-x|1+x>-<frac|1|3>*<big|int>x<rsup|3>*<around*|(|<frac|-1|1-x>-<frac|1|1+x>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|3>*x<rsup|3>*l n
+    <frac|1-x|1+x>+<frac|2|3>*<big|int><frac|x<rsup|3>|1-x<rsup|2>>*d
+    x>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|x<rsup|3>|1-x<rsup|2>>*d
+    x=<big|int><frac|x-<around*|(|x-x<rsup|3>|)>|1-x<rsup|2>>*d
+    x=<big|int><around*|(|<frac|x|1-x<rsup|2>>-x|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|2>*l
+    n<around*|\||1-x<rsup|2>|\|>-<frac|1|2>*x<rsup|2>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|3>*x<rsup|3>*l
+    n <frac|1-x|1+x>-<frac|1|3>*l n<around*|\||1-x<rsup|2>|\|>-<frac|1|3>*x<rsup|2>>>>>
+  </eqnarray*>
+
+  \;
+
+  1815:
+
+  <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>>>>>
   </eqnarray*>
 
