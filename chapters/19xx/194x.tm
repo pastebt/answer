@@ -162,7 +162,13 @@
   1948:
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>>>>>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|x<rsup|4>*<sqrt|x<rsup|2>-1>>>>|<row|<cell|>|<cell|>|<cell|y=<frac|1|x>\<rightarrow\>d
+    y=-<frac|d x|x<rsup|2>>\<rightarrow\>d x=-x<rsup|2>*d
+    y>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|-x<rsup|2>*d
+    y|x<rsup|4>*<sqrt|<frac|1|y<rsup|2>>-1>>=<big|int><frac|-y<rsup|2>*d
+    y|<sqrt|<frac|1|y<rsup|2>>-1>>=<big|int><frac|-y<rsup|4>*d
+    y|<sqrt|1-y<rsup|2>>>>>>>
   </eqnarray*>
 </body>
 
