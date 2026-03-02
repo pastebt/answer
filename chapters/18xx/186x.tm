@@ -119,7 +119,7 @@
 
   \;
 
-  1865: ?
+  1865:\ 
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|x<rsup|2>+1|x*<sqrt|x<rsup|4>+1>>*d

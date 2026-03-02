@@ -239,7 +239,9 @@
     \<theta\>*d \<theta\>|<sqrt|1-sin<rsup|2>
     \<theta\>>>=<frac|\<theta\>|<sqrt|-b>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|<sqrt|-b>>*arcsin<around*|(|<sqrt|<frac|-b|a>>*x|)>>>|<row|<cell|>|<cell|>|<cell|a\<less\>0,b\<gtr\>0>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
     x|<sqrt|b>\<times\><sqrt|x<rsup|2>-<around*|(|<sqrt|<frac|-a|b>>|)><rsup|2>>>=<frac|1|<sqrt|b>>*l
-    n<around*|\||x+<sqrt|x<rsup|2>-<frac|-a|b>>|\|>>>>>
+    n<around*|\||x+<sqrt|x<rsup|2>-<frac|-a|b>>|\|>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|b>>*l
+    n<around*|\||x*<sqrt|b>+<sqrt|a+b*x<rsup|2>>|\|>+<frac|1|<sqrt|b>>*l
+    n<around*|(|<frac|1|<sqrt|b>>|)>>>>>
   </eqnarray*>
 
   \;

@@ -122,6 +122,37 @@
 
   \;
 
+  1865:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|l n<around*|\||<frac|x<rsup|2>-1+<sqrt|x<rsup|4>+1>|x>|\|>>|<cell|\<neq\>>|<cell|<frac|1|2><around*|(|l
+    n<around*|(|x<rsup|2>+<sqrt|x<rsup|4>+1>|)>-l
+    n<around*|(|1+<sqrt|x<rsup|4>+1>|)>+2*l n x|)>>>>>
+  </eqnarray*>
+
+  \;
+
+  1868:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|\<neq\>>|<cell|>>>>
+  </eqnarray*>
+
+  1877:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|1|2>*arccot x+<frac|1|4>*l n
+    <frac|<around*|(|x+1|)><rsup|2>|x<rsup|2>+1>>|<cell|\<neq\>>|<cell|<frac|1|4>*l
+    n<around*|(|<frac|<around*|(|x+1|)><rsup|2>|x<rsup|2>+1>|)>+<frac|1|2>*arctan
+    x>>>>
+  </eqnarray*>
+
+  1897:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|\<neq\>>|<cell|>>>>
+  </eqnarray*>
+
   1945:
 
   <\eqnarray*>

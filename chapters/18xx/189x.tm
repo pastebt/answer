@@ -37,6 +37,7 @@
     n<around*|(|<frac|<around*|(|1+x|)><rsup|2>|1-x<rsup|2>>|)>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<frac|-<frac|1|2>|<around*|(|x-1|)><around*|(|x+1|)><rsup|2>>-<frac|1|2>*f<rsub|2><around*|(|x|)>=<frac|-1|2*<around*|(|x-1|)><around*|(|x+1|)><rsup|2>>-<frac|x|4<around*|(|1-x<rsup|2>|)>>-<frac|1|8>*l
     n<around*|(|<frac|<around*|(|1+x|)><rsup|2>|1-x<rsup|2>>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|-1|2<around*|(|x+1|)><around*|(|x<rsup|2>-1|)>>-<frac|1|2>*f<rsub|1><around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|-1|2<around*|(|x+1|)><around*|(|x<rsup|2>-1|)>>+<frac|1|4<around*|(|x-1|)><around*|(|x+1|)><rsup|2>>+<frac|x|8<around*|(|1-x<rsup|2>|)>>+<frac|1|16>*l
     n<around*|(|<frac|<around*|(|1+x|)><rsup|2>|1-x<rsup|2>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4<around*|(|1-x<rsup|2>|)><around*|(|x+1|)>>+<frac|x|8<around*|(|1-x<rsup|2>|)>>+<frac|1|16>*l
+    n<around*|(|<frac|<around*|(|1+x|)><rsup|2>|1-x<rsup|2>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|2>+x+2|8*<around*|(|1-x|)>*<around*|(|1+x|)><rsup|2>>+<frac|1|16>*l
     n<around*|(|<frac|<around*|(|1+x|)><rsup|2>|1-x<rsup|2>>|)>>>|<row|<cell|F<rprime|'><around*|(|x|)>>|<cell|=>|<cell|<frac|3*x<rsup|2>+2*x-1|4*<around*|(|1-x<rsup|2>|)><rsup|2><around*|(|1+x|)><rsup|2>>+<frac|1+x<rsup|2>|8<around*|(|1-x<rsup|2>|)><rsup|2>>+<frac|1|8><around*|(|<frac|1|1+x>-<frac|-x|1-x<rsup|2>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|3*x<rsup|2>+2*x-1|4*<around*|(|1-x<rsup|2>|)><rsup|2><around*|(|1+x|)><rsup|2>>+<frac|1+x<rsup|2>|8<around*|(|1-x<rsup|2>|)><rsup|2>>+<frac|1|8<around*|(|1-x<rsup|2>|)>>>>|<row|<cell|>|<cell|=>|<cell|<frac|3*x<rsup|2>+2*x-1|4*<around*|(|1-x<rsup|2>|)><rsup|2><around*|(|1+x|)><rsup|2>>+<frac|1|4<around*|(|1-x<rsup|2>|)><rsup|2>>=<frac|3*x<rsup|2>+2*x-1+x<rsup|2>+2*x+1|4*<around*|(|1-x<rsup|2>|)><rsup|2><around*|(|1+x|)><rsup|2>>=<frac|4*x<rsup|2>+4*x|4*<around*|(|1-x<rsup|2>|)><rsup|2><around*|(|1+x|)><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|x|<around*|(|1-x<rsup|2>|)><rsup|2><around*|(|1+x|)>>=<frac|x|<around*|(|1-x|)><rsup|2><around*|(|1+x|)><rsup|3>>>>>>
   </eqnarray*>
 
@@ -106,7 +107,7 @@
     x|<around*|(|x<rsup|2>+2*x+2|)><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|x<rsup|2>+2*x+2-<around*|(|2*x+2|)>|<around*|(|x<rsup|2>+2*x+2|)><rsup|2>>*d
     x=<big|int><frac|d x|x<rsup|2>+2*x+2>-<big|int><frac|2*x+2|<around*|(|x<rsup|2>+2*x+2|)><rsup|2>>*d
     x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|d
-    x|<around*|(|x+1|)><rsup|2>+1>+<frac|1|x<rsup|2>+2*x+2>=arctan<around*|(|x+1|)>+<frac|1|x<rsup|2>+2*x+2>>>|<row|<cell|>|<cell|>|<cell|x+1=tan
+    x|<around*|(|x+1|)><rsup|2>+1>+<frac|1|x<rsup|2>+2*x+2>=arctan<around*|(|x+1|)>+<frac|1|x<rsup|2>+2*x+2>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|x+1=tan
     \<theta\>\<rightarrow\>d x=<frac|d \<theta\>|cos<rsup|2> \<theta\>>>>>>
   </eqnarray*>
 

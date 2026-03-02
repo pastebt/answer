@@ -53,7 +53,8 @@
     x=<big|int><around*|(|<frac|4|<around*|(|x-2|)><rsup|2>>-<frac|4|<around*|(|x-2|)><around*|(|x-1|)>>+<frac|1|<around*|(|x-1|)><rsup|2>>|)>*d
     x>>|<row|<cell|>|<cell|=>|<cell|<frac|-4|x-2>+<frac|-1|x-1>-4*<big|int><around*|(|<frac|<around*|(|x-1|)>-<around*|(|x-2|)>|<around*|(|x-2|)><around*|(|x-1|)>>|)>*d
     x>>|<row|<cell|>|<cell|=>|<cell|-<frac|4|x-2>-<frac|1|x-1>-4*<big|int><around*|(|<frac|1|x-2>-<frac|1|x-1>|)>*d
-    x=-<frac|4|x-2>-<frac|1|x-1>-4*l n<around*|\||<frac|x-2|x-1>|\|>>>>>
+    x=-<frac|4|x-2>-<frac|1|x-1>-4*l n<around*|\||<frac|x-2|x-1>|\|>>>|<row|<cell|>|<cell|=>|<cell|<frac|6-5*x|x<rsup|2>-3*x+2>-4*l
+    n<around*|\||<frac|x-2|x-1>|\|>>>>>
   </eqnarray*>
 
   \;
@@ -127,8 +128,8 @@
     x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*l
     n<around*|\||x+1|\|>-<frac|1|4>*l n<around*|(|x<rsup|2>+1|)>+<frac|1|2>*arctan
     x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4>*l
-    n<around*|(|<frac|<around*|(|x+1|)><rsup|2>|x<rsup|2>+1>|)>-<frac|1|2>*arccot
-    x>>>>
+    n<around*|(|<frac|<around*|(|x+1|)><rsup|2>|x<rsup|2>+1>|)>+<frac|1|2>*arctan
+    x>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<rprime|'><around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>\<times\><frac|1|x+1>-<frac|1|4>\<times\><frac|2*x|x<rsup|2>+1>+<frac|1|2>\<times\><frac|1|1+x<rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<around*|(|<frac|1|x+1>-<frac|x|x<rsup|2>+1>+<frac|1|x<rsup|2>+1>|)>=<frac|1|2>*<around*|(|<frac|1|x+1>-<frac|x-1|x<rsup|2>+1>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>\<times\><frac|x<rsup|2>+1-<around*|(|x<rsup|2>-1|)>|<around*|(|x+1|)>*<around*|(|x<rsup|2>+1|)>>=<frac|1|<around*|(|x+1|)>*<around*|(|x<rsup|2>+1|)>>>>>>
   </eqnarray*>
 
   \;

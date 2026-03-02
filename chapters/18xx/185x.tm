@@ -141,12 +141,12 @@
     y=<frac|-d x|x<rsup|2>>\<rightarrow\>d x=-x<rsup|2>*d
     y>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|-x<rsup|2>*d
     y|x*<sqrt|<frac|1|y<rsup|2>>+<frac|1|y>+1>>=-<big|int><frac|x*d
-    y|<frac|1|y>*<sqrt|1+y+y<rsup|2>>>=<big|int><frac|d
+    y|<frac|1|y>*<sqrt|1+y+y<rsup|2>>>=-<big|int><frac|d
     y|<sqrt|y<rsup|2>+y+1>>>>|<row|<cell|>|<cell|1850:>|<cell|a\<gtr\>0>>|<row|<cell|>|<cell|>|<cell|<big|int><frac|d
     x|<sqrt|a*x<rsup|2>+b*x+c>>=<big|int><frac|d
     x|<sqrt|\<psi\>>>=<frac|1|<sqrt|a>>*l
-    n<around*|\||<frac|\<psi\><rprime|'>|2>+<sqrt|a*\<psi\>>|\|>+C>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|l
-    n<around*|\||<frac|2*y+1|2>+<sqrt|y<rsup|2>+y+1>|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|l
+    n<around*|\||<frac|\<psi\><rprime|'>|2>+<sqrt|a*\<psi\>>|\|>+C>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|-l
+    n<around*|\||<frac|2*y+1|2>+<sqrt|y<rsup|2>+y+1>|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-l
     n<around*|\||<frac|2+x|2*x>+<frac|1|x>*<sqrt|1+x+x<rsup|2>>|\|>>>>>
   </eqnarray*>
 

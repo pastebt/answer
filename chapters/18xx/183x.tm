@@ -36,7 +36,7 @@
     x*sin x+<big|int>1*d x-<big|int>cos<rsup|2> x*d x=cos x*sin
     x+x-f<rsub|c><around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|cos
     x*sin x+x|2>>>|<row|<cell|>|<cell|>|<cell|<big|int>e<rsup|a*x>*cos<around*|(|b*x|)>
-    d x=<frac|a*e<rsup|a*x>*cos<around*|(|b*x|)>+b*e<rsup|a*x>*sin<around*|(|b*x|)>|a<rsup|2>+b<rsup|2>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>*e<rsup|x>+<frac|1|2><around*|(|cos
+    d x=<frac|a*e<rsup|a*x>*cos<around*|(|b*x|)>+b*e<rsup|a*x>*sin<around*|(|b*x|)>|a<rsup|2>+b<rsup|2>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>*e<rsup|2*x>+<frac|1|2><around*|(|cos
     x*sin x+x|)>-e<rsup|x><around*|(|cos x+sin x|)>>>>>
   </eqnarray*>
 
@@ -126,7 +126,7 @@
     v=<frac|1|<around*|(|x+1|)><rsup|2>>,v=<frac|-1|x+1>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
     v=u*v-<big|int>v*d u=<frac|-x*e<rsup|x>|x+1>+<big|int><frac|1|x+1><around*|(|e<rsup|x>+x*e<rsup|x>|)>*d
     x=<frac|-x*e<rsup|x>|x+1>+<big|int><frac|e<rsup|x><around*|(|1+x|)>|x+1>*d
-    x>>|<row|<cell|>|<cell|=>|<cell|e<rsup|x>-<frac|x*e<rsup|x>|x+1>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<rprime|'><around*|(|x|)>>|<cell|=>|<cell|e<rsup|x>-<frac|<around*|(|x+1|)>*<around*|(|e<rsup|x>+x*e<rsup|x>|)>-x*e<rsup|x>|<around*|(|x+1|)><rsup|2>>=<frac|<around*|(|x+1|)><rsup|2>*e<rsup|x>-<around*|(|x+1|)><rsup|2>*e<rsup|x>+x*e<rsup|x>|<around*|(|x+1|)><rsup|2>>=<frac|x*e<rsup|x>|<around*|(|x+1|)><rsup|2>>>>>>
+    x>>|<row|<cell|>|<cell|=>|<cell|e<rsup|x>-<frac|x*e<rsup|x>|x+1>=e<rsup|x>*<around*|(|1-<frac|x|x+1>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|e<rsup|x>|x+1>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<rprime|'><around*|(|x|)>>|<cell|=>|<cell|e<rsup|x>-<frac|<around*|(|x+1|)>*<around*|(|e<rsup|x>+x*e<rsup|x>|)>-x*e<rsup|x>|<around*|(|x+1|)><rsup|2>>=<frac|<around*|(|x+1|)><rsup|2>*e<rsup|x>-<around*|(|x+1|)><rsup|2>*e<rsup|x>+x*e<rsup|x>|<around*|(|x+1|)><rsup|2>>=<frac|x*e<rsup|x>|<around*|(|x+1|)><rsup|2>>>>>>
   </eqnarray*>
 
   \;
