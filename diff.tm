@@ -132,12 +132,6 @@
 
   \;
 
-  1868:
-
-  <\eqnarray*>
-    <tformat|<table|<row|<cell|>|<cell|\<neq\>>|<cell|>>>>
-  </eqnarray*>
-
   1877:
 
   <\eqnarray*>
