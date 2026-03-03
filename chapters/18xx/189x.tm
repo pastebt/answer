@@ -251,7 +251,9 @@
     \<theta\>|7>+<frac|cot<rsup|5> \<theta\>|5>-<frac|cot<rsup|3>
     \<theta\>|3>-<big|int><frac|1-sin<rsup|2> \<theta\>|sin<rsup|2>
     \<theta\>>*d \<theta\>=<frac|-cot<rsup|7> \<theta\>|7>+<frac|cot<rsup|5>
-    \<theta\>|5>-<frac|cot<rsup|3> \<theta\>|3>+cot \<theta\>+\<theta\>>>>>
+    \<theta\>|5>-<frac|cot<rsup|3> \<theta\>|3>+cot
+    \<theta\>+\<theta\>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<around*|(|x<rsup|4>-1|)><rsup|3>>>>>>
   </eqnarray*>
 </body>
 
