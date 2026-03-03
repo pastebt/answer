@@ -252,8 +252,15 @@
     \<theta\>|3>-<big|int><frac|1-sin<rsup|2> \<theta\>|sin<rsup|2>
     \<theta\>>*d \<theta\>=<frac|-cot<rsup|7> \<theta\>|7>+<frac|cot<rsup|5>
     \<theta\>|5>-<frac|cot<rsup|3> \<theta\>|3>+cot
-    \<theta\>+\<theta\>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
-    x|<around*|(|x<rsup|4>-1|)><rsup|3>>>>>>
+    \<theta\>+\<theta\>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|f<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|x<rsup|8><around*|(|x<rsup|4>-1|)>>=<big|int><frac|1|x<rsup|4>>*<around*|(|<frac|d
+    x|x<rsup|4>*<around*|(|x<rsup|4>-1|)>>|)>=<big|int><frac|1|x<rsup|4>>*<around*|(|<frac|1|x<rsup|4>-1>-<frac|1|x<rsup|4>>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|<frac|1|x<rsup|4>*<around*|(|x<rsup|4>-1|)>>-<frac|1|x<rsup|4>>|)>*d
+    x=<big|int><around*|(|<frac|1|x<rsup|4>-1>-<frac|2|x<rsup|4>>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|1|2><around*|(|<frac|1|2>*<around*|(|<frac|1|x-1>-<frac|1|x+2>|)>-<frac|1|x<rsup|2>+1>|)>*d
+    x-2*<big|int><frac|1|x<rsup|4>>*d x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4>*l
+    n<around*|\||<frac|x-1|x+1>|\|>-<frac|1|2>*arctan<around*|(|x|)>+<frac|2|5*x<rsup|5>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|-1|8*x<rsup|3>*<around*|(|x<rsup|4>-1|)><rsup|2>>-<frac|3|8>*<around*|(|<frac|-1|4*x<rsup|7><around*|(|x<rsup|4>-1|)>>-<frac|7|4>*<around*|(|<frac|1|4>*l
+    n<around*|\||<frac|x-1|x+1>|\|>-<frac|1|2>*arctan<around*|(|x|)>+<frac|2|5*x<rsup|5>>|)>|)>>>>>
   </eqnarray*>
 </body>
 
