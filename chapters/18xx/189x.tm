@@ -261,7 +261,13 @@
     x-<big|int><frac|1|x<rsup|4>>*d x-<big|int><frac|d
     x|x<rsup|8>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4>*l
     n<around*|\||<frac|x-1|x+1>|\|>-<frac|1|2>*arctan<around*|(|x|)>+<frac|1|3*x<rsup|3>>+<frac|1|7*x<rsup|7>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|-1|8*x<rsup|3>*<around*|(|x<rsup|4>-1|)><rsup|2>>-<frac|3|8>*<around*|(|<frac|-1|4*x<rsup|7><around*|(|x<rsup|4>-1|)>>-<frac|7|4>*<around*|(|<frac|1|4>*l
-    n<around*|\||<frac|x-1|x+1>|\|>-<frac|1|2>*arctan<around*|(|x|)>+<frac|1|3*x<rsup|3>>+<frac|1|7*x<rsup|7>>|)>|)>>>>>
+    n<around*|\||<frac|x-1|x+1>|\|>-<frac|1|2>*arctan<around*|(|x|)>+<frac|1|3*x<rsup|3>>+<frac|1|7*x<rsup|7>>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|-1|8*x<rsup|3>*<around*|(|x<rsup|4>-1|)><rsup|2>>+<frac|3|32*x<rsup|7><around*|(|x<rsup|4>-1|)>>+<frac|21|32><around*|(|<frac|1|4>*l
+    n<around*|\||<frac|x-1|x+1>|\|>-<frac|1|2>*arctan<around*|(|x|)>+<frac|1|3*x<rsup|3>>+<frac|1|7*x<rsup|7>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|-1|8*x<rsup|3>*<around*|(|x<rsup|4>-1|)><rsup|2>>+<frac|7|32*x<rsup|3>>+<frac|3|32*x<rsup|7><around*|(|x<rsup|4>-1|)>>+<frac|3|32*x<rsup|7>>+<frac|21|128>*l
+    n<around*|\||<frac|x-1|x+1>|\|>-<frac|21|64>*arctan<around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|-4|32*x<rsup|3>*<around*|(|x<rsup|4>-1|)><rsup|2>>+<frac|7|32*x<rsup|3>>+<frac|3|32*x<rsup|3>*<around*|(|x<rsup|4>-1|)>>+<frac|21|128>*l
+    n<around*|\||<frac|x-1|x+1>|\|>-<frac|21|64>*arctan<around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|-4+7*<around*|(|x<rsup|4>-1|)><rsup|2>+3*<around*|(|x<rsup|4>-1|)>|32*x<rsup|3>*<around*|(|x<rsup|4>-1|)><rsup|2>>+<frac|21|128>*l
+    n<around*|\||<frac|x-1|x+1>|\|>-<frac|21|64>*arctan<around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|-4+7*x<rsup|8>-14*x<rsup|4>+7+3*x<rsup|4>-3|32*x<rsup|3>*<around*|(|x<rsup|4>-1|)><rsup|2>>+<frac|21|128>*l
+    n<around*|\||<frac|x-1|x+1>|\|>-<frac|21|64>*arctan<around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|7*x<rsup|5>-11*x|32*<around*|(|x<rsup|4>-1|)><rsup|2>>+<frac|21|128>*l
+    n<around*|\||<frac|x-1|x+1>|\|>-<frac|21|64>*arctan<around*|(|x|)>>>>>
   </eqnarray*>
 </body>
 
