@@ -64,6 +64,15 @@
     n<around*|\||<frac|<sqrt|2>|x-1>+<sqrt|<frac|2|<around*|(|x-1|)><rsup|2>>-1>|\|>-<frac|1|2>*<sqrt|<frac|2|<around*|(|x-1|)><rsup|2>>-1>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|<sqrt|2>>*l
     n<around*|\||<frac|<sqrt|2>+<sqrt|1+2*x-x<rsup|2>>|x-1>|\|>-<frac|<sqrt|1+2*x-x<rsup|2>>|2*<around*|(|x-1|)>>>>>>
   </eqnarray*>
+
+  \;
+
+  1953:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|x*d
+    x|<around*|(|x<rsup|2>-1|)>*<sqrt|x<rsup|2>-x-1>>>>|<row|<cell|>|<cell|=>|<cell|>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
