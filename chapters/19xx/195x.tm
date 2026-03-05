@@ -107,7 +107,11 @@
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|<sqrt|x<rsup|2>+x+1>|<around*|(|x+1|)><rsup|2>>*d
-    x>>>>
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<sqrt|x<rsup|2>+x+1>\<times\><sqrt|x<rsup|2>+x+1>|<around*|(|x+1|)><rsup|2>\<times\><sqrt|x<rsup|2>+x+1>>*d
+    x=<big|int><frac|x<rsup|2>+x+1|<around*|(|x+1|)><rsup|2>*<sqrt|x<rsup|2>+x+1>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<around*|(|x+1|)><rsup|2>-x|<around*|(|x+1|)><rsup|2>*<sqrt|x<rsup|2>+x+1>>*d
+    x=<big|int><frac|d x|<sqrt|x<rsup|2>+x+1>>-<big|int><frac|x*d
+    x|<around*|(|x+1|)><rsup|2>*<sqrt|x<rsup|2>+x+1>>>>|<row|<cell|>|<cell|=>|<cell|>>>>
   </eqnarray*>
 </body>
 
