@@ -150,6 +150,16 @@
   </eqnarray*>
 
   \;
+
+  1953:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|>|<cell|<frac|1|2>*arcsin<around*|(|<frac|x-3|<sqrt|5>*<around*|\||x-1|\|>>|)>-<frac|1|2>*l
+    n<around*|\||<frac|3*x+1-2*<sqrt|x<rsup|2>-x-1>|x+1>|\|>>>|<row|<cell|>|<cell|\<neq\>>|<cell|<frac|1|2>*arcsin<around*|(|<frac|x-3|<sqrt|5>*<around*|(|x-1|)>>|)>-<frac|1|2>*l
+    n<around*|\||<frac|3*x+1-2*<sqrt|x<rsup|2>-x-1>|x+1>|\|>>>>>
+  </eqnarray*>
+
+  \;
 </body>
 
 <\initial>
