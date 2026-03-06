@@ -165,9 +165,15 @@
     y|y<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|x=<frac|1|y>-1=<frac|1-y|y>>>|<row|<cell|f<rsub|4><around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|-<frac|d
     y|y<rsup|2>>|<frac|1|y>*<sqrt|1+<frac|2-2*y|y>-<frac|<around*|(|1-y|)><rsup|2>|y<rsup|2>>>>=-<big|int><frac|d
     y|<sqrt|y<rsup|2>+2*y-2*y<rsup|2>-1+2*y-y<rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|-<big|int><frac|d
-    y|<sqrt|-1+4*y-y<rsup|2>>>=-<big|int><frac|d
-    y|<sqrt|3-<around*|(|4-4*y+y<rsup|2>|)>>>=<big|int><frac|d<around*|(|2-y|)>|<sqrt|<around*|(|<sqrt|3>|)><rsup|2>-<around*|(|2-y|)><rsup|2>>>>>|<row|<cell|book:>|<cell|IV.>|<cell|<big|int><frac|d
-    x|<sqrt|a<rsup|2>-x<rsup|2>>>=arcsin*<frac|x|a>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|f<rsub|4><around*|(|y|)>>|<cell|=>|<cell|arcsin<around*|(|<frac|2-y|<sqrt|3>>|)>>>|<row|<cell|f<rsub|4><around*|(|x|)>>|<cell|=>|<cell|arcsin<around*|(|<frac|2-<frac|1|x+1>|<sqrt|3>>|)>=arcsin<around*|(|<frac|2*x-1|<around*|(|x+1|)>*<sqrt|3>>|)>>>>>
+    y|<sqrt|-1+4*y-2*y<rsup|2>>>=-<big|int><frac|d
+    y|<sqrt|2>*<sqrt|<frac|1|2>-<around*|(|1-2*y+y<rsup|2>|)>>>=<big|int><frac|d<around*|(|1-y|)>|<sqrt|2>*<sqrt|<around*|(|<frac|1|<sqrt|2>>|)><rsup|2>-<around*|(|1-y|)><rsup|2>>>>>|<row|<cell|book:>|<cell|IV.>|<cell|<big|int><frac|d
+    x|<sqrt|a<rsup|2>-x<rsup|2>>>=arcsin*<frac|x|a>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|f<rsub|4><around*|(|y|)>>|<cell|=>|<cell|<frac|1|<sqrt|2>>*arcsin<around*|(|<sqrt|2>*<around*|(|1-y|)>|)>>>|<row|<cell|f<rsub|4><around*|(|x|)>>|<cell|=>|<cell|<frac|1|<sqrt|2>>*arcsin<around*|(|<sqrt|2>*<around*|(|1-<frac|1|x+1>|)>|)>=<frac|1|<sqrt|2>>*arcsin<around*|(|<frac|<sqrt|2>*x|<around*|(|x+1|)>>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<sqrt|1+2*x-x<rsup|2>>+3*arcsin<around*|(|<frac|x-1|<sqrt|2>>|)>-f<rsub|3><around*|(|x|)>-f<rsub|4><around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|<sqrt|1+2*x-x<rsup|2>>+3*arcsin<around*|(|<frac|x-1|<sqrt|2>>|)>-<around*|(|<frac|x-1|2>*<sqrt|1+2*x-x<rsup|2>>+arcsin<around*|(|<frac|x-1|<sqrt|2>>|)>|)>-f<rsub|4><around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|3-x|2>*<sqrt|1+2*x-x<rsup|2>>+2*arcsin<around*|(|<frac|x-1|<sqrt|2>>|)>-<frac|1|<sqrt|2>>*arcsin<around*|(|<frac|<sqrt|2>*x|<around*|(|x+1|)>>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|<frac|d|d
+    x>*arcsin x=<frac|1|<sqrt|1-x<rsup|2>>>>>|<row|<cell|<frac|d q<rsub|1>|d
+    x>>|<cell|=>|<cell|<frac|d|d x><around*|(|<frac|3-x|2>*<sqrt|1+2*x-x<rsup|2>>|)>=-<frac|1|2>*<sqrt|1+2*x-x<rsup|2>>+<frac|3-x|2>\<times\><frac|1|2>\<times\><frac|2-2*x|<sqrt|1+2*x-x<rsup|2>>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|<frac|d
+    q<rsub|2>|d x>>|<cell|=>|<cell|<frac|d|d
+    x>*<around*|(|arcsin<around*|(|<frac|x-1|<sqrt|2>>|)>|)>=<frac|1|<sqrt|1-<around*|(|<frac|x-1|<sqrt|2>>|)><rsup|2>>>=<frac|1|<sqrt|1-<frac|x<rsup|2>-2*x+1|2>>>=<frac|<sqrt|2>|<sqrt|2-x<rsup|2>+2*x-1>>>>|<row|<cell|>|<cell|>|<cell|=<frac|<sqrt|2>|<sqrt|1+2*x-x<rsup|2>>>>>|<row|<cell|<frac|d
+    q<rsub|3>|d x>>|<cell|=>|<cell|<frac|d|d
+    x>*<around*|(|arcsin<around*|(|<frac|<sqrt|2>*x|<around*|(|x+1|)>>|)>|)>=<frac|1|<sqrt|1-<around*|(|<frac|<sqrt|2>*x|<around*|(|x+1|)>>|)><rsup|2>>>=<frac|x+1|<sqrt|<around*|(|x+1|)><rsup|2>-2*x<rsup|2>>>=<frac|x+1|<sqrt|1+2*x-x<rsup|2>>>>>>>
   </eqnarray*>
 </body>
 
