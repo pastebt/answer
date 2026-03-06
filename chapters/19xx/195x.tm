@@ -109,9 +109,29 @@
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|<sqrt|x<rsup|2>+x+1>|<around*|(|x+1|)><rsup|2>>*d
     x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<sqrt|x<rsup|2>+x+1>\<times\><sqrt|x<rsup|2>+x+1>|<around*|(|x+1|)><rsup|2>\<times\><sqrt|x<rsup|2>+x+1>>*d
     x=<big|int><frac|x<rsup|2>+x+1|<around*|(|x+1|)><rsup|2>*<sqrt|x<rsup|2>+x+1>>*d
-    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<around*|(|x+1|)><rsup|2>-x|<around*|(|x+1|)><rsup|2>*<sqrt|x<rsup|2>+x+1>>*d
-    x=<big|int><frac|d x|<sqrt|x<rsup|2>+x+1>>-<big|int><frac|x*d
-    x|<around*|(|x+1|)><rsup|2>*<sqrt|x<rsup|2>+x+1>>>>|<row|<cell|>|<cell|=>|<cell|>>>>
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<around*|(|x+1|)><rsup|2>-<around*|(|x+1|)>+1|<around*|(|x+1|)><rsup|2>*<sqrt|x<rsup|2>+x+1>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|d
+    x|<sqrt|x<rsup|2>+x+1>>-<big|int><frac|d
+    x|<around*|(|x+1|)>*<sqrt|x<rsup|2>+x+1>>+<big|int><frac|d
+    x|<around*|(|x+1|)><rsup|2>*<sqrt|x<rsup|2>+x+1>>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<sqrt|x<rsup|2>+x+1>>=<big|int><frac|d
+    <around*|(|x+<frac|1|2>|)>|<sqrt|<around*|(|x+<frac|1|2>|)><rsup|2>+<around*|(|<frac|<sqrt|3>|2>|)><rsup|2>>>>>|<row|<cell|book:>|<cell|V.>|<cell|<big|int><frac|d
+    x|<sqrt|x<rsup|2>\<pm\>a<rsup|2>>>=l n<around*|\||x+<sqrt|x<rsup|2>\<pm\>a<rsup|2>>|\|>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|l
+    n<around*|\||x+<frac|1|2>+<sqrt|x<rsup|2>+x+1>|\|>=l
+    n<around*|\||2*x+1+2*<sqrt|x<rsup|2>+x+1>|\|>-l n
+    2>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|f<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<around*|(|x+1|)>*<sqrt|x<rsup|2>+x+1>>=<big|int><frac|d
+    x|<around*|(|x+1|)>*<sqrt|<around*|(|x+1|)><rsup|2>-<around*|(|x+1|)>+1>>>>|<row|<cell|>|<cell|>|<cell|y=<frac|1|x+1>\<rightarrow\>d
+    y=<frac|-d x|<around*|(|x+1|)><rsup|2>>\<rightarrow\>d x=-<frac|d
+    y|y<rsup|2>>>>|<row|<cell|f<rsub|2><around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|-<frac|d
+    y|y<rsup|2>>|<frac|1|y>*<sqrt|<frac|1|y<rsup|2>>-<frac|1|y>+1>>=-<big|int><frac|d
+    y|<sqrt|1-y+y<rsup|2>>>=-<big|int><frac|d
+    <around*|(|y-<frac|1|2>|)>|<sqrt|<around*|(|y-<frac|1|2>|)><rsup|2>+<around*|(|<frac|<sqrt|3>|2>|)><rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|-l
+    n<around*|\||y-<frac|1|2>+<sqrt|1-y+y<rsup|2>>|\|>=-l
+    n<around*|\||2*y-1+2*<sqrt|1-y+y<rsup|2>>|\|>+l n
+    2>>|<row|<cell|f<rsub|2><around*|(|x|)>>|<cell|=>|<cell|-l
+    n<around*|\||<frac|2|x+1>-1+2*<sqrt|1-<frac|1|x+1>+<frac|1|<around*|(|x+1|)><rsup|2>>>|\|>>>|<row|<cell|>|<cell|=>|<cell|-l
+    n<around*|\||<frac|1-x+2*<sqrt|x<rsup|2>+x+1>|x+1>|\|>>>>>
   </eqnarray*>
 </body>
 
