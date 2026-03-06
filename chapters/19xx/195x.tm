@@ -159,7 +159,15 @@
     \<Iota\>.>|<cell|<big|int><sqrt|a<rsup|2>-x<rsup|2>>*d
     x=<frac|x|2>*<sqrt|a<rsup|2>-x<rsup|2>>+<frac|a<rsup|2>|2>*arcsin
     <frac|x|a>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|f<rsub|3><around*|(|x|)>>|<cell|=>|<cell|<frac|x-1|2>*<sqrt|1+2*x-x<rsup|2>>+arcsin<around*|(|<frac|x-1|<sqrt|2>>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|f<rsub|4><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
-    x|<around*|(|1+x|)>*<sqrt|1+2*x-x<rsup|2>>>>>>>
+    x|<around*|(|1+x|)>*<sqrt|1+2*x-x<rsup|2>>>>>|<row|<cell|>|<cell|>|<cell|y=<frac|1|x+1>\<rightarrow\>d
+    y=<frac|-d x|<around*|(|x+1|)><rsup|2>>\<rightarrow\>d
+    x=-<around*|(|x+1|)><rsup|2>*d y=-<frac|d
+    y|y<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|x=<frac|1|y>-1=<frac|1-y|y>>>|<row|<cell|f<rsub|4><around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|-<frac|d
+    y|y<rsup|2>>|<frac|1|y>*<sqrt|1+<frac|2-2*y|y>-<frac|<around*|(|1-y|)><rsup|2>|y<rsup|2>>>>=-<big|int><frac|d
+    y|<sqrt|y<rsup|2>+2*y-2*y<rsup|2>-1+2*y-y<rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|-<big|int><frac|d
+    y|<sqrt|-1+4*y-y<rsup|2>>>=-<big|int><frac|d
+    y|<sqrt|3-<around*|(|4-4*y+y<rsup|2>|)>>>=<big|int><frac|d<around*|(|2-y|)>|<sqrt|<around*|(|<sqrt|3>|)><rsup|2>-<around*|(|2-y|)><rsup|2>>>>>|<row|<cell|book:>|<cell|IV.>|<cell|<big|int><frac|d
+    x|<sqrt|a<rsup|2>-x<rsup|2>>>=arcsin*<frac|x|a>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|f<rsub|4><around*|(|y|)>>|<cell|=>|<cell|arcsin<around*|(|<frac|2-y|<sqrt|3>>|)>>>|<row|<cell|f<rsub|4><around*|(|x|)>>|<cell|=>|<cell|arcsin<around*|(|<frac|2-<frac|1|x+1>|<sqrt|3>>|)>=arcsin<around*|(|<frac|2*x-1|<around*|(|x+1|)>*<sqrt|3>>|)>>>>>
   </eqnarray*>
 </body>
 
