@@ -204,6 +204,15 @@
     y|y<rsup|2>>|<frac|1|y>*<sqrt|<frac|1|y>*<around*|(|<frac|1|y>-2|)>>>=-<big|int><frac|d
     y|<sqrt|1-2*y>>=<sqrt|1-2*y>>>|<row|<cell|f<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<sqrt|1-<frac|2|x-1>>=<sqrt|<frac|x-3|x-1>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|2*f<rsub|1><around*|(|x|)>-f<rsub|2><around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|-2*arcsin<around*|(|<frac|1|x-2>|)>-<sqrt|<frac|x-3|x-1>>>>>>
   </eqnarray*>
+
+  \;
+
+  1957:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<around*|(|1+x<rsup|2>|)>*<sqrt|1-x<rsup|2>>>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
