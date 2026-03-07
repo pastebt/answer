@@ -160,6 +160,20 @@
   </eqnarray*>
 
   \;
+
+  1955:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|>|<cell|<frac|-1-x|2>*<sqrt|1+2*x-x<rsup|2>>-2*arcsin<around*|(|<frac|1-x|<sqrt|2>>|)>-<frac|1|<sqrt|2>>*arcsin<around*|(|<frac|<sqrt|2>*x|<around*|\||x+1|\|>>|)>>>|<row|<cell|>|<cell|\<neq\>>|<cell|<frac|-1-x|2>*<sqrt|1+2*x-x<rsup|2>>-2*arcsin<around*|(|<frac|1-x|<sqrt|2>>|)>-<frac|1|<sqrt|2>>*arcsin<around*|(|<frac|<sqrt|2>*x|<around*|(|x+1|)>>|)>>>>>
+  </eqnarray*>
+
+  \;
+
+  1956:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|-2*arcsin<around*|(|<frac|1|<around*|\||x-2|\|>>|)>-<sqrt|<frac|x-3|x-1>>>|<cell|\<neq\>>|<cell|-2*arcsin<around*|(|<frac|1|x-2>|)>-<sqrt|<frac|x-3|x-1>>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>

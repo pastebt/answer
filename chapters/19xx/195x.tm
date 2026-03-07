@@ -178,6 +178,32 @@
     q<rsub|2>|d x>-<frac|1|<sqrt|2>>*<frac|d q<rsub|3>|d
     x>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1+x-x<rsup|2>|<sqrt|1+2*x-x<rsup|2>>>-<frac|-2|<sqrt|1+2*x-x<rsup|2>>>-<frac|1|<sqrt|2>>\<times\><frac|<sqrt|2>|<around*|(|x+1|)>*<sqrt|1+2*x-x<rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|x+1|)>*<around*|(|x<rsup|2>-x-1+2|)>-1|<around*|(|x+1|)>*<sqrt|1+2*x-x<rsup|2>>>=<frac|<around*|(|x+1|)>*<around*|(|x<rsup|2>-x+1|)>-1|<around*|(|x+1|)>*<sqrt|1+2*x-x<rsup|2>>>=<frac|<around*|(|x<rsup|3>+1|)>-1|<around*|(|x+1|)>*<sqrt|1+2*x-x<rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|3>|<around*|(|x+1|)>*<sqrt|1+2*x-x<rsup|2>>>>>>>
   </eqnarray*>
+
+  \;
+
+  1956:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|x*d
+    x|<around*|(|x<rsup|2>-3*x+2|)>*<sqrt|x<rsup|2>-4*x+3>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|x*d
+    x|<around*|(|x-1|)>*<around*|(|x-2|)>*<sqrt|x<rsup|2>-4*x+3>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|<frac|2|x-2>-<frac|1|x-1>|)>*<frac|1|<sqrt|x<rsup|2>-4*x+3>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|2*<big|int><frac|d
+    x|<around*|(|x-2|)>*<sqrt|x<rsup|2>-4*x+3>>-<big|int><frac|d
+    x|<around*|(|x-1|)>*<sqrt|x<rsup|2>-4*x+3>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<around*|(|x-2|)>*<sqrt|x<rsup|2>-4*x+3>>=<big|int><frac|d
+    x|<around*|(|x-2|)>*<sqrt|<around*|(|x-2|)><rsup|2>-1>>>>|<row|<cell|>|<cell|>|<cell|y=<frac|1|x-2>\<rightarrow\>d
+    y=<frac|-d x|<around*|(|x-2|)><rsup|2>>\<rightarrow\>d x=<frac|-d
+    y|y<rsup|2>>>>|<row|<cell|f<rsub|1><around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|<frac|-d
+    y|y<rsup|2>>|<frac|1|y>*<sqrt|<frac|1|y<rsup|2>>-1>>=-<big|int><frac|d
+    y|<sqrt|1-y<rsup|2>>>>>|<row|<cell|book:>|<cell|IV.>|<cell|<big|int><frac|d
+    x|<sqrt|a<rsup|2>-x<rsup|2>>>=arcsin*<frac|x|a>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|f<rsub|1><around*|(|y|)>>|<cell|=>|<cell|-arcsin<around*|(|y|)>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|-arcsin<around*|(|<frac|1|x-2>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|f<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<around*|(|x-1|)>*<sqrt|x<rsup|2>-4*x+3>>=<big|int><frac|d
+    x|<around*|(|x-1|)>*<sqrt|<around*|(|x-1|)>*<around*|(|x-1-2|)>>>>>|<row|<cell|>|<cell|>|<cell|y=<frac|1|x-1>\<rightarrow\>d
+    y=<frac|-d x|<around*|(|x-1|)><rsup|2>>\<rightarrow\>d x=<frac|-d
+    y|y<rsup|2>>>>|<row|<cell|f<rsub|2><around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|<frac|-d
+    y|y<rsup|2>>|<frac|1|y>*<sqrt|<frac|1|y>*<around*|(|<frac|1|y>-2|)>>>=-<big|int><frac|d
+    y|<sqrt|1-2*y>>=<sqrt|1-2*y>>>|<row|<cell|f<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<sqrt|1-<frac|2|x-1>>=<sqrt|<frac|x-3|x-1>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|2*f<rsub|1><around*|(|x|)>-f<rsub|2><around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|-2*arcsin<around*|(|<frac|1|x-2>|)>-<sqrt|<frac|x-3|x-1>>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
