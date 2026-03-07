@@ -154,7 +154,9 @@
     x=Q<rsub|n-1><around*|(|x|)>*<sqrt|a*x<rsup|2>+b*x+c>+\<lambda\>*<big|int><frac|d
     x|<sqrt|a*x<rsup|2>+b*x+c>>>>|<row|<cell|>|<cell|>|<cell|P<rsub|n><around*|(|x|)>=-y<rsup|2>>>|<row|<cell|>|<cell|>|<cell|P<rsub|n><around*|(|x|)>=Q<rsub|n-1><rprime|'><around*|(|x|)>*<around*|(|a*x<rsup|2>+b*x+c|)>+<frac|1|2>*Q<rsub|n-1><around*|(|x|)>*<around*|(|2*a*x+b|)>+\<lambda\>>>|<row|<cell|>|<cell|>|<cell|Q<rsub|n-1><around*|(|x|)>=A*y>>|<row|<cell|>|<cell|>|<cell|Q<rprime|'><rsub|n-1><around*|(|x|)>=A>>|<row|<cell|>|<cell|>|<cell|-y<rsup|2>=A*<around*|(|y<rsup|2>+1|)>+<frac|1|2>*A*y*<around*|(|2*y|)>+\<lambda\>>>|<row|<cell|>|<cell|>|<cell|2*A=-1\<rightarrow\>A=-<frac|1|2>>>|<row|<cell|>|<cell|>|<cell|A+\<lambda\>=0\<rightarrow\>\<lambda\>=<frac|1|2>>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|-<frac|1|2>*y*<sqrt|y<rsup|2>+1>+<frac|1|2>*<big|int><frac|d
     x|<sqrt|y<rsup|2>+1>>=-<frac|1|2>*y*<sqrt|y<rsup|2>+1>+<frac|1|2>*l
-    n<around*|\||y+<sqrt|y<rsup|2>+1>|\|>>>>>
+    n<around*|\||y+<sqrt|y<rsup|2>+1>|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-<frac|1|2>\<times\><frac|1|x>\<times\><sqrt|<frac|1|x<rsup|2>>+1>+<frac|1|2>*l
+    n<around*|\||<frac|1|x>+<sqrt|<frac|1|x<rsup|2>>+1>|\|>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|2*x<rsup|2>>*<sqrt|1+x<rsup|2>>+<frac|1|2>*l
+    n<around*|\||<frac|1+<sqrt|1+x<rsup|2>>|x>|\|>>>>>
   </eqnarray*>
 
   \;

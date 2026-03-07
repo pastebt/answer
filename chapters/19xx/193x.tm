@@ -31,7 +31,8 @@
     y=<big|int><around*|(|<frac|1|4>*y-<frac|1|y>+<frac|1|y<rsup|3>>|)>*d
     y>>|<row|<cell|>|<cell|=>|<cell|<frac|1|8>*y<rsup|2>-l
     n<around*|\||y|\|>-<frac|1|2*y<rsup|2>>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<frac|1|8>*<around*|(|x+<sqrt|x<rsup|2>-1>|)><rsup|2>-l
-    n<around*|\||x+<sqrt|x<rsup|2>-1>|\|>-<frac|1|2*<around*|(|x+<sqrt|x<rsup|2>-1>|)><rsup|2>>>>>>
+    n<around*|\||x+<sqrt|x<rsup|2>-1>|\|>-<frac|1|2*<around*|(|x+<sqrt|x<rsup|2>-1>|)><rsup|2>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>*x<rsup|2>-<around*|(|<frac|1|8>*<around*|(|x+<sqrt|x<rsup|2>-1>|)><rsup|2>-l
+    n<around*|\||x+<sqrt|x<rsup|2>-1>|\|>-<frac|1|2*<around*|(|x+<sqrt|x<rsup|2>-1>|)><rsup|2>>|)>>>>>
   </eqnarray*>
 
   \;

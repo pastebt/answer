@@ -118,9 +118,9 @@
     x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|x<rsup|4>-1|<around*|(|x<rsup|5>-5*x|)>*<around*|(|x<rsup|5>-5*x+1|)>>*d
     x>>|<row|<cell|>|<cell|>|<cell|y=x<rsup|5>-5*x\<rightarrow\>d
     y=<around*|(|5*x<rsup|4>-5|)>*d x=5*<around*|(|x<rsup|4>-1|)>*d
-    x>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|5*d
-    y|y*<around*|(|y+1|)>>=5*<big|int><around*|(|<frac|1|y>-<frac|1|y+1>|)>*d
-    y=5*l n<around*|\||<frac|y|y+1>|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|5*l
+    x>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|d
+    y|5*y*<around*|(|y+1|)>>=<frac|1|5><suppressed|<explicit-space>><big|int><around*|(|<frac|1|y>-<frac|1|y+1>|)>*d
+    y=<frac|1|5>*l n<around*|\||<frac|y|y+1>|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|5>*l
     n<around*|\||<frac|x<rsup|5>-5*x|x<rsup|5>-5*x+1>|\|>>>>>
   </eqnarray*>
 

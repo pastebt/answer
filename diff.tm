@@ -143,6 +143,54 @@
 
   \;
 
+  1917:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|1|<sqrt|3>>*arctan<around*|(|<frac|x<rsup|2>-1|x*<sqrt|3>>|)>>|<cell|\<neq\>>|<cell|<frac|3*<sqrt|3>|16>*<around*|(|arctan<around*|(|<frac|2*x+1|<sqrt|3>>|)>+arctan<around*|(|<frac|2*x-1|<sqrt|3>>|)>|)>>>>>
+  </eqnarray*>
+
+  \;
+
+  1928:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|>|<cell|<frac|3|4>*y<rsup|4>-<frac|3|2>*y<rsup|2>-<frac|3|4>*l
+    n<around*|\||y-1|\|>+<frac|15|8>*l n<around*|(|y<rsup|2>+y+2|)>-<frac|27|8*<sqrt|7>>*arctan<around*|(|<frac|2*y+1|<sqrt|7>>|)>>>|<row|<cell|>|<cell|\<neq\>>|<cell|<frac|3|4>*y<rsup|4>-<frac|3|2>*y<rsup|2>-<frac|3|4>*l
+    n<around*|\||y-1|\|>+<frac|15|8>*l n<around*|(|y<rsup|2>+y+2|)>-<frac|27|4*<sqrt|7>>*arctan<around*|(|<frac|2*y+1|<sqrt|7>>|)>>>>>
+  </eqnarray*>
+
+  \;
+
+  1931:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|>|<cell|<frac|1|2>*x<rsup|2>-<frac|x*<sqrt|x<rsup|2>-1>|2>+<frac|1|2>*l
+    n<around*|\||x+<sqrt|x<rsup|2>-1>|\|>>>|<row|<cell|>|<cell|\<neq\>>|<cell|<frac|1|2>*x<rsup|2>-<around*|(|<frac|1|8>*<around*|(|x+<sqrt|x<rsup|2>-1>|)><rsup|2>-l
+    n<around*|\||x+<sqrt|x<rsup|2>-1>|\|>-<frac|1|2*<around*|(|x+<sqrt|x<rsup|2>-1>|)><rsup|2>>|)>>>>>
+  </eqnarray*>
+
+  1933:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|y=<sqrt|<frac|a-x|x>|4>>|<cell|>|<cell|<frac|-a*y<rsup|3>|y<rsup|4>+1>+<frac|a|4*<sqrt|2>>*l
+    n<around*|(|<frac|y<rsup|2>+<sqrt|2>*y+1|y<rsup|2>-<sqrt|2>*y+1>|)>+<frac|a|2*<sqrt|2>>*arctan<around*|(|<frac|1-y<rsup|2>|y*<sqrt|2>>|)>>>|<row|<cell|y=<sqrt|<frac|x|a-x>|4>>|<cell|\<neq\>>|<cell|<frac|-a*y|y<rsup|4>+1>+<frac|a|4*<sqrt|2>>*l
+    n<around*|(|<frac|y<rsup|2>+<sqrt|2>*y+1|y<rsup|2>-<sqrt|2>*y+1>|)>+<frac|a|2*<sqrt|2>>*arctan<around*|(|<frac|<sqrt|2>*y|1-y<rsup|2>>|)>>>>>
+  </eqnarray*>
+
+  \;
+
+  1935:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|>|<cell|<frac|x|2>+<sqrt|x>-<frac|1|2>*<sqrt|x*<around*|(|1+x|)>>-<frac|1|2>*l
+    n<around*|(|<sqrt|x>+<sqrt|1+x>|)>>>|<row|<cell|>|<cell|\<neq\>>|<cell|<frac|<sqrt|x>+<sqrt|1+x>|2>-<frac|1|2>*l
+    n<around*|(|<sqrt|x>+<sqrt|1+x>|)>-<frac|1|2<around*|(|<sqrt|x>+<sqrt|1+x>|)>>+<frac|1|4*<around*|(|<sqrt|x>+<sqrt|1+x>|)><rsup|2>>>>>>
+  </eqnarray*>
+
+  \;
+
+  \;
+
   1945:
 
   <\eqnarray*>
