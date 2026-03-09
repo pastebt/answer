@@ -51,6 +51,17 @@
     y>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|-arctan<around*|(|<frac|<sqrt|x<rsup|2>+2>|x>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-arctan<around*|(|<frac|<sqrt|x<rsup|2>+2>|x>|)>+l
     n<around*|\||x+<sqrt|x<rsup|2>+2>|\|>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  1961:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<around*|(|x<rsup|2>+x+1|)>*<sqrt|x<rsup|2>+x-1>>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
