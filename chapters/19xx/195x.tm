@@ -258,7 +258,29 @@
     y|1-2*y<rsup|2>>=<frac|1|2*<sqrt|2>>*<big|int><around*|(|<frac|1|1-y*<sqrt|2>>+<frac|1|1+y*<sqrt|2>>|)>*d<around*|(|y*<sqrt|2>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2*<sqrt|2>>*l
     n<around*|\||<frac|1+<sqrt|2>*y|1-<sqrt|2>*y>|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2*<sqrt|2>>*l
     n<around*|\||<frac|1+<frac|<sqrt|2>*x|<sqrt|x<rsup|2>-1>>|1-<frac|<sqrt|2>*x|<sqrt|x<rsup|2>-1>>>|\|>=<frac|1|2*<sqrt|2>>*l
-    n<around*|\||<frac|<sqrt|x<rsup|2>-1>+x*<sqrt|2>|<sqrt|x<rsup|2>-1>-x*<sqrt|2>>|\|>>>>>
+    n<around*|\||<frac|<sqrt|x<rsup|2>-1>+x*<sqrt|2>|<sqrt|x<rsup|2>-1>-x*<sqrt|2>>|\|>>>|<row|<cell|d<rsub|1><rprime|'><around*|(|x|)>>|<cell|=>|<cell|<around*|(|l
+    n<around*|\||<sqrt|x<rsup|2>-1>+x*<sqrt|2>|\|>|)><rprime|'>=<frac|<frac|x|<sqrt|x<rsup|2>-1>>+<sqrt|2>|<sqrt|x<rsup|2>-1>+x*<sqrt|2>>=<frac|x+<sqrt|2>*<sqrt|x<rsup|2>-1>|x<rsup|2>-1+<sqrt|2>*x*<sqrt|x<rsup|2>-1>>>>|<row|<cell|d<rsub|2><rprime|'><around*|(|x|)>>|<cell|=>|<cell|<around*|(|l
+    n<around*|\||<sqrt|x<rsup|2>-1>-x*<sqrt|2>|\|>|)><rprime|'>=<frac|<frac|x|<sqrt|x<rsup|2>-1>>-<sqrt|2>|<sqrt|x<rsup|2>-1>-x*<sqrt|2>>=<frac|x-<sqrt|2>*<sqrt|x<rsup|2>-1>|x<rsup|2>-1-<sqrt|2>*x*<sqrt|x<rsup|2>-1>>>>|<row|<cell|d<rsub|1><rprime|'><around*|(|x|)>-d<rsub|2><rprime|'><around*|(|x|)>>|<cell|=>|<cell|<frac|x+<sqrt|2>*<sqrt|x<rsup|2>-1>|<around*|(|x+<sqrt|2>*<sqrt|x<rsup|2>-1>|)>*x-1>-<frac|x-<sqrt|2>*<sqrt|x<rsup|2>-1>|<around*|(|x-<sqrt|2>*<sqrt|x<rsup|2>-1>|)>*x-1>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|x<rsup|2>-2*x<rsup|2>+2|)>-<around*|(|x+<sqrt|2>*<sqrt|x<rsup|2>-1>|)>-<around*|(|x<rsup|2>-2*x<rsup|2>+2|)>+<around*|(|x-<sqrt|2>*<sqrt|x<rsup|2>-1>|)>|<around*|(|x<rsup|2>-2*x<rsup|2>+2|)>*x<rsup|2>-<around*|(|x-<sqrt|2>*<sqrt|x<rsup|2>-1>|)>*x-<around*|(|x+<sqrt|2>*<sqrt|x<rsup|2>-1>|)>*x+1>>>|<row|<cell|>|<cell|=>|<cell|<frac|-2*<sqrt|2>*<sqrt|x<rsup|2>-1>|<around*|(|-x<rsup|2>+2|)>*x<rsup|2>-2*x<rsup|2>+1>=<frac|2*<sqrt|2>*<sqrt|x<rsup|2>-1>|x<rsup|4>-1>=<frac|2*<sqrt|2>*<sqrt|x<rsup|2>-1>|<around*|(|x<rsup|2>+1|)>*<around*|(|x<rsup|2>-1|)>>>>|<row|<cell|F<rprime|'><around*|(|x|)>>|<cell|=>|<cell|<frac|1|2*<sqrt|2>>\<times\><around*|(|d<rsub|1><rprime|'><around*|(|x|)>-d<rsub|2><rprime|'><around*|(|x|)>|)>=<frac|<sqrt|x<rsup|2>-1>|<around*|(|x<rsup|2>+1|)>*<around*|(|x<rsup|2>-1|)>>=<frac|1|<around*|(|x<rsup|2>+1|)>*<sqrt|x<rsup|2>-1>>>>>>
+  </eqnarray*>
+
+  \;
+
+  1959:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<around*|(|1-x<rsup|4>|)>*<sqrt|1+x<rsup|2>>>>>|<row|<cell|>|<cell|>|<cell|y=<frac|x|<sqrt|1+x<rsup|2>>>\<rightarrow\>y<rsup|2>=<frac|x<rsup|2>|1+x<rsup|2>>\<rightarrow\>x<rsup|2>=<frac|y<rsup|2>|1-y<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|d
+    y=<frac|<sqrt|1+x<rsup|2>>-x\<times\><frac|1|2>\<times\><frac|2*x|<sqrt|1+x<rsup|2>>>|1+x<rsup|2>>*d
+    x=<frac|1+x<rsup|2>-x<rsup|2>|<around*|(|1+x<rsup|2>|)>*<sqrt|1+x<rsup|2>>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|d x=<around*|(|1+x<rsup|2>|)>*<sqrt|1+x<rsup|2>>*d
+    y>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|<around*|(|1+x<rsup|2>|)>*<sqrt|1+x<rsup|2>>|<around*|(|1-x<rsup|2>|)>*<around*|(|1+x<rsup|2>|)>*<sqrt|1+x<rsup|2>>>*d
+    y=<big|int><frac|d y|1-x<rsup|2>>=<big|int><frac|d
+    y|1-<frac|y<rsup|2>|1-y<rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|1-y<rsup|2>|1-2*y<rsup|2>>*d
+    y=<frac|1|2>*<big|int><around*|(|1+<frac|1|1-2*y<rsup|2>>|)>*d
+    y=<frac|1|2*<sqrt|2>>*<big|int><around*|(|1+<frac|1|1-<around*|(|<sqrt|2>*y|)><rsup|2>>|)>*d<around*|(|<sqrt|2>*y|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2*<sqrt|2>>*<around*|(|<sqrt|2>*y+<frac|1|2>*l
+    n<around*|\||<frac|1+<sqrt|2>*y|1-<sqrt|2>*y>|\|>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|x|2*<sqrt|1+x<rsup|2>>>+<frac|1|4*<sqrt|2>>*l
+    n<around*|\||<frac|1+<frac|<sqrt|2>*x|<sqrt|1+x<rsup|2>>>|1-<frac|<sqrt|2>*x|<sqrt|1+x<rsup|2>>>>|\|>>>|<row|<cell|>|<cell|=>|<cell|<frac|x|2*<sqrt|1+x<rsup|2>>>+<frac|1|4*<sqrt|2>>*l
+    n<around*|\||<frac|<sqrt|1+x<rsup|2>>+<sqrt|2>*x|<sqrt|1+x<rsup|2>-<sqrt|2>*x>>|\|>>>>>
   </eqnarray*>
 </body>
 
