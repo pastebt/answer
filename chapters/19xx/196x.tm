@@ -60,7 +60,20 @@
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
-    x|<around*|(|x<rsup|2>+x+1|)>*<sqrt|x<rsup|2>+x-1>>>>>>
+    x|<around*|(|x<rsup|2>+x+1|)>*<sqrt|x<rsup|2>+x-1>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|d
+    <around*|(|x+<frac|1|2>|)>|<around*|(|<around*|(|x+<frac|1|2>|)><rsup|2>+<frac|3|4>|)>*<sqrt|<around*|(|x+<frac|1|2>|)><rsup|2>-<frac|5|4>>>>>|<row|<cell|>|<cell|>|<cell|y=<frac|x+<frac|1|2>|<sqrt|<around*|(|x+<frac|1|2>|)><rsup|2>-<frac|5|4>>>\<rightarrow\>y<rsup|2>=<frac|<around*|(|x+<frac|1|2>|)><rsup|2>|<around*|(|x+<frac|1|2>|)><rsup|2>-<frac|5|4>>\<rightarrow\><around*|(|x+<frac|1|2>|)><rsup|2>=<frac|<frac|5|4>*y<rsup|2>|y<rsup|2>-1>>>|<row|<cell|>|<cell|>|<cell|d
+    y=<frac|<sqrt|<around*|(|x+<frac|1|2>|)><rsup|2>-<frac|5|4>>-<around*|(|x+<frac|1|2>|)>\<times\><frac|1|2>\<times\><frac|2*<around*|(|x+<frac|1|2>|)>|<sqrt|<around*|(|x+<frac|1|2>|)><rsup|2>-<frac|5|4>>>|<around*|(|x+<frac|1|2>|)><rsup|2>-<frac|5|4>>*d
+    x=<frac|<around*|(|x+<frac|1|2>|)><rsup|2>-<frac|5|4>-<around*|(|x+<frac|1|2>|)><rsup|2>|<around*|(|<around*|(|x+<frac|1|2>|)><rsup|2>-<frac|5|4>|)>*<sqrt|<around*|(|x+<frac|1|2>|)><rsup|2>-<frac|5|4>>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|d x=-<frac|4|5>\<times\><around*|(|<around*|(|x+<frac|1|2>|)><rsup|2>-<frac|5|4>|)>*<sqrt|<around*|(|x+<frac|1|2>|)><rsup|2>-<frac|5|4>>*d
+    y>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|-<frac|4|5>\<times\><around*|(|<around*|(|x+<frac|1|2>|)><rsup|2>-<frac|5|4>|)>*<sqrt|<around*|(|x+<frac|1|2>|)><rsup|2>-<frac|5|4>>*d
+    y|<around*|(|<around*|(|x+<frac|1|2>|)><rsup|2>+<frac|3|4>|)>*<sqrt|<around*|(|x+<frac|1|2>|)><rsup|2>-<frac|5|4>>>=<frac|-4|5>*<big|int><frac|<around*|(|<frac|<frac|5|4>*y<rsup|2>|y<rsup|2>-1>-<frac|5|4>|)>|<around*|(|<frac|<frac|5|4>*y<rsup|2>|y<rsup|2>-1>+<frac|3|4>|)>>*d
+    y>>|<row|<cell|>|<cell|=>|<cell|-<frac|4|5>*<big|int><frac|<frac|5|4>*d
+    y|2*y<rsup|2>-<frac|3|4>>=<big|int><frac|d
+    y|<frac|3|4>-2*y<rsup|2>>=<frac|1|2>*<big|int><frac|d
+    y|<frac|3|8>-y<rsup|2>>>>|<row|<cell|book:>|<cell|\<Iota\>
+    \<Iota\>.>|<cell|<big|int><frac|d x|a<rsup|2>-x<rsup|2>>=<frac|1|2*a>*l
+    n<around*|\||<frac|a+x|a-x>|\|>+C<space|1em><around*|(|a\<neq\>0|)><space|1em>>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<frac|<sqrt|3>|8*<sqrt|2>>*l
+    n<around*|\||<frac|<frac|<sqrt|3>|2*<sqrt|2>>+y|<frac|<sqrt|3>|2*<sqrt|2>>-y>|\|>>>>>
   </eqnarray*>
 </body>
 
