@@ -73,8 +73,12 @@
     y|<frac|3|8>-y<rsup|2>>>>|<row|<cell|book:>|<cell|\<Iota\>
     \<Iota\>.>|<cell|<big|int><frac|d x|a<rsup|2>-x<rsup|2>>=<frac|1|2*a>*l
     n<around*|\||<frac|a+x|a-x>|\|>+C<space|1em><around*|(|a\<neq\>0|)><space|1em>>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<frac|<sqrt|3>|8*<sqrt|2>>*l
-    n<around*|\||<frac|<frac|<sqrt|3>|2*<sqrt|2>>+y|<frac|<sqrt|3>|2*<sqrt|2>>-y>|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|<sqrt|3>|8*<sqrt|2>>*l
-    n<around*|\||<frac|<frac|<sqrt|3>|2*<sqrt|2>>+<frac|x+<frac|1|2>|<sqrt|<around*|(|x+<frac|1|2>|)><rsup|2>-<frac|5|4>>>|<frac|<sqrt|3>|2*<sqrt|2>>-<frac|x+<frac|1|2>|<sqrt|<around*|(|x+<frac|1|2>|)><rsup|2>-<frac|5|4>>>>|\|>>>>>
+    n<around*|\||<frac|<frac|<sqrt|6>|4>+y|<frac|<sqrt|6>|4>-y>|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|<sqrt|3>|8*<sqrt|2>>*l
+    n<around*|\||<frac|<frac|<sqrt|6>|4>+<frac|x+<frac|1|2>|<sqrt|<around*|(|x+<frac|1|2>|)><rsup|2>-<frac|5|4>>>|<frac|<sqrt|6>|4>-<frac|x+<frac|1|2>|<sqrt|<around*|(|x+<frac|1|2>|)><rsup|2>-<frac|5|4>>>>|\|>>>|<row|<cell|>|<cell|=>|<cell|<frac|<sqrt|3>|8*<sqrt|2>>*l
+    n<around*|\||<frac|<frac|<sqrt|6>|4>*<sqrt|x<rsup|2>+x-1>+x+<frac|1|2>|<frac|<sqrt|6>|4>*<sqrt|x<rsup|2>+x-1>-<around*|(|x+<frac|1|2>|)>>|\|>=<frac|<sqrt|3>|8*<sqrt|2>>*l
+    n<around*|\||<frac|<sqrt|6>*<sqrt|x<rsup|2>+x-1>+4*x+2|<sqrt|6>*<sqrt|x<rsup|2>+x-1>-4*x-2>|\|>>>|<row|<cell|d<rprime|'><rsub|1><around*|(|x|)>>|<cell|=>|<cell|<around*|(|l
+    n<around*|\||<sqrt|6>*<sqrt|x<rsup|2>+x-1>+4*x+2|\|>|)><rprime|'>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|6>*<sqrt|x<rsup|2>+x-1>+4*x+2>\<times\><around*|(|<sqrt|6>\<times\><frac|2*x+1|2*<sqrt|x<rsup|2>+x-1>>+4|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|6>*<sqrt|x<rsup|2>+x-1>+4*x+2>\<times\><frac|<sqrt|6>*<around*|(|2*x+1|)>+8*<sqrt|x<rsup|2>+x-1>|2*<sqrt|x<rsup|2>+x-1>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|d<rprime|'><rsub|2><around*|(|x|)>>|<cell|=>|<cell|<around*|(|l
+    n<around*|\||<sqrt|6>*<sqrt|x<rsup|2>+x-1>-4*x-2|\|>|)><rprime|'>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|6>*<sqrt|x<rsup|2>+x-1>-4*x-2>\<times\><around*|(|<sqrt|6>\<times\><frac|2*x+1|2*<sqrt|x<rsup|2>+x-1>>-4|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|6>*<sqrt|x<rsup|2>+x-1>-4*x-2>\<times\><frac|<sqrt|6>*<around*|(|2*x+1|)>-8*<sqrt|x<rsup|2>+x-1>|2*<sqrt|x<rsup|2>+x-1>>>>|<row|<cell|>|<cell|>|<cell|>>>>
   </eqnarray*>
 </body>
 
