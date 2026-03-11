@@ -84,6 +84,19 @@
     n<around*|\||<sqrt|6>*<sqrt|x<rsup|2>+x-1>+4*x+2|\|>|)><rprime|'>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|6>*<sqrt|x<rsup|2>+x-1>+4*x+2>\<times\><around*|(|<sqrt|6>\<times\><frac|2*x+1|2*<sqrt|x<rsup|2>+x-1>>+4|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|6>*<sqrt|x<rsup|2>+x-1>+4*x+2>\<times\><frac|<sqrt|6>*<around*|(|2*x+1|)>+8*<sqrt|x<rsup|2>+x-1>|2*<sqrt|x<rsup|2>+x-1>>>>|<row|<cell|>|<cell|=>|<cell|<frac|<sqrt|6>*<around*|(|2*x+1|)>|2*<around*|(|<sqrt|6>*<sqrt|x<rsup|2>+x-1>+4*x+2|)>*<sqrt|x<rsup|2>+x-1>>+<frac|4|<sqrt|6>*<sqrt|x<rsup|2>+x-1>+4*x+2>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|d<rprime|'><rsub|2><around*|(|x|)>>|<cell|=>|<cell|<around*|(|l
     n<around*|\||<sqrt|6>*<sqrt|x<rsup|2>+x-1>-4*x-2|\|>|)><rprime|'>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|6>*<sqrt|x<rsup|2>+x-1>-4*x-2>\<times\><around*|(|<sqrt|6>\<times\><frac|2*x+1|2*<sqrt|x<rsup|2>+x-1>>-4|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|6>*<sqrt|x<rsup|2>+x-1>-4*x-2>\<times\><frac|<sqrt|6>*<around*|(|2*x+1|)>-8*<sqrt|x<rsup|2>+x-1>|2*<sqrt|x<rsup|2>+x-1>>>>|<row|<cell|>|<cell|=>|<cell|<frac|<sqrt|6>*<around*|(|2*x+1|)>|2*<around*|(|<sqrt|6>*<sqrt|x<rsup|2>+x-1>-4*x-2|)>*<sqrt|x<rsup|2>+x-1>>-<frac|4|<sqrt|6>*<sqrt|x<rsup|2>+x-1>-4*x-2>>>|<row|<cell|g<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<frac|1|<sqrt|6>*<sqrt|x<rsup|2>+x-1>+<around*|(|4*x+2|)>>>>|<row|<cell|g<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<frac|1|<sqrt|6>*<sqrt|x<rsup|2>+x-1>-<around*|(|4*x+2|)>>>>|<row|<cell|g<rsub|1><around*|(|x|)>+g<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<frac|2*<sqrt|6>*<sqrt|x<rsup|2>+x-1>|6*x<rsup|2>+6*x-6-4*<around*|(|4*x<rsup|2>+4*x+1|)>>=<frac|2*<sqrt|6>*<sqrt|x<rsup|2>+x-1>|-10*x<rsup|2>-10*x-10>>>|<row|<cell|g<rsub|1><around*|(|x|)>-g<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<frac|-8*x-4|6*x<rsup|2>+6*x-6-4*<around*|(|4*x<rsup|2>+4*x+1|)>>=<frac|4*x+2|5*x<rsup|2>+5*x+5>>>|<row|<cell|d<rprime|'><rsub|1><around*|(|x|)>-d<rprime|'><rsub|2><around*|(|x|)>>|<cell|=>|<cell|<frac|<sqrt|6>*<around*|(|2*x+1|)>|2*<sqrt|x<rsup|2>+x-1>>\<times\><around*|(|g<rsub|1><around*|(|x|)>-g<rsub|2><around*|(|x|)>|)>+4*<around*|(|g<rsub|1><around*|(|x|)>+g<rsub|2><around*|(|x|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|<sqrt|6>*<around*|(|2*x+1|)>|2*<sqrt|x<rsup|2>+x-1>>\<times\><frac|4*x+2|5*x<rsup|2>+5*x+5>-<frac|4*<sqrt|6>*<sqrt|x<rsup|2>+x-1>|5*x<rsup|2>+5*x+5>>>|<row|<cell|>|<cell|=>|<cell|<frac|<sqrt|6>*<around*|(|4*x<rsup|2>+4*x+1|)>-4*<sqrt|6>*<around*|(|x<rsup|2>+x-1|)>|5*<around*|(|x<rsup|2>+x+1|)>*<sqrt|x<rsup|2>+x-1>>=<frac|5*<sqrt|6>|5*<around*|(|x<rsup|2>+x+1|)>*<sqrt|x<rsup|2>+x-1>>>>|<row|<cell|>|<cell|=>|<cell|<frac|<sqrt|6>|<around*|(|x<rsup|2>+x+1|)>*<sqrt|x<rsup|2>+x-1>>>>|<row|<cell|F<rprime|'><around*|(|x|)>>|<cell|=>|<cell|<frac|1|<sqrt|6>>\<times\><around*|(|d<rprime|'><rsub|1><around*|(|x|)>-d<rprime|'><rsub|2><around*|(|x|)>|)>=<frac|1|<around*|(|x<rsup|2>+x+1|)>*<sqrt|x<rsup|2>+x-1>>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  1962:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|x<rsup|2>*d
+    x|<around*|(|4-2*x+x<rsup|2>|)>*<sqrt|2+2*x-x<rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|x<rsup|2>*d
+    x|<around*|(|3+<around*|(|1-2*x+x<rsup|2>|)>|)>*<sqrt|3-<around*|(|1-2*x+x<rsup|2>|)>>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|x<rsup|2>*d
+    x|<around*|(|3+<around*|(|1-x|)><rsup|2>|)>*<sqrt|3-<around*|(|1-x|)><rsup|2>>>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
