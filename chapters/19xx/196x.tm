@@ -126,6 +126,17 @@
     n<around*|\||<frac|<sqrt|6>+<sqrt|3-t<rsup|2>>|<sqrt|6>-<sqrt|3-t<rsup|2>>>|\|>-<frac|<sqrt|2>|3>*arctan<around*|(|<frac|t*<sqrt|2>|<sqrt|3-t<rsup|2>>>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|arcsin<around*|(|<frac|x-1|<sqrt|3>>|)>-<frac|1|<sqrt|6>>*l
     n<around*|\||<frac|<sqrt|6>+<sqrt|2+2*x-x<rsup|2>>|<sqrt|6>-<sqrt|2+2*x-x<rsup|2>>>|\|>-<frac|<sqrt|2>|3>*arctan<around*|(|<frac|<around*|(|x-1|)>*<sqrt|2>|<sqrt|2+2*x-x<rsup|2>>>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  1963:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|<around*|(|x+1|)>*d
+    x|<around*|(|x<rsup|2>+x+1|)>*<sqrt|x<rsup|2>+x+1>>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
