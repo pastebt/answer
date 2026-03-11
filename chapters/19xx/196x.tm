@@ -135,7 +135,15 @@
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|<around*|(|x+1|)>*d
-    x|<around*|(|x<rsup|2>+x+1|)>*<sqrt|x<rsup|2>+x+1>>>>>>
+    x|<around*|(|x<rsup|2>+x+1|)>*<sqrt|x<rsup|2>+x+1>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<big|int><frac|2*x+1|<around*|(|x<rsup|2>+x+1|)><rsup|<frac|3|2>>>*d
+    x+<frac|1|2>*<big|int><frac|d x|<around*|(|x<rsup|2>+x+1|)>*<sqrt|x<rsup|2>+x+1>>=<frac|1|2>*f<rsub|1><around*|(|x|)>+<frac|1|2>*f<rsub|2><around*|(|x|)>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|2*x+1|<around*|(|x<rsup|2>+x+1|)><rsup|<frac|3|2>>>*d
+    x=-2*<around*|(|x<rsup|2>+x+1|)><rsup|-<frac|1|2>>>>|<row|<cell|f<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<around*|(|x<rsup|2>+x+1|)>*<sqrt|x<rsup|2>+x+1>>>>|<row|<cell|>|<cell|>|<cell|y=<frac|x+<frac|1|2>|<sqrt|x<rsup|2>+x+1>>>>|<row|<cell|>|<cell|>|<cell|d
+    y=<frac|<sqrt|x<rsup|2>+x+1>-<around*|(|x+<frac|1|2>|)>\<times\><frac|1|2>\<times\><frac|2*x+1|<sqrt|x<rsup|2>+x+1>>|x<rsup|2>+x+1>*d
+    x=<frac|<around*|(|x+<frac|1|2>|)><rsup|2>+<frac|3|4>-<around*|(|x+<frac|1|2>|)><rsup|2>|<around*|(|x<rsup|2>+x+1|)>*<sqrt|x<rsup|2>+x+1>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|d x=<frac|4|3>*<around*|(|x<rsup|2>+x+1|)>*<sqrt|x<rsup|2>+x+1>*d
+    y>>|<row|<cell|f<rsub|2><around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|<frac|4|3>*<around*|(|x<rsup|2>+x+1|)>*<sqrt|x<rsup|2>+x+1>*d
+    y|<around*|(|x<rsup|2>+x+1|)>*<sqrt|x<rsup|2>+x+1>>=<frac|4|3>*y>>|<row|<cell|f<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<frac|4*x+2|3*<sqrt|x<rsup|2>+x+1>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|2*x+1|3*<sqrt|x<rsup|2>+x+1>>-<frac|1|<sqrt|x<rsup|2>+x+1>>=<frac|2*x-2|3*<sqrt|x<rsup|2>+x+1>>>>>>
   </eqnarray*>
 </body>
 
