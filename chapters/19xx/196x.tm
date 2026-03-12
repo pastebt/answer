@@ -145,6 +145,44 @@
     y>>|<row|<cell|f<rsub|2><around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|<frac|4|3>*<around*|(|x<rsup|2>+x+1|)>*<sqrt|x<rsup|2>+x+1>*d
     y|<around*|(|x<rsup|2>+x+1|)>*<sqrt|x<rsup|2>+x+1>>=<frac|4|3>*y>>|<row|<cell|f<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<frac|4*x+2|3*<sqrt|x<rsup|2>+x+1>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|2*x+1|3*<sqrt|x<rsup|2>+x+1>>-<frac|1|<sqrt|x<rsup|2>+x+1>>=<frac|2*x-2|3*<sqrt|x<rsup|2>+x+1>>>>>>
   </eqnarray*>
+
+  \;
+
+  1964:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<around*|(|x<rsup|2>-x+1|)>*<sqrt|x<rsup|2>+x+1>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|d
+    x|<around*|(|<around*|(|x-<frac|1|2>|)><rsup|2>+<frac|3|4>|)>*<sqrt|<around*|(|x+<frac|1|2>|)><rsup|2>+<frac|3|4>>>>>|<row|<cell|>|<cell|>|<cell|x=<frac|1-t|1+t>\<rightarrow\>t=<frac|1-x|1+x>>>|<row|<cell|>|<cell|>|<cell|d
+    x=<frac|-<around*|(|1+t|)>-<around*|(|1-t|)>|<around*|(|1+t|)><rsup|2>>*d
+    t=<frac|-2|<around*|(|1+t|)><rsup|2>>*d
+    t>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|<frac|-2|<around*|(|1+t|)><rsup|2>>*d
+    t|<around*|(|<around*|(|<frac|1-t|1+t>|)><rsup|2>-<frac|1-t|1+t>+1|)>*<sqrt|<around*|(|<frac|1-t|1+t>|)><rsup|2>+<frac|1-t|1+t>+1>>>>|<row|<cell|>|<cell|=>|<cell|-2*<big|int><frac|d
+    t|<around*|(|<around*|(|1-t|)><rsup|2>-<around*|(|1-t|)>*<around*|(|1+t|)>+<around*|(|1+t|)><rsup|2>|)>*<sqrt|<frac|<around*|(|1-t|)><rsup|2>+<around*|(|1-t|)>*<around*|(|1+t|)>+<around*|(|1+t|)><rsup|2>|<around*|(|1+t|)><rsup|2>>>>>>|<row|<cell|>|<cell|=>|<cell|-2*<big|int><frac|<around*|(|1+t|)>*d
+    t|<around*|(|1+3*t<rsup|2>|)>*<sqrt|3+t<rsup|2>>>=-2*<big|int><frac|d
+    t|<around*|(|1+3*t<rsup|2>|)>*<sqrt|3+t<rsup|2>>>-2*<big|int><frac|t*d
+    t|<around*|(|1+3*t<rsup|2>|)>*<sqrt|3+t<rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|-2*<around*|(|f<rsub|1><around*|(|t|)>+f<rsub|2><around*|(|t|)>|)>>>|<row|<cell|f<rsub|1><around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|d
+    t|<around*|(|1+3*t<rsup|2>|)>*<sqrt|3+t<rsup|2>>>>>|<row|<cell|>|<cell|>|<cell|y=<frac|t|<sqrt|3+t<rsup|2>>>\<rightarrow\>y<rsup|2>=<frac|t<rsup|2>|3+t<rsup|2>>\<rightarrow\>t<rsup|2>=<frac|3*y<rsup|2>|1-y<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|d
+    y=<frac|<sqrt|3+t<rsup|2>>-t\<times\><frac|1|2>\<times\><frac|2*t|<sqrt|3+t<rsup|2>>>|3+t<rsup|2>>*d
+    t=<frac|3+t<rsup|2>-t<rsup|2>|<around*|(|3+t<rsup|2>|)>*<sqrt|3+t<rsup|2>>>*d
+    t>>|<row|<cell|>|<cell|>|<cell|d t=<frac|1|3>*<around*|(|3+t<rsup|2>|)>*<sqrt|3+t<rsup|2>>*d
+    y>>|<row|<cell|f<rsub|1><around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|<frac|1|3>*<around*|(|3+t<rsup|2>|)>*<sqrt|3+t<rsup|2>>*d
+    y|<around*|(|1+3*t<rsup|2>|)>*<sqrt|3+t<rsup|2>>>=<frac|1|3>*<big|int><frac|3+<frac|3*y<rsup|2>|1-y<rsup|2>>|1+<frac|3*y<rsup|2>|1-y<rsup|2>>>*d
+    y=<frac|1|3>*<big|int><frac|3*d y|1+2*y<rsup|2>>=<frac|1|2>*<big|int><frac|d
+    y|<around*|(|<frac|1|<sqrt|2>>|)><rsup|2>+y<rsup|2>>>>|<row|<cell|book:>|<cell|\<Iota\>.>|<cell|<big|int><frac|d
+    x|a<rsup|2>+x<rsup|2>>=<frac|1|a>*arctan
+    <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|f<rsub|1><around*|(|y|)>>|<cell|=>|<cell|<sqrt|2>*arctan<around*|(|<sqrt|2>*y|)>>>|<row|<cell|f<rsub|1><around*|(|t|)>>|<cell|=>|<cell|<sqrt|2>*arctan<around*|(|<frac|<sqrt|2>*t|<sqrt|3+t<rsup|2>>>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|f<rsub|2><around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|t*d
+    t|<around*|(|1+3*t<rsup|2>|)>*<sqrt|3+t<rsup|2>>>>>|<row|<cell|>|<cell|>|<cell|y=<frac|1|<sqrt|3+t<rsup|2>>>\<rightarrow\>y<rsup|2>=<frac|1|3+t<rsup|2>>\<rightarrow\>t<rsup|2>=<frac|1-3*y<rsup|2>|y<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|d
+    y=<frac|-<frac|1|2>\<times\>2*t|<around*|(|3+t<rsup|2>|)>*<sqrt|3+t<rsup|2>>>*d
+    t\<rightarrow\>d t=-<frac|<around*|(|3+t<rsup|2>|)>*<sqrt|3+t<rsup|2>>|t>*d
+    y>>|<row|<cell|f<rsub|2><around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|-t\<times\><frac|<around*|(|3+t<rsup|2>|)>*<sqrt|3+t<rsup|2>>|t>*d
+    y|<around*|(|1+3*t<rsup|2>|)>*<sqrt|3+t<rsup|2>>>=-<big|int><frac|3+<frac|1-3*y<rsup|2>|y<rsup|2>>|1+<frac|3-9*y<rsup|2>|y<rsup|2>>>*d
+    y=-<big|int><frac|d y|3-8*y<rsup|2>>=-<frac|1|8>*<big|int><frac|d
+    y|<frac|3|8>-y<rsup|2>>>>|<row|<cell|book:>|<cell|\<Iota\>
+    \<Iota\>.>|<cell|<big|int><frac|d x|a<rsup|2>-x<rsup|2>>=<frac|1|2*a>*l
+    n<around*|\||<frac|a+x|a-x>|\|>+C<space|1em><around*|(|a\<neq\>0|)><space|1em>>>|<row|<cell|f<rsub|2><around*|(|y|)>>|<cell|=>|<cell|<frac|1|2\<times\><frac|<sqrt|3>|2*<sqrt|2>>>*l
+    n<around*|\||<frac|<frac|<sqrt|3>|2*<sqrt|2>>+y|<frac|<sqrt|3>|2*<sqrt|2>>-y>|\|>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
