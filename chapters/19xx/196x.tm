@@ -198,6 +198,19 @@
     t|<around*|(|<around*|(|<frac|t-1|t+1>|)><rsup|2>-<around*|(|<frac|t-1|t+1>|)>+1|)>*<sqrt|<around*|(|<frac|t-1|t+1>|)><rsup|2>+<around*|(|<frac|t-1|t+1>|)>+1>>>>|<row|<cell|>|<cell|=>|<cell|2*<big|int><frac|<around*|(|t+1|)>*d
     t|<around*|(|t<rsup|2>+3|)>*<sqrt|3*t<rsup|2>+1>>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  1965:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<around*|(|x<rsup|2>+2|)>*<sqrt|2*x<rsup|2>-2*x+5>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|d
+    x|<around*|(|x<rsup|2>+2|)>*<sqrt|2>*<sqrt|x<rsup|2>-x+<frac|5|2>>>=<frac|1|<sqrt|2>>*<big|int><frac|d
+    x|<around*|(|x<rsup|2>+2|)>*<sqrt|<around*|(|x-<frac|1|2>|)><rsup|2>+<around*|(|<frac|3|2>|)><rsup|2>>>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>

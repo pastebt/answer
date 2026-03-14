@@ -222,6 +222,17 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|-2*arcsin<around*|(|<frac|1|<around*|\||x-2|\|>>|)>-<sqrt|<frac|x-3|x-1>>>|<cell|\<neq\>>|<cell|-2*arcsin<around*|(|<frac|1|x-2>|)>-<sqrt|<frac|x-3|x-1>>>>>>
   </eqnarray*>
+
+  \;
+
+  1964:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|>|<cell|-<frac|1|<sqrt|2>>*arctan
+    <frac|<sqrt|x<rsup|2>+x+1>|<around*|(|x-1|)>*<sqrt|2>>+<frac|1|<sqrt|6>>*l
+    n<around*|\||<frac|<around*|(|x+1|)>*<sqrt|2>-<sqrt|3*<around*|(|x<rsup|2>+x+1|)>>|<sqrt|x<rsup|2>-x+1>>|\|>>>|<row|<cell|>|<cell|\<neq\>>|<cell|<frac|1|2*<sqrt|6>>*l
+    n<around*|\||<frac|<sqrt|3*<around*|(|1+x+x<rsup|2>|)>>+<sqrt|2>*<around*|(|1+x|)>|<sqrt|3*<around*|(|1+x+x<rsup|2>|)>>-<sqrt|2>*<around*|(|1+x|)>>|\|>-<frac|1|<sqrt|2>>*arctan<around*|(|<frac|<sqrt|2><around*|(|1-x|)>|<sqrt|1+x+x<rsup|2>>>|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
