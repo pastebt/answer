@@ -153,7 +153,12 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
     x|<around*|(|x<rsup|2>-x+1|)>*<sqrt|x<rsup|2>+x+1>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|d
-    x|<around*|(|<around*|(|x-<frac|1|2>|)><rsup|2>+<frac|3|4>|)>*<sqrt|<around*|(|x+<frac|1|2>|)><rsup|2>+<frac|3|4>>>>>|<row|<cell|>|<cell|>|<cell|x=<frac|1-t|1+t>\<rightarrow\>t=<frac|1-x|1+x>>>|<row|<cell|>|<cell|>|<cell|d
+    x|<around*|(|<around*|(|x-<frac|1|2>|)><rsup|2>+<frac|3|4>|)>*<sqrt|<around*|(|x+<frac|1|2>|)><rsup|2>+<frac|3|4>>>>>|<row|<cell|>|<cell|>|<cell|x=<frac|\<alpha\>+\<beta\>*t|1+t>>>|<row|<cell|>|<cell|>|<cell|d
+    x=<frac|\<beta\><around*|(|1+t|)>-<around*|(|\<alpha\>+\<beta\>*t|)>|<around*|(|1+t|)><rsup|2>>*d
+    t=<frac|\<beta\>-\<alpha\>|<around*|(|1+t|)><rsup|2>>*d
+    t>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|<frac|\<beta\>-\<alpha\>|<around*|(|1+t|)><rsup|2>>*d
+    t|<around*|(|<around*|(|<frac|\<alpha\>+\<beta\>*t|1+t>|)><rsup|2>-<frac|\<alpha\>+\<beta\>*t|1+t>+1|)>*<sqrt|<around*|(|<frac|\<alpha\>+\<beta\>*t|1+t>|)><rsup|2>+<frac|\<alpha\>+\<beta\>*t|1+t>+1>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<around*|(|\<beta\>-\<alpha\>|)>*<around*|(|1+t|)>*d
+    t|<around*|(|<around*|(|\<alpha\>+\<beta\>*t|)><rsup|2>-<around*|(|\<alpha\>+\<beta\>*t|)>*<around*|(|1+t|)>+<around*|(|1+t|)><rsup|2>|)>*<sqrt|<around*|(|\<alpha\>+\<beta\>*t|)><rsup|2>+<around*|(|\<alpha\>+\<beta\>*t|)>*<around*|(|1+t|)>+<around*|(|1+t|)><rsup|2>>>>>|<row|<cell|g<rsub|1><around*|(|t|)>>|<cell|=>|<cell|<around*|(|\<alpha\>+\<beta\>*t|)><rsup|2>-<around*|(|\<alpha\>+\<beta\>*t|)>*<around*|(|1+t|)>+<around*|(|1+t|)><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|\<alpha\><rsup|2>+2*\<alpha\>*\<beta\>*t+\<beta\><rsup|2>*t<rsup|2>-\<alpha\>-\<alpha\>*t-\<beta\>*t-\<beta\>*t<rsup|2>+1+2*t+t<rsup|2>>>|<row|<cell|>|<cell|\<rightarrow\>>|<cell|2*\<alpha\>*\<beta\>-\<alpha\>-\<beta\>+2=0>>|<row|<cell|g<rsub|1><around*|(|t|)>>|<cell|=>|<cell|<around*|(|\<alpha\>+\<beta\>*t|)><rsup|2>-<around*|(|\<alpha\>+\<beta\>*t|)>*<around*|(|1+t|)>+<around*|(|1+t|)><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|\<alpha\><rsup|2>+2*\<alpha\>*\<beta\>*t+\<beta\><rsup|2>*t<rsup|2>+\<alpha\>+\<alpha\>*t+\<beta\>*t+\<beta\>*t<rsup|2>+1+2*t+t<rsup|2>>>|<row|<cell|>|<cell|\<rightarrow\>>|<cell|2*\<alpha\>*\<beta\>+\<alpha\>+\<beta\>+2=0>>|<row|<cell|>|<cell|\<rightarrow\>>|<cell|\<alpha\>*\<beta\>=-1,\<alpha\>+\<beta\>=0\<rightarrow\>\<alpha\>=1,\<beta\>=-1>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|x=<frac|1-t|1+t>\<rightarrow\>t=<frac|1-x|1+x>>>|<row|<cell|>|<cell|>|<cell|d
     x=<frac|-<around*|(|1+t|)>-<around*|(|1-t|)>|<around*|(|1+t|)><rsup|2>>*d
     t=<frac|-2|<around*|(|1+t|)><rsup|2>>*d
     t>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|<frac|-2|<around*|(|1+t|)><rsup|2>>*d
@@ -209,7 +214,12 @@
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
     x|<around*|(|x<rsup|2>+2|)>*<sqrt|2*x<rsup|2>-2*x+5>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|d
     x|<around*|(|x<rsup|2>+2|)>*<sqrt|2>*<sqrt|x<rsup|2>-x+<frac|5|2>>>=<frac|1|<sqrt|2>>*<big|int><frac|d
-    x|<around*|(|x<rsup|2>+2|)>*<sqrt|<around*|(|x-<frac|1|2>|)><rsup|2>+<around*|(|<frac|3|2>|)><rsup|2>>>>>>>
+    x|<around*|(|x<rsup|2>+2|)>*<sqrt|<around*|(|x-<frac|1|2>|)><rsup|2>+<around*|(|<frac|3|2>|)><rsup|2>>>>>|<row|<cell|>|<cell|>|<cell|x=<frac|\<alpha\>+\<beta\>*t|1+t>>>|<row|<cell|>|<cell|>|<cell|d
+    x=<frac|\<beta\><around*|(|1+t|)>-<around*|(|\<alpha\>+\<beta\>*t|)>|<around*|(|1+t|)><rsup|2>>*d
+    t=<frac|\<beta\>-\<alpha\>|<around*|(|1+t|)><rsup|2>>*d
+    t>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|<frac|\<beta\>-\<alpha\>|<around*|(|1+t|)><rsup|2>>*d
+    t|<around*|(|<around*|(|<frac|\<alpha\>+\<beta\>*t|1+t>|)><rsup|2>+2|)>*<sqrt|2*<around*|(|<frac|\<alpha\>+\<beta\>*t|1+t>|)><rsup|2>-2*<frac|\<alpha\>+\<beta\>*t|1+t>+5>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<around*|(|\<beta\>-\<alpha\>|)>*<around*|(|1+t|)>*d
+    t|<around*|(|<around*|(|\<alpha\>+\<beta\>*t|)><rsup|2>+2*<around*|(|1+t|)><rsup|2>|)>*<sqrt|2*<around*|(|\<alpha\>+\<beta\>*t|)><rsup|2>-2*<around*|(|\<alpha\>+\<beta\>*t|)>*<around*|(|1+t|)>+5*<around*|(|1+t|)><rsup|2>>>>>|<row|<cell|f<rsub|1><around*|(|t|)>>|<cell|=>|<cell|<around*|(|\<alpha\>+\<beta\>*t|)><rsup|2>+2*<around*|(|1+t|)><rsup|2>=\<alpha\><rsup|2>+2*\<alpha\>*\<beta\>*t+\<beta\><rsup|2>*t<rsup|2>+2+4*t+2*t<rsup|2>>>|<row|<cell|>|<cell|\<rightarrow\>>|<cell|2*\<alpha\>*\<beta\>+4=0\<rightarrow\>\<alpha\>*\<beta\>=-2>>|<row|<cell|f<rsub|2><around*|(|t|)>>|<cell|=>|<cell|2*<around*|(|\<alpha\>+\<beta\>*t|)><rsup|2>-2*<around*|(|\<alpha\>+\<beta\>*t|)>*<around*|(|1+t|)>+5*<around*|(|1+t|)><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|2*\<alpha\><rsup|2>+4*\<alpha\>*\<beta\>*t+2*\<beta\><rsup|2>*t<rsup|2>-2*\<alpha\>-2*\<alpha\>*t-2*\<beta\>*t-2*\<beta\>*t<rsup|2>+5+10*t+5*t<rsup|2>>>|<row|<cell|>|<cell|\<rightarrow\>>|<cell|4*\<alpha\>*\<beta\>-2*\<alpha\>-2*\<beta\>+10=0\<rightarrow\>\<alpha\>+\<beta\>=1>>|<row|<cell|>|<cell|\<rightarrow\>>|<cell|\<alpha\>=2,\<beta\>=-1>>|<row|<cell|>|<cell|>|<cell|x=<frac|2-t|1+t>\<rightarrow\>t=<frac|2-x|1+x>>>>>
   </eqnarray*>
 </body>
 
