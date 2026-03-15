@@ -265,6 +265,34 @@
     n<around*|\||<sqrt|2*<around*|(|2*x<rsup|2>-2*x+5|)>>+<around*|(|x-2|)>|\|>|)><rprime|'>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|2*<around*|(|2*x<rsup|2>-2*x+5|)>>+<around*|(|x-2|)>>\<times\><around*|(|<sqrt|2>\<times\><frac|1|2>\<times\><frac|4*x-2|<sqrt|2*x<rsup|2>-2*x+5>>+1|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|2*<around*|(|2*x<rsup|2>-2*x+5|)>>+<around*|(|x-2|)>>\<times\><around*|(|<frac|4*x-2|<sqrt|2*<around*|(|2*x<rsup|2>-2*x+5|)>>>+1|)>>>|<row|<cell|c<rsub|2><rprime|'><around*|(|x|)>>|<cell|=>|<cell|<around*|(|l
     n<around*|\||<sqrt|2*<around*|(|2*x<rsup|2>-2*x+5|)>>-<around*|(|x-2|)>|\|>|)><rprime|'>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|2*<around*|(|2*x<rsup|2>-2*x+5|)>>-<around*|(|x-2|)>>\<times\><around*|(|<frac|4*x-2|<sqrt|2*<around*|(|2*x<rsup|2>-2*x+5|)>>>-1|)>>>|<row|<cell|d<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<frac|1|<sqrt|2*<around*|(|2*x<rsup|2>-2*x+5|)>>+<around*|(|x-2|)>>+<frac|1|<sqrt|2*<around*|(|2*x<rsup|2>-2*x+5|)>>-<around*|(|x-2|)>>>>|<row|<cell|>|<cell|=>|<cell|<frac|2*<sqrt|2*<around*|(|2*x<rsup|2>-2*x+5|)>>|3*x<rsup|2>+6>>>|<row|<cell|d<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<frac|1|<sqrt|2*<around*|(|2*x<rsup|2>-2*x+5|)>>+<around*|(|x-2|)>>-<frac|1|<sqrt|2*<around*|(|2*x<rsup|2>-2*x+5|)>>-<around*|(|x-2|)>>>>|<row|<cell|>|<cell|=>|<cell|<frac|-2*<around*|(|x-2|)>|3*x<rsup|2>+6>>>|<row|<cell|c<rsub|1><rprime|'><around*|(|x|)>-c<rsub|2><rprime|'><around*|(|x|)>>|<cell|=>|<cell|<frac|4*x-2|<sqrt|2*<around*|(|2*x<rsup|2>-2*x+5|)>>>*d<rsub|2><around*|(|x|)>+d<rsub|1><around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2*<around*|(|2*x-1|)>|<sqrt|2*<around*|(|2*x<rsup|2>-2*x+5|)>>>\<times\><frac|-2*<around*|(|x-2|)>|3*x<rsup|2>+6>+<frac|2*<sqrt|2*<around*|(|2*x<rsup|2>-2*x+5|)>>|3*x<rsup|2>+6>>>|<row|<cell|>|<cell|=>|<cell|<frac|-4<around*|(|x-2|)>*<around*|(|2*x-1|)>+<around*|(|4*<around*|(|2*x<rsup|2>-2*x+5|)>|)>|3*<sqrt|2><around*|(|x<rsup|2>+2|)>*<sqrt|2*x<rsup|2>-2*x+5>>=<frac|4\<times\>3*<around*|(|x+1|)>|3*<sqrt|2><around*|(|x<rsup|2>+2|)>*<sqrt|2*x<rsup|2>-2*x+5>>>>|<row|<cell|>|<cell|=>|<cell|<frac|2*<sqrt|2><around*|(|x+1|)>|<around*|(|x<rsup|2>+2|)>*<sqrt|2*x<rsup|2>-2*x+5>>>>|<row|<cell|c<rsub|3><rprime|'><around*|(|x|)>>|<cell|=>|<cell|<around*|(|arctan<around*|(|<frac|<sqrt|2*x<rsup|2>-2*x+5>|1+x>|)>|)><rprime|'>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|1+<frac|2*x<rsup|2>-2*x+5|<around*|(|1+x|)><rsup|2>>>\<times\><frac|<frac|1|2>\<times\><frac|4*x-2|<sqrt|2*x<rsup|2>-2*x+5>>\<times\><around*|(|1+x|)>-<sqrt|2*x<rsup|2>-2*x+5>|<around*|(|1+x|)><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|1+x|)><rsup|2>|3*x<rsup|2>+6>\<times\><frac|<around*|(|2*x-1|)>*<around*|(|1+x|)>-<around*|(|2*x<rsup|2>-2*x+5|)>|<around*|(|1+x|)><rsup|2>*<sqrt|2*x<rsup|2>-2*x+5>>=<frac|3<around*|(|x-2|)>|3*<around*|(|2+x<rsup|2>|)>*<sqrt|2*x<rsup|2>-2*x+5>>>>|<row|<cell|>|<cell|=>|<cell|<frac|x-2|<around*|(|2+x<rsup|2>|)>*<sqrt|2*x<rsup|2>-2*x+5>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<rprime|'><around*|(|x|)>>|<cell|=>|<cell|<frac|1|6*<sqrt|2>>*<around*|(|c<rsub|1><rprime|'><around*|(|x|)>-c<rsub|2><rprime|'><around*|(|x|)>|)>-<frac|1|3>*c<rsub|3><rprime|'><around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|3>*<around*|(|<frac|1|2*<sqrt|2>>\<times\><frac|2*<sqrt|2><around*|(|x+1|)>|<around*|(|x<rsup|2>+2|)>*<sqrt|2*x<rsup|2>-2*x+5>>-<frac|x-2|<around*|(|2+x<rsup|2>|)>*<sqrt|2*x<rsup|2>-2*x+5>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|3>\<times\><frac|x+1-<around*|(|x-2|)>|<around*|(|x<rsup|2>+2|)>*<sqrt|2*x<rsup|2>-2*x+5>>=<frac|1|<around*|(|x<rsup|2>+2|)>*<sqrt|2*x<rsup|2>-2*x+5>>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  1966:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|x+<sqrt|x<rsup|2>+x+1>>>>|<row|<cell|>|<cell|>|<cell|y=x+<sqrt|x<rsup|2>+x+1>>>|<row|<cell|>|<cell|>|<cell|<around*|(|y-x|)><rsup|2>=x<rsup|2>+x+1>>|<row|<cell|>|<cell|>|<cell|y<rsup|2>-2*x*y+x<rsup|2>=x<rsup|2>+x+1>>|<row|<cell|>|<cell|>|<cell|y<rsup|2>-2*x*y=x+1>>|<row|<cell|>|<cell|>|<cell|x=<frac|y<rsup|2>-1|2*y+1>>>|<row|<cell|>|<cell|>|<cell|d
+    x=<frac|2*y*<around*|(|2*y+1|)>-2*<around*|(|y<rsup|2>-1|)>|<around*|(|2*y+1|)><rsup|2>>*d
+    y=<frac|2*y<rsup|2>+2*y+2|<around*|(|2*y+1|)><rsup|2>>*d
+    y>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|<frac|2*y<rsup|2>+2*y+2|<around*|(|2*y+1|)><rsup|2>>*d
+    y|y>=<frac|1|2>*<big|int><around*|(|<frac|4*y<rsup|2>+4*y+1|y*<around*|(|4*y<rsup|2>+4*y+1|)>>+<frac|3|y*<around*|(|4*y<rsup|2>+4*y+1|)>>|)>*d
+    y>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<big|int><frac|d
+    y|y>+<frac|3|2>*<big|int><frac|1|2*y+1>*<around*|(|<frac|1|y>-<frac|2|2*y+1>|)>*d
+    y>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*l
+    n<around*|\||y|\|>+<frac|3|2>*<big|int><frac|d
+    y|y*<around*|(|2*y+1|)>>-<frac|3|2>*<big|int><frac|d
+    <around*|(|2*y+1|)>|<around*|(|2*y+1|)><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*l
+    n<around*|\||y|\|>+<frac|3|2*<around*|(|2*y+1|)>>+<frac|3|2>*<big|int><around*|(|<frac|1|y>-<frac|2|2*y+1>|)>*d
+    y>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*l
+    n<around*|\||y|\|>+<frac|3|2*<around*|(|2*y+1|)>>+<frac|3|2>*l
+    n<around*|\||y|\|>-<frac|3|2>*<big|int><frac|d<around*|(|2*y+1|)>|2*y+1>>>|<row|<cell|>|<cell|=>|<cell|<frac|3|2*<around*|(|2*y+1|)>>+l
+    n<around*|(|y<rsup|2>|)>-<frac|3|2>*l
+    n<around*|\||2*y+1|\|>>>|<row|<cell|>|<cell|=>|<cell|<frac|3|2*<around*|(|2*y+1|)>>+<frac|1|2>*l
+    n<around*|(|<frac|y<rsup|4>|<around*|\||<around*|(|2*y+1|)><rsup|3>|\|>>|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
