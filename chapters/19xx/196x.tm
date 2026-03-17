@@ -293,6 +293,21 @@
     n<around*|\||2*y+1|\|>>>|<row|<cell|>|<cell|=>|<cell|<frac|3|2*<around*|(|2*y+1|)>>+<frac|1|2>*l
     n<around*|(|<frac|y<rsup|4>|<around*|\||<around*|(|2*y+1|)><rsup|3>|\|>>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  1967:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|1+<sqrt|1-2*x-x<rsup|2>>>>>|<row|<cell|>|<cell|>|<cell|x*y=1+<sqrt|1-2*x-x<rsup|2>>\<rightarrow\><around*|(|x*y-1|)><rsup|2>=1-2*x-x<rsup|2>>>|<row|<cell|>|<cell|>|<cell|x<rsup|2>*y<rsup|2>-2*x*y+1=1-2*x-x<rsup|2>>>|<row|<cell|>|<cell|>|<cell|x*y<rsup|2>-2*y=-2-x>>|<row|<cell|>|<cell|>|<cell|x=<frac|2*y-2|y<rsup|2>+1>>>|<row|<cell|>|<cell|>|<cell|d
+    x=<frac|2*<around*|(|y<rsup|2>+1|)>-2*y*<around*|(|2*y-2|)>|<around*|(|y<rsup|2>+1|)><rsup|2>>*d
+    y=<frac|2*y<rsup|2>+2-4*y<rsup|2>+4*y|<around*|(|y<rsup|2>+1|)><rsup|2>>*d
+    y=<frac|2+4*y-2*y<rsup|2>|<around*|(|y<rsup|2>+1|)><rsup|2>>*d
+    y>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|<frac|2+4*y-2*y<rsup|2>|<around*|(|y<rsup|2>+1|)><rsup|2>>*d
+    y|y\<times\><frac|2*y-2|y<rsup|2>+1>>=<big|int><frac|1+2*y-y<rsup|2>|y*<around*|(|y-1|)>*<around*|(|y<rsup|2>+1|)>>*d
+    y>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
