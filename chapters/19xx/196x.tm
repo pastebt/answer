@@ -357,6 +357,24 @@
     n<around*|\||x-1+<sqrt|x<rsup|2>-2*x+2>|\|>>>|<row|<cell|d<rsub|1><rprime|'><around*|(|x|)>>|<cell|=>|<cell|<around*|(|<around*|(|2*x<rsup|2>-x+1|)>*<sqrt|x<rsup|2>-2*x+2>|)><rprime|'>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|4*x-1|)>*<sqrt|x<rsup|2>-2*x+2>+<frac|<around*|(|2*x<rsup|2>-x+1|)>*<around*|(|2*x-2|)>|2<around*|(|<sqrt|x<rsup|2>-2*x+2>|)>>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|4*x-1|)>*<around*|(|x<rsup|2>-2*x+2|)>+<around*|(|2*x<rsup|2>-x+1|)>*<around*|(|x-1|)>|<sqrt|x<rsup|2>-2*x+2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|6*x*<around*|(|x<rsup|2>-2*x+2|)>-3|<sqrt|x<rsup|2>-2*x+2>>>>|<row|<cell|d<rsub|2><rprime|'><around*|(|x|)>>|<cell|=>|<cell|<around*|(|l
     n<around*|\||x-1+<sqrt|x<rsup|2>-2*x+2>|\|>|)><rprime|'>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|x-1+<sqrt|x<rsup|2>-2*x+2>>\<times\><around*|(|1+<frac|2*x-2|2*<sqrt|x<rsup|2>-2*x+2>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|x-1+<sqrt|x<rsup|2>-2*x+2>>\<times\><frac|<sqrt|x<rsup|2>-2*x+2>+x-1|<sqrt|x<rsup|2>-2*x+2>>=<frac|1|<sqrt|x<rsup|2>-2*x+2>>>>|<row|<cell|F<rprime|'><around*|(|x|)>>|<cell|=>|<cell|<frac|1|6>*d<rsub|1><rprime|'><around*|(|x|)>+<frac|1|2>*d<rsub|2><rprime|'><around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|6>\<times\><frac|6*x*<around*|(|x<rsup|2>-2*x+2|)>-3|<sqrt|x<rsup|2>-2*x+2>>+<frac|3|6*<sqrt|x<rsup|2>-2*x+2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|6*x*<around*|(|x<rsup|2>-2*x+2|)>|6*<sqrt|x<rsup|2>-2*x+2>>=x*<sqrt|x<rsup|2>-2*x+2>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  1969:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|x-<sqrt|x<rsup|2>+3*x+2>|x+<sqrt|x<rsup|2>+3*x+2>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|x-<sqrt|<around*|(|x+1|)>*<around*|(|x+2|)>>|x+<sqrt|<around*|(|x+1|)>*<around*|(|x+2|)>>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|z<around*|(|x+1|)>=<sqrt|<around*|(|x+1|)>*<around*|(|x+2|)>>>>|<row|<cell|>|<cell|>|<cell|z<rsup|2>=<frac|x+2|x+1>=1+<frac|1|x+1>>>|<row|<cell|>|<cell|>|<cell|x+1=<frac|1|z<rsup|2>-1>>>|<row|<cell|>|<cell|>|<cell|x=<frac|1|z<rsup|2>-1>-1=<frac|2-z<rsup|2>|z<rsup|2>-1>>>|<row|<cell|>|<cell|>|<cell|d
+    x=<frac|-2*z|<around*|(|z<rsup|2>-1|)><rsup|2>>*d
+    z>>|<row|<cell|F<around*|(|z|)>>|<cell|=>|<cell|<big|int><frac|<frac|2-z<rsup|2>|z<rsup|2>-1>-<frac|z|z<rsup|2>-1>|<frac|2-z<rsup|2>|z<rsup|2>-1>+<frac|z|z<rsup|2>-1>>\<times\><frac|-2*z|<around*|(|z<rsup|2>-1|)><rsup|2>>*d
+    z>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|-z<rsup|2>-z+2|-z<rsup|2>+z+2>\<times\><frac|-2*z|<around*|(|z<rsup|2>-1|)><rsup|2>>*d
+    z=<big|int><frac|z<rsup|2>+z-2|z<rsup|2>-z-2>\<times\><frac|-2*z|<around*|(|z<rsup|2>-1|)><rsup|2>>*d
+    z>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<around*|(|z-1|)>*<around*|(|z+2|)>|<around*|(|z+1|)>*<around*|(|z-2|)>>\<times\><frac|-2*z|<around*|(|z+1|)><rsup|2>*<around*|(|z-1|)><rsup|2>>*d
+    z>>>>
+  </eqnarray*>
 </body>
 
 <\initial>

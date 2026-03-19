@@ -233,6 +233,12 @@
     n<around*|\||<frac|<around*|(|x+1|)>*<sqrt|2>-<sqrt|3*<around*|(|x<rsup|2>+x+1|)>>|<sqrt|x<rsup|2>-x+1>>|\|>>>|<row|<cell|>|<cell|\<neq\>>|<cell|<frac|1|2*<sqrt|6>>*l
     n<around*|\||<frac|<sqrt|3*<around*|(|1+x+x<rsup|2>|)>>+<sqrt|2>*<around*|(|1+x|)>|<sqrt|3*<around*|(|1+x+x<rsup|2>|)>>-<sqrt|2>*<around*|(|1+x|)>>|\|>-<frac|1|<sqrt|2>>*arctan<around*|(|<frac|<sqrt|2><around*|(|1-x|)>|<sqrt|1+x+x<rsup|2>>>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  1968:
 </body>
 
 <\initial>
