@@ -51,6 +51,26 @@
     n<around*|\||<frac|<sqrt|5>+<around*|(|1+2*y|)>|<sqrt|5>-<around*|(|1+2*y|)>>|\|>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|5*<sqrt|5>>*l
     n<around*|\||<frac|<sqrt|5>+<around*|(|1+2*y|)>|<sqrt|5>-<around*|(|1+2*y|)>>|\|>+<frac|6-8*y|5*<around*|(|1-y-y<rsup|2>|)>>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  1971:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<sqrt|x<rsup|2>+1>-<sqrt|x<rsup|2>-1>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<sqrt|x<rsup|2>+1>+<sqrt|x<rsup|2>-1>|<around*|(|<sqrt|x<rsup|2>+1>-<sqrt|x<rsup|2>-1>|)>*<around*|(|<sqrt|x<rsup|2>+1>+<sqrt|x<rsup|2>-1>|)>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<sqrt|x<rsup|2>+1>+<sqrt|x<rsup|2>-1>|x<rsup|2>+1-x<rsup|2>+1>*d
+    x=<frac|1|2>*<big|int><sqrt|x<rsup|2>+1>*d
+    x+<frac|1|2>*<big|int><sqrt|x<rsup|2>-1>*d x>>|<row|<cell|book:>|<cell|VI
+    \<Iota\> \<Iota\>.>|<cell|<big|int><sqrt|x<rsup|2>\<pm\>a<rsup|2>>*d
+    x=<frac|x|2>*<sqrt|x<rsup|2>\<pm\>a<rsup|2>>\<pm\><frac|a<rsup|2>|2>*l
+    n<around*|\||x+<sqrt|x<rsup|2>\<pm\>a<rsup|2>>|\|>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|x|4>*<sqrt|x<rsup|2>+1>+<frac|1|4>*l
+    n<around*|\||x+<sqrt|x<rsup|2>+1>|\|>+<frac|x|4>*<sqrt|x<rsup|2>-1>-<frac|1|4>*l
+    n<around*|\||x+<sqrt|x<rsup|2>-1>|\|>>>|<row|<cell|>|<cell|=>|<cell|<frac|x|4>*<around*|(|<sqrt|x<rsup|2>+1>+<sqrt|x<rsup|2>-1>|)>+<frac|1|4>*l
+    n<around*|\||<frac|x+<sqrt|x<rsup|2>+1>|x+<sqrt|x<rsup|2>-1>>|\|>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
