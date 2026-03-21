@@ -71,6 +71,25 @@
     n<around*|\||x+<sqrt|x<rsup|2>-1>|\|>>>|<row|<cell|>|<cell|=>|<cell|<frac|x|4>*<around*|(|<sqrt|x<rsup|2>+1>+<sqrt|x<rsup|2>-1>|)>+<frac|1|4>*l
     n<around*|\||<frac|x+<sqrt|x<rsup|2>+1>|x+<sqrt|x<rsup|2>-1>>|\|>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  1972:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|x*d
+    x|<around*|(|1-x<rsup|3>|)>*<sqrt|1-x<rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|>>|<row|<cell|>|<cell|>|<cell|x
+    y-1=<sqrt|1-x<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|x<rsup|2>*y<rsup|2>-2*x*y+1=1-x<rsup|2>>>|<row|<cell|>|<cell|>|<cell|x*y<rsup|2>-2*y+x=0>>|<row|<cell|>|<cell|>|<cell|x=<frac|2*y|y<rsup|2>+1>>>|<row|<cell|>|<cell|>|<cell|d
+    x=<frac|2*<around*|(|y<rsup|2>+1|)>-2*y\<times\>2*y|<around*|(|y<rsup|2>+1|)><rsup|2>>*d
+    y=<frac|2-2*y<rsup|2>|<around*|(|y<rsup|2>+1|)><rsup|2>>*d
+    y>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|<frac|2*y|y<rsup|2>+1>\<times\><frac|2-2*y<rsup|2>|<around*|(|y<rsup|2>+1|)><rsup|2>>*d
+    y|<around*|(|1-<around*|(|<frac|2*y|y<rsup|2>+1>|)><rsup|3>|)>*<sqrt|1-<around*|(|<frac|2*y|y<rsup|2>+1>|)><rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|4*<big|int><frac|y*<around*|(|1-y<rsup|2>|)>*<around*|(|1+y<rsup|2>|)>*d
+    y|<around*|(|<around*|(|1+y<rsup|2>|)><rsup|3>-8*y<rsup|3>|)>*<sqrt|y<rsup|4>+2*y<rsup|2>+1-4*y<rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|4*<big|int><frac|y*<around*|(|1-y<rsup|4>|)>*d
+    y|<around*|(|1+y<rsup|2>-2*y|)>*<around*|(|<around*|(|1+y<rsup|2>|)><rsup|2>+2*y*<around*|(|1+y<rsup|2>|)>+4*y<rsup|2>|)>*<around*|(|1-y<rsup|2>|)>>>>|<row|<cell|>|<cell|=>|<cell|4*<big|int><frac|y*<around*|(|1+y<rsup|2>|)>*d
+    y|<around*|(|1-y|)><rsup|2>*<around*|(|<around*|(|1+y<rsup|2>|)><rsup|2>+2*y*<around*|(|1+y<rsup|2>|)>+4*y<rsup|2>|)>>>>|<row|<cell|>|<cell|>|<cell|>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
