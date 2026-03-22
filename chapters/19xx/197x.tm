@@ -124,7 +124,7 @@
     t=<frac|d y|2*<sqrt|y>>\<rightarrow\>d y=2*<sqrt|y>*d
     t>>|<row|<cell|f<rsub|2><around*|(|t|)>>|<cell|=>|<cell|-4*<big|int><frac|d
     t|<around*|(|3*t<rsup|4>+1|)>>=<frac|-4|3>*<big|int><frac|d
-    t|t<rsup|4>+<frac|1|3>>>>|<row|<cell|>|<cell|>|<cell|a=<sqrt|<frac|1|3>|4>>>|<row|<cell|f<rsub|3><around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|d
+    t|t<rsup|4>+<frac|1|3>>>>|<row|<cell|>|<cell|>|<cell|a=<sqrt|<frac|1|3>|4>=3<rsup|-<frac|1|4>>>>|<row|<cell|f<rsub|3><around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|d
     t|t<rsup|4>+a<rsup|4>>=<big|int><frac|d
     t|t<rsup|4>+2*a<rsup|2>*t<rsup|2>+\<alpha\><rsup|4>-2*a<rsup|2>*t<rsup|2>>=<big|int><frac|d
     t|<around*|(|t<rsup|2>+a<rsup|2>|)><rsup|2>-<around*|(|<sqrt|2>*a*t|)><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|d
@@ -142,7 +142,16 @@
     t>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<frac|t<rsup|2>+a<rsup|2>|<around*|(|t<rsup|2>-a<rsup|2>|)><rsup|2>>|1+<around*|(|<frac|<sqrt|2>*a*t|t<rsup|2>-a<rsup|2>>|)><rsup|2>>*d
     t>>|<row|<cell|>|<cell|>|<cell|z=<frac|<sqrt|2>*a*t|t<rsup|2>-a<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|d
     z=<sqrt|2>*<frac|a*<around*|(|t<rsup|2>-a<rsup|2>|)>-a*t*<around*|(|2*t|)>|<around*|(|t<rsup|2>-a<rsup|2>|)><rsup|2>>*d
-    t=<sqrt|2>*<frac|-a*t<rsup|2>-a<rsup|3>|<around*|(|t<rsup|2>-a<rsup|2>|)><rsup|2>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>>>
+    t=<sqrt|2>*<frac|-a*t<rsup|2>-a<rsup|3>|<around*|(|t<rsup|2>-a<rsup|2>|)><rsup|2>>*d
+    t=-<sqrt|2>*a\<times\><frac|t<rsup|2>+a<rsup|2>|<around*|(|t<rsup|2>-a<rsup|2>|)><rsup|2>>*d
+    t>>|<row|<cell|f<rsub|4><around*|(|z|)>>|<cell|=>|<cell|-<sqrt|2>*a*<big|int><frac|d
+    z|1+z<rsup|2>>=-<sqrt|2>*a*arctan<around*|(|z|)>>>|<row|<cell|f<rsub|4><around*|(|t|)>>|<cell|=>|<cell|-<sqrt|2>*a*arctan<around*|(|<frac|<sqrt|2>*a*t|t<rsup|2>-a<rsup|2>>|)>>>|<row|<cell|f<rsub|3><around*|(|t|)>>|<cell|=>|<cell|<frac|1|<around*|(|<sqrt|2>*a|)><rsup|3>>*<around*|(|l
+    n<around*|\||<frac|t<rsup|2>+<sqrt|2>*a*t+a<rsup|2>|t<rsup|2>-<sqrt|2>*a*t+a<rsup|2>>|\|>|)>+<frac|1|a<rsup|2>>*f<rsub|4><around*|(|t|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<around*|(|<sqrt|2>*a|)><rsup|3>>*<around*|(|l
+    n<around*|\||<frac|t<rsup|2>+<sqrt|2>*a*t+a<rsup|2>|t<rsup|2>-<sqrt|2>*a*t+a<rsup|2>>|\|>|)>-<frac|<sqrt|2>|a>*arctan<around*|(|<frac|<sqrt|2>*a*t|t<rsup|2>-a<rsup|2>>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|f<rsub|2><around*|(|t|)>>|<cell|=>|<cell|<frac|-4|3>*<big|int><frac|d
+    t|t<rsup|4>+<frac|1|3>>>>|<row|<cell|>|<cell|=>|<cell|-<frac|4|3>\<times\><frac|1|<around*|(|<sqrt|2>*3<rsup|-<frac|1|4>>|)><rsup|3>>\<times\>l
+    n<around*|\||<frac|t<rsup|2>+3<rsup|-<frac|1|4>>*<sqrt|2>*t+3<rsup|-<frac|1|2>>|t<rsup|2>-3<rsup|-<frac|1|4>>*<sqrt|2>*t+3<rsup|-<frac|1|2>>>|\|>-3<rsup|<frac|1|4>>*<sqrt|2>*arctan<around*|(|<frac|3<rsup|-<frac|1|4>>*<sqrt|2>*t|t<rsup|2>-3<rsup|-<frac|1|2>>>|)>>>|<row|<cell|>|<cell|=>|<cell|-<frac|2<rsup|2>|3>\<times\><frac|3<rsup|<frac|3|4>>|2<rsup|<frac|3|2>>>\<times\>l
+    n<around*|\||<frac|3<rsup|<frac|1|2>>*t<rsup|2>+12<rsup|<frac|1|4>>*t+1|3<rsup|<frac|1|2>>*t<rsup|2>-12<rsup|<frac|1|4>>*t+1>|\|>-12<rsup|<frac|1|4>>*arctan<around*|(|<frac|12<rsup|<frac|1|4>>*t|<sqrt|3>*t<rsup|2>-1>|)>>>|<row|<cell|>|<cell|=>|<cell|-<around*|(|<frac|4|3>|)><rsup|<frac|1|4>>*l
+    n<around*|\||<frac|3<rsup|<frac|1|2>>*t<rsup|2>+12<rsup|<frac|1|4>>*t+1|3<rsup|<frac|1|2>>*t<rsup|2>-12<rsup|<frac|1|4>>*t+1>|\|>-12<rsup|<frac|1|4>>*arctan<around*|(|<frac|12<rsup|<frac|1|4>>*t|<sqrt|3>*t<rsup|2>-1>|)>>>>>
   </eqnarray*>
 </body>
 
