@@ -172,7 +172,36 @@
     x|<sqrt|2>+<sqrt|1-x>+<sqrt|1+x>>>>|<row|<cell|>|<cell|>|<cell|1-x=<around*|(|<frac|2*<sqrt|2>*t|t<rsup|2>+1>|)><rsup|2>\<rightarrow\>x=1-<around*|(|<frac|2*<sqrt|2>*t|t<rsup|2>+1>|)><rsup|2>>>|<row|<cell|>|<cell|>|<cell|1+x=2-<around*|(|<frac|2*<sqrt|2>*t|t<rsup|2>+1>|)><rsup|2>=<frac|2*t<rsup|4>+4*t<rsup|2>+2-8*t<rsup|2>|<around*|(|t<rsup|2>+1|)><rsup|2>>=<frac|2*<around*|(|t<rsup|2>-1|)><rsup|2>|<around*|(|t<rsup|2>+1|)><rsup|2>>>>|<row|<cell|>|<cell|>|<cell|d
     x=-8*d <around*|(|<around*|(|<frac|t|t<rsup|2>+1>|)><rsup|2>|)>=-8\<times\>2\<times\><frac|t|t<rsup|2>+1>\<times\><frac|<around*|(|t<rsup|2>+1|)>-t*<around*|(|2*t|)>|<around*|(|t<rsup|2>+1|)><rsup|2>>*d
     t>>|<row|<cell|>|<cell|>|<cell|d x=16\<times\><frac|t*<around*|(|t<rsup|2>-1|)>|<around*|(|t<rsup|2>+1|)><rsup|3>>*d
-    t>>>>
+    t>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|16\<times\><frac|t*<around*|(|t<rsup|2>-1|)>|<around*|(|t<rsup|2>+1|)><rsup|3>>*d
+    t|<sqrt|2>+<frac|2*<sqrt|2>*t|t<rsup|2>+1>+<frac|<sqrt|2>*<around*|(|t<rsup|2>-1|)>|t<rsup|2>+1>>=<frac|16|<sqrt|2>>*<big|int><frac|<frac|t*<around*|(|t<rsup|2>-1|)>|<around*|(|t<rsup|2>+1|)><rsup|2>>*d
+    t|t<rsup|2>+1+2*t+t<rsup|2>-1>=<frac|8|<sqrt|2>>*<big|int><frac|t<rsup|2>-1|<around*|(|t+1|)>*<around*|(|t<rsup|2>+1|)><rsup|2>>*d
+    t>>|<row|<cell|>|<cell|=>|<cell|<frac|8|<sqrt|2>>*<big|int><frac|t-1|<around*|(|t<rsup|2>+1|)><rsup|2>>*d
+    t=<frac|4|<sqrt|2>>*<big|int><frac|2*t*dt|<around*|(|t<rsup|2>+1|)><rsup|2>>-<frac|8|<sqrt|2>>*<big|int><frac|d
+    t|<around*|(|t<rsup|2>+1|)><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|-<frac|4|<sqrt|2>*<around*|(|t<rsup|2>+1|)>>-<frac|8|<sqrt|2>>*f<rsub|1><around*|(|t|)>>>|<row|<cell|f<rsub|1><around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|d
+    t|<around*|(|t<rsup|2>+1|)><rsup|2>>>>|<row|<cell|>|<cell|>|<cell|t=tan
+    \<theta\>\<rightarrow\>d t=d<around*|(|tan \<theta\>|)>=<frac|d
+    \<theta\>|cos<rsup|2> \<theta\>>>>|<row|<cell|f<rsub|1><around*|(|\<theta\>|)>>|<cell|=>|<cell|<big|int><frac|<frac|d
+    \<theta\>|cos<rsup|2> \<theta\>>|<around*|(|<around*|(|<frac|sin
+    \<theta\>|cos \<theta\>>|)><rsup|2>+1|)><rsup|2>>=<big|int><frac|<frac|d
+    \<theta\>|cos<rsup|2> \<theta\>>|<frac|1|cos<rsup|4>
+    \<theta\>>>=<big|int>cos<rsup|2> \<theta\>*d
+    \<theta\>>>|<row|<cell|book:>|<cell|F<rsub|c<rsup|2>><around*|(|x|)>>|<cell|<big|int>cos<rsup|2>*x
+    d x=<frac|cos x*sin x+x|2>+C>>|<row|<cell|f<rsub|1><around*|(|\<theta\>|)>>|<cell|=>|<cell|<frac|1|2>*<around*|(|cos
+    \<theta\>*sin \<theta\>+\<theta\>|)>>>|<row|<cell|f<rsub|1><around*|(|t|)>>|<cell|=>|<cell|<frac|1|2><around*|(|cos<around*|(|arctan
+    t|)>*sin<around*|(|arctan t|)>+arctan
+    t|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<around*|(|<frac|1|<sqrt|1+t<rsup|2>>>\<times\><frac|t|<sqrt|1+t<rsup|2>>>+arctan
+    t|)>=<frac|1|2>*<around*|(|<frac|t|1+t<rsup|2>>+arctan
+    t|)>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|-<frac|4|<sqrt|2>*<around*|(|t<rsup|2>+1|)>>-<frac|8|<sqrt|2>>*f<rsub|1><around*|(|t|)>=-2*<sqrt|2>*<around*|(|<frac|1|t<rsup|2>+1>+<frac|t|1+t<rsup|2>>+arctan
+    t|)>>>|<row|<cell|>|<cell|=>|<cell|-2*<sqrt|2>*<around*|(|<frac|1+t|1+t<rsup|2>>+arctan
+    t|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<rprime|'><around*|(|t|)>>|<cell|=>|<cell|-2*<sqrt|2>*<around*|(|<frac|<around*|(|1+t<rsup|2>|)>-2*t*<around*|(|1+t|)>|<around*|(|1+t<rsup|2>|)><rsup|2>>+<frac|1|1+t<rsup|2>>|)>=-2*<sqrt|2>*<around*|(|<frac|2+2*t<rsup|2>-2*t-2*t<rsup|2>|<around*|(|1+t<rsup|2>|)><rsup|2>>|)>>>|<row|<cell|>|<cell|=>|<cell|4*<sqrt|2>\<times\><frac|t-1|<around*|(|1+t<rsup|2>|)><rsup|2>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<sqrt|2>+<sqrt|1-x>+<sqrt|1+x>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|d
+    x|<sqrt|1-x>+<sqrt|1+x>+<sqrt|2>>=<big|int><frac|<sqrt|1-x>+<sqrt|1+x>-<sqrt|2>|<around*|(|<sqrt|1-x>+<sqrt|1+x>+<sqrt|2>|)>*<around*|(|<sqrt|1-x>+<sqrt|1+x>-<sqrt|2>|)>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<sqrt|1-x>+<sqrt|1+x>-<sqrt|2>|<around*|(|<around*|(|<sqrt|1-x>+<sqrt|1+x>|)><rsup|2>-2|)>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<sqrt|1-x>+<sqrt|1+x>-<sqrt|2>|<around*|(|1-x+2*<sqrt|1-x<rsup|2>>+1+x|)>-2>*d
+    x=<big|int><frac|<sqrt|1-x>+<sqrt|1+x>-<sqrt|2>|2*<sqrt|1-x<rsup|2>>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<big|int><around*|(|<frac|1|<sqrt|1+x>>+<frac|1|<sqrt|1-x>>-<frac|<sqrt|2>|<sqrt|1-x<rsup|2>>>|)>*d
+    x>>|<row|<cell|book:>|<cell|IV.>|<cell|<big|int><frac|d
+    x|<sqrt|a<rsup|2>-x<rsup|2>>>=arcsin*<frac|x|a>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<sqrt|1+x>-<sqrt|1-x>-<frac|1|<sqrt|2>>*arcsin<around*|(|x|)>>>>>
   </eqnarray*>
 </body>
 
