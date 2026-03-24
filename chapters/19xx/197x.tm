@@ -160,6 +160,20 @@
     n<around*|\||t<rsup|2>+<sqrt|2>*a*t+a<rsup|2>|\|>-l
     n<around*|\||t<rsup|2>-<sqrt|2>*a*t+a<rsup|2>|\|>|)><rprime|'>>>|<row|<cell|>|<cell|=>|<cell|<frac|2*t+<sqrt|2>*a|t<rsup|2>+<sqrt|2>*a*t+a<rsup|2>>-<frac|2*t-<sqrt|2>*a|t<rsup|2>-<sqrt|2>*a*t+a<rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|2*t<rsup|3>-<sqrt|2>*a*t<rsup|2>+<sqrt|2>*a<rsup|3>-<around*|(|2*t<rsup|3>+<sqrt|2>*a*t<rsup|2>-<sqrt|2>*a<rsup|3>|)>|<around*|(|t<rsup|2>+a<rsup|2>|)>-2*a<rsup|2>*t<rsup|2>>=<frac|-2*<sqrt|2>*a*t<rsup|2>+2*<sqrt|2>*a<rsup|3>|t<rsup|4>+a<rsup|4>>>>|<row|<cell|d<rprime|'><rsub|2><around*|(|t|)>>|<cell|=>|<cell|<around*|(|arctan<around*|(|<frac|<sqrt|2>*a*t|t<rsup|2>-a<rsup|2>>|)>|)><rprime|'>=<frac|<sqrt|2>*a\<times\><frac|t<rsup|2>-a<rsup|2>-t*<around*|(|2*t|)>|<around*|(|t<rsup|2>-a<rsup|2>|)><rsup|2>>|1+<around*|(|<frac|<sqrt|2>*a*t|t<rsup|2>-a<rsup|2>>|)><rsup|2>>=<sqrt|2>*a\<times\><frac|-t<rsup|2>-a<rsup|2>|<around*|(|t<rsup|2>-a<rsup|2>|)><rsup|2>+2*a<rsup|2>*t<rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|-<sqrt|2>*a*t<rsup|2>-<sqrt|2>*a<rsup|3>|t<rsup|4>+a<rsup|4>>>>|<row|<cell|d<rprime|'><rsub|3><around*|(|t|)>>|<cell|=>|<cell|d<rprime|'><rsub|1><around*|(|t|)>-2*d<rprime|'><rsub|2><around*|(|t|)>=<frac|-2*<sqrt|2>*a*t<rsup|2>+2*<sqrt|2>*a<rsup|3>+2*<sqrt|2>*a*t<rsup|2>+2*<sqrt|2>*a<rsup|3>|t<rsup|4>+a<rsup|4>>=<frac|4*<sqrt|2>*a<rsup|3>|t<rsup|4>+a<rsup|4>>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  1973:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<sqrt|2>+<sqrt|1-x>+<sqrt|1+x>>>>|<row|<cell|>|<cell|>|<cell|1-x=<around*|(|<frac|2*<sqrt|2>*t|t<rsup|2>+1>|)><rsup|2>\<rightarrow\>x=1-<around*|(|<frac|2*<sqrt|2>*t|t<rsup|2>+1>|)><rsup|2>>>|<row|<cell|>|<cell|>|<cell|1+x=2-<around*|(|<frac|2*<sqrt|2>*t|t<rsup|2>+1>|)><rsup|2>=<frac|2*t<rsup|4>+4*t<rsup|2>+2-8*t<rsup|2>|<around*|(|t<rsup|2>+1|)><rsup|2>>=<frac|2*<around*|(|t<rsup|2>-1|)><rsup|2>|<around*|(|t<rsup|2>+1|)><rsup|2>>>>|<row|<cell|>|<cell|>|<cell|d
+    x=-8*d <around*|(|<around*|(|<frac|t|t<rsup|2>+1>|)><rsup|2>|)>=-8\<times\>2\<times\><frac|t|t<rsup|2>+1>\<times\><frac|<around*|(|t<rsup|2>+1|)>-t*<around*|(|2*t|)>|<around*|(|t<rsup|2>+1|)><rsup|2>>*d
+    t>>|<row|<cell|>|<cell|>|<cell|d x=16\<times\><frac|t*<around*|(|t<rsup|2>-1|)>|<around*|(|t<rsup|2>+1|)><rsup|3>>*d
+    t>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
