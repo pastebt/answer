@@ -280,6 +280,17 @@
     x>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|x<rsup|<frac|3|2>>+x<rsup|<frac|1|2>>-<around*|(|x+1|)><rsup|<frac|3|2>>+<around*|(|x+1|)><rsup|<frac|1|2>>|)>*d
     x>>|<row|<cell|>|<cell|=>|<cell|<frac|2|5>*x<rsup|<frac|5|2>>+<frac|2|3>*x<rsup|<frac|3|2>>-<frac|2|5>*<around*|(|x+1|)><rsup|<frac|5|2>>+<frac|2|3>*<around*|(|x+1|)><rsup|<frac|3|2>>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  1976:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|<around*|(|x<rsup|2>-1|)>*d
+    x|<around*|(|x<rsup|2>+1|)>*<sqrt|x<rsup|4>+1>>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
