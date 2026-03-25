@@ -274,7 +274,11 @@
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|<sqrt|x*<around*|(|x+1|)>>|<sqrt|x>+<sqrt|x+1>>*d
-    x>>>>
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<sqrt|x<around*|(|x+1|)>>*<around*|(|<sqrt|x+1>-<sqrt|x>|)>|x+1-x>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|<sqrt|x>*<around*|(|x+1|)>-x*<sqrt|x+1>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|x*<sqrt|x>+<sqrt|x>-<around*|(|<around*|(|x+1|)>*<sqrt|x+1>-<sqrt|x+1>|)>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|x<rsup|<frac|3|2>>+x<rsup|<frac|1|2>>-<around*|(|x+1|)><rsup|<frac|3|2>>+<around*|(|x+1|)><rsup|<frac|1|2>>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|2|5>*x<rsup|<frac|5|2>>+<frac|2|3>*x<rsup|<frac|3|2>>-<frac|2|5>*<around*|(|x+1|)><rsup|<frac|5|2>>+<frac|2|3>*<around*|(|x+1|)><rsup|<frac|3|2>>>>>>
   </eqnarray*>
 </body>
 
