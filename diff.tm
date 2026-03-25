@@ -239,6 +239,16 @@
   \;
 
   1968:
+
+  \;
+
+  1973:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<sqrt|1+x+x<rsup|2>>+<frac|1|2>*l n
+    <frac|1+2*x+2*<sqrt|1+x+x<rsup|2>>|<around*|(|2+x+x*<sqrt|1+x+x<rsup|2>>|)><rsup|2>>>|<cell|\<neq\>>|<cell|<sqrt|1+x+x<rsup|2>>+<frac|1|2>*l
+    n<around*|(|<frac|<around*|\||1+2*x+2*<sqrt|1+x+x<rsup|2>>|\|>|<around*|(|2+x+x*<sqrt|1+x+x<rsup|2>>|)><rsup|2>>|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
