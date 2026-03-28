@@ -108,6 +108,16 @@
     n<around*|(|<sqrt|x>+<sqrt|1+x>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<frac|x<rsup|2>+x|3>-<frac|2*x+1|8>|)>*<sqrt|x<rsup|2>+x>+<frac|1|8>*l
     n<around*|(|<sqrt|x>+<sqrt|1+x>|)><space|1em><around*|(|x\<gtr\>0|)>>>>>
   </eqnarray*>
+
+  \;
+
+  1982:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|<sqrt|x>|<around*|(|1+<sqrt|x|3>|)><rsup|2>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|<big|int>x<rsup|m>*<around*|(|a+b*x<rsup|n>|)><rsup|p>*d
+    x>>|<row|<cell|>|<cell|>|<cell|m=<frac|1|2>,n=<frac|1|3>,p=-<frac|1|2>>>|<row|<cell|>|<cell|>|<cell|<frac|m+1|n>+p=<frac|3|2>\<times\>3-<frac|1|2>=4>>|<row|<cell|>|<cell|>|<cell|a*x<rsup|-n>+b=z<rsup|N>>>|<row|<cell|>|<cell|>|<cell|z<rsup|2>=x<rsup|-<frac|1|3>>+1>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
