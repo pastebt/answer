@@ -116,7 +116,17 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|<sqrt|x>|<around*|(|1+<sqrt|x|3>|)><rsup|2>>*d
     x>>|<row|<cell|>|<cell|>|<cell|<big|int>x<rsup|m>*<around*|(|a+b*x<rsup|n>|)><rsup|p>*d
-    x>>|<row|<cell|>|<cell|>|<cell|m=<frac|1|2>,n=<frac|1|3>,p=-<frac|1|2>>>|<row|<cell|>|<cell|>|<cell|<frac|m+1|n>+p=<frac|3|2>\<times\>3-<frac|1|2>=4>>|<row|<cell|>|<cell|>|<cell|a*x<rsup|-n>+b=z<rsup|N>>>|<row|<cell|>|<cell|>|<cell|z<rsup|2>=x<rsup|-<frac|1|3>>+1>>>>
+    x>>|<row|<cell|>|<cell|>|<cell|m=<frac|1|2>,n=<frac|1|3>,p=-<frac|1|2>,a=1,b=1>>|<row|<cell|>|<cell|>|<cell|<frac|m+1|n>+p=<frac|3|2>\<times\>3-<frac|1|2>=4>>|<row|<cell|>|<cell|>|<cell|a*x<rsup|-n>+b=z<rsup|N>>>|<row|<cell|>|<cell|>|<cell|z<rsup|2>=x<rsup|-<frac|1|3>>+1\<rightarrow\>x<rsup|<frac|1|3>>=<frac|1|z<rsup|2>-1>\<rightarrow\>x=<frac|1|<around*|(|z<rsup|2>-1|)><rsup|3>>\<rightarrow\>d
+    x=-3\<times\><frac|2*z|<around*|(|z<rsup|2>-1|)><rsup|4>>*d
+    z>>|<row|<cell|>|<cell|>|<cell|2*z*d z=-<frac|1|3>\<times\>x<rsup|-<frac|4|3>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|d x=-6*x<rsup|<frac|4|3>>*z*d
+    z=<frac|-6*z|<around*|(|z<rsup|2>-1|)><rsup|4>>*d
+    z>>|<row|<cell|F<around*|(|z|)>>|<cell|=>|<cell|<big|int><frac|<frac|1|<around*|(|z<rsup|2>-1|)><rsup|<frac|3|2>>>|<around*|(|1+<frac|1|z<rsup|2>-1>|)><rsup|2>>\<times\><frac|-6*z|<around*|(|z<rsup|2>-1|)><rsup|4>>*d
+    z=<big|int><frac|<frac|1|<around*|(|z<rsup|2>-1|)>*<sqrt|z<rsup|2>-1>>|<frac|z<rsup|4>|<around*|(|z<rsup|2>-1|)><rsup|2>>>\<times\><frac|-6*z|<around*|(|z<rsup|2>-1|)><rsup|4>>*d
+    z>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|-6*d
+    z|z<rsup|3>*<around*|(|z<rsup|2>-1|)><rsup|3>*<sqrt|z<rsup|2>-1>>=-6*<big|int><around*|(|<frac|z|z<rsup|2>-1>-<frac|1|z>|)><rsup|3>\<times\><frac|d
+    x|<sqrt|z<rsup|2>-1>>>>|<row|<cell|>|<cell|=>|<cell|-6*<big|int><around*|(|<frac|z<rsup|3>|<around*|(|z<rsup|2>-1|)><rsup|3>>-<frac|3*z<rsup|2>|<around*|(|z<rsup|2>-1|)><rsup|2>*z>+<frac|3*z|<around*|(|z<rsup|2>-1|)>*z<rsup|2>>-<frac|1|z<rsup|3>>|)>\<times\><frac|d
+    x|<sqrt|z<rsup|2>-1>>>>>>
   </eqnarray*>
 </body>
 
