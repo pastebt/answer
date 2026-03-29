@@ -125,8 +125,32 @@
     z=<big|int><frac|<frac|1|<around*|(|z<rsup|2>-1|)>*<sqrt|z<rsup|2>-1>>|<frac|z<rsup|4>|<around*|(|z<rsup|2>-1|)><rsup|2>>>\<times\><frac|-6*z|<around*|(|z<rsup|2>-1|)><rsup|4>>*d
     z>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|-6*d
     z|z<rsup|3>*<around*|(|z<rsup|2>-1|)><rsup|3>*<sqrt|z<rsup|2>-1>>=-6*<big|int><around*|(|<frac|z|z<rsup|2>-1>-<frac|1|z>|)><rsup|3>\<times\><frac|d
-    x|<sqrt|z<rsup|2>-1>>>>|<row|<cell|>|<cell|=>|<cell|-6*<big|int><around*|(|<frac|z<rsup|3>|<around*|(|z<rsup|2>-1|)><rsup|3>>-<frac|3*z<rsup|2>|<around*|(|z<rsup|2>-1|)><rsup|2>*z>+<frac|3*z|<around*|(|z<rsup|2>-1|)>*z<rsup|2>>-<frac|1|z<rsup|3>>|)>\<times\><frac|d
-    x|<sqrt|z<rsup|2>-1>>>>>>
+    z|<sqrt|z<rsup|2>-1>>>>|<row|<cell|>|<cell|=>|<cell|-6*<big|int><around*|(|<frac|z<rsup|3>|<around*|(|z<rsup|2>-1|)><rsup|3>>-<frac|3*z<rsup|2>|<around*|(|z<rsup|2>-1|)><rsup|2>*z>+<frac|3*z|<around*|(|z<rsup|2>-1|)>*z<rsup|2>>-<frac|1|z<rsup|3>>|)>\<times\><frac|d
+    z|<sqrt|z<rsup|2>-1>>>>|<row|<cell|f<rsub|1><around*|(|z|)>>|<cell|=>|<cell|<big|int><frac|z<rsup|3>|<around*|(|z<rsup|2>-1|)><rsup|3>>\<times\><frac|d
+    z|<sqrt|z<rsup|2>-1>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<big|int><frac|z<rsup|2>*d*<around*|(|z<rsup|2>|)>|<around*|(|z<rsup|2>-1|)><rsup|3>*<sqrt|z<rsup|2>-1>>=<frac|1|2>*<big|int><frac|z<rsup|2>-1+1|<around*|(|z<rsup|2>-1|)><rsup|3>*<sqrt|z<rsup|2>-1>>*d<around*|(|z<rsup|2>-1|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<big|int><around*|(|<around*|(|z<rsup|2>-1|)><rsup|-<frac|5|2>>+<around*|(|z<rsup|2>-1|)><rsup|-<frac|7|2>>|)>*d<around*|(|z<rsup|2>-1|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2><around*|(|-<frac|2|3>*<around*|(|z<rsup|2>-1|)><rsup|-<frac|3|2>>-<frac|2|5>*<around*|(|z<rsup|2>-1|)><rsup|-<frac|5|2>>|)>=-<frac|1|3>*<around*|(|z<rsup|2>-1|)><rsup|-<frac|3|2>>-<frac|1|5>*<around*|(|z<rsup|2>-1|)><rsup|-<frac|5|2>>>>|<row|<cell|f<rsub|2><around*|(|z|)>>|<cell|=>|<cell|<big|int><frac|z*d
+    z|<around*|(|z<rsup|2>-1|)><rsup|2>*<sqrt|z<rsup|2>-1>>=<frac|1|2>*<big|int><around*|(|z<rsup|2>-1|)><rsup|-<frac|5|2>>*d<around*|(|z<rsup|2>-1|)>=-<frac|1|3>*<around*|(|z<rsup|2>-1|)><rsup|-<frac|3|2>>>>|<row|<cell|f<rsub|3><around*|(|z|)>>|<cell|=>|<cell|<big|int><frac|d
+    z|<around*|(|z<rsup|2>-1|)>*z*<sqrt|z<rsup|2>-1>>>>|<row|<cell|>|<cell|>|<cell|t=<frac|1|z>\<rightarrow\>z=<frac|1|t>\<rightarrow\>d
+    z=-<frac|d t|t<rsup|2>>>>|<row|<cell|f<rsub|3><around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|-<frac|d
+    t|t<rsup|2>>|<around*|(|<frac|1|t<rsup|2>>-1|)>\<times\><frac|1|t>\<times\><sqrt|<frac|1|t<rsup|2>>-1>>=<big|int><frac|-t<rsup|2>*d
+    t|<around*|(|1-t<rsup|2>|)>*<sqrt|1-t<rsup|2>>>=<big|int><frac|<around*|(|1-t<rsup|2>|)>-1|<around*|(|1-t<rsup|2>|)>*<sqrt|1-t<rsup|2>>>*d
+    t>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|d
+    t|<sqrt|1-t<rsup|2>>>-<big|int><frac|d
+    t|<around*|(|1-t<rsup|2>|)>*<sqrt|1-t<rsup|2>>>=arcsin<around*|(|t|)>-f<rsub|4><around*|(|t|)>>>|<row|<cell|f<rsub|4><around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|d
+    t|<around*|(|1-t<rsup|2>|)>*<sqrt|1-t<rsup|2>>>>>|<row|<cell|>|<cell|>|<cell|y=<frac|1|<sqrt|1-t<rsup|2>>>\<rightarrow\>y<rsup|2>=<frac|1|1-t<rsup|2>>\<rightarrow\>1-t<rsup|2>=<frac|1|y<rsup|2>>\<rightarrow\>t<rsup|2>=1-<frac|1|y<rsup|2>>\<rightarrow\>t=<frac|<sqrt|y<rsup|2>-1>|y>>>|<row|<cell|>|<cell|>|<cell|d
+    t=<frac|y\<times\><frac|1|2>\<times\><frac|2*y|<sqrt|y<rsup|2>-1>>-<sqrt|y<rsup|2>-1>|y<rsup|2>>*d
+    y=<frac|y<rsup|2>-<around*|(|y<rsup|2>-1|)>|y<rsup|2>*<sqrt|y<rsup|2>-1>>*d
+    y=<frac|d y|y<rsup|2>*<sqrt|y<rsup|2>-1>>>>|<row|<cell|f<rsub|4><around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|<frac|d
+    y|y<rsup|2>*<sqrt|y<rsup|2>-1>>|<frac|1|y<rsup|2>>\<times\><frac|1|y>>=<big|int><frac|y*d
+    y|<sqrt|y<rsup|2>-1>>=<frac|1|2>*<big|int><frac|d<around*|(|y<rsup|2>-1|)>|<sqrt|y<rsup|2>-1>>=<sqrt|y<rsup|2>-1>>>|<row|<cell|f<rsub|4><around*|(|t|)>>|<cell|=>|<cell|<sqrt|<frac|1|1-t<rsup|2>>-1>=<frac|t|<sqrt|1-t<rsup|2>>>>>|<row|<cell|f<rsub|3><around*|(|t|)>>|<cell|=>|<cell|arcsin<around*|(|t|)>-f<rsub|4><around*|(|t|)>=arcsin<around*|(|t|)>-<frac|t|<sqrt|1-t<rsup|2>>>>>|<row|<cell|f<rsub|3><around*|(|z|)>>|<cell|=>|<cell|arcsin<around*|(|<frac|1|2>|)>-<frac|<frac|1|z>|<sqrt|1-<frac|1|z<rsup|2>>>>=arcsin<around*|(|<frac|1|z>|)>-<frac|1|<sqrt|z<rsup|2>-1>>>>|<row|<cell|f<rsub|5><around*|(|z|)>>|<cell|=>|<cell|<big|int><frac|d
+    z|z<rsup|3>*<sqrt|z<rsup|2>-1>>>>|<row|<cell|>|<cell|>|<cell|t=<frac|1|z>\<rightarrow\>z=<frac|1|t>\<rightarrow\>d
+    z=<frac|-d t|t<rsup|2>>>>|<row|<cell|f<rsub|5><around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|<frac|-d
+    t|t<rsup|2>>|<frac|1|t<rsup|3>>*<sqrt|<frac|1|t<rsup|2>>-1>>=<big|int><frac|-t<rsup|2>*d
+    t|<sqrt|1-t<rsup|2>>>=<big|int><frac|<around*|(|1-t<rsup|2>|)>-1|<sqrt|1-t<rsup|2>>>*d
+    t>>|<row|<cell|>|<cell|=>|<cell|<big|int><sqrt|1-t<rsup|2>>*d
+    t-<big|int><frac|d t|<sqrt|1-t<rsup|2>>>>>|<row|<cell|book:>|<cell|VI
+    \<Iota\>.>|<cell|<big|int><sqrt|a<rsup|2>-x<rsup|2>>*d
+    x=<frac|x|2>*<sqrt|a<rsup|2>-x<rsup|2>>+<frac|a<rsup|2>|2>*arcsin
+    <frac|x|a>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|f<rsub|5><around*|(|t|)>>|<cell|=>|<cell|<frac|t|2>*<sqrt|1-t<rsup|2>>+<frac|1|2>*arcsin<around*|(|t|)>-arcsin<around*|(|t|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|t|2>*<sqrt|1-t<rsup|2>>-<frac|1|2>*arcsin<around*|(|t|)>>>|<row|<cell|f<rsub|5><around*|(|z|)>>|<cell|=>|<cell|<frac|1|2*z>*<sqrt|1-<frac|1|z<rsup|2>>>-<frac|1|2>*arcsin<around*|(|<frac|1|z>|)>=<frac|1|2>*<around*|(|<frac|<sqrt|1-z<rsup|2>>|z<rsup|2>>-arcsin<around*|(|<frac|1|z>|)>|)>>>>>
   </eqnarray*>
 </body>
 
