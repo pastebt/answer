@@ -182,6 +182,21 @@
     z>>|<row|<cell|>|<cell|=>|<cell|3*<big|int><around*|(|z<rsup|4>-2*z<rsup|2>+1|)>*d
     z>>|<row|<cell|>|<cell|=>|<cell|<frac|3|5>*z<rsup|5>-2*z<rsup|3>+3*z>>>>
   </eqnarray*>
+
+  \;
+
+  1984:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|x<rsup|5>|<sqrt|1-x<rsup|2>>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int>x<rsup|5>*<around*|(|1-x<rsup|2>|)><rsup|-<frac|1|2>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|m=5,n=2,p=-<frac|1|2>>>|<row|<cell|>|<cell|>|<cell|<frac|m+1|n>=3>>|<row|<cell|>|<cell|>|<cell|z<rsup|2>=1-x<rsup|2>>>|<row|<cell|>|<cell|>|<cell|2*z*d
+    z=-2*x*d x>>|<row|<cell|>|<cell|>|<cell|d x=<frac|-z*d
+    z|x>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|x<rsup|5>\<times\><frac|-z*d
+    z|x>|z>=-<big|int>x<rsup|4>*d z=-<big|int><around*|(|1-z<rsup|2>|)><rsup|2>*d
+    z>>|<row|<cell|>|<cell|=>|<cell|-<big|int><around*|(|1-2*z<rsup|2>+z<rsup|4>|)>*d
+    z>>|<row|<cell|>|<cell|=>|<cell|-z+<frac|2|3>*z<rsup|3>-<frac|1|5>*z<rsup|5>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
