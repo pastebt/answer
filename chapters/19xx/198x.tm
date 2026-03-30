@@ -274,7 +274,25 @@
     z|z<rsup|4>-2*z<rsup|2>+1+3*z<rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<frac|z<rsup|2>+1|3*z<rsup|2>>*d
     z|<around*|(|<frac|z<rsup|2>-1|<sqrt|3>*z>|)><rsup|2>+1>=<big|int><frac|<frac|1|<sqrt|3>>*d<around*|(|<frac|z<rsup|2>-1|<sqrt|3>*z>|)>|<around*|(|<frac|z<rsup|2>-1|<sqrt|3>*z>|)><rsup|2>+1>=<frac|1|<sqrt|3>>*arctan<around*|(|<frac|z<rsup|2>-1|<sqrt|3>*z>|)>>>|<row|<cell|F<around*|(|z|)>>|<cell|=>|<cell|<frac|1|6>*l
     n<around*|\||<frac|z-1|z+1>|\|>+<frac|1|12>*l
-    n<around*|(|<frac|z<rsup|2>-z+1|z<rsup|2>+z+1>|)>+<frac|1|2*<sqrt|3>>*arctan<around*|(|<frac|z<rsup|2>-1|<sqrt|3>*z>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>>>
+    n<around*|(|<frac|z<rsup|2>-z+1|z<rsup|2>+z+1>|)>+<frac|1|2*<sqrt|3>>*arctan<around*|(|<frac|z<rsup|2>-1|<sqrt|3>*z>|)>>>>>
+  </eqnarray*>
+
+  \;
+
+  \;
+
+  1988:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|x<rsup|3>*<sqrt|1+<frac|1|x>|5>>>>|<row|<cell|>|<cell|=>|<cell|<big|int>x<rsup|-3>*<around*|(|1+x<rsup|-1>|)><rsup|-<frac|1|5>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|m=-3,n=-1,p=-<frac|1|5>>>|<row|<cell|>|<cell|>|<cell|<frac|m+1|n>=2>>|<row|<cell|>|<cell|>|<cell|1+x<rsup|-1>=z<rsup|5>\<rightarrow\>x<rsup|-1>=z<rsup|5>-1>>|<row|<cell|>|<cell|>|<cell|-x<rsup|-2>*d
+    x=5*z<rsup|4>*d z>>|<row|<cell|>|<cell|>|<cell|d
+    x=-5*x<rsup|2>*z<rsup|4>*d z>>|<row|<cell|F<around*|(|z|)>>|<cell|=>|<cell|<big|int>x<rsup|-3>\<times\>z<rsup|-1>\<times\><around*|(|-5*x<rsup|2>*z<rsup|4>*d
+    z|)>=-5*<big|int>x<rsup|-1>*z<rsup|3>*d
+    z>>|<row|<cell|>|<cell|=>|<cell|-5*<big|int><around*|(|z<rsup|5>-1|)>*z<rsup|3>*d
+    z=-5*<big|int><around*|(|z<rsup|8>-z<rsup|3>|)>*d
+    z>>|<row|<cell|>|<cell|=>|<cell|<frac|5|4>*z<rsup|4>-<frac|5|9>*z<rsup|9>>>>>
   </eqnarray*>
 </body>
 
