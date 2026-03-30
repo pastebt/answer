@@ -164,6 +164,24 @@
     \<theta\>|1+tan<rsup|2> \<theta\>>=<frac|x<rsup|2>|1+x<rsup|2>>\<rightarrow\>tan
     \<theta\>=x\<rightarrow\>\<theta\>=arctan<around*|(|x|)>>>|<row|<cell|>|<cell|>|<cell|arcsin<around*|(|<frac|x|<sqrt|1+x<rsup|2>>>|)>=arctan<around*|(|x|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|6|5>*x<rsup|<frac|5|6>>-4*x<rsup|<frac|1|2>>+18*x<rsup|<frac|1|6>>+<frac|3*x<rsup|<frac|1|6>>|1+x<rsup|<frac|1|3>>>-21*arctan<around*|(|x<rsup|<frac|1|6>>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  1983:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|x*d
+    x|<sqrt|1+<sqrt|x<rsup|2>|3>>>>>|<row|<cell|>|<cell|=>|<cell|<big|int>x*<around*|(|1+x<rsup|<frac|2|3>>|)><rsup|-<frac|1|2>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|m=1,n=<frac|2|3>,p=-<frac|1|2>>>|<row|<cell|>|<cell|>|<cell|<frac|m+1|n>=<frac|2|<frac|2|3>>=3>>|<row|<cell|>|<cell|>|<cell|1+x<rsup|<frac|2|3>>=z<rsup|2>>>|<row|<cell|>|<cell|>|<cell|2*z*d
+    z=<frac|2|3>*x<rsup|-<frac|1|3>>*d x>>|<row|<cell|>|<cell|>|<cell|d
+    x=3*x<rsup|<frac|1|3>>*z*d z>>|<row|<cell|F<around*|(|z|)>>|<cell|=>|<cell|<big|int><frac|3*x<rsup|<frac|4|3>>*z*d
+    z|z>=3*<big|int><around*|(|x<rsup|<frac|2|3>>|)><rsup|2>*d
+    z=3*<big|int><around*|(|z<rsup|2>-1|)><rsup|2>*d
+    z>>|<row|<cell|>|<cell|=>|<cell|3*<big|int><around*|(|z<rsup|4>-2*z<rsup|2>+1|)>*d
+    z>>|<row|<cell|>|<cell|=>|<cell|<frac|3|5>*z<rsup|5>-2*z<rsup|3>+3*z>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
