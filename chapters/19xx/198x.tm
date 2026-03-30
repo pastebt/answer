@@ -243,6 +243,39 @@
     z>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|2>*arctan<around*|(|z|)>+<frac|1|4>*l
     n<around*|\||<frac|z+1|z-1>|\|>>>>>
   </eqnarray*>
+
+  \;
+
+  1987:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|x*<sqrt|1+x<rsup|6>|6>>>>|<row|<cell|>|<cell|=>|<cell|<big|int>x<rsup|-1>*<around*|(|1+x<rsup|6>|)><rsup|-<frac|1|6>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|m=-1,n=6,p=-<frac|1|6>>>|<row|<cell|>|<cell|>|<cell|1+x<rsup|6>=z<rsup|6>>>|<row|<cell|>|<cell|>|<cell|6*x<rsup|5>*d
+    x=6*z<rsup|5>*d z>>|<row|<cell|>|<cell|>|<cell|d
+    x=<frac|z<rsup|5>|x<rsup|5>>*d z>>|<row|<cell|F<around*|(|z|)>>|<cell|=>|<cell|<big|int><frac|<frac|z<rsup|5>|x<rsup|5>>*d
+    z|x*z>=<big|int><frac|z<rsup|4>|x<rsup|6>>*d
+    z=<big|int><frac|z<rsup|4>|z<rsup|6>-1>*d
+    z=<frac|1|2>*<big|int><around*|(|<frac|z|z<rsup|3>+1>+<frac|z|z<rsup|3>-1>|)>*d
+    z>>|<row|<cell|>|<cell|=>|<cell|<frac|1|6>*<big|int><around*|(|<frac|z|z+1>-<frac|z<rsup|2>-2*z|z<rsup|2>-z+1>+<frac|z|z-1>-<frac|z<rsup|2>+2*z|z<rsup|2>+z+1>|)>*d
+    z>>|<row|<cell|>|<cell|=>|<cell|<frac|1|6>*<big|int><around*|(|1-<frac|1|z+1>-<around*|(|1+<frac|-z-1|z<rsup|2>-z+1>|)>+1+<frac|1|z-1>-<around*|(|1+<frac|z-1|z<rsup|2>+z+1>|)>|)>*d
+    z>>|<row|<cell|>|<cell|=>|<cell|<frac|1|6>*<big|int><around*|(|<frac|1|z-1>-<frac|1|z+1>+<frac|z+1|z<rsup|2>-z+1>-<frac|z-1|z<rsup|2>+z+1>|)>*d
+    z>>|<row|<cell|>|<cell|=>|<cell|<frac|1|6>*l
+    n<around*|\||<frac|z-1|z+1>|\|>+<frac|1|12>*<big|int><around*|(|<frac|2*z-1+3|z<rsup|2>-z+1>-<frac|2*z+1-3|z<rsup|2>+z+1>|)>*d
+    z>>|<row|<cell|>|<cell|=>|<cell|<frac|1|6>*l
+    n<around*|\||<frac|z-1|z+1>|\|>+<frac|1|12>*l
+    n<around*|(|<frac|z<rsup|2>-z+1|z<rsup|2>+z+1>|)>+<frac|1|4>*<big|int><around*|(|<frac|1|z<rsup|2>-z+1>+<frac|1|z<rsup|2>+z+1>|)>*d
+    z>>|<row|<cell|>|<cell|=>|<cell|<frac|1|6>*l
+    n<around*|\||<frac|z-1|z+1>|\|>+<frac|1|12>*l
+    n<around*|(|<frac|z<rsup|2>-z+1|z<rsup|2>+z+1>|)>+<frac|1|2>*<big|int><frac|<around*|(|z<rsup|2>+1|)>*d
+    z|<around*|(|z<rsup|2>+1|)><rsup|2>-z<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|f<rsub|1><around*|(|z|)>>|<cell|=>|<cell|<big|int><frac|<around*|(|z<rsup|2>+1|)>*d
+    z|<around*|(|z<rsup|2>+1|)><rsup|2>-z<rsup|2>>=<big|int><frac|<around*|(|z<rsup|2>+1|)>*d
+    z|z<rsup|4>+z<rsup|2>+1>=<big|int><frac|<around*|(|z<rsup|2>+1|)>*d
+    z|z<rsup|4>-2*z<rsup|2>+1+3*z<rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<frac|z<rsup|2>+1|3*z<rsup|2>>*d
+    z|<around*|(|<frac|z<rsup|2>-1|<sqrt|3>*z>|)><rsup|2>+1>=<big|int><frac|<frac|1|<sqrt|3>>*d<around*|(|<frac|z<rsup|2>-1|<sqrt|3>*z>|)>|<around*|(|<frac|z<rsup|2>-1|<sqrt|3>*z>|)><rsup|2>+1>=<frac|1|<sqrt|3>>*arctan<around*|(|<frac|z<rsup|2>-1|<sqrt|3>*z>|)>>>|<row|<cell|F<around*|(|z|)>>|<cell|=>|<cell|<frac|1|6>*l
+    n<around*|\||<frac|z-1|z+1>|\|>+<frac|1|12>*l
+    n<around*|(|<frac|z<rsup|2>-z+1|z<rsup|2>+z+1>|)>+<frac|1|2*<sqrt|3>>*arctan<around*|(|<frac|z<rsup|2>-1|<sqrt|3>*z>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
