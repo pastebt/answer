@@ -197,6 +197,31 @@
     z>>|<row|<cell|>|<cell|=>|<cell|-<big|int><around*|(|1-2*z<rsup|2>+z<rsup|4>|)>*d
     z>>|<row|<cell|>|<cell|=>|<cell|-z+<frac|2|3>*z<rsup|3>-<frac|1|5>*z<rsup|5>>>>>
   </eqnarray*>
+
+  \;
+
+  1985:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<sqrt|1+x<rsup|3>|3>>>>|<row|<cell|>|<cell|=>|<cell|<big|int>x<rsup|0>*<around*|(|1+x<rsup|3>|)><rsup|-<frac|1|3>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|m=0,n=3,p=-<frac|1|3>>>|<row|<cell|>|<cell|>|<cell|1+x<rsup|-3>=z<rsup|3>\<rightarrow\>x<rsup|3>=<frac|1|z<rsup|3>-1>>>|<row|<cell|>|<cell|>|<cell|-3*x<rsup|-4>*d
+    x=3*z<rsup|2>*d z>>|<row|<cell|>|<cell|>|<cell|d x=-x<rsup|4>*z<rsup|2>*d
+    z>>|<row|<cell|F<around*|(|z|)>>|<cell|=>|<cell|<big|int><frac|-x<rsup|4>*z<rsup|2>*d
+    z|x*<sqrt|<frac|1|x<rsup|3>>+1|3>>=<big|int><frac|-x<rsup|3>*z<rsup|2>*d
+    z|z>=<big|int><frac|-z*d z|z<rsup|3>-1>=-<frac|1|3>*<big|int><around*|(|<frac|1|z-1>-<frac|z-1|z<rsup|2>+z+1>|)>*d
+    z>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|3>*l
+    n<around*|(|z-1|)>+<frac|1|6>*<big|int><frac|2*z+1-3|z<rsup|2>+z+1>*d
+    z>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|3>*l
+    n<around*|(|1-z|)>+<frac|1|6>*l n<around*|(|z<rsup|2>+z+1|)>-<frac|1|2>*<big|int><frac|d
+    z|z<rsup|2>+z+1>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|6>*l
+    n<around*|(|<frac|z<rsup|2>+z+1|z<rsup|2>-2*z+1>|)>-<frac|1|2>*<big|int><frac|d
+    z|<around*|(|z+<frac|1|2>|)><rsup|2>+<around*|(|<frac|<sqrt|3>|2>|)><rsup|2>>>>|<row|<cell|book:>|<cell|\<Iota\>.>|<cell|<big|int><frac|d
+    x|a<rsup|2>+x<rsup|2>>=<frac|1|a>*arctan
+    <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|F<around*|(|z|)>>|<cell|=>|<cell|<frac|1|6>*l
+    n<around*|(|<frac|z<rsup|2>+z+1|z<rsup|2>-2*z+1>|)>-<frac|1|2>\<times\><frac|2|<sqrt|3>>*arctan<around*|(|<frac|z+<frac|1|2>|<frac|<sqrt|3>|2>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|6>*l
+    n<around*|(|<frac|z<rsup|2>+z+1|z<rsup|2>-2*z+1>|)>-<frac|1|<sqrt|3>>*arctan<around*|(|<frac|2*z+1|<sqrt|3>>|)>>>|<row|<cell|>|<cell|>|<cell|>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
