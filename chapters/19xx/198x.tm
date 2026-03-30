@@ -220,7 +220,28 @@
     x|a<rsup|2>+x<rsup|2>>=<frac|1|a>*arctan
     <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|F<around*|(|z|)>>|<cell|=>|<cell|<frac|1|6>*l
     n<around*|(|<frac|z<rsup|2>+z+1|z<rsup|2>-2*z+1>|)>-<frac|1|2>\<times\><frac|2|<sqrt|3>>*arctan<around*|(|<frac|z+<frac|1|2>|<frac|<sqrt|3>|2>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|6>*l
-    n<around*|(|<frac|z<rsup|2>+z+1|z<rsup|2>-2*z+1>|)>-<frac|1|<sqrt|3>>*arctan<around*|(|<frac|2*z+1|<sqrt|3>>|)>>>|<row|<cell|>|<cell|>|<cell|>>>>
+    n<around*|(|<frac|z<rsup|2>+z+1|z<rsup|2>-2*z+1>|)>-<frac|1|<sqrt|3>>*arctan<around*|(|<frac|2*z+1|<sqrt|3>>|)>>>>>
+  </eqnarray*>
+
+  \;
+
+  \;
+
+  1986:
+
+  <abbr|<abbr|<abbr|<abbr|<abbr|<abbr|<abbr|<abbr|<abbr|<abbr|<abbr|<abbr|<abbr|<abbr|<abbr|<abbr|<abbr|<abbr|<abbr|<abbr|<abbr|<abbr|<abbr|>>>>>>>>>>>>>>>>>>>>>>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<sqrt|1+x<rsup|4>|4>>>>|<row|<cell|>|<cell|=>|<cell|<big|int>x<rsup|0>*<around*|(|1+x<rsup|4>|)><rsup|-<frac|1|4>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|m=0,n=4,p=-<frac|1|4>>>|<row|<cell|>|<cell|>|<cell|x<rsup|-4>+1=z<rsup|4>\<rightarrow\>x<rsup|4>=<frac|1|z<rsup|4>-1>>>|<row|<cell|>|<cell|>|<cell|-4*x<rsup|-5>*d
+    x=4*z<rsup|3>*d z>>|<row|<cell|>|<cell|>|<cell|d x=-x<rsup|5>*z<rsup|3>*d
+    z>>|<row|<cell|F<around*|(|z|)>>|<cell|=>|<cell|<big|int><frac|-x<rsup|5>*z<rsup|3>*d
+    z|x*<sqrt|<frac|1|x<rsup|4>>+1|4>>=-<big|int><frac|x<rsup|4>*z<rsup|3>*d
+    z|z>=-<big|int><frac|z<rsup|2>*d z|z<rsup|4>-1>=-<frac|1|2>*<big|int><around*|(|<frac|1|z<rsup|2>+1>+<frac|1|z<rsup|2>-1>|)>*d
+    z>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|2>*arctan<around*|(|z|)>-<frac|1|4>*<big|int><around*|(|<frac|1|z-1>-<frac|1|z+1>|)>*d
+    z>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|2>*arctan<around*|(|z|)>+<frac|1|4>*l
+    n<around*|\||<frac|z+1|z-1>|\|>>>>>
   </eqnarray*>
 </body>
 
