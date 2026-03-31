@@ -294,6 +294,28 @@
     z=-5*<big|int><around*|(|z<rsup|8>-z<rsup|3>|)>*d
     z>>|<row|<cell|>|<cell|=>|<cell|<frac|5|4>*z<rsup|4>-<frac|5|9>*z<rsup|9>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  1989:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><sqrt|3*x-x<rsup|3>|3>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int>x\<times\><sqrt|<frac|3|x<rsup|2>>-1|3>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int>x*<around*|(|-1+3*x<rsup|-2>|)><rsup|<frac|1|3>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|m=1,n=-2,p=<frac|1|3>>>|<row|<cell|>|<cell|>|<cell|<frac|m+1|n>=-1>>|<row|<cell|>|<cell|>|<cell|-1+3*x<rsup|-2>=z<rsup|3>\<rightarrow\><frac|3|x<rsup|2>>=z<rsup|3>+1\<rightarrow\>x<rsup|2>=<frac|3|z<rsup|3>+1>>>|<row|<cell|>|<cell|>|<cell|-6*x<rsup|-3>*d
+    x=3*z<rsup|2>*d z>>|<row|<cell|>|<cell|>|<cell|d
+    x=-<frac|1|2>*x<rsup|3>*z<rsup|2>*d z>>|<row|<cell|F<around*|(|z|)>>|<cell|=>|<cell|<big|int>x\<times\>z\<times\><around*|(|-<frac|1|2>*x<rsup|3>*z<rsup|2>*d
+    z|)>=-<frac|1|2>*<big|int>x<rsup|4>*z<rsup|3>*d
+    z>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|2>*<big|int><frac|9*z<rsup|3>*d
+    z|<around*|(|z<rsup|3>+1|)><rsup|2>>=<frac|9|4>*<big|int><frac|1-2*z<rsup|3>-1|<around*|(|z<rsup|3>+1|)><rsup|2>>*d
+    z=<frac|9*z|4*<around*|(|z<rsup|3>+1|)>>-<frac|9|4>*<big|int><frac|d
+    z|<around*|(|z<rsup|3>+1|)><rsup|2>>>>|<row|<cell|f<rsub|1><around*|(|z|)>>|<cell|=>|<cell|<big|int><around*|(|<frac|1|<around*|(|z+1|)>*<around*|(|z<rsup|2>-z+1|)>>|)><rsup|2>*d
+    z>>|<row|<cell|>|<cell|=>|<cell|*<big|int><around*|(|<frac|1|z+1>-<frac|z-2|z<rsup|2>-z+1>|)><rsup|2>*d
+    z>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
