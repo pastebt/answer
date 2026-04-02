@@ -221,6 +221,19 @@
     2*x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|16>*x-<frac|1|64>*sin
     4*x+<frac|1|48>*sin<rsup|3> 2*x>>>>
   </eqnarray*>
+
+  \;
+
+  1995:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>sin<rsup|4>
+    x*cos<rsup|5> x*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int>sin<rsup|4>
+    x*<around*|(|1-sin<rsup|2> x|)><rsup|2>*d<around*|(|sin
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|sin<rsup|4>
+    x-2*sin<rsup|6> x+sin<rsup|8> x|)>*d x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|5>*sin<rsup|5>
+    x-<frac|2|7>*sin<rsup|7> x+<frac|1|9>*sin<rsup|9> x>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
