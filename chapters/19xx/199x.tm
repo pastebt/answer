@@ -234,6 +234,23 @@
     x-2*sin<rsup|6> x+sin<rsup|8> x|)>*d x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|5>*sin<rsup|5>
     x-<frac|2|7>*sin<rsup|7> x+<frac|1|9>*sin<rsup|9> x>>>>
   </eqnarray*>
+
+  \;
+
+  1996:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>sin<rsup|5>
+    x*cos<rsup|5> x*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|<frac|1|2>*sin
+    2*x|)><rsup|5>*d x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|32>*<big|int><around*|(|1-cos<rsup|2>
+    2*x|)><rsup|2>*sin 2*x\<times\><frac|1|2>\<times\>d<around*|(|2*x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|-1|64>*<big|int><around*|(|1-2*cos<rsup|2>
+    2*x+cos<rsup|4> 2*x|)>*d<around*|(|cos
+    2*x|)>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|64>*cos
+    2*x+<frac|1|64>\<times\>2\<times\><frac|1|3>\<times\>cos<rsup|3>
+    2*x-<frac|1|64>\<times\><frac|1|5>\<times\>cos<rsup|5>
+    2*x>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|64>*cos
+    2*x+<frac|1|96>*cos<rsup|3> 2*x-<frac|1|320>*cos<rsup|5> 2*x>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
