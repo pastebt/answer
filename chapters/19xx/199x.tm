@@ -251,6 +251,19 @@
     2*x>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|64>*cos
     2*x+<frac|1|96>*cos<rsup|3> 2*x-<frac|1|320>*cos<rsup|5> 2*x>>>>
   </eqnarray*>
+
+  \;
+
+  1997:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|sin<rsup|3>
+    x|cos<rsup|4> x>*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|cos<rsup|2>
+    x-1|cos<rsup|4> x>*d<around*|(|cos x|)>>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|cos<rsup|-2>
+    x-cos<rsup|-4> x|)>*d<around*|(|cos x|)>>>|<row|<cell|>|<cell|=>|<cell|-cos<rsup|-1>
+    x+<frac|1|3>*cos<rsup|-3> x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|3*cos<rsup|3>
+    x>-<frac|1|cos x>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
