@@ -194,6 +194,33 @@
     2*x>>|<row|<cell|>|<cell|=>|<cell|<frac|5|16>*x+<frac|1|4>*sin
     2*x+<frac|3|64>*sin 4*x-<frac|1|48>*sin<rsup|3> 2*x>>>>
   </eqnarray*>
+
+  \;
+
+  1994:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>sin<rsup|2>
+    x*cos<rsup|4> x*d x>>|<row|<cell|>|<cell|>|<cell|sin 2*x=2*sin x*cos
+    x>>|<row|<cell|>|<cell|>|<cell|sin x*cos x=<frac|1|2>*sin
+    2*x>>|<row|<cell|>|<cell|>|<cell|cos 2*x=1-2*sin<rsup|2> x=2*cos<rsup|2>
+    x-1>>|<row|<cell|>|<cell|>|<cell|sin<rsup|2>
+    x=<frac|1|2>*<around*|(|1-cos 2*x|)>>>|<row|<cell|>|<cell|>|<cell|cos<rsup|2>
+    x=<frac|1|2>*<around*|(|1+cos 2*x|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><around*|(|sin
+    x*cos x|)><rsup|2>*cos<rsup|2> x*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|<frac|1|2>*sin
+    2*x|)><rsup|2>*<around*|(|<frac|1|2>*<around*|(|1+cos 2*x|)>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|8>*<big|int>sin<rsup|2> 2*x*d
+    x+<frac|1|8>*<big|int>sin<rsup|2> 2*x*cos 2*x*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|8>*<big|int><around*|(|<frac|1|2>*<around*|(|1-cos
+    4*x|)>|)>*d x+<frac|1|8>*<big|int>sin<rsup|2>
+    2*x\<times\><frac|1|2>\<times\>d<around*|(|sin
+    2*x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|16>*x-<frac|1|16>\<times\><frac|1|4>\<times\>sin
+    4*x+<frac|1|16>*<big|int>sin<rsup|2> 2*x*d<around*|(|sin
+    2*x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|16>*x-<frac|1|64>*sin
+    4*x+<frac|1|16>\<times\><frac|1|3>\<times\>sin<rsup|3>
+    2*x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|16>*x-<frac|1|64>*sin
+    4*x+<frac|1|48>*sin<rsup|3> 2*x>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
