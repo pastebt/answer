@@ -141,7 +141,46 @@
     \<theta\>-<frac|3|4>*cos<rsup|2> \<theta\>*sin<rsup|2>
     \<theta\>+<frac|3|4>*cos<rsup|2> \<theta\>=<frac|1|4>*cos<rsup|4>
     \<theta\>+<frac|3|4>*cos<rsup|2> \<theta\>*<around*|(|1-sin<rsup|2>
-    \<theta\>|)>=cos<rsup|4> \<theta\>>>>>
+    \<theta\>|)>=cos<rsup|4> \<theta\>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<rsub|s<rsub|1>><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|1|sin
+    x>*d x=l n<around*|\||<frac|1-cos x|sin x>|\|>=l n<around*|\||tan
+    <frac|x|2>|\|>>>|<row|<cell|>|<cell|>|<cell|y=cos x\<rightarrow\>d y=-sin
+    x*d x\<rightarrow\>d x=-<frac|d y|sin
+    x>>>|<row|<cell|F<rsub|s<rsub|1>><around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|1|sin
+    x>\<times\><around*|(|-<frac|d y|sin x>|)>=-<big|int><frac|d
+    y|sin<rsup|2> x>=<big|int><frac|d y|cos<rsup|2> x-1>=<big|int><frac|d
+    y|y<rsup|2>-1>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<big|int><around*|(|<frac|1|y-1>-<frac|1|y+1>|)>*d
+    y=<frac|1|2>*l n<around*|\||<frac|y-1|y+1>|\|>>>|<row|<cell|F<rsub|s<rsub|1>><around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>*l
+    n<around*|\||<frac|cos x-1|cos x+1>|\|>=<frac|1|2>*l
+    n<around*|\||<frac|<around*|(|cos x-1|)><rsup|2>|cos<rsup|2> x-1>|\|>=l
+    n<around*|\||<frac|1-cos x|sin x>|\|>=l n<around*|\||tan
+    <frac|x|2>|\|>>>|<row|<cell|F<rprime|'><rsub|s<rsub|1>><around*|(|x|)>>|<cell|=>|<cell|<around*|(|l
+    n<around*|\||<frac|1-cos x|sin x>|\|>|)><rprime|'>=<frac|sin x|1-cos
+    x>\<times\><frac|sin x*sin x-cos x*<around*|(|1-cos x|)>|sin<rsup|2>
+    x>>>|<row|<cell|>|<cell|=>|<cell|<frac|sin x|1-cos x>\<times\><frac|1-cos
+    x|sin<rsup|2> x>=<frac|1|sin x>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<rsub|s<rsub|3>><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|sin<rsup|3> x>=<frac|1|2>*<around*|(|l n<around*|\||<frac|1-cos x|sin
+    x>|\|>-<frac|cos x|sin<rsup|2> x>|)>=<frac|1|2>*<around*|(|l
+    n<around*|\||tan <frac|x|2>|\|>-<frac|cos x|sin<rsup|2>
+    x>|)>>>|<row|<cell|>|<cell|>|<cell|u=<frac|1|sin x>,d v=<frac|d
+    x|sin<rsup|2> x>,v=-<frac|cos x|sin x>>>|<row|<cell|F<rsub|s<rsub|3>><around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u>>|<row|<cell|>|<cell|=>|<cell|-<frac|cos
+    x|sin<rsup|2> x>+<big|int><frac|cos x|sin x>*d<around*|(|<frac|1|sin
+    x>|)>=-<frac|cos x|sin<rsup|2> x>-<big|int><frac|cos x|sin
+    x>\<times\><frac|cos x|sin<rsup|2> x>\<times\>d
+    x>>|<row|<cell|>|<cell|=>|<cell|-<frac|cos x|sin<rsup|2>
+    x>-<big|int><frac|1-sin<rsup|2> x|sin<rsup|3> x>*d x=-<frac|cos
+    x|sin<rsup|2> x>-F<rsub|s<rsub|3>><around*|(|x|)>+F<rsub|s<rsub|1>><around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<around*|(|F<rsub|s<rsub|1>><around*|(|x|)>-<frac|cos
+    x|sin<rsup|2> x>|)>=<frac|1|2>*<around*|(|l n<around*|\||tan
+    <frac|x|2>|\|>-<frac|cos x|sin<rsup|2>
+    x>|)>>>|<row|<cell|F<rprime|'><rsub|s<rsub|3>><around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>*<around*|(|l
+    n<around*|\||<frac|1-cos x|sin x>|\|>-<frac|cos x|sin<rsup|2>
+    x>|)><rprime|'>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<around*|(|<frac|1|sin
+    x>-<frac|-sin x*sin<rsup|2> x-2*sin x*cos x*cos x|sin<rsup|4>
+    x>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<around*|(|<frac|1|sin
+    x>+<frac|sin<rsup|2> x+2*cos<rsup|2> x|sin<rsup|3>
+    x>|)>=<frac|1|2>*<around*|(|<frac|sin<rsup|2> x+sin<rsup|2>
+    x+2*cos<rsup|2> x|sin<rsup|3> x>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|sin<rsup|3>
+    x>>>>>
   </eqnarray*>
 </body>
 
