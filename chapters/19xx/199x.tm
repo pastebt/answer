@@ -318,6 +318,20 @@
     x*<around*|(|sin<rsup|2> x+cos<rsup|2> x|)>|sin<rsup|2>
     x>>>|<row|<cell|>|<cell|=>|<cell|-cos x-<frac|cos x|2*sin<rsup|2> x>>>>>
   </eqnarray*>
+
+  \;
+
+  1999:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|sin<rsup|3> x>>>|<row|<cell|book:F<rsub|s<rsub|3>><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|sin<rsup|3> x>=<frac|1|2>*<around*|(|l n<around*|\||<frac|1-cos x|sin
+    x>|\|>-<frac|cos x|sin<rsup|2> x>|)>=<frac|1|2>*<around*|(|l
+    n<around*|\||tan <frac|x|2>|\|>-<frac|cos x|sin<rsup|2>
+    x>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>*l
+    n<around*|\||tan <frac|x|2>|\|>-<frac|cos x|2*sin<rsup|2> x>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
