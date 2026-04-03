@@ -97,7 +97,7 @@
     2*x>+<frac|1|4*cos<rsup|4> x>+<frac|1|2*cos<rsup|2> x>+l n<around*|\||tan
     x|\|>>>|<row|<cell|>|<cell|=>|<cell|3*l n<around*|\||tan
     x|\|>-2\<times\><frac|cos 2*x|sin<rsup|2> 2*x>+<frac|1|4*cos<rsup|4>
-    x>+<frac|1|2*cos<rsup|2> x>>>|<row|<cell|F<rprime|'><around*|(|x|)>>|<cell|=>|<cell|3\<times\><frac|cos
+    x>+<frac|1|2*cos<rsup|2> x>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<rprime|'><around*|(|x|)>>|<cell|=>|<cell|3\<times\><frac|cos
     x|sin x>\<times\><frac|sin<rsup|2> x+cos<rsup|2> x|cos<rsup|2>
     x>-2*<around*|(|<frac|-2*sin 2*x*sin<rsup|2> 2*x-2*sin 2*x\<times\>2*cos
     2*x\<times\>cos 2*x|sin<rsup|4>*2*x>|)>+<frac|sin x|cos<rsup|5>
@@ -122,7 +122,43 @@
     x>>>|<row|<cell|>|<cell|=>|<cell|<frac|sin*<rsup|2>x*cos<rsup|2>
     x+cos<rsup|2> x+sin<rsup|2> x-sin<rsup|2> x*cos<rsup|2> x|sin<rsup|3>
     x*cos<rsup|5> x>=<frac|1|sin<rsup|3> x*cos<rsup|5>
-    x>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>>>
+    x>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|tan<rsup|2>
+    x+1=<frac|sin<rsup|2> x|cos<rsup|2> x>+1=<frac|1|cos<rsup|2>
+    x>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<frac|1|4*cos<rsup|4>
+    x>+<frac|1|2*cos<rsup|2> x>=<frac|1|4>*<around*|(|tan<rsup|2>
+    x+1|)><rsup|2>+<frac|1|2>*<around*|(|tan<rsup|2> x+1|)>=<frac|tan<rsup|4>
+    x|4>+<frac|1|2>*tan<rsup|2> x+<frac|1|4>+<frac|1|2>*tan<rsup|2>
+    x+<frac|1|2>>>|<row|<cell|>|<cell|>|<cell|=<frac|1|4>*tan<rsup|4>
+    x+tan<rsup|2> x+C>>|<row|<cell|f<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<frac|cos
+    2*x|sin<rsup|2> 2*x>=<frac|cos<rsup|2> x-sin<rsup|2> x|4*sin<rsup|2>
+    x*cos<rsup|2> x>=<frac|1|4>*cot<rsup|2> x-<frac|1|4>*tan<rsup|2>
+    x>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|3*l
+    n<around*|\||tan x|\|>-2\<times\><frac|cos 2*x|sin<rsup|2>
+    2*x>+<frac|1|4*cos<rsup|4> x>+<frac|1|2*cos<rsup|2> x>=3*l
+    n<around*|\||tan x|\|>-2*f<rsub|2><around*|(|x|)>+f<rsub|2><around*|(|1|)>>>|<row|<cell|>|<cell|=>|<cell|3*l
+    n<around*|\||tan x|\|>-<frac|1|2>*cot<rsup|2> x+<frac|1|2>*tan<rsup|2>
+    x+<frac|1|4>*tan<rsup|4> x+tan<rsup|2>
+    x>>|<row|<cell|>|<cell|=>|<cell|3*l n<around*|\||tan
+    x|\|>+<frac|1|4>*tan<rsup|4> x+<frac|3|2>*tan<rsup|2>
+    x-<frac|1|2>*cot<rsup|2> x>>>>
+  </eqnarray*>
+
+  \;
+
+  2003:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|sin x*cos<rsup|4> x>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|sin<rsup|2>
+    x+cos<rsup|2> x|sin x*cos<rsup|4> x>*d x=<big|int><frac|sin x|cos<rsup|4>
+    x>*d x+<big|int><frac|d x|sin x*cos<rsup|2>
+    x>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|3*cos<rsup|3>
+    x>+<big|int><frac|sin<rsup|2> x+cos<rsup|2> x|sin x*cos<rsup|2> x>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|3*cos<rsup|3> x>+<frac|1|cos
+    x>+<big|int><frac|d x|sin x>>>|<row|<cell|F<rsub|s<rsub|1>><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|1|sin
+    x>*d x=l n<around*|\||<frac|1-cos x|sin x>|\|>=l n<around*|\||tan
+    <frac|x|2>|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|3*cos<rsup|3>
+    x>+<frac|1|cos x>+l n<around*|\||tan <frac|x|2>|\|>>>>>
   </eqnarray*>
 </body>
 
