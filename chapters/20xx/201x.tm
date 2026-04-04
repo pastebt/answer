@@ -33,6 +33,63 @@
     n<around*|(|y<rsup|2>+1|)>-<frac|1|4>*l
     n<around*|(|y<rsup|4>-y<rsup|2>+1|)>+<frac|<sqrt|3>|2>*arctan<around*|(|<frac|2*y<rsup|2>-1|<sqrt|3>>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  2011:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|(|a|)>
+    I<rsub|n>>|<cell|=>|<cell|<big|int>sin<rsup|n> x*d
+    x>>|<row|<cell|>|<cell|>|<cell|u=sin<rsup|n-1> x,d v=sin x*d x,v=-cos
+    x>>|<row|<cell|I<rsub|n>>|<cell|=>|<cell|<big|int>u*d v=u*v-<big|int>v*d
+    u>>|<row|<cell|>|<cell|=>|<cell|sin<rsup|n-1> x*<around*|(|-cos
+    x|)>+<big|int>cos x*d<around*|(|sin<rsup|n-1>
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|-cos x*sin<rsup|n-1>
+    x+<around*|(|n-1|)>*<big|int>cos<rsup|2> x*sin<rsup|n-2> x*d
+    x>>|<row|<cell|>|<cell|=>|<cell|-cos x*sin<rsup|n-1>
+    x+<around*|(|n-1|)>*<big|int><around*|(|1-sin<rsup|2> x|)>*sin<rsup|n-2>
+    x*d x>>|<row|<cell|>|<cell|=>|<cell|-cos x*sin<rsup|n-1>
+    x+<around*|(|n-1|)>*<around*|(|<big|int>sin<rsup|n-2> x*d
+    x-<big|int>sin<rsup|n> x*d x|)>>>|<row|<cell|>|<cell|=>|<cell|-cos
+    x*sin<rsup|n-1> x+<around*|(|n-1|)>*I<rsub|n-2>-<around*|(|n-1|)>*I<rsub|n>>>|<row|<cell|>|<cell|=>|<cell|<frac|-cos
+    x*sin<rsup|n-1> x|n>+<frac|n-1|n>*I<rsub|n-2>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>sin<rsup|6>
+    x*d x>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|6>*cos x*sin<rsup|5>
+    x+<frac|5|6>*F<rsub|4><around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|6>*cos
+    x*sin<rsup|5> x+<frac|5|6>*<around*|(|-<frac|1|4>*cos x*sin<rsup|3>
+    x+<frac|3|4>*F<rsub|2><around*|(|x|)>|)>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|6>*cos
+    x*sin<rsup|5> x-<frac|5|24>*cos x*sin<rsup|3>
+    x+<frac|5|8>*<around*|(|-<frac|1|2>*cos x*sin
+    x+<frac|1|2>*x|)>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|6>*cos
+    x*sin<rsup|5> x-<frac|5|24>*cos x*sin<rsup|3> x-<frac|5|16>*cos x*sin
+    x+<frac|5|16>*x>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|<around*|(|b|)>
+    K<rsub|n>>|<cell|=>|<cell|<big|int>cos<rsup|n> x*d
+    x>>|<row|<cell|>|<cell|>|<cell|u=cos<rsup|n-1> x,d v=cos x*d x,v=sin
+    x>>|<row|<cell|K<rsub|n>>|<cell|=>|<cell|<big|int>u*d v=u*v-<big|int>v*d
+    u>>|<row|<cell|>|<cell|=>|<cell|cos<rsup|n-1> x*sin x-<big|int>sin
+    x*d<around*|(|cos<rsup|n-1> x|)>>>|<row|<cell|>|<cell|=>|<cell|cos<rsup|n-1>
+    x*sin x+<around*|(|n-1|)>*<big|int>sin<rsup|2> x*cos<rsup|n-2> x*d
+    x>>|<row|<cell|>|<cell|=>|<cell|cos<rsup|n-1> x*sin
+    x+<around*|(|n-1|)>*<big|int><around*|(|1-cos<rsup|2> x|)>*cos<rsup|n-2>
+    x*d x>>|<row|<cell|>|<cell|=>|<cell|cos<rsup|n-1> x*sin
+    x+<around*|(|n-1|)>*<big|int>cos<rsup|n-2> x*d
+    x-<around*|(|n-1|)>*<big|int>cos<rsup|n> x*d
+    x>>|<row|<cell|>|<cell|=>|<cell|cos<rsup|n-1> x*sin
+    x+<around*|(|n-1|)>*K<rsub|n-2>-<around*|(|n-1|)>*K<rsub|n>>>|<row|<cell|>|<cell|=>|<cell|<frac|cos<rsup|n-1>
+    x*sin x|n>+<frac|n-1|n>*K<rsub|n-2>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>cos<rsup|8>
+    x*d x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|8>*sin x*cos<rsup|7>
+    x+<frac|7|8>*F<rsub|6><around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|8>*sin
+    x*cos<rsup|7> x+<frac|7|8>*<around*|(|<frac|1|6>*sin x*cos<rsup|5>
+    x+<frac|5|6>*F<rsub|4><around*|(|x|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|8>*sin
+    x*cos<rsup|7> x+<frac|7|48>*sin x*cos<rsup|5>
+    x+<frac|35|48>*<around*|(|<frac|1|4>*sin x*cos<rsup|3>
+    x+<frac|3|4>*F<rsub|2><around*|(|x|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|8>*sin
+    x*cos<rsup|7> x+<frac|7|48>*sin x*cos<rsup|5> x+<frac|35|192>*sin
+    x*cos<rsup|3> x+<frac|35|64>*<around*|(|<frac|1|2>*sinx*cos
+    x+<frac|1|2>*x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|8>*sin
+    x*cos<rsup|7> x+<frac|7|48>*sin x*cos<rsup|5> x+<frac|35|192>*sin
+    x*cos<rsup|3> x+<frac|35|128>*sin x*cos x+<frac|35|128>*x>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
