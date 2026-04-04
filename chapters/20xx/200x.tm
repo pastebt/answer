@@ -183,6 +183,26 @@
     x>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|tan<rsup|4>
     x|4>-<frac|tan<rsup|2> x|2>-l n<around*|\||cos x|\|>-<frac|1|2>>>>>
   </eqnarray*>
+
+  \;
+
+  2005:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>cot<rsup|6>
+    x*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|cos<rsup|6>
+    x|sin<rsup|6> x>*d x=<big|int><frac|cos<rsup|4> x-cos<rsup|4>
+    x*sin<rsup|2> x|sin<rsup|6> x>*d x>>|<row|<cell|>|<cell|=>|<cell|-<big|int>cot<rsup|4>
+    x*d <around*|(|cot x|)>-<big|int><frac|cos<rsup|4> x|sin<rsup|4> x>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|5>*cot<rsup|5>
+    x-<big|int><frac|cos<rsup|2> x-cos<rsup|2> x*sin<rsup|2> x|sin<rsup|4>
+    x>*d x>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|5>*cot<rsup|5>
+    x+<big|int>cot<rsup|2> x*d<around*|(|cot x|)>+<big|int><frac|cos<rsup|2>
+    x|sin<rsup|2> x>*d x>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|5>*cot<rsup|5>
+    x+<frac|1|3>*cot<rsup|3> x+<big|int><frac|1-sin<rsup|2> x|sin<rsup|2>
+    x>*d x>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|5>*cot<rsup|5>
+    x+<frac|1|3>*cot<rsup|3> x-cot x-x>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
