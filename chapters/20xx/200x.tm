@@ -203,6 +203,17 @@
     x>*d x>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|5>*cot<rsup|5>
     x+<frac|1|3>*cot<rsup|3> x-cot x-x>>>>
   </eqnarray*>
+
+  \;
+
+  2006:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|sin<rsup|4>
+    x|cos<rsup|6> x>*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int>tan<rsup|4>
+    x\<times\><frac|d x|cos<rsup|2> x>=<big|int>tan<rsup|4> x*d<around*|(|tan
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|5>*tan<rsup|5> x>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
