@@ -214,6 +214,28 @@
     x\<times\><frac|d x|cos<rsup|2> x>=<big|int>tan<rsup|4> x*d<around*|(|tan
     x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|5>*tan<rsup|5> x>>>>
   </eqnarray*>
+
+  \;
+
+  2007:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<sqrt|sin<rsup|3> x*cos<rsup|5> x>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|sin<rsup|2>
+    x+cos<rsup|2> x|<sqrt|sin<rsup|3> x*cos<rsup|5> x>>*d
+    x=<big|int><frac|sin<rsup|2> x*<sqrt|sin x>|<sqrt|sin<rsup|4>
+    x*cos<rsup|5> x>>*d x+<big|int><frac|d x|<sqrt|sin<rsup|3> x*cos
+    x>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><sqrt|<frac|sin x|cos
+    x>>\<times\><frac|d x|cos<rsup|2> x>+<big|int><frac|<sqrt|sin
+    x>|<sqrt|sin<rsup|4> x*cos x>>*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><sqrt|tan
+    x>*d<around*|(|tan x|)>+<big|int><sqrt|<frac|sin x|cos
+    x>>\<times\><frac|d x|sin<rsup|2> x>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|3>*<around*|(|tan
+    x|)><rsup|<frac|3|2>>-<big|int><frac|d<around*|(|cot x|)>|<sqrt|<frac|cos
+    x|sin x>>>=<frac|2|3>*<around*|(|tan x|)><rsup|<frac|3|2>>-<big|int><around*|(|cot
+    x|)><rsup|-<frac|1|2>>*d<around*|(|cot
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|3>*<around*|(|tan
+    x|)><rsup|<frac|3|2>>-2*<sqrt|cot x>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
