@@ -160,6 +160,29 @@
     <frac|x|2>|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|3*cos<rsup|3>
     x>+<frac|1|cos x>+l n<around*|\||tan <frac|x|2>|\|>>>>>
   </eqnarray*>
+
+  \;
+
+  2004:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>tan<rsup|5>
+    x*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|sin<rsup|5>
+    x|cos<rsup|5> x>*d x=<big|int><frac|sin<rsup|3> x-cos<rsup|2>
+    x*sin<rsup|3> x|cos<rsup|5> x>*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|sin<rsup|3>
+    x|cos<rsup|5> x>*d x-<big|int><frac|sin x-cos<rsup|2> x*sin x|cos<rsup|3>
+    x>*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int>tan<rsup|3>
+    x*d<around*|(|tan x|)>-<big|int><frac|sin x|cos<rsup|3> x>*d
+    x+<big|int><frac|sin x|cos x>*d x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4>*tan<rsup|4>
+    x+<big|int><frac|d<around*|(|cos x|)>|cos<rsup|3>
+    x>-<big|int><frac|d<around*|(|cos x|)>|cos
+    x>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4>*tan<rsup|4>
+    x-<frac|1|2*cos<rsup|2> x>-l n<around*|\||cos
+    x|\|>>>|<row|<cell|>|<cell|>|<cell|tan<rsup|2> x+1=<frac|sin<rsup|2>
+    x|cos<rsup|2> x>+1=<frac|1|cos<rsup|2>
+    x>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|tan<rsup|4>
+    x|4>-<frac|tan<rsup|2> x|2>-l n<around*|\||cos x|\|>-<frac|1|2>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
