@@ -275,7 +275,16 @@
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
-    x|sin<around*|(|x+a|)>*sin<around*|(|x+b|)>>>>>>
+    x|sin<around*|(|x+a|)>*sin<around*|(|x+b|)>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|1|2*sin<around*|(|a-b|)>>\<times\><frac|sin<around*|(|a-b|)>+sin<around*|(|a-b|)>|sin<around*|(|x+a|)>*sin<around*|(|x+b|)>>*d
+    x<space|1em><around*|(|sin<around*|(|a-b|)>\<neq\>0|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2*sin<around*|(|a-b|)>>*<big|int><frac|sin<around*|(|a-b|)>-sin<around*|(|b-a|)>|sin<around*|(|x+a|)>*sin<around*|(|x+b|)>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2*sin<around*|(|a-b|)>>*<big|int><frac|sin<around*|(|a-b|)>+sin<around*|(|x+a+x+b|)>-sin<around*|(|b-a|)>-sin<around*|(|x+a+x+b|)>|sin<around*|(|x+a|)>*sin<around*|(|x+b|)>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|<text|III. >sin
+    \<alpha\>*cos \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|sin<around*|(|\<alpha\>-\<beta\>|)>+sin<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|>|<cell|>|<cell|sin<around*|(|a-b|)>\<equiv\>sin<around*|(|<around*|(|x+a|)>-<around*|(|x+b|)>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2*sin<around*|(|a-b|)>>*<big|int><frac|2*sin<around*|(|x+a|)>*cos<around*|(|x+b|)>-2*sin<around*|(|x+b|)>*cos<around*|(|x+a|)>|sin<around*|(|x+a|)>*sin<around*|(|x+b|)>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|sin<around*|(|a-b|)>>*<big|int><around*|(|<frac|cos<around*|(|x+b|)>|sin<around*|(|x+b|)>>-<frac|cos<around*|(|x+a|)>|sin<around*|(|x+a|)>>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|sin<around*|(|a-b|)>>*<around*|(|l
+    n<around*|\||sin<around*|(|x+b|)>|\|>-l
+    n<around*|\||sin<around*|(|x+a|)>|\|>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|sin<around*|(|a-b|)>>*l
+    n<around*|\||<frac|sin<around*|(|x+b|)>|sin<around*|(|x+a|)>>|\|><space|1em><around*|(|sin<around*|(|a-b|)>\<neq\>0|)>>>>>
   </eqnarray*>
 
   \;
