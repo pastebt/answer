@@ -226,7 +226,56 @@
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>cos<rsup|2>
-    a*x*cos<rsup|2> b*x*d x>>|<row|<cell|>|<cell|>|<cell|>>>>
+    a*x*cos<rsup|2> b*x*d x>>|<row|<cell|<text|II. >cos \<alpha\>*cos
+    \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|cos<around*|(|\<alpha\>-\<beta\>|)>+cos<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|1|2>*<around*|(|cos
+    0+cos 2*a*x|)>\<times\><frac|1|2>*<around*|(|cos 0+cos 2*b*x|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4>*<big|int><around*|(|1+cos
+    2*a*x+cos 2*b*x+cos 2*a*x*cos 2*b*x|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4>*x+<frac|1|8*a>*sin
+    2*a*x+<frac|1|8*b>*sin 2*b*x+<frac|1|8>*<big|int><around*|(|cos<around*|(|2*a*x-2*b*x|)>+cos<around*|(|2*a*x+2*b*x|)>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|x|4>+<frac|sin 2*a*x|8*a>+<frac|sin
+    2*b*x|8*b>+<frac|sin<around*|(|2*<around*|(|a-b|)>*x|)>|16*<around*|(|a-b|)>>+<frac|sin<around*|(|2*<around*|(|a+b|)>*x|)>|16*<around*|(|a+b|)>>>>>>
+  </eqnarray*>
+
+  \;
+
+  \;
+
+  2018:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>sin<rsup|3>
+    2*x*cos<rsup|2> 3*x*d x>>|<row|<cell|<text|I. \ >sin \<alpha\>*sin
+    \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|cos<around*|(|\<alpha\>-\<beta\>|)>-cos<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|<text|II.
+    >cos \<alpha\>*cos \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|cos<around*|(|\<alpha\>-\<beta\>|)>+cos<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|<text|III.
+    >sin \<alpha\>*cos \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|sin<around*|(|\<alpha\>-\<beta\>|)>+sin<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|4>*<big|int><around*|(|sin<around*|(|-x|)>+sin
+    5*x|)>*<around*|(|sin<around*|(|-x|)>+sin 5*x|)>*sin 2*x*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|8>*<big|int><around*|(|cos
+    0-cos<around*|(|-2*x|)>+2*cos 6*x-2*cos 4*x+cos 0-cos 10*x|)>*sin 2*x*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|8>*<big|int><around*|(|2-cos
+    2*x-2*cos 4*x+2*cos 6*x-cos 10 x|)>*sin 2*x*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|-cos
+    2*x|8>+<frac|1|16>*<big|int><around*|(|-sin 0-sin
+    4*x-2*<around*|(|sin<around*|(|-2*x|)>+sin
+    6*x|)>+2<around*|(|sin<around*|(|-4*x|)>+sin*8*x|)>-<around*|(|sin<around*|(|-8*x|)>+sin
+    12*x|)>|)>*d x>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|=>|<cell|<frac|-cos
+    2*x|8>+<frac|1|16>*<big|int><around*|(|2*sin 2*x-3*sin 4*x-2*sin
+    6*x+3*sin 8*x-sin 12*x|)>*d x>>|<row|<cell|>|<cell|=>|<cell|<frac|-cos
+    2*x|8>-<frac|cos 2*x|16>+<frac|3*cos 4*x|64>+<frac|cos
+    6*x|48>-<frac|3*cos 8*x|128>+<frac|cos
+    12*x|192>>>|<row|<cell|>|<cell|=>|<cell|<frac|-3*cos 2*x|16>+<frac|3*cos
+    4*x|64>+<frac|cos 6*x|48>-<frac|3*cos 8*x|128>+<frac|cos 12*x|192>>>>>
+  </eqnarray*>
+
+  \;
+
+  \;
+
+  2019:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|sin<around*|(|x+a|)>*sin<around*|(|x+b|)>>>>>>
   </eqnarray*>
 
   \;
