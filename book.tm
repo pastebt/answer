@@ -39,9 +39,10 @@
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<rsub|c<rsub|1>><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
-    x|cos x>=l n<around*|\||<frac|1+sin x|cos
-    x>|\|>+C>>|<row|<cell|>|<cell|>|<cell|y=sin x\<rightarrow\>d y=cos x*d
-    x\<rightarrow\>d x=<frac|d y|cos x>>>|<row|<cell|F<rsub|c<rsub|1>><around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|cos x>=l n<around*|\||<frac|1+sin x|cos x>|\|>+C=l
+    n<around*|\||tan<around*|(|<frac|x|2>+<frac|\<pi\>|4>|)>|\|>+C>>|<row|<cell|>|<cell|>|<cell|y=sin
+    x\<rightarrow\>d y=cos x*d x\<rightarrow\>d x=<frac|d y|cos
+    x>>>|<row|<cell|F<rsub|c<rsub|1>><around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|d
     y|cos x*cos x>=<big|int><frac|d y|1-sin<rsup|2> x>=<big|int><frac|d
     y|1-y<rsup|2>>=<big|int><frac|1|2>*<around*|(|<frac|1|1+y>+<frac|1|1-y>|)>*d
     y>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<around*|(|l
@@ -54,11 +55,23 @@
     x|)>*<around*|(|-sin x|)>|cos<rsup|2>
     x>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|1+sin
     x>\<times\><frac|cos<rsup|2> x+sin x+sin<rsup|2> x|cos x>=<frac|1|cos
-    x>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<rsub|c<rsub|2>><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|tan
+    <around*|(|\<theta\>\<pm\><frac|\<pi\>|4>|)>>|<cell|=>|<cell|<frac|tan
+    \<theta\>\<pm\>1|1\<mp\>tan \<theta\>>>>|<row|<cell|tan<around*|(|<frac|\<theta\>|2>|)>>|<cell|=>|<cell|<frac|1-cos
+    \<theta\>|sin \<theta\>>>>|<row|<cell|tan<around*|(|<frac|\<theta\>|2>+<frac|\<pi\>|4>|)>>|<cell|=>|<cell|<frac|<frac|1-cos
+    \<theta\>|sin \<theta\>>+1|1-<frac|1-cos \<theta\>|sin
+    \<theta\>>>=<frac|sin x+<around*|(|1-cos x|)>|sin x-<around*|(|1-cos
+    x|)>>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|sin
+    x+<around*|(|1-cos x|)>|)><rsup|2>|sin<rsup|2> x-<around*|(|1-cos
+    x|)><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|sin<rsup|2> x+2*sin
+    x*<around*|(|1-cos x|)>+<around*|(|1-2*cos x+cos<rsup|2> x|)>|sin<rsup|2>
+    x-<around*|(|1-2*cos x+cos<rsup|2> x|)>>>>|<row|<cell|>|<cell|=>|<cell|<frac|2-2*cos
+    x+2*sin x*<around*|(|1-cos x|)>|2*cos x-2*cos<rsup|2> x>=<frac|1+sin
+    x|cos x>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<rsub|c<rsub|2>><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
     x|cos<rsup|2> x>=tan x+C>>|<row|<cell|F<rsub|c<rsub|2>><rprime|'><around*|(|x|)>>|<cell|=>|<cell|<around*|(|<frac|sin
     x|cos x>|)><rprime|'>=<frac|cos x*cos x-sin x*<around*|(|-sin
     x|)>|cos<rsup|2> x>=<frac|cos<rsup|2> x+sin<rsup|2> x|cos<rsup|2>
-    x>=<frac|1|cos<rsup|2> x>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<rsub|c<rsub|3>><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x>=<frac|1|cos<rsup|2> x>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<rsub|c<rsub|3>><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
     x|cos<rsup|3> x>=<frac|1|2><around*|(|<frac|sin x|cos<rsup|2> x>+l
     n<around*|\||<frac|1+sin x|cos x>|\|>|)>+C>>|<row|<cell|>|<cell|>|<cell|u=<frac|1|cos
     x>,d v=<frac|d x|cos<rsup|2> x>,v=<frac|sin x|cos
@@ -180,7 +193,15 @@
     x>+<frac|sin<rsup|2> x+2*cos<rsup|2> x|sin<rsup|3>
     x>|)>=<frac|1|2>*<around*|(|<frac|sin<rsup|2> x+sin<rsup|2>
     x+2*cos<rsup|2> x|sin<rsup|3> x>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|sin<rsup|3>
-    x>>>>>
+    x>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|2011:>|<cell|>|<cell|>>|<row|<cell|<around*|(|a|)>
+    I<rsub|n>>|<cell|=>|<cell|<big|int>sin<rsup|n> x*d x=<frac|-cos
+    x*sin<rsup|n-1> x|n>+<frac|n-1|n>*I<rsub|n-2><space|2em><around*|(|n\<gtr\>2|)>>>|<row|<cell|<around*|(|b|)>
+    K<rsub|n>>|<cell|=>|<cell|<big|int>cos<rsup|n> x*d x=<frac|cos<rsup|n-1>
+    x*sin x|n>+<frac|n-1|n>*K<rsub|n-2><space|3em><around*|(|n\<gtr\>2|)>>>|<row|<cell|2012:>|<cell|>|<cell|>>|<row|<cell|<around*|(|a|)>
+    I<rsub|n>>|<cell|=>|<cell|<big|int><frac|d x|sin<rsup|n> x>=<frac|-cos
+    x|<around*|(|n-1|)>*sin<rsup|n-1> x>+<frac|n-2|n-1>*I<rsub|n-2><space|2em><around*|(|n\<gtr\>2|)>>>|<row|<cell|<around*|(|b|)>
+    K<rsub|n>>|<cell|=>|<cell|<big|int><frac|d x|cos<rsup|n> x>=<frac|sin
+    x|<around*|(|n-1|)>*cos<rsup|n-1> x>+<frac|n-2|n-1>*K<rsub|n-2><space|2em><around*|(|n\<gtr\>2|)>>>>>
   </eqnarray*>
 </body>
 

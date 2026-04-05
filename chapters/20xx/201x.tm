@@ -90,6 +90,69 @@
     x*cos<rsup|7> x+<frac|7|48>*sin x*cos<rsup|5> x+<frac|35|192>*sin
     x*cos<rsup|3> x+<frac|35|128>*sin x*cos x+<frac|35|128>*x>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2012:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|(|a|)>
+    I<rsub|n>>|<cell|=>|<cell|<big|int><frac|d x|sin<rsup|n>
+    x><space|2em><around*|(|n\<gtr\>2|)>>>|<row|<cell|>|<cell|>|<cell|u=<frac|1|sin<rsup|n-2>
+    x>,d v=<frac|d x|sin<rsup|2> x>,v=-<frac|cos x|sin
+    x>>>|<row|<cell|I<rsub|n>>|<cell|=>|<cell|<big|int>u*d v=u*v-<big|int>v*d
+    u>>|<row|<cell|>|<cell|=>|<cell|-<frac|cos x|sin<rsup|n-1>
+    x>+<big|int><frac|cos x|sin x>*d<around*|(|<frac|1|sin<rsup|n-2>
+    x>|)>>>|<row|<cell|>|<cell|=>|<cell|-<frac|cos x|sin<rsup|n-1>
+    x>-<around*|(|n-2|)>*<big|int><frac|cos<rsup|2> x|sin<rsup|n> x>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|-<frac|cos x|sin<rsup|n-1>
+    x>-<around*|(|n-2|)>*<big|int><frac|1-sin<rsup|2> x|sin<rsup|n> x>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|-<frac|cos x|sin<rsup|n-1>
+    x>-<around*|(|n-2|)>*I<rsub|n>+<around*|(|n-2|)>*I<rsub|n-2>>>|<row|<cell|>|<cell|=>|<cell|<frac|-cos
+    x|<around*|(|n-1|)>*sin<rsup|n-1> x>+<frac|n-2|n-1>*I<rsub|n-2>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|sin<rsup|5> x>>>|<row|<cell|>|<cell|=>|<cell|<frac|-cos x|4*sin<rsup|4>
+    x>+<frac|3|4>*<big|int><frac|d x|sin<rsup|3>
+    x>>>|<row|<cell|>|<cell|=>|<cell|<frac|-cos x|4*sin<rsup|4>
+    x>+<frac|3|4>*<around*|(|<frac|-cos x|2*sin<rsup|2>
+    x>+<frac|1|2>*<big|int><frac|d x|sin x>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|-cos
+    x|4*sin<rsup|4> x>-<frac|3*cos x|8*sin<rsup|2>
+    x>+<frac|3|8>*<big|int><frac|d x|sin x>>>|<row|<cell|F<rsub|s<rsub|1>><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|1|sin
+    x>*d x=l n<around*|\||<frac|1-cos x|sin x>|\|>=l n<around*|\||tan
+    <frac|x|2>|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|-cos
+    x|4*sin<rsup|4> x>-<frac|3*cos x|8*sin<rsup|2> x>+<frac|3|8>*l
+    n<around*|\||tan <frac|x|2>|\|>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|<around*|(|b|)>
+    K<rsub|n>>|<cell|=>|<cell|<big|int><frac|d x|cos<rsup|n>
+    x><space|2em><around*|(|n\<gtr\>2|)>>>|<row|<cell|>|<cell|>|<cell|u=<frac|1|cos<rsup|n-2>
+    x>,d v=<frac|d x|cos<rsup|2> x>,v=<frac|sin x|cos
+    x>>>|<row|<cell|K<rsub|n>>|<cell|=>|<cell|<big|int>u*d v=u*v-<big|int>v*d
+    u>>|<row|<cell|>|<cell|=>|<cell|<frac|sin x|cos<rsup|n-1>
+    x>-<big|int><frac|sin x|cos x>*d<around*|(|<frac|1|cos<rsup|n-2>
+    x>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|sin x|cos<rsup|n-1>
+    x>-<around*|(|n-2|)>*<big|int><frac|sin<rsup|2> x|cos<rsup|n> x>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|sin x|cos<rsup|n-1>
+    x>-<around*|(|n-2|)>*<big|int><frac|1-cos<rsup|2> x|cos<rsup|n> x>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|sin x|cos<rsup|n-1>
+    x>-<around*|(|n-2|)>*K<rsub|n>+<around*|(|n-2|)>*K<rsub|n-2>>>|<row|<cell|>|<cell|=>|<cell|<frac|sin
+    x|<around*|(|n-1|)>*cos<rsup|n-1> x>+<frac|n-2|n-1>*K<rsub|n-2>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|cos<rsup|7> x>>>|<row|<cell|>|<cell|=>|<cell|<frac|sin x|6*cos<rsup|6>
+    x>+<frac|5|6>*<big|int><frac|d x|cos<rsup|5>
+    x>>>|<row|<cell|>|<cell|=>|<cell|<frac|sin x|6*cos<rsup|6>
+    x>+<frac|5|6>*<around*|(|<frac|sin x|4*cos<rsup|4>
+    x>+<frac|3|4>*<big|int><frac|d x|cos<rsup|3>
+    x>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|sin x|6*cos<rsup|6>
+    x>+<frac|5*sin x|24*cos<rsup|4> x>+<frac|5|8>*<around*|(|<frac|sin
+    x|2*cos<rsup|2> x>+<frac|1|2>*<big|int><frac|d x|cos
+    x>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|sin x|6*cos<rsup|6>
+    x>+<frac|5*sin x|24*cos<rsup|4> x>+<frac|5*sin x|16*cos<rsup|2>
+    x>+<frac|5|16>*<big|int><frac|d x|cos
+    x>>>|<row|<cell|book:F<rsub|c<rsub|1>><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|cos x>=l n<around*|\||<frac|1+sin x|cos x>|\|>+C=l
+    n<around*|\||tan<around*|(|<frac|x|2>+<frac|\<pi\>|4>|)>|\|>+C>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|sin
+    x|6*cos<rsup|6> x>+<frac|5*sin x|24*cos<rsup|4> x>+<frac|5*sin
+    x|16*cos<rsup|2> x>+<frac|5|16>*l n<around*|\||tan<around*|(|<frac|x|2>+<frac|\<pi\>|4>|)>|\|>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
