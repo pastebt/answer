@@ -153,6 +153,83 @@
     x|6*cos<rsup|6> x>+<frac|5*sin x|24*cos<rsup|4> x>+<frac|5*sin
     x|16*cos<rsup|2> x>+<frac|5|16>*l n<around*|\||tan<around*|(|<frac|x|2>+<frac|\<pi\>|4>|)>|\|>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2013:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>sin
+    5*x*cos x*d x>>|<row|<cell|<text|III. >sin \<alpha\>*cos
+    \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|sin<around*|(|\<alpha\>-\<beta\>|)>+sin<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|1|2>*<around*|(|sin<around*|(|5*x-x|)>+sin<around*|(|5*x+x|)>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<big|int>sin 4*x*d
+    x+<frac|1|2>*<big|int>sin 6*x*d x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|8>*<big|int>sin
+    4*x*d<around*|(|4*x|)>+<frac|1|12>*<big|int>sin
+    6*x*d<around*|(|6*x|)>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|8>*cos
+    4*x-<frac|1|12>*cos 6*x>>>>
+  </eqnarray*>
+
+  \;
+
+  2014:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>cos
+    x*cos 2*x*cos 3*x*d x>>|<row|<cell|<text|II. >cos \<alpha\>*cos
+    \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|cos<around*|(|\<alpha\>-\<beta\>|)>+cos<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>*<big|int><around*|(|cos<around*|(|-x|)>+cos
+    3*x|)>*cos 3*x*d x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4>*<big|int><around*|(|cos<around*|(|-4*x|)>+cos
+    2*x+cos<around*|(|0|)>+cos 6*x|)>*d x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|16>*sin
+    4*x+<frac|1|8>*sin 2*x+<frac|1|4>*x+<frac|1|24>*sin 6*x>>>>
+  </eqnarray*>
+
+  \;
+
+  \;
+
+  2015:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>sin
+    x*sin <frac|x|2>*sin <frac|x|3>*d x>>|<row|<cell|<text|I. \ >sin
+    \<alpha\>*sin \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|cos<around*|(|\<alpha\>-\<beta\>|)>-cos<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|<text|III.
+    >sin \<alpha\>*cos \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|sin<around*|(|\<alpha\>-\<beta\>|)>+sin<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>*<big|int><around*|(|cos
+    <frac|x|2>-cos <frac|3*x|2>|)>*sin <frac|x|3>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4>*<big|int><around*|(|sin<around*|(|<frac|x|3>-<frac|x|2>|)>+sin<around*|(|<frac|x|3>+<frac|x|2>|)>-<around*|(|sin<around*|(|<frac|x|3>-<frac|3*x|2>|)>+sin<around*|(|<frac|x|3>+<frac|3*x|2>|)>|)>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4>*<big|int><around*|(|-sin
+    <frac|x|6>+sin <frac|5*x|6>+sin <frac|7*x|6>-sin <frac|11*x|6>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|3|2>*cos <frac|x|6>-<frac|3|10>*cos
+    <frac|5*x|6>-<frac|3|14>*cos <frac|7*x|6>+<frac|3|22>*cos
+    <frac|11*x|6>>>>>
+  </eqnarray*>
+
+  \;
+
+  2016:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>sin
+    x*sin<around*|(|x+a|)>*sin<around*|(|x+b|)>*d x>>|<row|<cell|<text|I.
+    \ >sin \<alpha\>*sin \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|cos<around*|(|\<alpha\>-\<beta\>|)>-cos<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|<text|II.
+    >cos \<alpha\>*cos \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|cos<around*|(|\<alpha\>-\<beta\>|)>+cos<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|<text|III.
+    >sin \<alpha\>*cos \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|sin<around*|(|\<alpha\>-\<beta\>|)>+sin<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>*<big|int><around*|(|cos<around*|(|-a|)>-cos<around*|(|2*x+a|)>|)>*sin<around*|(|x+b|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4>*<big|int><around*|(|sin<around*|(|x+a+b|)>+sin<around*|(|x-a+b|)>-<around*|(|sin<around*|(|x+b-2*x-a|\<nobracket\>>|)>+sin<around*|(|3*x+a+b|)>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4>*<big|int><around*|(|sin<around*|(|x+a+b|)>+sin<around*|(|x-a+b|)>+sin<around*|(|x+a-b|)>-sin<around*|(|3*x+a+b|)>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|4>*cos<around*|(|x+a+b|)>-<frac|1|4>*cos<around*|(|x-a+b|)>-<frac|1|4>*cos<around*|(|x+a-b|)>+<frac|1|12>*cos<around*|(|3*x+a+b|)>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|4>*cos<around*|(|x+a+b|)>-<frac|1|2>*cos
+    x*cos<around*|(|a-b|)>+<frac|1|12>*cos<around*|(|3*x+a+b|)>>>>>
+  </eqnarray*>
+
+  \;
+
+  2017:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>cos<rsup|2>
+    a*x*cos<rsup|2> b*x*d x>>|<row|<cell|>|<cell|>|<cell|>>>>
+  </eqnarray*>
+
+  \;
 </body>
 
 <\initial>

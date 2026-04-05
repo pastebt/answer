@@ -35,6 +35,17 @@
     x=<frac|a<rsup|x>|l n a>+C<space|1em><around*|(|a\<gtr\>0,a\<neq\>1|)>>>>>
   </eqnarray*>
 
+  \;
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<text|I. \ >sin \<alpha\>*sin
+    \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|cos<around*|(|\<alpha\>-\<beta\>|)>-cos<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|<text|II.
+    >cos \<alpha\>*cos \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|cos<around*|(|\<alpha\>-\<beta\>|)>+cos<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|<text|III.
+    >sin \<alpha\>*cos \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|sin<around*|(|\<alpha\>-\<beta\>|)>+sin<around*|(|\<alpha\>+\<beta\>|)>|]>>>>>
+  </eqnarray*>
+
+  \;
+
   cos:
 
   <\eqnarray*>
