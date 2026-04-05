@@ -256,6 +256,26 @@
     <tformat|<table|<row|<cell|<frac|1|2>*arcsin<around*|(|<frac|x<rsup|2>-1|x<rsup|2>*<sqrt|2>>|)>
     <around*|(|<around*|\||x|\|>\<gtr\><sqrt|<sqrt|2>-1>|)>>|<cell|\<neq\>>|<cell|<frac|1|2>*arcsin<around*|(|<frac|x<rsup|2>-1|x<rsup|2>*<sqrt|2>>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  2022:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|1|cos a>*l
+    n<around*|\||<frac|sin<around*|(|<frac|x|2>-<frac|a|2>|)>|cos<around*|(|<frac|x|2>+<frac|a|2>|)>>|\|>>|<cell|\<neq\>>|<cell|<frac|1|2*cos
+    a>*l n<around*|\||<frac|sin<around*|(|<frac|x|2>-<frac|a|2>|)>|cos<around*|(|<frac|x|2>+<frac|a|2>|)>>|\|>>>>>
+  </eqnarray*>
+
+  \;
+
+  2023:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|1|sin a>*l
+    n<around*|\||<frac|cos<around*|(|<frac|x|2>-<frac|a|2>|)>|cos<around*|(|<frac|x|2>+<frac|a|2>|)>>|\|>>|<cell|\<neq\>>|<cell|<frac|1|2*sin
+    a>*l n<around*|\||<frac|cos<around*|(|<frac|x|2>-<frac|a|2>|)>|cos<around*|(|<frac|x|2>+<frac|a|2>|)>>|\|>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
