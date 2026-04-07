@@ -112,11 +112,22 @@
     a|cos x*cos<around*|(|x+a|)>>*d x-<big|int><frac|cos
     x*cos<around*|(|x+a|)>|cos x*cos<around*|(|x+a|)>>*d
     x>>|<row|<cell|>|<cell|=>|<cell|-x+cos a*<big|int><frac|d x|cos
-    x*cos<around*|(|x+a|)>>>>|<row|<cell|2021:>|<cell|>|<cell|<big|int><frac|d
+    x*cos<around*|(|x+a|)>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|2021:>|<cell|>|<cell|<big|int><frac|d
     x|cos<around*|(|x+a|)>*cos<around*|(|x+b|)>>=<frac|1|sin<around*|(|a-b|)>>*l
-    n<around*|\||<frac|cos<around*|(|x+b|)>|cos<around*|(|x+a|)>>|\|><space|2em><around*|(|sin<around*|(|a-b|)>\<neq\>0|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-x+<frac|cos
+    n<around*|\||<frac|cos<around*|(|x+b|)>|cos<around*|(|x+a|)>>|\|><space|2em><around*|(|sin<around*|(|a-b|)>\<neq\>0|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-x+<frac|cos
     a|sin a>*l n<around*|\||<frac|cos x|cos<around*|(|x+a|)>>|\|><space|3em><around*|(|sin
     a\<neq\>0|)>>>>>
+  </eqnarray*>
+
+  \;
+
+  \;
+
+  2025:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|2*sin x-cos x+5>>>>>
   </eqnarray*>
 </body>
 
