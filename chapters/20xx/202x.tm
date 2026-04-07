@@ -102,7 +102,21 @@
     x*tan<around*|(|x+a|)>*d x>>|<row|<cell|<text|I. \ >sin \<alpha\>*sin
     \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|cos<around*|(|\<alpha\>-\<beta\>|)>-cos<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|<text|II.
     >cos \<alpha\>*cos \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|cos<around*|(|\<alpha\>-\<beta\>|)>+cos<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|<text|III.
-    >sin \<alpha\>*cos \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|sin<around*|(|\<alpha\>-\<beta\>|)>+sin<around*|(|\<alpha\>+\<beta\>|)>|]>>>>>
+    >sin \<alpha\>*cos \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|sin<around*|(|\<alpha\>-\<beta\>|)>+sin<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|sin
+    x*sin<around*|(|x+a|)>|cos x*cos<around*|(|x+a|)>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|cos<around*|(|x-<around*|(|x+a|)>|)>-cos<around*|(|2*x+a|)>|2*cos
+    x*cos<around*|(|x+a|)>>*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|2*cos<around*|(|x-<around*|(|x+a|)>|)>-cos<around*|(|2*x+a|)>-cos<around*|(|x-<around*|(|x+a|)>|)>|2*cos
+    x*cos<around*|(|x+a|)>>*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|cos
+    a|cos x*cos<around*|(|x+a|)>>*d x-<frac|1|2>*<big|int><frac|cos<around*|(|x+x+a|)>+cos<around*|(|x-<around*|(|x+a|)>|)>|cos
+    x*cos<around*|(|x+a|)>>*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|cos
+    a|cos x*cos<around*|(|x+a|)>>*d x-<big|int><frac|cos
+    x*cos<around*|(|x+a|)>|cos x*cos<around*|(|x+a|)>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|-x+cos a*<big|int><frac|d x|cos
+    x*cos<around*|(|x+a|)>>>>|<row|<cell|2021:>|<cell|>|<cell|<big|int><frac|d
+    x|cos<around*|(|x+a|)>*cos<around*|(|x+b|)>>=<frac|1|sin<around*|(|a-b|)>>*l
+    n<around*|\||<frac|cos<around*|(|x+b|)>|cos<around*|(|x+a|)>>|\|><space|2em><around*|(|sin<around*|(|a-b|)>\<neq\>0|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-x+<frac|cos
+    a|sin a>*l n<around*|\||<frac|cos x|cos<around*|(|x+a|)>>|\|><space|3em><around*|(|sin
+    a\<neq\>0|)>>>>>
   </eqnarray*>
 </body>
 
