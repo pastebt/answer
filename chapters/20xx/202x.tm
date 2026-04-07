@@ -90,6 +90,20 @@
     x|)>|<frac|1|2>*<around*|(|cos a+cos x|)>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2*sin
     a>\<times\><frac|2*sin a|cos x+cos a>=<frac|1|cos x+cos a>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2024:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>tan
+    x*tan<around*|(|x+a|)>*d x>>|<row|<cell|<text|I. \ >sin \<alpha\>*sin
+    \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|cos<around*|(|\<alpha\>-\<beta\>|)>-cos<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|<text|II.
+    >cos \<alpha\>*cos \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|cos<around*|(|\<alpha\>-\<beta\>|)>+cos<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|<text|III.
+    >sin \<alpha\>*cos \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|sin<around*|(|\<alpha\>-\<beta\>|)>+sin<around*|(|\<alpha\>+\<beta\>|)>|]>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
