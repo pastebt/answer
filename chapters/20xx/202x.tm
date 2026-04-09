@@ -152,6 +152,30 @@
     <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<frac|1|3>\<times\><frac|1|<frac|<sqrt|5>|3>>*arctan<around*|(|<frac|t+<frac|1|3>|<frac|<sqrt|5>|3>>|)>=<frac|1|<sqrt|5>>*arctan<around*|(|<frac|3*t+1|<sqrt|5>>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|<sqrt|5>>*arctan<around*|(|<frac|3*tan
     <frac|x|2>+1|<sqrt|5>>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2026:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<around*|(|2+cos x|)>*sin x>>>|<row|<cell|>|<cell|>|<cell|t=tan
+    <frac|x|2>>>|<row|<cell|>|<cell|>|<cell|cos
+    x=<frac|1-t<rsup|2>|1+t<rsup|2>>,sin x=<sqrt|1-<around*|(|<frac|1-t<rsup|2>|1+t<rsup|2>>|)><rsup|2>>=<frac|2*t|1+t<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|d
+    x=<around*|(|cos x+1|)>*d t=<around*|(|<frac|1-t<rsup|2>|1+t<rsup|2>>+1|)>*d
+    t=<frac|2*d t|1+t<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|<frac|2|1+t<rsup|2>>*d
+    t|<around*|(|2+<frac|1-t<rsup|2>|1+t<rsup|2>>|)>*<frac|2*t|1+t<rsup|2>>>=<big|int><frac|1+t<rsup|2>|<around*|(|3+t<rsup|2>|)>\<times\>t>=<frac|1|3>*<big|int><frac|3*t<rsup|2>+3|t<rsup|3>+3*t>*d
+    t>>|<row|<cell|>|<cell|=>|<cell|<frac|1|3>*l
+    n<around*|\||t*<around*|(|t<rsup|2>+3|)>|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|3>*l
+    n<around*|\||<sqrt|<frac|1-cos x|1+cos x>>*<around*|(|<frac|1-cos x|1+cos
+    x>+3|)>|\|>=<frac|1|6>*l n<around*|(|<frac|<around*|(|1-cos
+    x|)>*<around*|(|4+2*cos x|)><rsup|2>|<around*|(|1+cos
+    x|)><rsup|3>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|6>*l n
+    <frac|<around*|(|1-cos x|)>*<around*|(|2+cos
+    x|)><rsup|2>|<around*|(|1+cos x|)><rsup|3>>+<frac|1|6>*l n 4>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
