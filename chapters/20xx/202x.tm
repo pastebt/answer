@@ -127,7 +127,30 @@
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
-    x|2*sin x-cos x+5>>>>>
+    x|2*sin x-cos x+5>>>|<row|<cell|>|<cell|>|<cell|tan
+    <frac|\<theta\>|2>=\<pm\><sqrt|<frac|1-cos \<theta\>|1+cos
+    \<theta\>>>=<frac|sin \<theta\>|1+cos \<theta\>>=<frac|1-cos
+    \<theta\>|sin \<theta\>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|cos<around*|(|2*\<theta\>|)>=2*cos<rsup|2>
+    \<theta\>-1>>|<row|<cell|>|<cell|>|<cell|cos<rsup|2>
+    <frac|\<theta\>|2>=<frac|1|2>*<around*|(|cos
+    \<theta\>+1|)>>>|<row|<cell|>|<cell|>|<cell|t=tan
+    <frac|x|2>>>|<row|<cell|>|<cell|>|<cell|d t=<frac|<frac|1|2>|cos<rsup|2>
+    <frac|x|2>>*d x=<frac|<frac|1|2>|<frac|1|2>*<around*|(|cos x+1|)>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|d x=<around*|(|cos x+1|)>*d
+    t>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|t<rsup|2>=<frac|1-cos
+    x|1+cos x>>>|<row|<cell|>|<cell|>|<cell|t<rsup|2>+t<rsup|2>*cos x=1-cos
+    x>>|<row|<cell|>|<cell|>|<cell|cos x=<frac|1-t<rsup|2>|1+t<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|<around*|(|<frac|1-t<rsup|2>|1+t<rsup|2>>+1|)>*d
+    t|2*<sqrt|1-<around*|(|<frac|1-t<rsup|2>|1+t<rsup|2>>|)><rsup|2>>-<frac|1-t<rsup|2>|1+t<rsup|2>>+5>=<big|int><frac|<frac|2*d
+    t|1+t<rsup|2>>|2*<sqrt|<frac|2*t<rsup|2>+2*t<rsup|2>|<around*|(|1+t<rsup|2>|)><rsup|2>>>-<frac|1-t<rsup|2>|1+t<rsup|2>>+5>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<frac|2*d
+    t|1+t<rsup|2>>|<frac|4*t|1+t<rsup|2>>-<frac|1-t<rsup|2>|1+t<rsup|2>>+5>=<big|int><frac|2*d
+    t|4*t-1+t<rsup|2>+5+5*t<rsup|2>>=<big|int><frac|2*d
+    t|6*t<rsup|2>+4*t+4>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|d
+    t|3*t<rsup|2>+2*t+2>=<frac|1|3>*<big|int><frac|d
+    t|t<rsup|2>+<frac|2|3>*t+<frac|2|3>>=<frac|1|3>*<big|int><frac|d
+    t|<around*|(|t+<frac|1|3>|)><rsup|2>+<around*|(|<frac|<sqrt|5>|3>|)><rsup|2>>>>|<row|<cell|book:>|<cell|\<Iota\>.>|<cell|<big|int><frac|d
+    x|a<rsup|2>+x<rsup|2>>=<frac|1|a>*arctan
+    <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<frac|1|3>\<times\><frac|1|<frac|<sqrt|5>|3>>*arctan<around*|(|<frac|t+<frac|1|3>|<frac|<sqrt|5>|3>>|)>=<frac|1|<sqrt|5>>*arctan<around*|(|<frac|3*t+1|<sqrt|5>>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|<sqrt|5>>*arctan<around*|(|<frac|3*tan
+    <frac|x|2>+1|<sqrt|5>>|)>>>>>
   </eqnarray*>
 </body>
 
