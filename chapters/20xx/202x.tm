@@ -176,6 +176,23 @@
     <frac|<around*|(|1-cos x|)>*<around*|(|2+cos
     x|)><rsup|2>|<around*|(|1+cos x|)><rsup|3>>+<frac|1|6>*l n 4>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2027:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|sin<rsup|2>
+    x|sin x+2*cos x>*d x>>|<row|<cell|>|<cell|>|<cell|t=tan
+    <frac|x|2>>>|<row|<cell|>|<cell|>|<cell|cos
+    x=<frac|1-t<rsup|2>|1+t<rsup|2>>,sin x=<sqrt|1-<around*|(|<frac|1-t<rsup|2>|1+t<rsup|2>>|)><rsup|2>>=<frac|2*t|1+t<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|d
+    x=<around*|(|cos x+1|)>*d t=<around*|(|<frac|1-t<rsup|2>|1+t<rsup|2>>+1|)>*d
+    t=<frac|2*d t|1+t<rsup|2>>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|<frac|4*t<rsup|2>|<around*|(|1+t<rsup|2>|)><rsup|2>>\<times\><frac|2*d
+    t|1+t<rsup|2>>|<frac|2*t|1+t<rsup|2>>+2\<times\><frac|1-t<rsup|2>|1+t<rsup|2>>>=4*<big|int><frac|t<rsup|2>*d
+    t|<around*|(|1+t-t<rsup|2>|)>*<around*|(|1+t<rsup|2>|)><rsup|2>>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
