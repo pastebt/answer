@@ -220,14 +220,49 @@
     <frac|x|2>*d<around*|(|<frac|x|2>|)>>>|<row|<cell|F<rsub|c<rsup|2>><around*|(|x|)>>|<cell|=>|<cell|<big|int>cos<rsup|2>*x
     d x=<frac|cos x*sin x+x|2>+C>>|<row|<cell|f<rsub|4><around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>*<around*|(|cos
     <frac|x|2>*sin <frac|x|2>+<frac|x|2>|)>>>|<row|<cell|>|<cell|>|<cell|sin
-    2*\<theta\>=2*sin \<theta\>*cos \<theta\>>>|<row|<cell|f<rsub|4><around*|(|x|)>>|<cell|=>|<cell|sin
+    2*\<theta\>=2*sin \<theta\>*cos \<theta\>>>|<row|<cell|f<rsub|4><around*|(|x|)>>|<cell|=>|<cell|<frac|1|4>*sin
     x+<frac|x|4>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|f<rsub|2><around*|(|x|)>>|<cell|=>|<cell|f<rsub|3><around*|(|x|)>-2*f<rsub|4><around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|4>*<around*|(|cos
-    x+1|)>-2*sin x-<frac|x|2>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|4|5>*<around*|(|f<rsub|1><around*|(|x|)>+f<rsub|0><around*|(|x|)>+f<rsub|2><around*|(|x|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|4|5>*<around*|(|<frac|1|<sqrt|5>>*l
+    x+1|)>-<frac|1|2>*sin x-<frac|x|2>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|4|5>*<around*|(|f<rsub|1><around*|(|x|)>+f<rsub|0><around*|(|x|)>+f<rsub|2><around*|(|x|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|4|5>*<around*|(|<frac|1|<sqrt|5>>*l
     n<around*|\||<frac|<sqrt|5>-1+2*tan <frac|x|2>|<sqrt|5>+1-2*tan
-    <frac|x|2>>|\|>+<frac|x|2>-<frac|1|4>*<around*|(|cos x+1|)>-2*sin
-    x-<frac|x|2>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|4|5*<sqrt|5>>*l
+    <frac|x|2>>|\|>+<frac|x|2>-<frac|1|4>*<around*|(|cos
+    x+1|)>-<frac|1|2>*sin x-<frac|x|2>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|4|5*<sqrt|5>>*l
     n<around*|\||<frac|<sqrt|5>-1+2*tan <frac|x|2>|<sqrt|5>+1-2*tan
-    <frac|x|2>>|\|>-<frac|1|5>*cos x-<frac|8|5>*sin x>>>>
+    <frac|x|2>>|\|>-<frac|1|5>*cos x-<frac|2|5>*sin
+    x>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|g<around*|(|x|)>>|<cell|=>|<cell|l
+    n<around*|\||tan<around*|(|<frac|x|2>+<frac|arctan
+    2|2>|)>|\|>>>|<row|<cell|g<rprime|'><around*|(|x|)>>|<cell|=>|<cell|<frac|1|tan<around*|(|<frac|x|2>+<frac|arctan
+    2|2>|)>>\<times\><frac|1|cos<rsup|2><around*|(|<frac|x|2>+<frac|arctan
+    2|2>|)>>\<times\><frac|1|2>>>|<row|<cell|>|<cell|>|<cell|tan<around*|(|<frac|\<theta\>|2>|)>=<frac|sin
+    \<theta\>|1+cos \<theta\>>>>|<row|<cell|>|<cell|>|<cell|cos<rsup|2>
+    <frac|\<theta\>|2>=<frac|1|2>*<around*|(|cos
+    \<theta\>+1|)>>>|<row|<cell|g<rprime|'><around*|(|x|)>>|<cell|=>|<cell|<frac|1+cos
+    <around*|(|x+arctan 2|)>|sin<around*|(|x+arctan
+    2|)>>\<times\><frac|2|cos<around*|(|x+arctan
+    2|)>+1>\<times\><frac|1|2>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|sin<around*|(|x+arctan
+    2|)>>>>|<row|<cell|>|<cell|>|<cell|sin<around*|(|\<alpha\>\<pm\>\<beta\>|)>=sin
+    \<alpha\>*cos \<beta\>\<pm\>cos \<alpha\>*sin
+    \<beta\>>>|<row|<cell|g<rprime|'><around*|(|x|)>>|<cell|=>|<cell|<frac|1|sin
+    x*cos<around*|(|arctan 2|)>+cos x*sin<around*|(|arctan
+    2|)>>>>|<row|<cell|>|<cell|>|<cell|sin<around*|(|arctan
+    x|)>=<frac|x|<sqrt|1+x<rsup|2>>>,cos<around*|(|arctan
+    x|)>=<frac|1|<sqrt|1+x<rsup|2>>>>>|<row|<cell|g<rprime|'><around*|(|x|)>>|<cell|=>|<cell|<frac|1|<frac|1|<sqrt|5>>*sin
+    x+<frac|2|<sqrt|5>>*cos x>=<frac|<sqrt|5>|sin x+2*cos
+    x>>>|<row|<cell|k<around*|(|x|)>>|<cell|=>|<cell|l
+    n<around*|\||<frac|<sqrt|5>-1+2*tan <frac|x|2>|<sqrt|5>+1-2*tan
+    <frac|x|2>>|\|>>>|<row|<cell|k<rprime|'><around*|(|x|)>>|<cell|=>|<cell|<frac|1|<sqrt|5>-1+2*tan
+    <frac|x|2>>\<times\><frac|1|cos<rsup|2>
+    <frac|x|2>>-<frac|1|<sqrt|5>+1-2*tan <frac|x|2>>\<times\><frac|-1|cos<rsup|2>
+    <frac|x|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|cos<rsup|2>
+    <frac|x|2>>\<times\><around*|(|<frac|<sqrt|5>-1+2*tan
+    <frac|x|2>+<sqrt|5>+1-2*tan <frac|x|2>|<around*|(|<sqrt|5>-<around*|(|1-2*tan
+    <frac|x|2>|)>|)>*<around*|(|<sqrt|5>+<around*|(|1-2*tan
+    <frac|x|2>|)>|)>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|cos
+    x+1>\<times\><frac|2*<sqrt|5>|5-<around*|(|1-2*tan
+    <frac|x|2>|)><rsup|2>>=<frac|2|cos x+1>\<times\><frac|2*<sqrt|5>|4+4*tan
+    <frac|x|2>-4*tan<rsup|2> <frac|x|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|cos
+    x+1>\<times\><frac|<sqrt|5>|1+<frac|sin x|1+cos x>-<frac|1-cos x|1+cos
+    x>>=<frac|<sqrt|5>|1+cos x+sin x-1+cos
+    x>>>|<row|<cell|>|<cell|=>|<cell|<frac|<sqrt|5>|sin x+2*cos x>>>>>
   </eqnarray*>
 </body>
 
