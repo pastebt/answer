@@ -262,7 +262,51 @@
     <frac|x|2>-4*tan<rsup|2> <frac|x|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|cos
     x+1>\<times\><frac|<sqrt|5>|1+<frac|sin x|1+cos x>-<frac|1-cos x|1+cos
     x>>=<frac|<sqrt|5>|1+cos x+sin x-1+cos
-    x>>>|<row|<cell|>|<cell|=>|<cell|<frac|<sqrt|5>|sin x+2*cos x>>>>>
+    x>>>|<row|<cell|>|<cell|=>|<cell|<frac|<sqrt|5>|sin x+2*cos
+    x>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|sin<rsup|2>
+    x|sin x+2*cos x>*d x>>|<row|<cell|>|<cell|>|<cell|<tabular*|<tformat|<cwith|2|2|4|10|cell-tborder|1ln>|<cwith|1|1|4|10|cell-bborder|1ln>|<cwith|2|2|4|10|cell-bborder|0ln>|<cwith|2|2|4|4|cell-lborder|1ln>|<cwith|2|2|3|3|cell-rborder|1ln>|<cwith|2|2|10|10|cell-rborder|0ln>|<cwith|2|2|11|11|cell-lborder|0ln>|<cwith|3|3|5|6|cell-tborder|0ln>|<cwith|2|2|5|6|cell-bborder|0ln>|<cwith|3|3|5|6|cell-bborder|1ln>|<cwith|3|3|6|6|cell-lborder|0ln>|<cwith|3|3|4|4|cell-rborder|0ln>|<cwith|3|3|6|6|cell-rborder|0ln>|<cwith|3|3|7|7|cell-lborder|0ln>|<cwith|5|5|6|7|cell-tborder|0ln>|<cwith|4|4|6|7|cell-bborder|0ln>|<cwith|5|5|6|7|cell-bborder|1ln>|<cwith|5|5|7|7|cell-lborder|0ln>|<cwith|5|5|5|5|cell-rborder|0ln>|<cwith|5|5|7|7|cell-rborder|0ln>|<cwith|5|5|8|8|cell-lborder|0ln>|<table|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|sin
+    x>|<cell|-2*cos x>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|sin
+    x+2*cos x>|<cell|>|<cell|>|<cell|sin<rsup|2>
+    x>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|sin<rsup|2>
+    x>|<cell|+2*sin x*cos x>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|-2*sin
+    x*cos x>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|-2*sin
+    x*cos x>|<cell|-4*cos<rsup|2> x>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|4*cos<rsup|2>
+    x>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>>>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|sin<rsup|2>
+    x|sin x+2*cos x>*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|<frac|4*cos<rsup|2>
+    x|sin x+2*cos x>+sin x-2*cos x|)>*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|<frac|4|sin
+    x+2*cos x>+sin x-2*cos x|)>*d x-<big|int><frac|4*sin<rsup|2> x|sin
+    x+2*cos x>*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|<frac|4|sin
+    x+2*cos x>+sin x-2*cos x|)>*d x-4*F<around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|5>*<big|int><around*|(|<frac|4|sin
+    x+2*cos x>+sin x-2*cos x|)>*d x>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|5>*<around*|(|cos
+    x+2*sin x|)>+<frac|4|5>*<big|int><frac|d x|sin x+2*cos x>>>>>
+  </eqnarray*>
+
+  \;
+
+  2028:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|1+\<varepsilon\>*cos x><space|1em><text|(a)
+    0\<less\><math|\<varepsilon\>>\<less\>1; (b) <math|\<varepsilon\>>
+    \<gtr\> 1>>>|<row|<cell|>|<cell|<around*|\<nobracket\>||\<nobracket\>>>|<cell|t=tan
+    <frac|x|2>>>|<row|<cell|>|<cell|>|<cell|cos
+    x=<frac|1-t<rsup|2>|1+t<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|d
+    x=<around*|(|cos x+1|)>*d t=<around*|(|<frac|1-t<rsup|2>|1+t<rsup|2>>+1|)>*d
+    t=<frac|2*d t|1+t<rsup|2>>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|<frac|2*d
+    t|1+t<rsup|2>>|1+\<varepsilon\>*<frac|1-t<rsup|2>|1+t<rsup|2>>>=<big|int><frac|2*d
+    t|<around*|(|1+\<varepsilon\>|)>+<around*|(|1-\<varepsilon\>|)>*t<rsup|2>>=<frac|2|1-\<varepsilon\>>*<big|int><frac|d
+    t|<frac|1+\<varepsilon\>|1-\<varepsilon\>>+t<rsup|2>>>>|<row|<cell|>|<cell|<around*|(|a|)>:>|<cell|0\<less\>\<varepsilon\>\<less\>1>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<frac|2|1-\<varepsilon\>>*<big|int><frac|d
+    t|<around*|(|<sqrt|<frac|1+\<varepsilon\>|1-\<varepsilon\>>>|)><rsup|2>+t<rsup|2>>>>|<row|<cell|book:>|<cell|\<Iota\>.>|<cell|<big|int><frac|d
+    x|a<rsup|2>+x<rsup|2>>=<frac|1|a>*arctan
+    <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<frac|2|1-\<varepsilon\>>\<times\><frac|1|<sqrt|<frac|1+\<varepsilon\>|1-\<varepsilon\>>>>\<times\>arctan<around*|(|<frac|t|<sqrt|<frac|1+\<varepsilon\>|1-\<varepsilon\>>>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|<sqrt|1-\<varepsilon\><rsup|2>>>*arctan<around*|(|t*<sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|2|<sqrt|1-\<varepsilon\><rsup|2>>>*arctan<around*|(|tan
+    <frac|x|2>\<times\><sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<around*|(|b|)>:>|<cell|\<varepsilon\>\<gtr\>1>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<frac|2|\<varepsilon\>-1>*<big|int><frac|d
+    t|<around*|(|<sqrt|<frac|1+\<varepsilon\>|\<varepsilon\>-1>>|)><rsup|2>-t<rsup|2>>>>|<row|<cell|book:>|<cell|\<Iota\>
+    \<Iota\>.>|<cell|<big|int><frac|d x|a<rsup|2>-x<rsup|2>>=<frac|1|2*a>*l
+    n<around*|\||<frac|a+x|a-x>|\|>+C<space|1em><around*|(|a\<neq\>0|)><space|1em>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<frac|2|\<varepsilon\>-1>\<times\><frac|1|2*<sqrt|<frac|1+\<varepsilon\>|\<varepsilon\>-1>>>\<times\>l
+    n<around*|\||<frac|<sqrt|<frac|1+\<varepsilon\>|\<varepsilon\>-1>>+t|<sqrt|<frac|1+\<varepsilon\>|\<varepsilon\>-1>>-t>|\|>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|\<varepsilon\><rsup|2>-1>>*l
+    n<around*|\||<frac|<sqrt|1+\<varepsilon\>>+t*<sqrt|\<varepsilon\>-1>|<sqrt|1+\<varepsilon\>>-t*<sqrt|\<varepsilon\>-1>>|\|>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|\<varepsilon\><rsup|2>-1>>*l
+    n<around*|\||<frac|1+\<varepsilon\>+2*t*<sqrt|e<rsup|2>-1>+t<rsup|2>*<around*|(|\<varepsilon\>-1|)>|1+\<varepsilon\>-t<rsup|2>*<around*|(|\<varepsilon\>-1|)>>|\|>>>>>
   </eqnarray*>
 </body>
 
