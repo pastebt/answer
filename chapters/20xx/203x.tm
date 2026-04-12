@@ -87,6 +87,26 @@
     <frac|\<pi\>|4>+sin x|cos <frac|\<pi\>|4>+cos x>=<frac|1+<sqrt|2>*sin
     x|1+<sqrt|2>*cos x>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2033:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<around*|(|a*sin x+b*cos x|)><rsup|2>>>>|<row|<cell|>|<cell|>|<cell|y=tan
+    x>>|<row|<cell|>|<cell|>|<cell|d y=<frac|d x|cos<rsup|2>
+    x>\<rightarrow\>d x=cos<rsup|2> x*d y>>|<row|<cell|>|<cell|>|<cell|tan<rsup|2>
+    x+1=<frac|sin<rsup|2> x|cos<rsup|2> x>+1=<frac|1|cos<rsup|2>
+    x>>>|<row|<cell|>|<cell|>|<cell|cos<rsup|2>
+    x=<frac|1|y<rsup|2>+1>\<rightarrow\>sin<rsup|2> x=1-cos<rsup|2>
+    x=<frac|y<rsup|2>|y<rsup|2>+1>>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|<frac|d
+    y|y<rsup|2>+1>|<around*|(|a*<sqrt|<frac|y<rsup|2>|y<rsup|2>+1>>+b*<sqrt|<frac|1|y<rsup|2>+1>>|)><rsup|2>>=<big|int><frac|d
+    y|<around*|(|a*y+b|)><rsup|2>>=<frac|1|a>*<big|int><frac|d<around*|(|a*y+b|)>|<around*|(|a*y+b|)><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|a>\<times\><frac|1|a*y+b>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-<frac|1|a*<around*|(|a*<frac|sin
+    x|cos x>+b|)>>=-<frac|cos x|a*<around*|(|a*sin x+b*cos x|)>>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
