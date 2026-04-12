@@ -50,6 +50,43 @@
     x+b<rsup|2>|)>>+<frac|1|2*a*b<rsup|3>>*arctan<around*|(|<frac|a*tan
     x|b>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2032:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|sin
+    x*cos x|sin x+cos x>*d x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<big|int><frac|1+2*sin
+    x*cos x-1|sin x+cos x>*d x=<frac|1|2>*<big|int><frac|<around*|(|sin x+cos
+    x|)><rsup|2>-1|sin x+cos x>*d x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<around*|(|sin
+    x-cos x|)>-<frac|1|2>*<big|int><frac|d x|sin x+cos
+    x>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|sin x+cos x>>>|<row|<cell|>|<cell|>|<cell|t=tan
+    <frac|x|2>>>|<row|<cell|>|<cell|>|<cell|d x=<around*|(|cos x+1|)>*d
+    t>>|<row|<cell|>|<cell|>|<cell|t<rsup|2>=<frac|1-cos x|1+cos
+    x>\<rightarrow\>cos x=<frac|1-t<rsup|2>|1+t<rsup|2>>\<rightarrow\>sin
+    x=<frac|2*t|1+t<rsup|2>>,d x=<frac|2|1+t<rsup|2>>*d
+    t>>|<row|<cell|f<rsub|1><around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|<frac|2|1+t<rsup|2>>*d
+    t|<frac|2*t|1+t<rsup|2>>+<frac|1-t<rsup|2>|1+t<rsup|2>>>=<big|int><frac|2*d
+    t|1+2*t-t<rsup|2>>=<big|int><frac|2*d
+    t|2-<around*|(|1-2*t+t<rsup|2>|)>>>>|<row|<cell|>|<cell|=>|<cell|2*<big|int><frac|d
+    <around*|(|t-1|)>|<around*|(|<sqrt|2>|)><rsup|2>-<around*|(|t-1|)><rsup|2>>>>|<row|<cell|book:>|<cell|\<Iota\>
+    \<Iota\>.>|<cell|<big|int><frac|d x|a<rsup|2>-x<rsup|2>>=<frac|1|2*a>*l
+    n<around*|\||<frac|a+x|a-x>|\|>+C<space|1em><around*|(|a\<neq\>0|)><space|1em>>>|<row|<cell|f<rsub|1><around*|(|t|)>>|<cell|=>|<cell|2\<times\><frac|1|2*<sqrt|2>>*l
+    n<around*|\||<frac|<sqrt|2>+t-1|<sqrt|2>-<around*|(|t-1|)>>|\|>=<frac|1|<sqrt|2>>*l
+    n<around*|\||<frac|<sqrt|2>+t-1|<sqrt|2>-t+1>|\|>>>|<row|<cell|f<rsub|1>*<around*|(|x|)>>|<cell|=>|<cell|<frac|1|<sqrt|2>>*l
+    n<around*|\||<frac|<sqrt|2>-1+tan <frac|x|2>|<sqrt|2>+1-tan
+    <frac|x|2>>|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>*<around*|(|sin
+    x-cos x|)>-<frac|1|2*<sqrt|2>>*l n<around*|\||<frac|<sqrt|2>-1+tan
+    <frac|x|2>|<sqrt|2>+1-tan <frac|x|2>>|\|>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|g<around*|(|x|)>>|<cell|=>|<cell|tan<around*|(|<frac|x|2>+<frac|\<pi\>|8>|)>=tan<around*|(|<frac|x+<frac|\<pi\>|4>|2>|)>>>|<row|<cell|>|<cell|>|<cell|tan<around*|(|<frac|\<eta\>+\<theta\>|2>|)>=<frac|sin
+    \<eta\>+sin \<theta\>|cos \<eta\>+cos
+    \<theta\>>>>|<row|<cell|g<around*|(|x|)>>|<cell|=>|<cell|<frac|sin
+    <frac|\<pi\>|4>+sin x|cos <frac|\<pi\>|4>+cos x>=<frac|1+<sqrt|2>*sin
+    x|1+<sqrt|2>*cos x>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>

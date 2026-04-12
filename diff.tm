@@ -280,6 +280,17 @@
   \;
 
   2028:
+
+  \;
+
+  2032:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|1|2>*<around*|(|sin x-cos
+    x|)>-<frac|1|2*<sqrt|2>>*l n<around*|\||tan<around*|(|<frac|x|2>+<frac|\<pi\>|8>|)>|\|>>|<cell|\<neq\>>|<cell|<frac|1|2>*<around*|(|sin
+    x-cos x|)>-<frac|1|2*<sqrt|2>>*l n<around*|\||<frac|<sqrt|2>-1+tan
+    <frac|x|2>|<sqrt|2>+1-tan <frac|x|2>>|\|>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
