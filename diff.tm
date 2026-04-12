@@ -276,6 +276,10 @@
     n<around*|\||<frac|cos<around*|(|<frac|x|2>-<frac|a|2>|)>|cos<around*|(|<frac|x|2>+<frac|a|2>|)>>|\|>>|<cell|\<neq\>>|<cell|<frac|1|2*sin
     a>*l n<around*|\||<frac|cos<around*|(|<frac|x|2>-<frac|a|2>|)>|cos<around*|(|<frac|x|2>+<frac|a|2>|)>>|\|>>>>>
   </eqnarray*>
+
+  \;
+
+  2028:
 </body>
 
 <\initial>

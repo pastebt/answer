@@ -308,6 +308,32 @@
     n<around*|\||<frac|<sqrt|1+\<varepsilon\>>+t*<sqrt|\<varepsilon\>-1>|<sqrt|1+\<varepsilon\>>-t*<sqrt|\<varepsilon\>-1>>|\|>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|\<varepsilon\><rsup|2>-1>>*l
     n<around*|\||<frac|1+\<varepsilon\>+2*t*<sqrt|e<rsup|2>-1>+t<rsup|2>*<around*|(|\<varepsilon\>-1|)>|1+\<varepsilon\>-t<rsup|2>*<around*|(|\<varepsilon\>-1|)>>|\|>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2029:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|sin<rsup|2>
+    x|1+sin<rsup|2> x>*d x>>|<row|<cell|>|<cell|>|<cell|t=tan
+    x>>|<row|<cell|>|<cell|>|<cell|d t=<frac|d x|cos<rsup|2>
+    x>\<rightarrow\>d x=cos<rsup|2> x*d t>>|<row|<cell|>|<cell|>|<cell|t<rsup|2>+1=<frac|sin<rsup|2>
+    x+cos<rsup|2> x|cos<rsup|2> x>=<frac|1|cos<rsup|2>
+    x>>>|<row|<cell|>|<cell|>|<cell|cos<rsup|2>
+    x=<frac|1|t<rsup|2>+1>>>|<row|<cell|>|<cell|>|<cell|sin<rsup|2>
+    x=1-cos<rsup|2> x=1-<frac|1|t<rsup|2>+1>=<frac|t<rsup|2>|t<rsup|2>+1>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|<frac|t<rsup|2>|t<rsup|2>+1>\<times\><frac|d
+    t|t<rsup|2>+1>|1+<frac|t<rsup|2>|t<rsup|2>+1>>=<big|int><frac|t<rsup|2>*d
+    t|<around*|(|2*t<rsup|2>+1|)>*<around*|(|t<rsup|2>+1|)>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|<frac|1|t<rsup|2>+1>-<frac|1|2*t<rsup|2>+1>|)>*d
+    t>>|<row|<cell|>|<cell|=>|<cell|arctan<around*|(|t|)>-<frac|1|2>*<big|int><frac|d
+    t|t<rsup|2>+<around*|(|<frac|1|<sqrt|2>>|)><rsup|2>>>>|<row|<cell|book:>|<cell|\<Iota\>.>|<cell|<big|int><frac|d
+    x|a<rsup|2>+x<rsup|2>>=<frac|1|a>*arctan
+    <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|arctan<around*|(|t|)>-<frac|1|2>\<times\><frac|1|<frac|1|<sqrt|2>>>\<times\>arctan<around*|(|<frac|t|<frac|1|<sqrt|2>>>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|arctan<around*|(|tan
+    x|)>-<frac|1|<sqrt|2>>*arctan<around*|(|<sqrt|2>*tan
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|x-<frac|1|<sqrt|2>>*arctan<around*|(|<sqrt|2>*tan
+    x|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
