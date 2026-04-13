@@ -204,6 +204,34 @@
     2*x|cos 2*x>|)>=<frac|1|<sqrt|2>>*arctan<around*|(|<frac|tan
     2*x|<sqrt|2>>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2036:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|sin<rsup|2>
+    x*cos<rsup|2> x|sin<rsup|8> x+cos<rsup|8> x>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<frac|tan<rsup|2>
+    x|cos<rsup|4> x>*d x|tan<rsup|8> x+1>>>|<row|<cell|>|<cell|>|<cell|t=tan
+    x>>|<row|<cell|>|<cell|>|<cell|d t=<frac|1|cos<rsup|2> x>*d
+    x>>|<row|<cell|>|<cell|>|<cell|d x=cos<rsup|2> x*d
+    t>>|<row|<cell|>|<cell|>|<cell|t<rsup|2>+1=<frac|1|cos<rsup|2>
+    x>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|t<rsup|2>\<times\><frac|1|cos<rsup|4>
+    x>\<times\>cos<rsup|2> x*d t|t<rsup|8>+1>=<big|int><frac|t<rsup|2>*<around*|(|t<rsup|2>+1|)>*d
+    t|t<rsup|8>+1>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|t<rsup|4>+t<rsup|2>|t<rsup|8>+2*t<rsup|4>+1-2*t<rsup|4>>*d
+    t=<big|int><frac|t<rsup|4>+t<rsup|2>|<around*|(|t<rsup|4>+1|)><rsup|2>-<around*|(|<sqrt|2>*t<rsup|2>|)><rsup|2>>*d
+    t>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|t<rsup|2>+1|2*<sqrt|2>>\<times\><around*|(|<frac|1|t<rsup|4>-<sqrt|2>*t<rsup|2>+1>-<frac|1|t<rsup|4>+<sqrt|2>*t<rsup|2>+1>|)>*d
+    t>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2*<sqrt|2>>*<big|int><around*|(|<frac|t<rsup|2>+1|<around*|(|t<rsup|2>-1|)><rsup|2>+<around*|(|2-<sqrt|2>|)>*t<rsup|2>>-<frac|t<rsup|2>+1|<around*|(|t<rsup|2>-1|)><rsup|2>+<around*|(|2+<sqrt|2>|)>*t<rsup|2>>|)>*d
+    t>>|<row|<cell|>|<cell|>|<cell|d<around*|(|<frac|t<rsup|2>-1|t>|)>=<frac|2*t\<times\>t-<around*|(|t<rsup|2>-1|)>|t<rsup|2>>*d
+    t=<frac|t<rsup|2>+1|t<rsup|2>>*d t>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<frac|1|2*<sqrt|2>>*<big|int><around*|(|<frac|<frac|t<rsup|2>+1|t<rsup|2>>|<around*|(|<frac|t<rsup|2>-1|t>|)><rsup|2>+<around*|(|2-<sqrt|2>|)>>-<frac|<frac|t<rsup|2>+1|t<rsup|2>>|<around*|(|<frac|t<rsup|2>-1|t>|)><rsup|2>+<around*|(|2+<sqrt|2>|)>>|)>*d
+    t>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2*<sqrt|2>>*<big|int><around*|(|<frac|1|<around*|(|<frac|t<rsup|2>-1|t>|)><rsup|2>+<around*|(|<sqrt|2-<sqrt|2>>|)><rsup|2>>-<frac|1|<around*|(|<frac|t<rsup|2>-1|t>|)><rsup|2>+<around*|(|<sqrt|2+<sqrt|2>>|)><rsup|2>>|)>*d
+    <around*|(|<frac|t<rsup|2>-1|t>|)>>>|<row|<cell|book:>|<cell|\<Iota\>.>|<cell|<big|int><frac|d
+    x|a<rsup|2>+x<rsup|2>>=<frac|1|a>*arctan
+    <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<frac|1|2*<sqrt|2>>*<around*|(|<frac|1|<sqrt|2-<sqrt|2>>>*arctan<around*|(|<frac|t<rsup|2>-1|t*<sqrt|2-<sqrt|2>>>|)>-<frac|1|<sqrt|2+<sqrt|2>>>*arctan<around*|(|<frac|t<rsup|2>-1|t*<sqrt|2+<sqrt|2>>>|)>|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
