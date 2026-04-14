@@ -230,7 +230,24 @@
     t>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2*<sqrt|2>>*<big|int><around*|(|<frac|1|<around*|(|<frac|t<rsup|2>-1|t>|)><rsup|2>+<around*|(|<sqrt|2-<sqrt|2>>|)><rsup|2>>-<frac|1|<around*|(|<frac|t<rsup|2>-1|t>|)><rsup|2>+<around*|(|<sqrt|2+<sqrt|2>>|)><rsup|2>>|)>*d
     <around*|(|<frac|t<rsup|2>-1|t>|)>>>|<row|<cell|book:>|<cell|\<Iota\>.>|<cell|<big|int><frac|d
     x|a<rsup|2>+x<rsup|2>>=<frac|1|a>*arctan
-    <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<frac|1|2*<sqrt|2>>*<around*|(|<frac|1|<sqrt|2-<sqrt|2>>>*arctan<around*|(|<frac|t<rsup|2>-1|t*<sqrt|2-<sqrt|2>>>|)>-<frac|1|<sqrt|2+<sqrt|2>>>*arctan<around*|(|<frac|t<rsup|2>-1|t*<sqrt|2+<sqrt|2>>>|)>|)>>>>>
+    <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<frac|1|2*<sqrt|2>>*<around*|(|<frac|1|<sqrt|2-<sqrt|2>>>*arctan<around*|(|<frac|t<rsup|2>-1|t*<sqrt|2-<sqrt|2>>>|)>-<frac|1|<sqrt|2+<sqrt|2>>>*arctan<around*|(|<frac|t<rsup|2>-1|t*<sqrt|2+<sqrt|2>>>|)>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|d<around*|(|<frac|t|t<rsup|2>-1>|)>=<frac|t<rsup|2>-1-t*<around*|(|2*t|)>|*<rsup|<around*|(|t<rsup|2>-1|)><rsup|2>>>*d
+    t=<frac|-<around*|(|t<rsup|2>+1|)>|<around*|(|t<rsup|2>-1|)><rsup|2>>*d
+    t>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<frac|1|2*<sqrt|2>>*<big|int><around*|(|<frac|<frac|t<rsup|2>+1|<around*|(|1-t<rsup|2>|)><rsup|2>>|1+<around*|(|2-<sqrt|2>|)>*<around*|(|<frac|t|1-t<rsup|2>>|)><rsup|2>>-<frac|<frac|t<rsup|2>+1|<around*|(|1-t<rsup|2>|)><rsup|2>>|1+<around*|(|2+<sqrt|2>|)>*<around*|(|<frac|t|1-t<rsup|2>>|)><rsup|2>>|)>*d
+    t>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2*<sqrt|2>>*<around*|(|<frac|1|<sqrt|2-<sqrt|2>>>*arctan<around*|(|<frac|t*<sqrt|2-<sqrt|2>>|1-t<rsup|2>>|)>-<frac|1|<sqrt|2+<sqrt|2>>>*arctan<around*|(|<frac|t*<sqrt|2+<sqrt|2>>|1-t<rsup|2>>|)>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2*<sqrt|2>>*<around*|(|<frac|<sqrt|2+<sqrt|2>>|<sqrt|4-2>>*arctan<around*|(|<frac|<frac|sin
+    x|cos x>*<sqrt|2-<sqrt|2>>|1-<frac|sin<rsup|2> x|cos<rsup|2>
+    x>>|)>-<frac|<sqrt|2-<sqrt|2>>|<sqrt|4-2>>*arctan<around*|(|<frac|<frac|sin
+    x|cos x>*<sqrt|2+<sqrt|2>>|1-<frac|sin<rsup|2> x|cos<rsup|2>
+    x>>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4>*<around*|(|<sqrt|2+<sqrt|2>>*arctan<around*|(|<frac|2*sin
+    x*cos x*<sqrt|2-<sqrt|2>>|2*<around*|(|cos<rsup|2> x-sin<rsup|2>
+    x|)>>|)>-<sqrt|2-<sqrt|2>>*arctan<around*|(|<frac|2*sin x*cos
+    x*<sqrt|2+<sqrt|2>>|2*<around*|(|cos<rsup|2> x-sin<rsup|2>
+    x|)>>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4>*<around*|(|<sqrt|2+<sqrt|2>>*arctan<around*|(|<frac|sin
+    2*x*<sqrt|4-2>|cos 2*x\<times\>2\<times\><sqrt|2+<sqrt|2>>>|)>-<sqrt|2-<sqrt|2>>*arctan<around*|(|<frac|sin
+    2*x*<sqrt|4-2>|cos 2*x\<times\>2\<times\><sqrt|2-<sqrt|2>>>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4>*<around*|(|<sqrt|2+<sqrt|2>>*arctan<around*|(|<frac|tan
+    2*x|<sqrt|2>\<times\><sqrt|2+<sqrt|2>>>|)>-<sqrt|2-<sqrt|2>>*arctan<around*|(|<frac|tan
+    2*x|<sqrt|2>\<times\><sqrt|2-<sqrt|2>>>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4>*<around*|(|<sqrt|2+<sqrt|2>>*arctan<around*|(|<frac|tan
+    2*x|<sqrt|4+2*<sqrt|2>>>|)>-<sqrt|2-<sqrt|2>>*arctan<around*|(|<frac|tan
+    2*x|<sqrt|4-2*<sqrt|2>>>|)>|)>>>>>
   </eqnarray*>
 </body>
 
