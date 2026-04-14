@@ -249,6 +249,44 @@
     2*x|<sqrt|4+2*<sqrt|2>>>|)>-<sqrt|2-<sqrt|2>>*arctan<around*|(|<frac|tan
     2*x|<sqrt|4-2*<sqrt|2>>>|)>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2037:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|sin<rsup|2>
+    x-cos<rsup|2> x|sin<rsup|4> x+cos<rsup|4> x>*d
+    x>>|<row|<cell|>|<cell|>|<cell|sin 2*\<theta\>=2*sin \<theta\>*cos
+    \<theta\>,cos 2*\<theta\>=cos<rsup|2> \<theta\>-sin<rsup|2>
+    \<theta\>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|-cos
+    2*x|sin<rsup|4> x+2*sin<rsup|2> x*cos<rsup|2> x+cos<rsup|4>
+    x-2*sin<rsup|2> x*cos<rsup|2> x>*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|-d<around*|(|sin
+    2*x|)>|2*<around*|(|sin<rsup|2> x+cos<rsup|2> x|)><rsup|2>-4*sin<rsup|2>
+    x*cos<rsup|2> x>=<big|int><frac|d<around*|(|sin 2*x|)>|sin<rsup|2>
+    2*x-<around*|(|<sqrt|2>|)><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|<frac|1|sin
+    2*x-<sqrt|2>>-<frac|1|sin 2*x+<sqrt|2>>|)>\<times\><frac|d<around*|(|sin
+    2*x|)>|2*<sqrt|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2*<sqrt|2>>*l
+    n<around*|\||<frac|sin 2*x-<sqrt|2>|sin
+    2*x+<sqrt|2>>|\|>=<frac|1|2*<sqrt|2>>*l n<around*|(|<frac|<sqrt|2>-sin
+    2*x|<sqrt|2>+sin 2*x>|)> <around*|(|<sqrt|2>\<gtr\>1\<geqslant\>sin
+    2*x|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<rprime|'><around*|(|x|)>>|<cell|=>|<cell|<frac|1|2*<sqrt|2>>*<around*|(|<frac|2*cos
+    2*x|sin 2*x-<sqrt|2>>-<frac|2*cos 2*x|sin 2*x+<sqrt|2>>|)>=<frac|cos
+    2*x|sin<rsup|2> 2*x-2>=<frac|2*<around*|(|cos<rsup|2> x-sin<rsup|2>
+    x|)>|4*sin<rsup|2> x*cos<rsup|2> x-2>>>|<row|<cell|>|<cell|=>|<cell|<frac|sin<rsup|2>
+    x-cos<rsup|2> x|1-2*sin<rsup|2> x*cos<rsup|2> x>=<frac|sin<rsup|2>
+    x-cos<rsup|2> x|<around*|(|sin<rsup|2> x+cos<rsup|2>
+    x|)><rsup|2>-2*sin<rsup|2> x*cos<rsup|2> x>=<frac|sin<rsup|2>
+    x-cos<rsup|2> x|sin<rsup|4> x+cos<rsup|4>
+    x>>>|<row|<cell|>|<cell|>|<cell|d<around*|(|l
+    n<around*|(|<frac|<sqrt|2>-sin 2*x|<sqrt|2>+sin
+    2*x>|)>|)>=<around*|(|<frac|-2<around*|(|cos 2*x|)>|<sqrt|2>-sin
+    2*x>-<frac|2*cos 2*x|sin 2*x+<sqrt|2>>|)>*d
+    x>>|<row|<cell|>|<cell|>|<cell|=<around*|(|<frac|2<around*|(|cos
+    2*x|)>|sin 2*x-<sqrt|2>>-<frac|2*cos 2*x|sin 2*x+<sqrt|2>>|)>*d x>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
