@@ -285,7 +285,33 @@
     2*x>|)>|)>=<around*|(|<frac|-2<around*|(|cos 2*x|)>|<sqrt|2>-sin
     2*x>-<frac|2*cos 2*x|sin 2*x+<sqrt|2>>|)>*d
     x>>|<row|<cell|>|<cell|>|<cell|=<around*|(|<frac|2<around*|(|cos
-    2*x|)>|sin 2*x-<sqrt|2>>-<frac|2*cos 2*x|sin 2*x+<sqrt|2>>|)>*d x>>>>
+    2*x|)>|sin 2*x-<sqrt|2>>-<frac|2*cos 2*x|sin 2*x+<sqrt|2>>|)>*d
+    x>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|t=tan
+    x>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|sin<rsup|2>
+    x-cos<rsup|2> x|sin<rsup|4> x+cos<rsup|4> x>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<around*|(|<frac|sin<rsup|2>
+    x|cos<rsup|2> x>-1|)>\<times\><frac|1|cos<rsup|2> x>|<frac|sin<rsup|4>
+    x|cos<rsup|4> x>+1>*d x>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|t<rsup|2>-1|t<rsup|4>+1>*d
+    t=<big|int><frac|t<rsup|2>-1|<around*|(|t<rsup|2>+1|)><rsup|2>-2*t<rsup|2>>*d
+    t>>|<row|<cell|>|<cell|>|<cell|d<around*|(|<frac|t|t<rsup|2>+1>|)>=<frac|t<rsup|2>+1-t\<times\>2*t|<around*|(|t<rsup|2>+1|)><rsup|2>>*d
+    t=<frac|1-t<rsup|2>|<around*|(|t<rsup|2>+1|)><rsup|2>>*d
+    t>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|<frac|t<rsup|2>-1|<around*|(|t<rsup|2>+1|)><rsup|2>>|1-2*<around*|(|<frac|t|t<rsup|2>+1>|)><rsup|2>>=<big|int><frac|-d<around*|(|<frac|t|t<rsup|2>+1>|)>|1-2*<around*|(|<frac|t|t<rsup|2>+1>|)><rsup|2>>>>|<row|<cell|>|<cell|>|<cell|<frac|t|t<rsup|2>+1>=<frac|<frac|sin
+    x|cos x>|<frac|sin<rsup|2> x|cos<rsup|2> x>+1>=sin x*cos x=<frac|1|2>*sin
+    2*x>>>>
+  </eqnarray*>
+
+  \;
+
+  \;
+
+  2038:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|sin
+    x*cos x|1+sin<rsup|4> x>*d x>>|<row|<cell|>|<cell|>|<cell|y=sin
+    x\<rightarrow\>d y=cos x*d x>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|y*d
+    y|1+y<rsup|4>>=<frac|1|2>*<big|int><frac|d<around*|(|y<rsup|2>|)>|1+<around*|(|y<rsup|2>|)><rsup|2>>=<frac|1|2>*arctan<around*|(|y<rsup|2>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>*arctan<around*|(|sin<rsup|2>
+    x|)>>>>>
   </eqnarray*>
 </body>
 
