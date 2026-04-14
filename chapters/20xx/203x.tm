@@ -313,6 +313,32 @@
     y|1+y<rsup|4>>=<frac|1|2>*<big|int><frac|d<around*|(|y<rsup|2>|)>|1+<around*|(|y<rsup|2>|)><rsup|2>>=<frac|1|2>*arctan<around*|(|y<rsup|2>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>*arctan<around*|(|sin<rsup|2>
     x|)>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2039:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|sin<rsup|6> x+cos<rsup|6> x>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<frac|1|cos<rsup|6>
+    x>*d x|<frac|sin<rsup|6> x|cos<rsup|6>
+    x>+1>>>|<row|<cell|>|<cell|>|<cell|t=tan
+    x>>|<row|<cell|>|<cell|>|<cell|t<rsup|2>+1=<frac|1|cos<rsup|2>
+    x>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|<around*|(|t<rsup|2>+1|)><rsup|2>*d
+    t|t<rsup|6>+1>=<big|int><frac|<around*|(|t<rsup|2>+1|)><rsup|2>*d
+    t|<around*|(|t<rsup|2>+1|)>*<around*|(|t<rsup|4>-t<rsup|2>+1|)>>=<big|int><frac|<around*|(|t<rsup|2>+1|)>*d
+    t|t<rsup|4>-t<rsup|2>+1>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|t<rsup|2>+1|<around*|(|t<rsup|2>-1|)>+t<rsup|2>>*d
+    t>>|<row|<cell|>|<cell|>|<cell|d<around*|(|<frac|t|t<rsup|2>-1>|)>=<frac|t<rsup|2>-1-2*t\<times\>t|<around*|(|t<rsup|2>-1|)><rsup|2>>*d
+    t=<frac|-<around*|(|t<rsup|2>+1|)>|<around*|(|t<rsup|2>-1|)><rsup|2>>*d
+    t>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|<frac|t<rsup|2>+1|<around*|(|t<rsup|2>-1|)><rsup|2>>|1+<around*|(|<frac|t|t<rsup|2>-1>|)><rsup|2>>*d
+    t=<big|int><frac|-d<around*|(|<frac|t|t<rsup|2>-1>|)>|1+<around*|(|<frac|t|t<rsup|2>-1>|)><rsup|2>>=<big|int><frac|d<around*|(|<frac|t|1-t<rsup|2>>|)>|1+<around*|(|<frac|t|1-t<rsup|2>>|)><rsup|2>>=arctan<around*|(|<frac|t|1-t<rsup|2>>|)>>>|<row|<cell|>|<cell|>|<cell|<frac|t|1-t<rsup|2>>=<frac|<frac|sin
+    x|cos x>|1-<frac|sin<rsup|2> x|cos<rsup|2> x>>=<frac|sin x*cos
+    x|cos<rsup|2> x-sin<rsup|2> x>=<frac|1|2>\<times\><frac|sin 2*x|cos
+    2*x>=<frac|1|2>*tan 2*x>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|arctan<around*|(|<frac|tan
+    2*x|2>|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
