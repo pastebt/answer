@@ -58,6 +58,34 @@
   </eqnarray*>
 
   \;
+
+  \;
+
+  2041:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|a*sin x+b*cos x>>>|<row|<cell|>|<cell|>|<cell|\<alpha\>*cos
+    x+\<beta\>*sin x=c*cos <around*|(|x+\<varphi\>|)>>>|<row|<cell|>|<cell|>|<cell|c=sgn<around*|(|\<alpha\>|)>*<sqrt|\<alpha\><rsup|2>+\<beta\><rsup|2>>>>|<row|<cell|>|<cell|>|<cell|\<varphi\>=arctan<around*|(|-<frac|\<beta\>|\<alpha\>>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<sqrt|a<rsup|2>+b<rsup|2>>*cos<around*|(|x+arctan<around*|(|-<frac|a|b>|)>|)>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|a<rsup|2>+b<rsup|2>>>*<big|int><frac|d<around*|(|x+arctan<around*|(|-<frac|a|b>|)>|)>|cos<around*|(|x+arctan<around*|(|-<frac|a|b>|)>|)>>>>|<row|<cell|book:F<rsub|c<rsub|1>><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|cos x>=l n<around*|\||<frac|1+sin x|cos x>|\|>+C=l
+    n<around*|\||tan<around*|(|<frac|x|2>+<frac|\<pi\>|4>|)>|\|>+C>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|<sqrt|a<rsup|2>+b<rsup|2>>>*l
+    n<around*|\||<frac|1+sin<around*|(|x+arctan<around*|(|-<frac|a|b>|)>|)>|cos<around*|(|x+arctan<around*|(|-<frac|a|b>|)>|)>>|\|>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|a*sin x+b*cos x>>>|<row|<cell|>|<cell|>|<cell|cos
+    \<varphi\>=<frac|a|<sqrt|a<rsup|2>+b<rsup|2>>>,sin
+    \<varphi\>=<frac|b|<sqrt|a<rsup|2>+b<rsup|2>>>>>|<row|<cell|>|<cell|>|<cell|a=cos
+    \<varphi\>*<sqrt|a<rsup|2>+b<rsup|2>>,b=sin
+    \<varphi\>*<sqrt|a<rsup|2>+b<rsup|2>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|<sqrt|a<rsup|2>+b<rsup|2>>>*<big|int><frac|d
+    x|sin x*cos \<varphi\>+cos x*sin \<varphi\>>>>|<row|<cell|>|<cell|>|<cell|sin<around*|(|\<alpha\>\<pm\>\<beta\>|)>=sin
+    \<alpha\>*cos \<beta\>\<pm\>cos \<alpha\>*sin
+    \<beta\>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|<sqrt|a<rsup|2>+b<rsup|2>>>*<big|int><frac|d
+    x|sin<around*|(|x+\<varphi\>|)>>=<frac|1|<sqrt|a<rsup|2>+b<rsup|2>>>*<big|int><frac|d<around*|(|x+\<varphi\>|)>|sin<around*|(|x+\<varphi\>|)>>>>|<row|<cell|book:F<rsub|s<rsub|1>><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|1|sin
+    x>*d x=l n<around*|\||<frac|1-cos x|sin x>|\|>=l n<around*|\||tan
+    <frac|x|2>|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|<sqrt|a<rsup|2>+b<rsup|2>>>*l
+    n<around*|\||tan<around*|(|<frac|x+\<varphi\>|2>|)>|\|>>>>>
+  </eqnarray*>
+
+  \;
 </body>
 
 <\initial>
