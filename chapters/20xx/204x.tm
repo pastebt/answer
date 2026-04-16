@@ -161,6 +161,21 @@
 
   \;
 
+  2046:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|a<rsub|1>*sin
+    x+b<rsub|1>*cos x+c<rsub|1>|a*sin x+b*cos x+c>*d
+    x>>|<row|<cell|>|<cell|>|<cell|a<rsub|1>*sin x+b<rsub|1>*cos
+    x+c<rsub|1>=A*<around*|(|a*sin x+b*cos x+c|)>+B*<around*|(|a*cos x-b*sin
+    x|)>+C>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|A*<around*|(|a*sin
+    x+b*cos x+c|)>+B*<around*|(|a*cos x-b*sin x|)>+C|a*sin x+b*cos x+c>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|A*x+B*l n<around*|\||a*sin x+b*cos
+    x+c|\|>+C*<big|int><frac|d x|a*sin x+b*cos x+c>>>>>
+  </eqnarray*>
+
+  \;
+
   \;
 
   \;
