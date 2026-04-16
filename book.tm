@@ -14,7 +14,8 @@
     x|<sqrt|\<psi\>>>=<frac|1|<sqrt|a>>*l
     n<around*|\||<frac|\<psi\><rprime|'>|2>+<sqrt|a*\<psi\>>|\|>+C>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|1972:>|<cell|<big|int><frac|d
     x|x<rsup|4>+a<rsup|4>>=<frac|1|4*a<rsup|3>*<sqrt|2>>*<around*|(|l
-    n<around*|\||<frac|x<rsup|2>+<sqrt|2>*a*x+a<rsup|2>|x<rsup|2>-<sqrt|2>*a*x+a<rsup|2>>|\|>-2*arctan<around*|(|<frac|<sqrt|2>*a*x|x<rsup|2>-a<rsup|2>>|)>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|\<Iota\>.>|<cell|<big|int><frac|d
+    n<around*|\||<frac|x<rsup|2>+<sqrt|2>*a*x+a<rsup|2>|x<rsup|2>-<sqrt|2>*a*x+a<rsup|2>>|\|>-2*arctan<around*|(|<frac|<sqrt|2>*a*x|x<rsup|2>-a<rsup|2>>|)>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|1921:I<rsub|n+1>>|<cell|=>|<cell|<big|int><frac|d
+    x|<around*|(|a*x<rsup|2>+b*x+c|)><rsup|n+1>>>>|<row|<cell|>|<cell|=>|<cell|<frac|2*a*x+b|n*<around*|(|4*a*c-b<rsup|2>|)>*<around*|(|a*x<rsup|2>+b*x+c|)><rsup|n>>+<frac|2*a*<around*|(|2*n-1|)>|n*<around*|(|4*a*c-b<rsup|2>|)>>*I<rsub|n>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|\<Iota\>.>|<cell|<big|int><frac|d
     x|a<rsup|2>+x<rsup|2>>=<frac|1|a>*arctan
     <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|>|<cell|\<Iota\>
     \<Iota\>.>|<cell|<big|int><frac|d x|a<rsup|2>-x<rsup|2>>=<frac|1|2*a>*l
