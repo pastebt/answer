@@ -86,6 +86,41 @@
   </eqnarray*>
 
   \;
+
+  2042:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|a<rsub|1>*sin
+    x+b<rsub|1>*cos x|a*sin x+b*cos x>*d x>>|<row|<cell|>|<cell|>|<cell|a<rsub|1>*sin
+    x+b<rsub|1>*cos x=A*<around*|(|a*sin x+b*cos x|)>+B*<around*|(|acos
+    x-b*sin x|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|A*<around*|(|a*sin
+    x+b*cos x|)>+B*<around*|(|a*cos x-b*sin x|)>|a*sin x+b*cos x>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int>A*d x+B*<big|int><frac|a*cos
+    x-b*sin x|a*sin x+b*cos x>*d x>>|<row|<cell|>|<cell|=>|<cell|A*x+B*l
+    n<around*|\||a*sin x+b*cos x|\|>>>>>
+  </eqnarray*>
+
+  \;
+
+  2043:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|(|a|)>:F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|sin
+    x-cos x|sin x+2*cos x>*d x>>|<row|<cell|>|<cell|>|<cell|sin x-cos
+    x=A*<around*|(|sin x+2*cos x|)>+B<around*|(|cos x-2*sin
+    x|)>>>|<row|<cell|>|<cell|>|<cell|A-2*B=1,2*A+B=-1>>|<row|<cell|>|<cell|>|<cell|A=-<frac|1|5>,B=-<frac|3|5>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-<frac|1|5>*<big|int><frac|sin
+    x+2*cos x+3*<around*|(|sin x-2*cos x|)>|sin x+2*cos x>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|5>*x-<frac|3|5>*l
+    n<around*|\||sin x+2*cos x|\|>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|<around*|(|b|)>:*F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|sin
+    x|sin x-3*cos x>*d x>>|<row|<cell|>|<cell|>|<cell|sin x=A*<around*|(|sin
+    x-3*cos x|)>+B*<around*|(|cos x+3*sin
+    x|)>>>|<row|<cell|>|<cell|>|<cell|A+3*B=1,-3*A+B=0>>|<row|<cell|>|<cell|>|<cell|B=<frac|3|10>,A=<frac|1|10>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|10>*<big|int><frac|sin
+    x-3*cos x+3*<around*|(|cos x+3*sin x|)>|sin x-3*cos x>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|10>*x+<frac|3|10>*l
+    n<around*|\||sin x-3*cos x|\|>>>>>
+  </eqnarray*>
+
+  \;
 </body>
 
 <\initial>
