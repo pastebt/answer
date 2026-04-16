@@ -121,6 +121,27 @@
   </eqnarray*>
 
   \;
+
+  \;
+
+  2044:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|3+5*tan x>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|d
+    x|3+5*<frac|sin x|cos x>>=<big|int><frac|cos x|5*sin x+3*cos x>*d
+    x>>|<row|<cell|>|<cell|>|<cell|cos x=A*<around*|(|5*sin x+3*cos
+    x|)>+B*<around*|(|5*cos x-3*sin x|)>>>|<row|<cell|>|<cell|>|<cell|5*A-3*B=0,3*A+5*B=1>>|<row|<cell|>|<cell|>|<cell|25*A-15*B=0,9*A+15*B=3>>|<row|<cell|>|<cell|>|<cell|A=<frac|3|34>,B=<frac|1|5>\<times\><around*|(|1-<frac|9|34>|)>=<frac|5|34>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|34>*<big|int><frac|3*<around*|(|5*sin
+    x+3*cos x|)>+5*<around*|(|5*cos x-3*sin x|)>|5*sin x+3*cos x>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|3|34>*x+<frac|5|34>*l
+    n<around*|\||5*sin x+3*cos x|\|>>>>>
+  </eqnarray*>
+
+  \;
+
+  \;
+
+  \;
 </body>
 
 <\initial>
