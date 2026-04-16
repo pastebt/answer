@@ -139,6 +139,28 @@
 
   \;
 
+  2045:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|a<rsub|1>*sin
+    x+b<rsub|1>*cos x|<around*|(|a*sin x+b*cos x|)><rsup|2>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|a<rsub|1>*sin x+b<rsub|1>*cos
+    x=A*<around*|(|a*sin x+b*cos x|)>+B*<around*|(|a*cos x-b*sin
+    x|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|A*<around*|(|a*sin
+    x+b*cos x|)>+B*<around*|(|a*cos x-b*sin x|)>|<around*|(|a*sin x+b*cos
+    x|)><rsup|2>>*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|A|a*sin
+    x+b*cos x>*d x+B*<big|int><frac|a*cos x-b*sin x|<around*|(|a*sin x+b*cos
+    x|)><rsup|2>>*d x>>|<row|<cell|2041:>|<cell|>|<cell|<big|int><frac|d
+    x|a*sin x+b*cos x>=<frac|1|<sqrt|a<rsup|2>+b<rsup|2>>>*l
+    n<around*|\||tan<around*|(|<frac|x+\<varphi\>|2>|)>|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|A|<sqrt|a<rsup|2>+b<rsup|2>>>*l
+    n<around*|\||tan<around*|(|<frac|x+\<varphi\>|2>|)>|\|>-<frac|B|a*sin
+    x+b*cos x>>>|<row|<cell|>|<cell|>|<cell|a*A-b*B=a<rsub|1>\<rightarrow\>a<rsup|2>*A-ab*B=a<rsub|1>*a>>|<row|<cell|>|<cell|>|<cell|b*A+a*B=b<rsub|1>\<rightarrow\>b<rsup|2>*A+a*b*B=b<rsub|1>*b>>|<row|<cell|>|<cell|>|<cell|A=<frac|a<rsub|1>*a+b<rsub|1>*b|a<rsup|2>+b<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|a*b*A-b<rsup|2>*B=a<rsub|1>*b>>|<row|<cell|>|<cell|>|<cell|a*b*A+a<rsup|2>*B=a*b<rsub|1>>>|<row|<cell|>|<cell|>|<cell|B=<frac|a*b<rsub|1>-a<rsub|1>*b|a<rsup|2>+b<rsup|2>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|a<rsub|1>*a+b<rsub|1>*b|<around*|(|a<rsup|2>+b<rsup|2>|)>*<sqrt|a<rsup|2>+b<rsup|2>>>*l
+    n<around*|\||tan<around*|(|<frac|x+\<varphi\>|2>|)>|\|>-<frac|a*b<rsub|1>-a<rsub|1>*b|a<rsup|2>+b<rsup|2>>\<times\><frac|1|a*sin
+    x+b*cos x>>>>>
+  </eqnarray*>
+
+  \;
+
   \;
 
   \;
