@@ -291,6 +291,10 @@
     x-cos x|)>-<frac|1|2*<sqrt|2>>*l n<around*|\||<frac|<sqrt|2>-1+tan
     <frac|x|2>|<sqrt|2>+1-tan <frac|x|2>>|\|>>>>>
   </eqnarray*>
+
+  \;
+
+  2048:
 </body>
 
 <\initial>

@@ -242,6 +242,42 @@
   \;
 
   \;
+
+  2049:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|2*sin
+    x+cos x|3*sin x+4*cos x-2>*d x>>|<row|<cell|2*sin x+cos
+    x>|<cell|=>|<cell|A<around*|(|3*sin x+4*cos x-2|)>+B*<around*|(|3*cos
+    x-4*sin x|)>+C>>|<row|<cell|>|<cell|>|<cell|3*A-4*B=2\<rightarrow\>9*A-12*B=6>>|<row|<cell|>|<cell|>|<cell|4*A+3*B=1\<rightarrow\>16*A+12*B=4\<rightarrow\>25*A=10\<rightarrow\>A=<frac|10|25>=<frac|2|5>>>|<row|<cell|>|<cell|>|<cell|-2*A+C=0\<rightarrow\>C=<frac|4|5>>>|<row|<cell|>|<cell|>|<cell|B=<frac|1|4>*<around*|(|3*A-2|)>=-<frac|1|5>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|5>*<big|int><frac|2\<times\><around*|(|3*sin
+    x+4*cos x-2|)>-<around*|(|3*cos x-4*sin x|)>+4|3*sin x+4*cos x-2>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|2|5>*x-<frac|1|5>*l
+    n<around*|\||3*sin x+4*cos x-2|\|>+<frac|4|5>*<big|int><frac|d x|3*sin
+    x+4*cos x-2>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|3*sin x+4*cos x-2>>>|<row|<cell|>|<cell|>|<cell|t=tan
+    <frac|x|2>>>|<row|<cell|>|<cell|>|<cell|t<rsup|2>=<frac|1-cos x|1+cos
+    x>\<rightarrow\>cos x=<frac|1-t<rsup|2>|1+t<rsup|2>>\<rightarrow\>sin
+    x=<frac|2*t|1+t<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|d x=<around*|(|cos
+    x+1|)>*d t=<around*|(|<frac|1-t<rsup|2>|1+t<rsup|2>>+1|)>*d t=<frac|2*d
+    t|1+t<rsup|2>>>>|<row|<cell|f<rsub|1><around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|<frac|2*d
+    t|1+t<rsup|2>>|3\<times\><frac|2*t|1+t<rsup|2>>+4\<times\><frac|1-t<rsup|2>|1+t<rsup|2>>-2>=<big|int><frac|2*d
+    t|6*t+4-4*t<rsup|2>-2-2*t<rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|d
+    t|1+3*t-3*t<rsup|2>>=<frac|1|3>*<big|int><frac|d
+    t|<frac|1|3>+t-t<rsup|2>>=<frac|1|3>*<big|int><frac|d
+    t|<frac|7|12>-<around*|(|<frac|1|4>-t+t<rsup|2>|)>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|3>*<big|int><frac|d
+    <around*|(|t-<frac|1|2>|)>|<around*|(|<sqrt|<frac|7|12>>|)><rsup|2>-<around*|(|t-<frac|1|2>|)><rsup|2>>>>|<row|<cell|book:>|<cell|\<Iota\>
+    \<Iota\>.>|<cell|<big|int><frac|d x|a<rsup|2>-x<rsup|2>>=<frac|1|2*a>*l
+    n<around*|\||<frac|a+x|a-x>|\|>+C<space|1em><around*|(|a\<neq\>0|)><space|1em>>>|<row|<cell|f<rsub|1><around*|(|t|)>>|<cell|=>|<cell|<frac|1|3>\<times\><frac|1|2*<sqrt|<frac|7|12>>>\<times\>l
+    n<around*|\||<frac|<sqrt|<frac|7|12>>+<around*|(|t-<frac|1|2>|)>|<sqrt|<frac|7|12>>-<around*|(|t-<frac|1|2>|)>>|\|>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|21>>*l
+    n<around*|\||<frac|<sqrt|7>+<sqrt|3>*<around*|(|2*t-1|)>|<sqrt|7>-<sqrt|3>*<around*|(|2*t-1|)>>|\|>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<frac|1|<sqrt|21>>*l
+    n<around*|\||<frac|<sqrt|7>+<sqrt|3>*<around*|(|2*tan
+    <frac|x|2>-1|)>|<sqrt|7>-<sqrt|3>*<around*|(|2*tan
+    <frac|x|2>-1|)>>|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|2|5>*x-<frac|1|5>*l
+    n<around*|\||3*sin x+4*cos x-2|\|>+<frac|4|5*<sqrt|21>>*l
+    n<around*|\||<frac|<sqrt|7>+<sqrt|3>*<around*|(|2*tan
+    <frac|x|2>-1|)>|<sqrt|7>-<sqrt|3>*<around*|(|2*tan
+    <frac|x|2>-1|)>>|\|>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
