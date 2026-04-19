@@ -21,6 +21,31 @@
     x+C*<big|int><frac|d x|a*sin x+b*cos x>>>|<row|<cell|>|<cell|=>|<cell|A*sin
     x+B*cos x+C*<big|int><frac|d x|a*sin x+b*cos x>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2051:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|sin<rsup|2>
+    x-4*sin x*cos x+3*cos<rsup|2> x|sin x+cos x>*d
+    x>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|sin<rsup|2>
+    x-4*sin x*cos x+3*cos<rsup|2> x>>|<row|<cell|>|<cell|=>|<cell|A*cos
+    x*<around*|(|sin x+cos x|)>-B*sin x*<around*|(|sin x+cos
+    x|)>+C*<around*|(|sin<rsup|2> x+cos<rsup|2>
+    x|)>>>|<row|<cell|>|<cell|>|<cell|A-B=-4<eq-number>>>|<row|<cell|>|<cell|>|<cell|A+C=3<eq-number>>>|<row|<cell|>|<cell|>|<cell|-B+C=1<eq-number>>>|<row|<cell|>|<cell|>|<cell|<around*|(|2|)>-<around*|(|3|)>\<rightarrow\>A+B=2<eq-number>>>|<row|<cell|>|<cell|>|<cell|<around*|(|1|)>+<around*|(|4|)>\<rightarrow\>2*A=-2\<rightarrow\>A=-1\<rightarrow\>B=3,C=4>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-sin
+    x+3*cos x+4*<big|int><frac|d x|sin x+cos
+    x>>>|<row|<cell|2041:>|<cell|>|<cell|<big|int><frac|d x|a*sin x+b*cos
+    x>=<frac|1|<sqrt|a<rsup|2>+b<rsup|2>>>*l
+    n<around*|\||tan<around*|(|<frac|x+\<varphi\>|2>|)>|\|>>>|<row|<cell|>|<cell|>|<cell|cos
+    \<varphi\>=<frac|a|<sqrt|a<rsup|2>+b<rsup|2>>>,sin
+    \<varphi\>=<frac|b|<sqrt|a<rsup|2>+b<rsup|2>>>>>|<row|<cell|>|<cell|>|<cell|cos
+    \<varphi\>=<frac|1|<sqrt|2>>\<rightarrow\>\<varphi\>=<frac|\<pi\>|4>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-sin
+    x+3*cos x+<frac|4|<sqrt|2>>*l n<around*|\||tan<around*|(|<frac|x+<frac|\<pi\>|4>|2>|)>|\|>>>|<row|<cell|>|<cell|=>|<cell|-sin
+    x+3*cos x+2*<sqrt|2>*l n<around*|\||tan<around*|(|<frac|x|2>+<frac|\<pi\>|8>|)>|\|>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
