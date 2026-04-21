@@ -77,6 +77,37 @@
     n<around*|\||<frac|<sqrt|5>-1+2*tan <frac|x|2>|<sqrt|5>-1-2*tan
     <frac|x|2>>|\|>>>>>
   </eqnarray*>
+
+  \;
+
+  2053:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|a<rsub|1>*sin
+    x+b<rsub|1>*cos x|a*sin<rsup|2> x+2*b*sin x*cos x+c*cos<rsup|2> x>*d
+    x>>|<row|<cell|>|<cell|>|<cell|<det|<tformat|<table|<row|<cell|a-\<lambda\>>|<cell|b>>|<row|<cell|c>|<cell|c-\<lambda\>>>>>>=0>>|<row|<cell|>|<cell|>|<cell|<around*|(|a-\<lambda\>|)>*<around*|(|c-\<lambda\>|)>-b<rsup|2>=0>>|<row|<cell|>|<cell|>|<cell|<around*|(|a-\<lambda\>|)>*<around*|(|c-\<lambda\>|)>=b<rsup|2>>>|<row|<cell|>|<cell|>|<cell|\<lambda\><rsup|2>-<around*|(|a+c|)>*\<lambda\>+a*c-b<rsup|2>=0>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|u<rsub|i>>|<cell|=>|<cell|<around*|(|a-\<lambda\><rsub|i>|)>*sin
+    x+b*cos x>>|<row|<cell|u<rsub|i><rsup|2>>|<cell|=>|<cell|<around*|(|a-\<lambda\><rsub|i>|)><rsup|2>*sin<rsup|2>
+    x+2*<around*|(|a-\<lambda\><rsub|i>|)>*b*sin x*cos
+    x+b<rsup|2>*cos<rsup|2> x>>|<row|<cell|>|<cell|=>|<cell|<around*|(|a-\<lambda\><rsub|i>|)><rsup|2>*sin<rsup|2>
+    x+2*<around*|(|a-\<lambda\><rsub|i>|)>*b*sin x*cos
+    x+<around*|(|a-\<lambda\><rsub|i>|)>*<around*|(|c-\<lambda\><rsub|i>|)>*cos<rsup|2>
+    x>>|<row|<cell|k<rsub|i>*u<rsub|i><rsup|2>+\<lambda\><rsub|i>>|<cell|=>|<cell|<around*|(|<around*|(|a-\<lambda\><rsub|i>|)><rsup|2>*sin<rsup|2>
+    x+2*<around*|(|a-\<lambda\><rsub|i>|)>*b*sin x*cos
+    x+<around*|(|a-\<lambda\><rsub|i>|)>*<around*|(|c-\<lambda\><rsub|i>|)>*cos<rsup|2>
+    x|)>\<times\><frac|1|a-\<lambda\><rsub|i>>+\<lambda\><rsub|i>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|a-\<lambda\><rsub|i>|)>*sin<rsup|2>
+    x+2*b*sin x*cos x+<around*|(|c-\<lambda\><rsub|i>|)>*cos<rsup|2>
+    x+\<lambda\><rsub|i>>>|<row|<cell|>|<cell|=>|<cell|a*sin<rsup|2>
+    x+2*b*sin x*cos x+c*cos<rsup|2> x+\<lambda\><rsub|i>-\<lambda\><rsub|i>*<around*|(|sin<rsup|2>
+    x+cos<rsup|2> x|)>>>|<row|<cell|>|<cell|=>|<cell|a*sin<rsup|2> x+2*b*sin
+    x*cos x+c*cos<rsup|2> x>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|A*<around*|(|-<around*|(|a-\<lambda\><rsub|1>|)>*cos
+    x+b*sin x|)>+B*<around*|(|-<around*|(|a-\<lambda\><rsub|2>|)>*cos x+b*sin
+    x|)>|a*sin<rsup|2> x+2*b*sin x*cos x+c*cos<rsup|2> x>*d
+    x>>|<row|<cell|>|<cell|>|<cell|A*b+B*b=a<rsub|1>>>|<row|<cell|>|<cell|>|<cell|-A*<around*|(|a-\<lambda\><rsub|1>|)>-B*<around*|(|a-\<lambda\><rsub|2>|)>=b<rsub|1>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|A*<big|int><frac|d
+    u<rsub|1>|k<rsub|1>*u<rsup|2><rsub|1>+\<lambda\><rsub|1>>+B*<big|int><frac|d
+    u<rsub|2>|k<rsub|2>*u<rsup|2><rsub|2>+\<lambda\><rsub|2>>>>>>
+  </eqnarray*>
+
+  \;
 </body>
 
 <\initial>
