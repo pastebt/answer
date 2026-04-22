@@ -125,7 +125,7 @@
     x>>>|<row|<cell|>|<cell|>|<cell|-A*sin x+B*cos x=2*sin x-cos
     x>>|<row|<cell|>|<cell|>|<cell|A=-2,B=-1>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-2*<big|int><frac|d<around*|(|cos
     x|)>|cos<rsup|2> x+<around*|(|<sqrt|3>|)><rsup|2>>-<big|int><frac|d<around*|(|sin
-    x|)>|2<rsup|2>-sin<rsup|2> x>>>|<row|<cell|>|<cell|\<Iota\>.>|<cell|<big|int><frac|d
+    x|)>|2<rsup|2>-sin<rsup|2> x>>>|<row|<cell|book:>|<cell|\<Iota\>.>|<cell|<big|int><frac|d
     x|a<rsup|2>+x<rsup|2>>=<frac|1|a>*arctan
     <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|>|<cell|\<Iota\>
     \<Iota\>.>|<cell|<big|int><frac|d x|a<rsup|2>-x<rsup|2>>=<frac|1|2*a>*l
@@ -157,11 +157,46 @@
     x+cos x|)>|-<around*|(|2*sin x+cos x|)><rsup|2>+6>>>|<row|<cell|>|<cell|=>|<cell|<frac|3|5>*<big|int><frac|d<around*|(|sin
     x-2*cos x|)>|<around*|(|sin x-2*cos x|)><rsup|2>+1>+<frac|1|5>*<big|int><frac|d<around*|(|2*sin
     x+cos x|)>|<around*|(|<sqrt|6>|)><rsup|2>-<around*|(|2*sin x+cos
-    x|)><rsup|2>>>>|<row|<cell|>|<cell|\<Iota\>
+    x|)><rsup|2>>>>|<row|<cell|book:>|<cell|\<Iota\>
     \<Iota\>.>|<cell|<big|int><frac|d x|a<rsup|2>-x<rsup|2>>=<frac|1|2*a>*l
     n<around*|\||<frac|a+x|a-x>|\|>+C<space|1em><around*|(|a\<neq\>0|)><space|1em>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|3|5>*arctan<around*|(|sin
     x-2*cos x|)>+<frac|1|10*<sqrt|6>>*l n<around*|\||<frac|<sqrt|6>+<around*|(|2*sin
     x+cos x|)>|<sqrt|6>-<around*|(|2*sin x+cos x|)>>|\|>>>>>
+  </eqnarray*>
+
+  \;
+
+  \;
+
+  2056:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|sin
+    x-2*cos x|1+4*sin x*cos x>*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|sin
+    x-2*cos x|sin<rsup|2> x+4*sin x*cos x+cos x>*d
+    x>>|<row|<cell|>|<cell|>|<cell|\<lambda\><rsup|2>-<around*|(|a+c|)>*\<lambda\>+a*c-b<rsup|2>=0,a=1,b=2,c=1>>|<row|<cell|>|<cell|>|<cell|\<lambda\><rsup|2>-2*\<lambda\>+1-4=0\<rightarrow\><around*|(|\<lambda\>-1|)><rsup|2>=4\<rightarrow\>\<lambda\>=1\<pm\>2=-1,3>>|<row|<cell|k<rsub|1>*u<rsub|1><rsup|2>+\<lambda\><rsub|1>>|<cell|=>|<cell|<frac|1|2>*<around*|(|2*sin
+    x+2*cos x|)><rsup|2>-1=2*<around*|(|sin x+cos
+    x|)><rsup|2>-1>>|<row|<cell|k<rsub|2>*u<rsub|2><rsup|2>+\<lambda\><rsub|2>>|<cell|=>|<cell|-<frac|1|2>*<around*|(|-2*sin
+    x+2*cos x|)><rsup|2>+3=-2*<around*|(|sin x-cos
+    x|)><rsup|2>+3>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|A*<big|int><frac|d<around*|(|sin
+    x+cos x|)>|2*<around*|(|sin x+cos x|)><rsup|2>-1>+B*<big|int><frac|d<around*|(|sin
+    x-cos x|)>|-2*<around*|(|sin x-cos x|)><rsup|2>+3>>>|<row|<cell|>|<cell|>|<cell|A*<around*|(|cos
+    x-sin x|)>+B*<around*|(|cos x+sin x|)>=sin x-2*cos
+    x>>|<row|<cell|>|<cell|>|<cell|-A+B=1>>|<row|<cell|>|<cell|>|<cell|A+B=-2>>|<row|<cell|>|<cell|>|<cell|B=-<frac|1|2>,A=-<frac|3|2>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|3|4>*<big|int><frac|d<around*|(|sin
+    x+cos x|)>|<around*|(|<frac|1|<sqrt|2>>|)><rsup|2>-<around*|(|sin x+cos
+    x|)><rsup|2>>-<frac|1|4>*<big|int><frac|d<around*|(|sin x-cos
+    x|)>|<around*|(|<sqrt|<frac|3|2>>|)><rsup|2>-<around*|(|sin x-cos
+    x|)><rsup|2>>>>|<row|<cell|book:>|<cell|\<Iota\>
+    \<Iota\>.>|<cell|<big|int><frac|d x|a<rsup|2>-x<rsup|2>>=<frac|1|2*a>*l
+    n<around*|\||<frac|a+x|a-x>|\|>+C<space|1em><around*|(|a\<neq\>0|)><space|1em>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|3|4>\<times\><frac|1|<sqrt|2>>*l
+    n<around*|\||<frac|<frac|1|<sqrt|2>>+<around*|(|sin x+cos
+    x|)>|<frac|1|<sqrt|2>>-<around*|(|sin x+cos
+    x|)>>|\|>-<frac|1|4>\<times\><frac|1|<sqrt|6>>*l
+    n<around*|\||<frac|<sqrt|<frac|3|2>>+<around*|(|sin x-cos
+    x|)>|<sqrt|<frac|3|2>>-<around*|(|sin x-cos
+    x|)>>|\|>>>|<row|<cell|f<rprime|'><rsub|1><around*|(|x|)>>|<cell|=>|<cell|<around*|(|l
+    n<around*|\||<frac|a+x|a-x>|\|>|)><rprime|'>=<frac|1|a+x>-<frac|-1|a-x>=<frac|2*a|a<rsup|2>-x<rsup|2>>>>|<row|<cell|f<rprime|'><rsub|2>*<around*|(|x|)>>|<cell|=>|<cell|<around*|(|l
+    n<around*|\||<frac|a+x|x-a>|\|>|)><rprime|'>=<frac|1|a+x>-<frac|1|x-a>=<frac|-2*a|x<rsup|2>-a<rsup|2>>>>>>
   </eqnarray*>
 
   \;
