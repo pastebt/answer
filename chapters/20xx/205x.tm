@@ -85,7 +85,7 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|a<rsub|1>*sin
     x+b<rsub|1>*cos x|a*sin<rsup|2> x+2*b*sin x*cos x+c*cos<rsup|2> x>*d
-    x>>|<row|<cell|>|<cell|>|<cell|<det|<tformat|<table|<row|<cell|a-\<lambda\>>|<cell|b>>|<row|<cell|c>|<cell|c-\<lambda\>>>>>>=0>>|<row|<cell|>|<cell|>|<cell|<around*|(|a-\<lambda\>|)>*<around*|(|c-\<lambda\>|)>-b<rsup|2>=0>>|<row|<cell|>|<cell|>|<cell|<around*|(|a-\<lambda\>|)>*<around*|(|c-\<lambda\>|)>=b<rsup|2>>>|<row|<cell|>|<cell|>|<cell|\<lambda\><rsup|2>-<around*|(|a+c|)>*\<lambda\>+a*c-b<rsup|2>=0>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|u<rsub|i>>|<cell|=>|<cell|<around*|(|a-\<lambda\><rsub|i>|)>*sin
+    x>>|<row|<cell|>|<cell|>|<cell|<det|<tformat|<table|<row|<cell|a-\<lambda\>>|<cell|b>>|<row|<cell|b>|<cell|c-\<lambda\>>>>>>=0>>|<row|<cell|>|<cell|>|<cell|<around*|(|a-\<lambda\>|)>*<around*|(|c-\<lambda\>|)>-b<rsup|2>=0>>|<row|<cell|>|<cell|>|<cell|<around*|(|a-\<lambda\>|)>*<around*|(|c-\<lambda\>|)>=b<rsup|2>>>|<row|<cell|>|<cell|>|<cell|\<lambda\><rsup|2>-<around*|(|a+c|)>*\<lambda\>+a*c-b<rsup|2>=0>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|u<rsub|i>>|<cell|=>|<cell|<around*|(|a-\<lambda\><rsub|i>|)>*sin
     x+b*cos x>>|<row|<cell|u<rsub|i><rsup|2>>|<cell|=>|<cell|<around*|(|a-\<lambda\><rsub|i>|)><rsup|2>*sin<rsup|2>
     x+2*<around*|(|a-\<lambda\><rsub|i>|)>*b*sin x*cos
     x+b<rsup|2>*cos<rsup|2> x>>|<row|<cell|>|<cell|=>|<cell|<around*|(|a-\<lambda\><rsub|i>|)><rsup|2>*sin<rsup|2>
@@ -105,6 +105,63 @@
     x>>|<row|<cell|>|<cell|>|<cell|A*b+B*b=a<rsub|1>>>|<row|<cell|>|<cell|>|<cell|-A*<around*|(|a-\<lambda\><rsub|1>|)>-B*<around*|(|a-\<lambda\><rsub|2>|)>=b<rsub|1>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|A*<big|int><frac|d
     u<rsub|1>|k<rsub|1>*u<rsup|2><rsub|1>+\<lambda\><rsub|1>>+B*<big|int><frac|d
     u<rsub|2>|k<rsub|2>*u<rsup|2><rsub|2>+\<lambda\><rsub|2>>>>>>
+  </eqnarray*>
+
+  \;
+
+  \;
+
+  2054:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|2*sin
+    x-cos x|3*sin<rsup|2> x+4*cos<rsup|2> x>*d
+    x>>|<row|<cell|>|<cell|>|<cell|\<lambda\><rsup|2>-<around*|(|a+c|)>*\<lambda\>+a*c-b<rsup|2>=0,a=3,b=0,c=4>>|<row|<cell|>|<cell|>|<cell|\<lambda\><rsup|2>-7*\<lambda\>+12=0\<rightarrow\>\<lambda\>=3,4>>|<row|<cell|k<rsub|i>*u<rsub|i><rsup|2>+\<lambda\><rsub|i>>|<cell|=>|<cell|<around*|(|a-\<lambda\><rsub|i>|)>*sin<rsup|2>
+    x+2*b*sin x*cos x+<around*|(|c-\<lambda\><rsub|i>|)>*cos<rsup|2>
+    x+\<lambda\><rsub|i>>>|<row|<cell|k<rsub|1>*u<rsub|1><rsup|2>+\<lambda\><rsub|1>>|<cell|=>|<cell|cos<rsup|2>
+    x+3>>|<row|<cell|k<rsub|2>*u<rsub|2><rsup|2>+\<lambda\><rsub|2>>|<cell|=>|<cell|-sin<rsup|2>
+    x+4>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|A*<big|int><frac|d<around*|(|cos
+    x|)>|cos<rsup|2> x+3>+B*<big|int><frac|d<around*|(|sin x|)>|4-sin<rsup|2>
+    x>>>|<row|<cell|>|<cell|>|<cell|-A*sin x+B*cos x=2*sin x-cos
+    x>>|<row|<cell|>|<cell|>|<cell|A=-2,B=-1>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-2*<big|int><frac|d<around*|(|cos
+    x|)>|cos<rsup|2> x+<around*|(|<sqrt|3>|)><rsup|2>>-<big|int><frac|d<around*|(|sin
+    x|)>|2<rsup|2>-sin<rsup|2> x>>>|<row|<cell|>|<cell|\<Iota\>.>|<cell|<big|int><frac|d
+    x|a<rsup|2>+x<rsup|2>>=<frac|1|a>*arctan
+    <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|>|<cell|\<Iota\>
+    \<Iota\>.>|<cell|<big|int><frac|d x|a<rsup|2>-x<rsup|2>>=<frac|1|2*a>*l
+    n<around*|\||<frac|a+x|a-x>|\|>+C<space|1em><around*|(|a\<neq\>0|)><space|1em>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-<frac|2|<sqrt|3>>*arctan
+    <around*|(|<frac|cos x|<sqrt|3>>|)>-<frac|1|4>*l n<around*|(|<frac|2+sin
+    x|2-sin x>|)>>>>>
+  </eqnarray*>
+
+  \;
+
+  \;
+
+  \;
+
+  2055:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|<around*|(|sin
+    x+cos x|)>*d x|2*sin<rsup|2> x-4*sin x*cos x+5*cos<rsup|2>
+    x>>>|<row|<cell|>|<cell|>|<cell|\<lambda\><rsup|2>-<around*|(|a+c|)>*\<lambda\>+a*c-b<rsup|2>=0,a=2,b=-2,c=5>>|<row|<cell|>|<cell|>|<cell|\<lambda\><rsup|2>-7*\<lambda\>+6=0\<rightarrow\>\<lambda\>=1,6>>|<row|<cell|>|<cell|>|<cell|a-\<lambda\><rsub|1>=2-1=1,u<rsub|1>=sin
+    x-2*cos x>>|<row|<cell|>|<cell|>|<cell|a-\<lambda\><rsub|2>=2-6=-4,u<rsub|2>=-4*sin
+    x-2*cos x>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|A*<big|int><frac|d<around*|(|sin
+    x-2*cos x|)>|<around*|(|sin x-2*cos x|)><rsup|2>+1>+B*<big|int><frac|d<around*|(|-4*sin
+    x-2*cos x|)>|<frac|1|-4>\<times\><around*|(|-4*sin x-2*cos
+    x|)><rsup|2>+6>>>|<row|<cell|>|<cell|>|<cell|A*<around*|(|cos x+2*sin
+    x|)>+B*<around*|(|-4*cos x+2*sin x|)>=sin x+cos
+    x>>|<row|<cell|>|<cell|>|<cell|2*A+2*B=1>>|<row|<cell|>|<cell|>|<cell|A-4*B=1\<rightarrow\>2*A-8*B=2>>|<row|<cell|>|<cell|>|<cell|10*B=-1\<rightarrow\>B=-<frac|1|10>\<rightarrow\>A=<frac|1|2>+<frac|1|10>=<frac|3|5>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|3|5>*<big|int><frac|d<around*|(|sin
+    x-2*cos x|)>|<around*|(|sin x-2*cos x|)><rsup|2>+1>-<frac|1|10>*<big|int><frac|-2*d<around*|(|2*sin
+    x+cos x|)>|-<around*|(|2*sin x+cos x|)><rsup|2>+6>>>|<row|<cell|>|<cell|=>|<cell|<frac|3|5>*<big|int><frac|d<around*|(|sin
+    x-2*cos x|)>|<around*|(|sin x-2*cos x|)><rsup|2>+1>+<frac|1|5>*<big|int><frac|d<around*|(|2*sin
+    x+cos x|)>|<around*|(|<sqrt|6>|)><rsup|2>-<around*|(|2*sin x+cos
+    x|)><rsup|2>>>>|<row|<cell|>|<cell|\<Iota\>
+    \<Iota\>.>|<cell|<big|int><frac|d x|a<rsup|2>-x<rsup|2>>=<frac|1|2*a>*l
+    n<around*|\||<frac|a+x|a-x>|\|>+C<space|1em><around*|(|a\<neq\>0|)><space|1em>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|3|5>*arctan<around*|(|sin
+    x-2*cos x|)>+<frac|1|10*<sqrt|6>>*l n<around*|\||<frac|<sqrt|6>+<around*|(|2*sin
+    x+cos x|)>|<sqrt|6>-<around*|(|2*sin x+cos x|)>>|\|>>>>>
   </eqnarray*>
 
   \;
