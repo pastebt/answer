@@ -200,6 +200,39 @@
   </eqnarray*>
 
   \;
+
+  \;
+
+  2057:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<around*|(|a*sin x+b*cos x|)><rsup|n>>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<frac|A*sin
+    x|<around*|(|a*sin x+b*cos x|)><rsup|n-1>>>>|<row|<cell|f<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<frac|B*cosx|<around*|(|a*sin
+    x+b*cos x|)><rsup|n-1>>>>|<row|<cell|f<rprime|'><rsub|1><around*|(|x|)>>|<cell|=>|<cell|<frac|A*cos
+    x*<around*|(|a*sin x+b*cos x|)><rsup|n-1>-A*sin
+    x*<around*|(|n-1|)>*<around*|(|a*sin x+b*cos
+    x|)><rsup|n-2>*<around*|(|a*cos x-b*sin x|)>|<around*|(|a*sin x+b*cos
+    x|)><rsup|2*n-2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|A*cos
+    x*<around*|(|a*sin x+b*cos x|)>-<around*|(|n-1|)>*A*sin
+    x*<around*|(|a*cos x-b*sin x|)>|<around*|(|a*sin x+b*cos
+    x|)><rsup|n>>>>|<row|<cell|>|<cell|=>|<cell|<frac|a*A*sin x*cos
+    x+A*b*cos<rsup|2> x-<around*|(|n-1|)>*a*A*sin x*cos
+    x+<around*|(|n-1|)>*A*b*sin<rsup|2> x|<around*|(|a*sin x+b*cos
+    x|)><rsup|n>>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|2-n|)>*a*A*sin
+    x*cos x+A*b+<around*|(|n-2|)>*A*b*sin<rsup|2> x|<around*|(|a*sin x+b*cos
+    x|)><rsup|n>>>>|<row|<cell|f<rprime|'><rsub|2><around*|(|x|)>>|<cell|=>|<cell|<frac|-B*sin
+    x*<around*|(|a*sin x+b*cos x|)>-<around*|(|n-1|)>*B*cos
+    x*<around*|(|a*cos x-b*sin x|)>|<around*|(|a*sin x+b*cos
+    x|)><rsup|n>>>>|<row|<cell|>|<cell|=>|<cell|<frac|-a*B*sin<rsup|2>
+    x-b*B*sin x*cos x-<around*|(|n-1|)>*a*B*cos<rsup|2>
+    x+<around*|(|n-1|)>*b*B*sin x*cos x|<around*|(|a*sin x+b*cos
+    x|)><rsup|n>>>>|<row|<cell|>|<cell|=>|<cell|<frac|-a*B-<around*|(|n-2|)>*a*B*cos<rsup|2>
+    x+<around*|(|n-2|)>*b*B*sin x*cos x|<around*|(|a*sin x+b*cos
+    x|)><rsup|n>>>>>>
+  </eqnarray*>
+
+  \;
 </body>
 
 <\initial>
