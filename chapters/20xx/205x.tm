@@ -263,9 +263,11 @@
     x|)><rsup|3>>>>|<row|<cell|>|<cell|=>|<cell|B\<times\><frac|-sin<rsup|2>
     x+2*sin x*cos x-2*cos<rsup|2> x|<around*|(|sin x+2*cos
     x|)><rsup|3>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|A*<around*|(|4*sin<rsup|2>
-    x-sin x*cos x+2*cos<rsup|2> x|)>+B*<around*|(|-sin<rsup|2> x+2*sin x*cos
-    x-2*cos<rsup|2> x|)>+C*<around*|(|sin<rsup|2> x+4*sin x*cos
-    x+4*cos<rsup|2> x|)>|<around*|(|sin x+2*cos x|)><rsup|3>>*d
+    x-sin x*cos x+2*cos<rsup|2> x|)>|<around*|(|sin x+2*cos x|)><rsup|3>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|+<big|int><frac|B*<around*|(|-sin<rsup|2>
+    x+2*sin x*cos x-2*cos<rsup|2> x|)>|<around*|(|sin x+2*cos x|)><rsup|3>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|+<big|int><frac|C*<around*|(|sin<rsup|2>
+    x+4*sin x*cos x+4*cos<rsup|2> x|)>|<around*|(|sin x+2*cos x|)><rsup|3>>*d
     x>>|<row|<cell|>|<cell|>|<cell|4*A-B+C=1>>|<row|<cell|>|<cell|>|<cell|-A+2*B+4*C=0>>|<row|<cell|>|<cell|>|<cell|2*A-2*B+4*C=1>>|<row|<cell|>|<cell|>|<cell|A=<frac|2|10>,B=-<frac|1|10>,C=<frac|1|10>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|2*sin
     x-cos x|10*<around*|(|sin x+2*cos 2|)><rsup|2>>+<big|int><frac|d x|sin
     x+2*cos x>>>>>
