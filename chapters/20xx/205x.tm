@@ -219,17 +219,24 @@
     x|)><rsup|n>>>>|<row|<cell|>|<cell|=>|<cell|<frac|a*A*sin x*cos
     x+A*b*cos<rsup|2> x-<around*|(|n-1|)>*a*A*sin x*cos
     x+<around*|(|n-1|)>*A*b*sin<rsup|2> x|<around*|(|a*sin x+b*cos
-    x|)><rsup|n>>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|2-n|)>*a*A*sin
-    x*cos x+A*b+<around*|(|n-2|)>*A*b*sin<rsup|2> x|<around*|(|a*sin x+b*cos
-    x|)><rsup|n>>>>|<row|<cell|f<rprime|'><rsub|2><around*|(|x|)>>|<cell|=>|<cell|<frac|-B*sin
+    x|)><rsup|n>>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|n-1|)>*A*b*sin<rsup|2>
+    x+A*b*cos<rsup|2> x+<around*|(|a*A-<around*|(|n-1|)>*a*A|)>*sin x*cos
+    x|<around*|(|a*sin x+b*cos x|)><rsup|n>>>>|<row|<cell|f<rprime|'><rsub|2><around*|(|x|)>>|<cell|=>|<cell|<frac|-B*sin
     x*<around*|(|a*sin x+b*cos x|)>-<around*|(|n-1|)>*B*cos
     x*<around*|(|a*cos x-b*sin x|)>|<around*|(|a*sin x+b*cos
     x|)><rsup|n>>>>|<row|<cell|>|<cell|=>|<cell|<frac|-a*B*sin<rsup|2>
     x-b*B*sin x*cos x-<around*|(|n-1|)>*a*B*cos<rsup|2>
     x+<around*|(|n-1|)>*b*B*sin x*cos x|<around*|(|a*sin x+b*cos
-    x|)><rsup|n>>>>|<row|<cell|>|<cell|=>|<cell|<frac|-a*B-<around*|(|n-2|)>*a*B*cos<rsup|2>
-    x+<around*|(|n-2|)>*b*B*sin x*cos x|<around*|(|a*sin x+b*cos
-    x|)><rsup|n>>>>>>
+    x|)><rsup|n>>>>|<row|<cell|>|<cell|=>|<cell|<frac|-a*B*sin<rsup|2>
+    x-<around*|(|n-1|)>*a*B*cos<rsup|2> x+<around*|(|n-2|)>*b*B*sin x*cos
+    x|<around*|(|a*sin x+b*cos x|)><rsup|n>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|A*<big|int><frac|b*<around*|(|n-1|)>*sin<rsup|2>
+    x+b*cos<rsup|2> x-a*<around*|(|n-2|)>*sin x*cos x|<around*|(|a*sin
+    x+b*cos x|)><rsup|n>>*d x>>|<row|<cell|>|<cell|+>|<cell|B*<big|int><frac|-a*sin<rsup|2>
+    x-a*<around*|(|n-1|)>*cos<rsup|2> x+b*<around*|(|n-2|)>*sin x*cos
+    x|<around*|(|a*sin x+b*cos x|)><rsup|n>>*d
+    x>>|<row|<cell|>|<cell|+>|<cell|C*<big|int><frac|a<rsup|2>*sin<rsup|2>
+    x+b<rsup|2>*cos<rsup|2> x+2*a*b*sin x*cos x|<around*|(|a*sin x+b*cos
+    x|)><rsup|n>>*d x>>|<row|<cell|>|<cell|>|<cell|A*b*<around*|(|n-1|)>-a*B+C*a<rsup|2>=1>>|<row|<cell|>|<cell|>|<cell|A*b-a*B*<around*|(|n-1|)>+C*b<rsup|2>=1>>|<row|<cell|>|<cell|>|<cell|-a*A*<around*|(|n-2|)>+b*B<around*|(|n-2|)>+2*a*b*C=0>>>>
   </eqnarray*>
 
   \;
@@ -284,6 +291,29 @@
     n<around*|\||tan <frac|x+arctan 2|2>|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|2*sin
     x-cos x|10*<around*|(|sin x+2*cos 2|)><rsup|2>>+<frac|1|10*<sqrt|5>>*l
     n<around*|\||tan <frac|x+arctan 2|2>|\|>>>>>
+  </eqnarray*>
+
+  \;
+
+  2059:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<around*|(|a+b*cos x|)><rsup|n>>>>|<row|<cell|>|<cell|=>|<cell|<frac|A*sin
+    x|<around*|(|a+b*cos x|)><rsup|n-1>>+B*<big|int><frac|d
+    x|<around*|(|a+b*cos x|)><rsup|n-1>>+C*<big|int><frac|d
+    x|<around*|(|a+b*cos x|)><rsup|n-2>>>>|<row|<cell|f<rprime|'><rsub|1><around*|(|x|)>>|<cell|=>|<cell|<around*|(|<frac|A*sin
+    x|<around*|(|a+b*cos x|)><rsup|n-1>>|)><rprime|'>>>|<row|<cell|>|<cell|=>|<cell|A\<times\><frac|cos
+    x*<around*|(|a+b*cos x|)><rsup|n-1>-<around*|(|n-1|)>*<around*|(|a+b*cos
+    x|)><rsup|n-2>*<around*|(|-b*sin x|)>*sin x|<around*|(|a+b*cos
+    x|)><rsup|2*n-2>>>>|<row|<cell|>|<cell|=>|<cell|A\<times\><frac|a*cos
+    x+a*b*cos<rsup|2> x+b*<around*|(|n-1|)>*sin<rsup|2> x|<around*|(|a+b*cos
+    x|)><rsup|n>>>>|<row|<cell|F*<around*|(|x|)>>|<cell|=>|<cell|A\<times\><big|int><frac|a*cos
+    x+a*b*cos<rsup|2> x+b*<around*|(|n-1|)>*sin<rsup|2> x|<around*|(|a+b*cos
+    x|)><rsup|n>>*d x>>|<row|<cell|>|<cell|+>|<cell|B\<times\><big|int><frac|a+b*cos
+    x|<around*|(|a+b*cos x|)><rsup|n>>*d x>>|<row|<cell|>|<cell|+>|<cell|C\<times\><big|int><frac|a<rsup|2>+2*a*b*cos
+    x+b<rsup|2>*cos<rsup|2> x|<around*|(|a+b*cos x|)><rsup|n>>*d
+    x>>|<row|<cell|>|<cell|sin<rsup|2>>|<cell|A*b*<around*|(|n-1|)>+a*B+a<rsup|2>*C=1>>|<row|<cell|>|<cell|cos<rsup|2>>|<cell|a*b*A+b<rsup|2>*C+a*B+a<rsup|2>*C=1>>|<row|<cell|>|<cell|cos>|<cell|a*A+b*B+2*a*b*C=0>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|cos>|<cell|a*A<rsub|1>+b*B<rsub|1>+2*a*b*C<rsub|1>=0>>|<row|<cell|>|<cell|sin<rsup|2>>|<cell|A<rsub|1>*b*<around*|(|n-1|)>=1\<rightarrow\>A<rsub|1>=<frac|1|b*<around*|(|n-1|)>>>>|<row|<cell|>|<cell|cos<rsup|2>>|<cell|a*b*A<rsub|1>+b<rsup|2>*C<rsub|1>=1\<rightarrow\>C<rsub|1>=<frac|1-a*b*A<rsub|1>|b<rsup|2>>=<frac|1-<frac|a|n-1>|b<rsup|2>>=<frac|n-1-a|b<rsup|2>*<around*|(|n-1|)>>>>|<row|<cell|>|<cell|>|<cell|B<rsub|1>=<frac|-a*A<rsub|1>-2*a*b*C<rsub|1>|b>=<frac|<frac|-a|b*<around*|(|n-1|)>>-<frac|2*a*<around*|(|n-1-a|)>|b*<around*|(|n-1|)>>|b>=<frac|-a-2*a*n+2*a+2*a<rsup|2>|b<rsup|2>*<around*|(|n-1|)>>>>>>
   </eqnarray*>
 </body>
 
