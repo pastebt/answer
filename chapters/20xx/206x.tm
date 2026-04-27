@@ -30,6 +30,32 @@
     <frac|1|<sqrt|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|2>>*l n
     <frac|<sqrt|2>+<sqrt|1+sin<rsup|2> x>|<around*|\||cos x|\|>>+C>>>>
   </eqnarray*>
+
+  \;
+
+  2061:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|sin<rsup|2>
+    x|cos<rsup|2> x*<sqrt|tan x>>*d x>>|<row|<cell|>|<cell|>|<cell|t=<sqrt|tan
+    x>\<rightarrow\>t<rsup|2>=tan x>>|<row|<cell|>|<cell|>|<cell|1+tan<rsup|2>
+    x=<frac|1|cos<rsup|2> x>\<rightarrow\>cos<rsup|2>
+    x=<frac|1|1+t<rsup|4>>\<rightarrow\>sin<rsup|2> x=1-cos<rsup|2>
+    x=1-<frac|1|1+t<rsup|4>>=<frac|t<rsup|4>|1+t<rsup|4>>>>|<row|<cell|>|<cell|>|<cell|2*t*d
+    t=<frac|d x|cos<rsup|2> x>\<rightarrow\>d x=2*t*cos<rsup|2> x*d
+    t>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|sin<rsup|2>
+    x\<times\>2*t*cos<rsup|2> x*d t|cos<rsup|2>
+    x\<times\>t>=2*<big|int>sin<rsup|2> x*d
+    t=2*<big|int><frac|t<rsup|4>|1+t<rsup|4>>*d t=2*t-2*<big|int><frac|d
+    t|1+t<rsup|4>>>>|<row|<cell|1972:>|<cell|>|<cell|<big|int><frac|d
+    x|x<rsup|4>+a<rsup|4>>=<frac|1|4*a<rsup|3>*<sqrt|2>>*<around*|(|l
+    n<around*|\||<frac|x<rsup|2>+<sqrt|2>*a*x+a<rsup|2>|x<rsup|2>-<sqrt|2>*a*x+a<rsup|2>>|\|>-2*arctan<around*|(|<frac|<sqrt|2>*a*x|x<rsup|2>-a<rsup|2>>|)>|)>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|2*t-<frac|1|2*<sqrt|2>>*<around*|(|l
+    n<around*|\||<frac|t<rsup|2>+<sqrt|2>*t+1|t<rsup|2>-<sqrt|2>*t+1>|\|>-2*arctan<around*|(|<frac|<sqrt|2>*t|t<rsup|2>-1>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|2*t-<frac|1|2*<sqrt|2>>*l
+    n<around*|\||<frac|t<rsup|2>+<sqrt|2>*t+1|t<rsup|2>-<sqrt|2>*t+1>|\|>+<frac|1|<sqrt|2>>*arctan<around*|(|<frac|<sqrt|2>*t|t<rsup|2>-1>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|2*<sqrt|tan
+    x>-<frac|1|2*<sqrt|2>>*l n<around*|\||<frac|tan x+<sqrt|2*tan x>+1|tan
+    x-<sqrt|2*tan x>+1>|\|>+<frac|1|<sqrt|2>>*arctan<around*|(|<frac|<sqrt|2*tan
+    x>|tan x-1>|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
