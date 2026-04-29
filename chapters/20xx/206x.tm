@@ -78,7 +78,15 @@
     y>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<frac|1|<sqrt|2>>*<big|int><frac|<frac|y<rsup|2>-1|2*y+1>\<times\><frac|2*y<rsup|2>+2*y+2|<around*|(|2*y+1|)><rsup|2>>|<frac|<around*|(|2*y+1|)><rsup|2>+<around*|(|y<rsup|2>-1|)><rsup|2>|<around*|(|2*y+1|)><rsup|2>>\<times\><frac|y*<around*|(|2*y+1|)>-y<rsup|2>+1|2*y+1>>*d
     y>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|2>>*<big|int><frac|2*<around*|(|y<rsup|2>-1|)>*<around*|(|y<rsup|2>+y+1|)>|<around*|(|4*y<rsup|2>+4*y+1+y<rsup|4>-2*y<rsup|2>+1|)>\<times\><around*|(|2*y<rsup|2>+y-y<rsup|2>+1|)>>*d
     y>>|<row|<cell|>|<cell|=>|<cell|<sqrt|2>*<big|int><frac|y<rsup|2>-1|y<rsup|4>+2*y<rsup|2>+4*y+2>*d
-    y>>>>
+    y>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|sin
+    x*d x|<sqrt|2+sin 2*x>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|sin
+    x*d x|<sqrt|2+2*sin x*cos x>>>>|<row|<cell|>|<cell|>|<cell|t=tan
+    <frac|x|2>>>|<row|<cell|>|<cell|>|<cell|d t=<frac|<frac|1|2>|cos<rsup|2>
+    <frac|x|2>>*d x=<frac|<frac|1|2>|<frac|1|2>*<around*|(|cos x+1|)>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|d x=<around*|(|cos x+1|)>*d
+    t>>|<row|<cell|>|<cell|>|<cell|t<rsup|2>=<frac|1-cos x|1+cos
+    x>\<rightarrow\>cos x=<frac|1-t<rsup|2>|1+t<rsup|2>>\<rightarrow\>sin
+    x=<frac|2*t|1+t<rsup|2>>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|<suppressed|<tiny-box>>|<suppressed|<tiny-box>>>>>>>
   </eqnarray*>
 </body>
 
