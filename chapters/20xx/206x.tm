@@ -54,6 +54,32 @@
     x-<sqrt|2*tan x>+1>|\|>+<frac|1|<sqrt|2>>*arctan<around*|(|<frac|<sqrt|2*tan
     x>|tan x-1>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  2062:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|sin
+    x*d x|<sqrt|2+sin 2*x>>>>|<row|<cell|>|<cell|>|<cell|sin
+    2*\<theta\>=<frac|2*tan \<theta\>|1+tan<rsup|2>
+    \<theta\>>>>|<row|<cell|>|<cell|>|<cell|t=tan
+    x>>|<row|<cell|>|<cell|>|<cell|d t=<frac|d x|cos<rsup|2>
+    x>\<rightarrow\>d x=cos<rsup|2> x*d t>>|<row|<cell|>|<cell|>|<cell|1+tan<rsup|2>
+    x=<frac|1|cos<rsup|2> x>\<rightarrow\>cos<rsup|2> x=<frac|1|1+tan<rsup|2>
+    x>=<frac|1|1+t<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|sin
+    x=<sqrt|1-cos<rsup|2> x>=<sqrt|<frac|t<rsup|2>|1+t<rsup|2>>>=<frac|t|<sqrt|1+t<rsup|2>>>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|<frac|t|<sqrt|1+t<rsup|2>>>\<times\><frac|1|1+t<rsup|2>>\<times\>d
+    x|<sqrt|2+<frac|2*t|1+t<rsup|2>>>>=<big|int><frac|<frac|t|1+t<rsup|2>>|<sqrt|2*t<rsup|2>+2*t+2>>*d
+    t>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|2>>*<big|int><frac|t*d
+    t|<around*|(|1+t<rsup|2>|)>*<sqrt|t<rsup|2>+t+1>>=<frac|1|<sqrt|2>>*<big|int><around*|(|<frac|<sqrt|t<rsup|2>+t+1>|t<rsup|2>+1>-<frac|1|<sqrt|t<rsup|2>+t+1>>|)>*d
+    t>>|<row|<cell|>|<cell|>|<cell|y-t=<sqrt|t<rsup|2>+t+1>>>|<row|<cell|>|<cell|>|<cell|y<rsup|2>-2*y*t+t<rsup|2>=t<rsup|2>+t+1>>|<row|<cell|>|<cell|>|<cell|t=<frac|y<rsup|2>-1|2*y+1>>>|<row|<cell|>|<cell|>|<cell|d
+    t=<frac|2*y*<around*|(|2*y+1|)>-2*<around*|(|y<rsup|2>-1|)>|<around*|(|2*y+1|)><rsup|2>>*d
+    y=<frac|2*y<rsup|2>+2*y+2|<around*|(|2*y+1|)><rsup|2>>*d
+    y>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<frac|1|<sqrt|2>>*<big|int><frac|<frac|y<rsup|2>-1|2*y+1>\<times\><frac|2*y<rsup|2>+2*y+2|<around*|(|2*y+1|)><rsup|2>>|<frac|<around*|(|2*y+1|)><rsup|2>+<around*|(|y<rsup|2>-1|)><rsup|2>|<around*|(|2*y+1|)><rsup|2>>\<times\><frac|y*<around*|(|2*y+1|)>-y<rsup|2>+1|2*y+1>>*d
+    y>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|2>>*<big|int><frac|2*<around*|(|y<rsup|2>-1|)>*<around*|(|y<rsup|2>+y+1|)>|<around*|(|4*y<rsup|2>+4*y+1+y<rsup|4>-2*y<rsup|2>+1|)>\<times\><around*|(|2*y<rsup|2>+y-y<rsup|2>+1|)>>*d
+    y>>|<row|<cell|>|<cell|=>|<cell|<sqrt|2>*<big|int><frac|y<rsup|2>-1|y<rsup|4>+2*y<rsup|2>+4*y+2>*d
+    y>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
