@@ -81,12 +81,14 @@
     y>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|sin
     x*d x|<sqrt|2+sin 2*x>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|sin
     x*d x|<sqrt|2+2*sin x*cos x>>>>|<row|<cell|>|<cell|>|<cell|t=tan
-    <frac|x|2>>>|<row|<cell|>|<cell|>|<cell|d t=<frac|<frac|1|2>|cos<rsup|2>
-    <frac|x|2>>*d x=<frac|<frac|1|2>|<frac|1|2>*<around*|(|cos x+1|)>>*d
-    x>>|<row|<cell|>|<cell|>|<cell|d x=<around*|(|cos x+1|)>*d
-    t>>|<row|<cell|>|<cell|>|<cell|t<rsup|2>=<frac|1-cos x|1+cos
+    <frac|x|2>>>|<row|<cell|>|<cell|>|<cell|t<rsup|2>=<frac|1-cos x|1+cos
     x>\<rightarrow\>cos x=<frac|1-t<rsup|2>|1+t<rsup|2>>\<rightarrow\>sin
-    x=<frac|2*t|1+t<rsup|2>>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|<suppressed|<tiny-box>>|<suppressed|<tiny-box>>>>>>>
+    x=<frac|2*t|1+t<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|d
+    t=<frac|<frac|1|2>|cos<rsup|2> <frac|x|2>>*d
+    x=<frac|<frac|1|2>|<frac|1|2>*<around*|(|cos x+1|)>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|d x=<around*|(|cos x+1|)>*d
+    t=<frac|2|1+t<rsup|2>>*d t>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|<frac|2*t|1+t<rsup|2>>\<times\><frac|2|1+t<rsup|2>>*d
+    t|<sqrt|2+2\<times\><frac|1-t<rsup|2>|1+t<rsup|2>>\<times\><frac|2*t|1+t<rsup|2>>>>>>>>
   </eqnarray*>
 </body>
 
