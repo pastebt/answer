@@ -88,7 +88,10 @@
     x=<frac|<frac|1|2>|<frac|1|2>*<around*|(|cos x+1|)>>*d
     x>>|<row|<cell|>|<cell|>|<cell|d x=<around*|(|cos x+1|)>*d
     t=<frac|2|1+t<rsup|2>>*d t>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|<frac|2*t|1+t<rsup|2>>\<times\><frac|2|1+t<rsup|2>>*d
-    t|<sqrt|2+2\<times\><frac|1-t<rsup|2>|1+t<rsup|2>>\<times\><frac|2*t|1+t<rsup|2>>>>>>>>
+    t|<sqrt|2+2\<times\><frac|1-t<rsup|2>|1+t<rsup|2>>\<times\><frac|2*t|1+t<rsup|2>>>>=<big|int><frac|4|<sqrt|2>>\<times\><frac|<frac|t|1+t<rsup|2>>*d
+    t|<sqrt|<around*|(|1+t<rsup|2>|)><rsup|2>+2*t*<around*|(|1-t<rsup|2>|)>>>>>|<row|<cell|>|<cell|=>|<cell|2*<sqrt|2>*<big|int><frac|t*d
+    t|<around*|(|1+t<rsup|2>|)>*<sqrt|1+2*t<rsup|2>+t<rsup|4>+2*t-2*t<rsup|3>>>>>|<row|<cell|>|<cell|=>|<cell|2*<sqrt|2>*<big|int><frac|t*d
+    t|<around*|(|1+t<rsup|2>|)>*<sqrt|t<rsup|4>-2*t<rsup|3>+2*t<rsup|2>+2*t+1>>>>>>
   </eqnarray*>
 </body>
 
