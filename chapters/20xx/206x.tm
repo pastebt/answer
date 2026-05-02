@@ -142,7 +142,49 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
     x|<around*|(|1+\<varepsilon\>*cos x|)><rsup|2>>
-    <around*|(|0\<less\>\<varepsilon\>\<less\>1|)>>>>>
+    <around*|(|0\<less\>\<varepsilon\>\<less\>1|)>>>|<row|<cell|>|<cell|>|<cell|u=<frac|1|\<varepsilon\>*sin
+    x>,d v=<frac|\<varepsilon\>*sin x*d x|<around*|(|1+\<varepsilon\>*cos
+    x|)><rsup|2>>,v=<frac|1|1+\<varepsilon\>*cos
+    x>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u>>|<row|<cell|>|<cell|=>|<cell|<frac|1|\<varepsilon\>*sin
+    x*<around*|(|1+\<varepsilon\>*cos x|)>>-<big|int><frac|1|1+\<varepsilon\>*cos
+    x>*d<around*|(|<frac|1|\<varepsilon\>*sin
+    x>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|\<varepsilon\>*sin
+    x*<around*|(|1+\<varepsilon\>*cos x|)>>+<frac|1|\<varepsilon\>>*<big|int><frac|1|1+\<varepsilon\>*cos
+    x>\<times\><frac|cos x|sin<rsup|2> x>*d
+    x>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|1|1+\<varepsilon\>*cos
+    x>\<times\><frac|cos x|sin<rsup|2> x>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|1|1+\<varepsilon\>*cos
+    x>\<times\><frac|cos x|1-cos<rsup|2> x>\<times\>d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|cos x|1+cos
+    x>\<times\><around*|(|<frac|\<varepsilon\>|1+\<varepsilon\>*cos
+    x>+<frac|1|1-cos x>|)>\<times\><frac|1|1+\<varepsilon\>>\<times\>d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|1+\<varepsilon\>>*<big|int><frac|cos
+    x|<around*|(|1+cos x|)>*<around*|(|1+\<varepsilon\>*cos x|)>>*d
+    x+<frac|1|1+\<varepsilon\>>*<big|int><frac|cos x*d x|1-cos<rsup|2>
+    x>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|1+\<varepsilon\>>*<big|int><frac|cos
+    x|<around*|(|1+cos x|)>*<around*|(|1+\<varepsilon\>*cos x|)>>*d
+    x-<frac|1|<around*|(|1+\<varepsilon\>|)>*sin
+    x>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|1-\<varepsilon\><rsup|2>>*<big|int><around*|(|<frac|1|1+\<varepsilon\>*cos
+    x>-<frac|1|1+cos x>|)>*d x-<frac|1|<around*|(|1+\<varepsilon\>|)>*sin
+    x>>>|<row|<cell|>|<cell|>|<cell|cos 2*\<theta\>=2*cos<rsup|2>
+    \<theta\>-1>>|<row|<cell|>|<cell|>|<cell|cos \<theta\>+1=2*cos<rsup|2>
+    <frac|\<theta\>|2>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<frac|1|1-\<varepsilon\><rsup|2>>*<big|int><frac|d
+    x|1+\<varepsilon\>*cos x>-<frac|1|1-\<varepsilon\><rsup|2>>\<times\><frac|tan
+    <frac|x|2>|2>-<frac|1|<around*|(|1+\<varepsilon\>|)>*sin
+    x>>>|<row|<cell|f<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|1+\<varepsilon\>*cos x>>>|<row|<cell|>|<cell|>|<cell|t=tan
+    <frac|x|2>>>|<row|<cell|>|<cell|>|<cell|t<rsup|2>=<frac|1-cos x|1+cos
+    x>\<rightarrow\>cos x=<frac|1-t<rsup|2>|1+t<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|d
+    x=<around*|(|cos x+1|)>*d t=<frac|2|1+t<rsup|2>>*d
+    t>>|<row|<cell|f<rsub|2><around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|<frac|2|1+t<rsup|2>>*d
+    t|1+\<varepsilon\>*<frac|1-t<rsup|2>|1+t<rsup|2>>>=2*<big|int><frac|d
+    t|1+t<rsup|2>+\<varepsilon\>-\<varepsilon\>*t<rsup|2>>=2*<big|int><frac|d
+    t|1+\<varepsilon\>+<around*|(|1-\<varepsilon\>|)>*t<rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|1-\<varepsilon\>>*<big|int><frac|d
+    t|<around*|(|<sqrt|<frac|1+\<varepsilon\>|1-\<varepsilon\>>>|)><rsup|2>+t<rsup|2>>>>|<row|<cell|book:>|<cell|\<Iota\>.>|<cell|<big|int><frac|d
+    x|a<rsup|2>+x<rsup|2>>=<frac|1|a>*arctan
+    <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|f<rsub|2><around*|(|t|)>>|<cell|=>|<cell|<frac|1|1-\<varepsilon\>>\<times\><sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>\<times\>arctan
+    <frac|t|<sqrt|<frac|1+\<varepsilon\>|1-\<varepsilon\>>>>>>>>
   </eqnarray*>
 </body>
 
