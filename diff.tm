@@ -299,6 +299,18 @@
   \;
 
   2059:
+
+  \;
+
+  2062:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|>|<cell|<frac|1|2>*arcsin<around*|(|<frac|sin
+    x-cos x|<sqrt|3>>|)>-<frac|1|2>*l n<around*|(|sin x+cos x+<sqrt|2+sin
+    2*x>|)>>>|<row|<cell|>|<cell|\<neq\>>|<cell|<frac|1|2>*arcsin<around*|(|<frac|sin
+    x-cos x|<sqrt|3>>|)>-<frac|1|2>*l n<around*|\||sin x+cos x+<sqrt|2+sin
+    2*x>|\|>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
