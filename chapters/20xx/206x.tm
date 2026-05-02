@@ -77,9 +77,12 @@
     x|<sqrt|a<rsup|2>-x<rsup|2>>>=arcsin*<frac|x|a>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|>|<cell|V.>|<cell|<big|int><frac|d
     x|<sqrt|x<rsup|2>\<pm\>a<rsup|2>>>=l n<around*|\||x+<sqrt|x<rsup|2>\<pm\>a<rsup|2>>|\|>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>*arcsin<around*|(|<frac|sin
     x-cos x|<sqrt|3>>|)>-<frac|1|2>*l n<around*|\||sin x+cos
-    x+<sqrt|1+<around*|(|sin x+cos x|)><rsup|2>>|\|>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*arcsin<around*|(|<frac|sin
-    x-cos x|<sqrt|3>>|)>-<frac|1|2>*l n<around*|\||sin x+cos x+<sqrt|2+sin
-    2*x>|\|>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|sin
+    x+<sqrt|1+<around*|(|sin x+cos x|)><rsup|2>>|\|>>>|<row|<cell|>|<cell|>|<cell|<sqrt|1+<around*|(|sin
+    x+cos x|)><rsup|2>>\<gtr\><sqrt|<around*|(|sin x+cos x|)><rsup|2>>=sin
+    x+cos x>>|<row|<cell|>|<cell|>|<cell|sin x+cos x+<sqrt|1+<around*|(|sin
+    x+cos x|)><rsup|2>>\<gtr\>0>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>*arcsin<around*|(|<frac|sin
+    x-cos x|<sqrt|3>>|)>-<frac|1|2>*l n<around*|(|sin x+cos x+<sqrt|2+sin
+    2*x>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|sin
     2*\<theta\>=<frac|2*tan \<theta\>|1+tan<rsup|2>
     \<theta\>>>>|<row|<cell|>|<cell|>|<cell|t=tan
     x>>|<row|<cell|>|<cell|>|<cell|d t=<frac|d x|cos<rsup|2>
@@ -130,6 +133,16 @@
     x|)><rsup|2>>*<around*|(|cos x-sin x|)>+cos 2*x|<sqrt|1+<around*|(|sin
     x+cos x|)><rsup|2>>*<around*|(|cos x+sin x|)>+1+<around*|(|sin x+cos
     x|)><rsup|2>>>>|<row|<cell|>|<cell|>|<cell|>>>>
+  </eqnarray*>
+
+  \;
+
+  2063:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<around*|(|1+\<varepsilon\>*cos x|)><rsup|2>>
+    <around*|(|0\<less\>\<varepsilon\>\<less\>1|)>>>>>
   </eqnarray*>
 </body>
 
