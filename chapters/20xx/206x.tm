@@ -244,6 +244,23 @@
     a>\<times\><around*|(|<frac|cos <frac|x+a|2>|sin
     <frac|x-a|2>>|)><rsup|n><space|2em><around*|(|cos a\<neq\>0|)>>>>>
   </eqnarray*>
+
+  \;
+
+  2065:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|I<rsub|n>>|<cell|=>|<cell|<big|int><around*|(|<frac|sin
+    <frac|x-a|2>|sin <frac|x+a|2>>|)><rsup|n>*d
+    x>>|<row|<cell|f<around*|(|x|)>>|<cell|=>|<cell|<frac|sin
+    <frac|x-a|2>|sin <frac|x+a|2>>>>|<row|<cell|f<rprime|'><around*|(|x|)>>|<cell|=>|<cell|<frac|cos
+    <frac|x-a|2>*sin <frac|x+a|2>-cos <frac|x+a|2>*sin
+    <frac|x-a|2>|sin<rsup|2> <frac|x+a|2>>\<times\><frac|d
+    x|2>>>|<row|<cell|<text|III. >sin \<alpha\>*cos
+    \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|sin<around*|(|\<alpha\>-\<beta\>|)>+sin<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|f<rprime|'><around*|(|x|)>>|<cell|=>|<cell|<frac|<frac|1|2>*<around*|(|sin
+    a-sin<around*|(|-a|)>|)>|2*sin<rsup|2> <frac|x+a|2>>=<frac|sin
+    a|2*sin<rsup|2> <frac|x+a|2>>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
