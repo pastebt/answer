@@ -275,7 +275,33 @@
     t=<frac|sin a|2*sin<rsup|2> <frac|x+a|2>>*d
     x>>|<row|<cell|>|<cell|>|<cell|d x=<frac|2|sin a>*sin<rsup|2>
     <frac|x+a|2>*d t>>|<row|<cell|I<rsub|n>>|<cell|=>|<cell|<big|int>t<rsup|n>*<frac|2|sin
-    a>*sin<rsup|2> <frac|x+a|2>*d t>>|<row|<cell|>|<cell|>|<cell|>>>>
+    a>*sin<rsup|2> <frac|x+a|2>*d t>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|f<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|sin
+    <frac|x-a|2>|sin <frac|x+a|2>>*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|sin
+    <frac|x-a|2>*sin <frac|x+a|2>|sin<rsup|2> <frac|x+a|2>>*d
+    x>>|<row|<cell|<text|I. \ >sin \<alpha\>*sin
+    \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|cos<around*|(|\<alpha\>-\<beta\>|)>-cos<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|sin<rsup|2>
+    \<theta\>>|<cell|=>|<cell|<frac|1-cos
+    2*\<theta\>|2>>>|<row|<cell|f<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|<frac|1|2>*<around*|(|cos<around*|(|a|)>-cos<around*|(|x|)>|)>|<frac|1|2>*<around*|(|1-cos<around*|(|x+a|)>|)>>*d
+    x=<big|int><frac|cos a-cos x|1-cos<around*|(|x+a|)>>*d
+    x>>|<row|<cell|cos<around*|(|\<alpha\>\<pm\>\<beta\>|)>>|<cell|=>|<cell|cos
+    \<alpha\>*cos \<beta\>\<mp\>sin \<alpha\>*sin
+    \<beta\>>>|<row|<cell|f<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|cos
+    a-cos x|1-cos a*cos x+sin a*sin x>*d x>>|<row|<cell|>|<cell|>|<cell|t=tan
+    <frac|x|2>>>|<row|<cell|>|<cell|>|<cell|t<rsup|2>=<frac|1-cos x|1+cos
+    x>\<rightarrow\>cos x=<frac|1-t<rsup|2>|1+t<rsup|2>>\<rightarrow\>sin
+    x=<frac|2*t|1+t<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|d
+    t=<frac|<frac|1|2>|cos<rsup|2> <frac|x|2>>*d
+    x=<frac|<frac|1|2>|<frac|1|2>*<around*|(|cos x+1|)>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|d x=<around*|(|cos x+1|)>*d
+    t=<frac|2|1+t<rsup|2>>*d t>>|<row|<cell|f<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|cos
+    a-<frac|1-t<rsup|2>|1+t<rsup|2>>|1-cos
+    a\<times\><frac|1-t<rsup|2>|1+t<rsup|2>>+sin
+    a\<times\><frac|2*t|1+t<rsup|2>>>\<times\><frac|2|1+t<rsup|2>>*d
+    t>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|cos a+cos
+    a*t<rsup|2>-1+t<rsup|2>|1+t<rsup|2>-cos a+cos a*t<rsup|2>+2*t*sin
+    a>\<times\><frac|2|1+t<rsup|2>>*d t>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<around*|(|cos
+    a-1|)>+<around*|(|cos a+1|)>*t<rsup|2>|<around*|(|cos
+    a+1|)>*t<rsup|2>+2*t*sin a+1-cos a>\<times\><frac|2|1+t<rsup|2>>*d t>>>>
   </eqnarray*>
 </body>
 
