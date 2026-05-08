@@ -334,7 +334,21 @@
     <frac|x+a|2>|)><rsup|n>>*d x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<big|int><frac|<around*|(|sin
     <frac|x-a|2>|)><rsup|n-2>|<around*|(|sin <frac|x+a|2>|)><rsup|n>>*d
     x-<frac|<around*|(|sin <frac|x-a|2>|)><rsup|n-2>*cos
-    <around*|(|x-a|)>|2*<around*|(|sin <frac|x+a|2>|)><rsup|n>>*d x>>>>
+    <around*|(|x-a|)>|2*<around*|(|sin <frac|x+a|2>|)><rsup|n>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<big|int><frac|<around*|(|sin
+    <frac|x-a|2>|)><rsup|n-2>|<around*|(|sin <frac|x+a|2>|)><rsup|n>>*d
+    x->>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|I<rsub|n>>|<cell|=>|<cell|<big|int><around*|(|<frac|sin
+    <frac|x-a|2>|sin <frac|x+a|2>>|)><rsup|n>*d
+    x>>|<row|<cell|>|<cell|>|<cell|u=<frac|-2*<around*|(|n-1|)>|cos
+    <frac|x+a|2>><around*|(|sin <frac|x-a|2>|)><rsup|n>,v=<frac|1|<around*|(|sin
+    <frac|x+a|2>|)><rsup|n-1>>>>|<row|<cell|>|<cell|>|<cell|d
+    v=-<frac|1|2*<around*|(|n-1|)>>*cos <frac|x+a|2><around*|(|<frac|1|sin
+    <frac|x+a|2>>|)><rsup|n>*d x>>|<row|<cell|I<rsub|n>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u>>|<row|<cell|d u>|<cell|=>|<cell|d<around*|(|<frac|1|cos
+    <frac|x+a|2>>\<times\><around*|(|sin <frac|x-a|2>|)><rsup|n>|)>=<frac|-1|2*<around*|(|cos
+    <frac|x+a|2>|)><rsup|2>>\<times\><around*|(|sin
+    <frac|x-a|2>|)><rsup|n>+<frac|n*cos <frac|x-a|2>|2*cos
+    <frac|x+a|2>>*<around*|(|sin <frac|x-a|2>|)><rsup|n-1>>>|<row|<cell|>|<cell|>|<cell|>>>>
   </eqnarray*>
 </body>
 
