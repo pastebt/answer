@@ -269,13 +269,13 @@
     <frac|x+a|2>>>>|<row|<cell|cos 2*\<theta\>>|<cell|=>|<cell|1-2*sin<rsup|2>
     \<theta\>>>|<row|<cell|sin<rsup|2> \<theta\>>|<cell|=>|<cell|<frac|1-cos
     2*\<theta\>|2>>>|<row|<cell|>|<cell|>|<cell|t=<frac|cos a-cos x|1-cos
-    <around*|(|x+a|)>>\<rightarrow\>t-t*cos x=cos a-cos
-    x>>|<row|<cell|>|<cell|>|<cell|cos x=<frac|cos
-    a-t|1-t>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|d
+    <around*|(|x+a|)>>\<rightarrow\>t-t*cos <around*|(|x+a|)>=cos a-cos
+    x>>|<row|<cell|>|<cell|>|<cell|t-t*<around*|(|cos x*cos a-sin x*sin
+    a|)>=cos a-cos x>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|d
     t=<frac|sin a|2*sin<rsup|2> <frac|x+a|2>>*d
     x>>|<row|<cell|>|<cell|>|<cell|d x=<frac|2|sin a>*sin<rsup|2>
     <frac|x+a|2>*d t>>|<row|<cell|I<rsub|n>>|<cell|=>|<cell|<big|int>t<rsup|n>*<frac|2|sin
-    a>*sin<rsup|2> <frac|x+a|2>*d t>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|f<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|sin
+    a>*sin<rsup|2> <frac|x+a|2>*d t>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|f<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|sin
     <frac|x-a|2>|sin <frac|x+a|2>>*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|sin
     <frac|x-a|2>*sin <frac|x+a|2>|sin<rsup|2> <frac|x+a|2>>*d
     x>>|<row|<cell|<text|I. \ >sin \<alpha\>*sin
@@ -345,10 +345,43 @@
     v=-<frac|1|2*<around*|(|n-1|)>>*cos <frac|x+a|2><around*|(|<frac|1|sin
     <frac|x+a|2>>|)><rsup|n>*d x>>|<row|<cell|I<rsub|n>>|<cell|=>|<cell|<big|int>u*d
     v=u*v-<big|int>v*d u>>|<row|<cell|d u>|<cell|=>|<cell|d<around*|(|<frac|1|cos
-    <frac|x+a|2>>\<times\><around*|(|sin <frac|x-a|2>|)><rsup|n>|)>=<frac|-1|2*<around*|(|cos
+    <frac|x+a|2>>\<times\><around*|(|sin <frac|x-a|2>|)><rsup|n>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|-1|2*<around*|(|cos
     <frac|x+a|2>|)><rsup|2>>\<times\><around*|(|sin
     <frac|x-a|2>|)><rsup|n>+<frac|n*cos <frac|x-a|2>|2*cos
-    <frac|x+a|2>>*<around*|(|sin <frac|x-a|2>|)><rsup|n-1>>>|<row|<cell|>|<cell|>|<cell|>>>>
+    <frac|x+a|2>>*<around*|(|sin <frac|x-a|2>|)><rsup|n-1>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|<text|III.
+    >sin \<alpha\>*cos \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|sin<around*|(|\<alpha\>-\<beta\>|)>+sin<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|>|<cell|>|<cell|t=<frac|sin
+    <frac|x-a|2>|sin <frac|x+a|2>>=<frac|sin <frac|x-a|2>*cos
+    <frac|x-a|2>|sin <frac|x+a|2>*cos <frac|x-a|2>>=<frac|sin
+    <around*|(|x-a|)>|sin a+sin x>>>|<row|<cell|>|<cell|>|<cell|t=<frac|sin
+    <frac|x-a|2>|sin <frac|x+a|2>>=<frac|sin <frac|x-a|2>*cos
+    <frac|x+a|2>|sin <frac|x+a|2>*cos <frac|x+a|2>>=<frac|-sin a+sin
+    x|sin<around*|(|x+a|)>>>>|<row|<cell|>|<cell|>|<cell|t<rsup|2>=<frac|1-cos
+    <around*|(|x-a|)>|1-cos <around*|(|x+a|)>>=<frac|1-<around*|(|cos x*cos
+    a+sin x*sin a|)>|1-<around*|(|cos x*cos a-sin x*sin
+    a|)>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|2*I<rsub|n-1>*cos
+    a-I<rsub|n-2>+<frac|2*sin a|n-1>*t<rsup|n-1>>>|<row|<cell|f<around*|(|x|)>>|<cell|=>|<cell|<around*|(|<frac|sin
+    <frac|x-a|2>|sin <frac|x+a|2>>|)><rsup|n-1>>>|<row|<cell|f<rprime|'><around*|(|x|)>>|<cell|=>|<cell|<around*|(|n-1|)>*<around*|(|<frac|sin
+    <frac|x-a|2>|sin <frac|x+a|2>>|)><rsup|n-2>\<times\><frac|sin
+    a|2*sin<rsup|2> <frac|x+a|2>>>>|<row|<cell|<frac|2*sin
+    a|n-1>*f<rprime|'><around*|(|x|)>>|<cell|=>|<cell|<around*|(|<frac|sin
+    <frac|x-a|2>|sin <frac|x+a|2>>|)><rsup|n-2>\<times\><frac|sin<rsup|2>
+    a|sin<rsup|2> <frac|x+a|2>>>>|<row|<cell|>|<cell|>|<cell|<frac|sin
+    <frac|x-a|2>|sin <frac|x+a|2>>\<times\>2*cos a-1+<frac|sin<rsup|2>
+    a|sin<rsup|2> <frac|x+a|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|sin
+    <frac|x-a|2>\<times\>sin <frac|x+a|2>\<times\>2*cos a-sin<rsup|2>
+    <frac|x+a|2>+sin<rsup|2> a|sin<rsup|2>
+    <frac|x+a|2>>>>|<row|<cell|t<around*|(|x|)>>|<cell|=>|<cell|sin
+    <frac|x-a|2>\<times\>sin <frac|x+a|2>\<times\>2*cos a-sin<rsup|2>
+    <frac|x+a|2>+sin<rsup|2> a>>|<row|<cell|>|<cell|=>|<cell|<around*|(|cos
+    a-cos x|)>*cos a-sin<rsup|2> <frac|x+a|2>+sin<rsup|2>
+    a>>|<row|<cell|>|<cell|=>|<cell|1-sin<rsup|2> <frac|x+a|2>-cos x*cos
+    a>>|<row|<cell|<text|I. \ >sin \<alpha\>*sin
+    \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|cos<around*|(|\<alpha\>-\<beta\>|)>-cos<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|<text|II.
+    >cos \<alpha\>*cos \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|cos<around*|(|\<alpha\>-\<beta\>|)>+cos<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|<text|III.
+    >sin \<alpha\>*cos \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|sin<around*|(|\<alpha\>-\<beta\>|)>+sin<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|sin<rsup|2>
+    \<theta\>>|<cell|=>|<cell|<frac|1-cos
+    2*\<theta\>|2>>>|<row|<cell|t<around*|(|x|)>>|<cell|=>|<cell|1-<frac|1-cos<around*|(|x+a|)>|2>-<frac|1|2>*<around*|(|cos<around*|(|x-a|)>+cos<around*|(|x+a|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>-<frac|1|2>*cos<around*|(|x-a|)>=<frac|1-cos<around*|(|x-a|)>|2>=sin<rsup|2>
+    <frac|x-a|2>>>>>
   </eqnarray*>
 </body>
 
