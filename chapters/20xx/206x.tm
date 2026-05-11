@@ -404,6 +404,21 @@
     2*\<theta\>|2>>>|<row|<cell|t<around*|(|x|)>>|<cell|=>|<cell|1-<frac|1-cos<around*|(|x+a|)>|2>-<frac|1|2>*<around*|(|cos<around*|(|x-a|)>+cos<around*|(|x+a|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>-<frac|1|2>*cos<around*|(|x-a|)>=<frac|1-cos<around*|(|x-a|)>|2>=sin<rsup|2>
     <frac|x-a|2>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2066:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>P<around*|(|x|)>*e<rsup|a*x>*d
+    x>>|<row|<cell|>|<cell|>|<cell|u=<frac|P<around*|(|x|)>|a>,d
+    v=a*e<rsup|a*x>,v=e<rsup|a*x>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u>>|<row|<cell|>|<cell|=>|<cell|<frac|P<around*|(|x|)>|a>*e<rsup|a*x>-<big|int>e<rsup|a*x>*d<around*|(|<frac|P<around*|(|x|)>|a>|)>>>|<row|<cell|>|<cell|=>|<cell|e<rsup|a*x>*<frac|P<around*|(|x|)>|a>-<frac|1|a>*<big|int>e<rsup|a*x>*P<rprime|'><around*|(|x|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|e<rsup|a*x>*<frac|P<around*|(|x|)>|a>-<frac|1|a>*<around*|(|e<rsup|a*x>*<frac|P<rprime|'><around*|(|x|)>|a>-<frac|1|a>*<big|int>e<rsup|a*x>*P<rprime|''><around*|(|x|)>*d
+    x|)>>>|<row|<cell|f<around*|(|x|)>>|<cell|=>|<cell|e<rsup|a*x>*<around*|(|<frac|P<around*|(|x|)>|a>-<frac|P<rprime|'><around*|(|x|)>|a<rsup|2>>+\<cdots\>+<around*|(|-1|)><rsup|n>*<frac|P<rsup|<around*|(|n|)>><around*|(|x|)>|a<rsup|n+1>>|)>+C>>|<row|<cell|f<rprime|'><around*|(|x|)>>|<cell|=>|<cell|a*e<rsup|a*x>*<around*|(|<frac|P<around*|(|x|)>|a>-<frac|P<rprime|'><around*|(|x|)>|a<rsup|2>>+\<cdots\>+<around*|(|-1|)><rsup|n>*<frac|P<rsup|<around*|(|n|)>><around*|(|x|)>|a<rsup|n+1>>|)>>>|<row|<cell|>|<cell|>|<cell|+e<rsup|a*x>*<around*|(|<frac|P<rprime|'><around*|(|x|)>|a>-<frac|P<rprime|''><around*|(|x|)>|a<rsup|2>>+\<cdots\>+<around*|(|-1|)><rsup|n>*<frac|P<rsup|<around*|(|n+1|)>><around*|(|x|)>|a<rsup|n+1>>|)>>>|<row|<cell|>|<cell|=>|<cell|e<rsup|a*x>*<around*|(|P<around*|(|x|)>-<frac|P<rprime|'><around*|(|x|)>|a>+\<cdots\>+<around*|(|-1|)><rsup|n>*<frac|P<rsup|<around*|(|n|)>><around*|(|x|)>|a<rsup|n>>|)>>>|<row|<cell|>|<cell|>|<cell|+e<rsup|a*x>*<around*|(|<frac|P<rprime|'><around*|(|x|)>|a>-<frac|P<rprime|''><around*|(|x|)>|a<rsup|2>>+\<cdots\>+<around*|(|-1|)><rsup|n>*<frac|P<rsup|<around*|(|n+1|)>><around*|(|x|)>|a<rsup|n+1>>|)>>>|<row|<cell|>|<cell|=>|<cell|e<rsup|a*x>*P<around*|(|x|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
