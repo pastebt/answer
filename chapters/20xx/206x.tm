@@ -483,6 +483,25 @@
     a*x|a<rsup|2>>*<around*|(|P<rprime|'><around*|(|x|)>-<frac|P<rprime|'''><around*|(|x|)>|a<rsup|2>>|)>+<frac|1|a<rsup|4>>*<big|int>sin
     a*x*P<rprime|''''><around*|(|x|)>*d x>>>>
   </eqnarray*>
+
+  \;
+
+  2068:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>x<rsup|3>*e<rsup|3*x>*d
+    x>>|<row|<cell|P<around*|(|x|)>>|<cell|=>|<cell|x<rsup|3>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>P<around*|(|x|)>*e<rsup|3*x>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|e<rsup|3*x>*<around*|(|<frac|P<around*|(|x|)>|3>-<frac|P<rprime|'><around*|(|x|)>|3<rsup|2>>+<frac|P<rprime|''><around*|(|x|)>|3<rsup|3>>-<frac|P<rprime|'''><around*|(|x|)>|3<rsup|4>>|)>>>|<row|<cell|>|<cell|=>|<cell|e<rsup|3*x>*<around*|(|<frac|x<rsup|3>|3>-<frac|3*x<rsup|2>|3<rsup|2>>+<frac|3\<times\>2\<times\>x|3<rsup|3>>-<frac|3\<times\>2\<times\>1|3<rsup|4>>|)>>>|<row|<cell|>|<cell|=>|<cell|e<rsup|3*x>*<around*|(|<frac|x<rsup|3>|3>-<frac|x<rsup|2>|3>+<frac|2*x|9>-<frac|2|27>|)>>>|<row|<cell|F<rprime|'><around*|(|x|)>>|<cell|=>|<cell|3*e<rsup|3*x>*<around*|(|<frac|x<rsup|3>|3>-<frac|x<rsup|2>|3>+<frac|2*x|9>-<frac|2|27>|)>+e<rsup|3*x>*<around*|(|x<rsup|2>-<frac|2*x|3>+<frac|2|9>|)>>>|<row|<cell|>|<cell|=>|<cell|e<rsup|3*x>*<around*|(|x<rsup|3>-x<rsup|2>+<frac|2*x|3>-<frac|2|9>+x<rsup|2>-<frac|2*x|3>+<frac|2|9>|)>>>|<row|<cell|>|<cell|=>|<cell|x<rsup|3>*e<rsup|3*x>>>>>
+  </eqnarray*>
+
+  \;
+
+  2069:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><around*|(|x<rsup|2>-2*x+2|)>*e<rsup|-x>*d
+    x>>|<row|<cell|P<around*|(|x|)>>|<cell|=>|<cell|x<rsup|2>-2*x+2>>|<row|<cell|a>|<cell|=>|<cell|-1>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|e<rsup|-x>*<around*|(|-P<around*|(|x|)>-P<rprime|'><around*|(|x|)>-P<rprime|''><around*|(|x|)>|)>>>|<row|<cell|>|<cell|=>|<cell|e<rsup|-x>*<around*|(|-x<rsup|2>+2*x-2-<around*|(|2*x-2|)>-2|)>>>|<row|<cell|>|<cell|=>|<cell|e<rsup|-x>*<around*|(|-x<rsup|2>-2|)>>>|<row|<cell|F<rprime|'><around*|(|x|)>>|<cell|=>|<cell|-e<rsup|-x>*<around*|(|-x<rsup|2>-2|)>+e<rsup|-x>*<around*|(|-2*x|)>>>|<row|<cell|>|<cell|=>|<cell|e<rsup|-x>*<around*|(|x<rsup|2>-2*x+2|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
