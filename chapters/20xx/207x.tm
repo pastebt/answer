@@ -45,6 +45,18 @@
     t>>|<row|<cell|2066:>|<cell|>|<cell|<big|int>P<around*|(|x|)>*e<rsup|a*x>*d
     x=e<rsup|a*x>*<around*|(|<frac|P<around*|(|x|)>|a>-<frac|P<rprime|'><around*|(|x|)>|a<rsup|2>>+\<cdots\>+<around*|(|-1|)><rsup|n>*<frac|P<rsup|<around*|(|n|)>><around*|(|x|)>|a<rsup|n+1>>|)>+C>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<frac|e<rsup|-t>|2>*<around*|(|-t<rsup|3>-3*t<rsup|2>-6*t-6|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-<frac|e<rsup|-x<rsup|2>>|2>*<around*|(|x<rsup|6>+3*x<rsup|4>+6*x<rsup|2>+6|)>>>>>
   </eqnarray*>
+
+  \;
+
+  2073:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>x<rsup|2>*e<rsup|<sqrt|x>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|t=<sqrt|x>\<rightarrow\>t<rsup|2>=x\<rightarrow\>d
+    x=2*t*d t>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int>t<rsup|4>*e<rsup|t>\<times\>2*t*d
+    t=2*<big|int>t<rsup|5>*e<rsup|t>*d t>>|<row|<cell|2066:>|<cell|>|<cell|<big|int>P<around*|(|x|)>*e<rsup|a*x>*d
+    x=e<rsup|a*x>*<around*|(|<frac|P<around*|(|x|)>|a>-<frac|P<rprime|'><around*|(|x|)>|a<rsup|2>>+\<cdots\>+<around*|(|-1|)><rsup|n>*<frac|P<rsup|<around*|(|n|)>><around*|(|x|)>|a<rsup|n+1>>|)>+C>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|2*e<rsup|t>*<around*|(|t<rsup|5>-5*t<rsup|4>+20*t<rsup|3>-60*t<rsup|2>+120*t-120|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
