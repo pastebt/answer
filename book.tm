@@ -19,7 +19,15 @@
     x|a*sin x+b*cos x>=<frac|1|<sqrt|a<rsup|2>+b<rsup|2>>>*l
     n<around*|\||tan<around*|(|<frac|x+\<varphi\>|2>|)>|\|>>>|<row|<cell|>|<cell|>|<cell|cos
     \<varphi\>=<frac|a|<sqrt|a<rsup|2>+b<rsup|2>>>,sin
-    \<varphi\>=<frac|b|<sqrt|a<rsup|2>+b<rsup|2>>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|\<Iota\>.>|<cell|<big|int><frac|d
+    \<varphi\>=<frac|b|<sqrt|a<rsup|2>+b<rsup|2>>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|2065:>|<cell|>|<cell|I<rsub|n>=<big|int><around*|(|<frac|sin
+    <frac|x-a|2>|sin <frac|x+a|2>>|)><rsup|n>*d x=2*I<rsub|n-1>*cos
+    a-I<rsub|n-2>+<frac|2*sin a|n-1>*t<rsup|n-1>>>|<row|<cell|>|<cell|>|<cell|t=<frac|sin
+    <frac|x-a|2>|sin <frac|x+a|2>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|2066:>|<cell|>|<cell|<big|int>P<around*|(|x|)>*e<rsup|a*x>*d
+    x=e<rsup|a*x>*<around*|(|<frac|P<around*|(|x|)>|a>-<frac|P<rprime|'><around*|(|x|)>|a<rsup|2>>+\<cdots\>+<around*|(|-1|)><rsup|n>*<frac|P<rsup|<around*|(|n|)>><around*|(|x|)>|a<rsup|n+1>>|)>+C>>|<row|<cell|2067:>|<cell|>|<cell|>>|<row|<cell|<big|int>P<around*|(|x|)>*cos
+    a*x*d x>|<cell|=>|<cell|<frac|sin a*x|a>*<around*|(|P<around*|(|x|)>-<frac|P<rprime|''><around*|(|x|)>|a<rsup|2>>+<frac|P<rsup|<around*|(|4|)>><around*|(|x|)>|a<rsup|4>>-\<cdots\>|)>>>|<row|<cell|>|<cell|>|<cell|+<frac|cos
+    a*x|a<rsup|2>>*<around*|(|P<rprime|'><around*|(|x|)>-<frac|P<rprime|'''><around*|(|x|)>|a<rsup|2>>+<frac|P<rsup|<around*|(|5|)>><around*|(|x|)>|a<rsup|4>>-\<cdots\>|)>+C>>|<row|<cell|<big|int>P<around*|(|x|)>*sin
+    a*x*d x>|<cell|=>|<cell|-<frac|cos a*x|a>*<around*|(|P<around*|(|x|)>-<frac|P<rprime|''><around*|(|x|)>|a<rsup|2>>+<frac|P<rsup|<around*|(|4|)>><around*|(|x|)>|a<rsup|4>>-\<cdots\>|)>>>|<row|<cell|>|<cell|>|<cell|+<frac|sin
+    a*x|a<rsup|2>>*<around*|(|P<rprime|'><around*|(|x|)>-<frac|P<rprime|'''><around*|(|x|)>|a<rsup|2>>+<frac|P<rsup|<around*|(|5|)>><around*|(|x|)>|a<rsup|4>>-\<cdots\>|)>+C>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|\<Iota\>.>|<cell|<big|int><frac|d
     x|a<rsup|2>+x<rsup|2>>=<frac|1|a>*arctan
     <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|>|<cell|\<Iota\>
     \<Iota\>.>|<cell|<big|int><frac|d x|a<rsup|2>-x<rsup|2>>=<frac|1|2*a>*l
