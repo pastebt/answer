@@ -32,6 +32,19 @@
     x*<around*|(|x<rsup|4>-10*x<rsup|2>+21|)>+cos
     x*<around*|(|4*x<rsup|3>-20*x|)>>>>>
   </eqnarray*>
+
+  \;
+
+  2072:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>x<rsup|7>*e<rsup|-x<rsup|2>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|t=x<rsup|2>\<rightarrow\>d t=2*x*d
+    x\<rightarrow\>d x=<frac|d t|2*x>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int>e<rsup|-t>*t<rsup|3>\<times\>x\<times\><frac|d
+    t|2*x>=<frac|1|2>*<big|int>t<rsup|3>*e<rsup|-t>*d
+    t>>|<row|<cell|2066:>|<cell|>|<cell|<big|int>P<around*|(|x|)>*e<rsup|a*x>*d
+    x=e<rsup|a*x>*<around*|(|<frac|P<around*|(|x|)>|a>-<frac|P<rprime|'><around*|(|x|)>|a<rsup|2>>+\<cdots\>+<around*|(|-1|)><rsup|n>*<frac|P<rsup|<around*|(|n|)>><around*|(|x|)>|a<rsup|n+1>>|)>+C>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<frac|e<rsup|-t>|2>*<around*|(|-t<rsup|3>-3*t<rsup|2>-6*t-6|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-<frac|e<rsup|-x<rsup|2>>|2>*<around*|(|x<rsup|6>+3*x<rsup|4>+6*x<rsup|2>+6|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
