@@ -27,7 +27,17 @@
     a*x*d x>|<cell|=>|<cell|<frac|sin a*x|a>*<around*|(|P<around*|(|x|)>-<frac|P<rprime|''><around*|(|x|)>|a<rsup|2>>+<frac|P<rsup|<around*|(|4|)>><around*|(|x|)>|a<rsup|4>>-\<cdots\>|)>>>|<row|<cell|>|<cell|>|<cell|+<frac|cos
     a*x|a<rsup|2>>*<around*|(|P<rprime|'><around*|(|x|)>-<frac|P<rprime|'''><around*|(|x|)>|a<rsup|2>>+<frac|P<rsup|<around*|(|5|)>><around*|(|x|)>|a<rsup|4>>-\<cdots\>|)>+C>>|<row|<cell|<big|int>P<around*|(|x|)>*sin
     a*x*d x>|<cell|=>|<cell|-<frac|cos a*x|a>*<around*|(|P<around*|(|x|)>-<frac|P<rprime|''><around*|(|x|)>|a<rsup|2>>+<frac|P<rsup|<around*|(|4|)>><around*|(|x|)>|a<rsup|4>>-\<cdots\>|)>>>|<row|<cell|>|<cell|>|<cell|+<frac|sin
-    a*x|a<rsup|2>>*<around*|(|P<rprime|'><around*|(|x|)>-<frac|P<rprime|'''><around*|(|x|)>|a<rsup|2>>+<frac|P<rsup|<around*|(|5|)>><around*|(|x|)>|a<rsup|4>>-\<cdots\>|)>+C>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|\<Iota\>.>|<cell|<big|int><frac|d
+    a*x|a<rsup|2>>*<around*|(|P<rprime|'><around*|(|x|)>-<frac|P<rprime|'''><around*|(|x|)>|a<rsup|2>>+<frac|P<rsup|<around*|(|5|)>><around*|(|x|)>|a<rsup|4>>-\<cdots\>|)>+C>>|<row|<cell|>|<cell|>|<cell|>>>>
+  </eqnarray*>
+
+  \;
+
+  \;
+
+  \;
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|\<Iota\>.>|<cell|<big|int><frac|d
     x|a<rsup|2>+x<rsup|2>>=<frac|1|a>*arctan
     <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|>|<cell|\<Iota\>
     \<Iota\>.>|<cell|<big|int><frac|d x|a<rsup|2>-x<rsup|2>>=<frac|1|2*a>*l
@@ -45,8 +55,10 @@
     \<Iota\> \<Iota\>.>|<cell|<big|int><sqrt|x<rsup|2>\<pm\>a<rsup|2>>*d
     x=<frac|x|2>*<sqrt|x<rsup|2>\<pm\>a<rsup|2>>\<pm\><frac|a<rsup|2>|2>*l
     n<around*|\||x+<sqrt|x<rsup|2>\<pm\>a<rsup|2>>|\|>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|vii>|<cell|<big|int>a<rsup|x>*d
-    x=<frac|a<rsup|x>|l n a>+C<space|1em><around*|(|a\<gtr\>0,a\<neq\>1|)>>>>>
+    x=<frac|a<rsup|x>|l n a>+C<space|1em><around*|(|a\<gtr\>0,a\<neq\>1|)>>>|<row|<cell|>|<cell|>|<cell|>>>>
   </eqnarray*>
+
+  \;
 
   \;
 
@@ -54,7 +66,13 @@
     <tformat|<table|<row|<cell|<text|I. \ >sin \<alpha\>*sin
     \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|cos<around*|(|\<alpha\>-\<beta\>|)>-cos<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|<text|II.
     >cos \<alpha\>*cos \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|cos<around*|(|\<alpha\>-\<beta\>|)>+cos<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|<text|III.
-    >sin \<alpha\>*cos \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|sin<around*|(|\<alpha\>-\<beta\>|)>+sin<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|t=tan
+    >sin \<alpha\>*cos \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|sin<around*|(|\<alpha\>-\<beta\>|)>+sin<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|>|<cell|>|<cell|>>>>
+  </eqnarray*>
+
+  \;
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|>|<cell|t=tan
     <frac|x|2>>>|<row|<cell|>|<cell|>|<cell|t<rsup|2>=<frac|1-cos x|1+cos
     x>\<rightarrow\>cos x=<frac|1-t<rsup|2>|1+t<rsup|2>>\<rightarrow\>sin
     x=<frac|2*t|1+t<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|d
@@ -185,7 +203,15 @@
     \<theta\>-<frac|3|4>*cos<rsup|2> \<theta\>*sin<rsup|2>
     \<theta\>+<frac|3|4>*cos<rsup|2> \<theta\>=<frac|1|4>*cos<rsup|4>
     \<theta\>+<frac|3|4>*cos<rsup|2> \<theta\>*<around*|(|1-sin<rsup|2>
-    \<theta\>|)>=cos<rsup|4> \<theta\>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<rsub|s<rsub|1>><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|1|sin
+    \<theta\>|)>=cos<rsup|4> \<theta\>>>|<row|<cell|>|<cell|>|<cell|>>>>
+  </eqnarray*>
+
+  \;
+
+  sin:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<rsub|s<rsub|1>><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|1|sin
     x>*d x=l n<around*|\||<frac|1-cos x|sin x>|\|>=l n<around*|\||tan
     <frac|x|2>|\|>>>|<row|<cell|>|<cell|>|<cell|y=cos x\<rightarrow\>d y=-sin
     x*d x\<rightarrow\>d x=-<frac|d y|sin
@@ -232,7 +258,7 @@
     I<rsub|n>>|<cell|=>|<cell|<big|int><frac|d x|sin<rsup|n> x>=<frac|-cos
     x|<around*|(|n-1|)>*sin<rsup|n-1> x>+<frac|n-2|n-1>*I<rsub|n-2><space|2em><around*|(|n\<gtr\>2|)>>>|<row|<cell|<around*|(|b|)>
     K<rsub|n>>|<cell|=>|<cell|<big|int><frac|d x|cos<rsup|n> x>=<frac|sin
-    x|<around*|(|n-1|)>*cos<rsup|n-1> x>+<frac|n-2|n-1>*K<rsub|n-2><space|2em><around*|(|n\<gtr\>2|)>>>>>
+    x|<around*|(|n-1|)>*cos<rsup|n-1> x>+<frac|n-2|n-1>*K<rsub|n-2><space|2em><around*|(|n\<gtr\>2|)>>>|<row|<cell|>|<cell|>|<cell|>>>>
   </eqnarray*>
 </body>
 
@@ -242,5 +268,6 @@
     <associate|page-medium|paper>
     <associate|page-type|letter>
     <associate|page-width|auto>
+    <associate|preamble|false>
   </collection>
 </initial>
