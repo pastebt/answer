@@ -57,6 +57,15 @@
     t=2*<big|int>t<rsup|5>*e<rsup|t>*d t>>|<row|<cell|2066:>|<cell|>|<cell|<big|int>P<around*|(|x|)>*e<rsup|a*x>*d
     x=e<rsup|a*x>*<around*|(|<frac|P<around*|(|x|)>|a>-<frac|P<rprime|'><around*|(|x|)>|a<rsup|2>>+\<cdots\>+<around*|(|-1|)><rsup|n>*<frac|P<rsup|<around*|(|n|)>><around*|(|x|)>|a<rsup|n+1>>|)>+C>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|2*e<rsup|t>*<around*|(|t<rsup|5>-5*t<rsup|4>+20*t<rsup|3>-60*t<rsup|2>+120*t-120|)>>>>>
   </eqnarray*>
+
+  \;
+
+  2074:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>e<rsup|a*x>*cos<rsup|2>
+    b*x*d x>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
