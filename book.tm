@@ -12,10 +12,18 @@
     x|<sqrt|\<psi\>>>=<frac|1|<sqrt|-a>>*arcsin
     <frac|-\<psi\><rprime|'>|<sqrt|b<rsup|2>-4*a*c>>+C>>|<row|<cell|>|<cell|>|<cell|a\<gtr\>0>>|<row|<cell|>|<cell|>|<cell|<big|int><frac|d
     x|<sqrt|\<psi\>>>=<frac|1|<sqrt|a>>*l
-    n<around*|\||<frac|\<psi\><rprime|'>|2>+<sqrt|a*\<psi\>>|\|>+C>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|1921:I<rsub|n+1>>|<cell|=>|<cell|<big|int><frac|d
-    x|<around*|(|a*x<rsup|2>+b*x+c|)><rsup|n+1>>>>|<row|<cell|>|<cell|=>|<cell|<frac|2*a*x+b|n*<around*|(|4*a*c-b<rsup|2>|)>*<around*|(|a*x<rsup|2>+b*x+c|)><rsup|n>>+<frac|2*a*<around*|(|2*n-1|)>|n*<around*|(|4*a*c-b<rsup|2>|)>>*I<rsub|n>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|1972:>|<cell|>|<cell|<big|int><frac|d
+    n<around*|\||<frac|\<psi\><rprime|'>|2>+<sqrt|a*\<psi\>>|\|>+C>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|1921:>|<cell|>|<cell|I<rsub|n+1>=<big|int><frac|d
+    x|<around*|(|a*x<rsup|2>+b*x+c|)><rsup|n+1>>>>|<row|<cell|>|<cell|>|<cell|=<frac|2*a*x+b|n*<around*|(|4*a*c-b<rsup|2>|)>*<around*|(|a*x<rsup|2>+b*x+c|)><rsup|n>>+<frac|2*a*<around*|(|2*n-1|)>|n*<around*|(|4*a*c-b<rsup|2>|)>>*I<rsub|n>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|1972:>|<cell|>|<cell|<big|int><frac|d
     x|x<rsup|4>+a<rsup|4>>=<frac|1|4*a<rsup|3>*<sqrt|2>>*<around*|(|l
-    n<around*|\||<frac|x<rsup|2>+<sqrt|2>*a*x+a<rsup|2>|x<rsup|2>-<sqrt|2>*a*x+a<rsup|2>>|\|>-2*arctan<around*|(|<frac|<sqrt|2>*a*x|x<rsup|2>-a<rsup|2>>|)>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|2041:>|<cell|>|<cell|<big|int><frac|d
+    n<around*|\||<frac|x<rsup|2>+<sqrt|2>*a*x+a<rsup|2>|x<rsup|2>-<sqrt|2>*a*x+a<rsup|2>>|\|>-2*arctan<around*|(|<frac|<sqrt|2>*a*x|x<rsup|2>-a<rsup|2>>|)>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|2011:>|<cell|>|<cell|<around*|(|a|)>
+    I<rsub|n>=<big|int>sin<rsup|n> x*d x=<frac|-cos x*sin<rsup|n-1>
+    x|n>+<frac|n-1|n>*I<rsub|n-2><space|2em><around*|(|n\<gtr\>2|)>>>|<row|<cell|>|<cell|>|<cell|<around*|(|b|)>
+    K<rsub|n>=<big|int>cos<rsup|n> x*d x=<frac|cos<rsup|n-1> x*sin
+    x|n>+<frac|n-1|n>*K<rsub|n-2><space|3em><around*|(|n\<gtr\>2|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|2012:>|<cell|>|<cell|<around*|(|a|)>
+    I<rsub|n>=<big|int><frac|d x|sin<rsup|n> x>=<frac|-cos
+    x|<around*|(|n-1|)>*sin<rsup|n-1> x>+<frac|n-2|n-1>*I<rsub|n-2><space|2em><around*|(|n\<gtr\>2|)>>>|<row|<cell|>|<cell|>|<cell|<around*|(|b|)>
+    K<rsub|n>=<big|int><frac|d x|cos<rsup|n> x>=<frac|sin
+    x|<around*|(|n-1|)>*cos<rsup|n-1> x>+<frac|n-2|n-1>*K<rsub|n-2><space|2em><around*|(|n\<gtr\>2|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|2041:>|<cell|>|<cell|<big|int><frac|d
     x|a*sin x+b*cos x>=<frac|1|<sqrt|a<rsup|2>+b<rsup|2>>>*l
     n<around*|\||tan<around*|(|<frac|x+\<varphi\>|2>|)>|\|>>>|<row|<cell|>|<cell|>|<cell|cos
     \<varphi\>=<frac|a|<sqrt|a<rsup|2>+b<rsup|2>>>,sin
@@ -60,13 +68,28 @@
 
   \;
 
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|sin \<alpha\>*sin
+    \<beta\>>|<cell|=>|<cell|I<suppressed|<explicit-space>>.<suppressed|<explicit-space>><frac|1|2>*<around*|[|cos<around*|(|\<alpha\>-\<beta\>|)>-cos<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|cos
+    \<alpha\>*cos \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|cos<around*|(|\<alpha\>-\<beta\>|)>+cos<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|sin
+    \<alpha\>*cos \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|sin<around*|(|\<alpha\>-\<beta\>|)>+sin<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|sin<around*|(|\<alpha\>\<pm\>\<beta\>|)>>|<cell|=>|<cell|sin
+    \<alpha\>*cos \<beta\>\<pm\>cos \<alpha\>*sin
+    \<beta\>>>|<row|<cell|cos<around*|(|\<alpha\>\<pm\>\<beta\>|)>>|<cell|=>|<cell|cos
+    \<alpha\>*cos \<beta\>\<mp\>sin \<alpha\>*sin \<beta\>>>>>
+  </eqnarray*>
+
   \;
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|<text|I. \ >sin \<alpha\>*sin
-    \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|cos<around*|(|\<alpha\>-\<beta\>|)>-cos<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|<text|II.
-    >cos \<alpha\>*cos \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|cos<around*|(|\<alpha\>-\<beta\>|)>+cos<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|<text|III.
-    >sin \<alpha\>*cos \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|sin<around*|(|\<alpha\>-\<beta\>|)>+sin<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|>|<cell|>|<cell|>>>>
+    <tformat|<table|<row|<cell|sin <around*|(|2*\<theta\>|)>>|<cell|=>|<cell|2*sin
+    \<theta\>*cos \<theta\>=<around*|(|sin \<theta\>+cos
+    \<theta\>|)><rsup|2>-1=<frac|2*tan \<theta\>|1+tan<rsup|2>
+    \<theta\>>>>|<row|<cell|cos <around*|(|2*\<theta\>|)>>|<cell|=>|<cell|cos<rsup|2>
+    \<theta\>-sin<rsup|2> \<theta\>=2*cos<rsup|2> \<theta\>-1=1-2*sin<rsup|2>
+    \<theta\>=<frac|1-tan<rsup|2> \<theta\>|1+tan<rsup|2>
+    \<theta\>>>>|<row|<cell|sin<rsup|2> \<theta\>>|<cell|=>|<cell|<frac|1-cos
+    2*\<theta\>|2>>>|<row|<cell|cos<rsup|2>
+    \<theta\>>|<cell|=>|<cell|<frac|1+cos 2*\<theta\>|2>>>>>
   </eqnarray*>
 
   \;
@@ -250,15 +273,7 @@
     x>+<frac|sin<rsup|2> x+2*cos<rsup|2> x|sin<rsup|3>
     x>|)>=<frac|1|2>*<around*|(|<frac|sin<rsup|2> x+sin<rsup|2>
     x+2*cos<rsup|2> x|sin<rsup|3> x>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|sin<rsup|3>
-    x>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|2011:>|<cell|>|<cell|>>|<row|<cell|<around*|(|a|)>
-    I<rsub|n>>|<cell|=>|<cell|<big|int>sin<rsup|n> x*d x=<frac|-cos
-    x*sin<rsup|n-1> x|n>+<frac|n-1|n>*I<rsub|n-2><space|2em><around*|(|n\<gtr\>2|)>>>|<row|<cell|<around*|(|b|)>
-    K<rsub|n>>|<cell|=>|<cell|<big|int>cos<rsup|n> x*d x=<frac|cos<rsup|n-1>
-    x*sin x|n>+<frac|n-1|n>*K<rsub|n-2><space|3em><around*|(|n\<gtr\>2|)>>>|<row|<cell|2012:>|<cell|>|<cell|>>|<row|<cell|<around*|(|a|)>
-    I<rsub|n>>|<cell|=>|<cell|<big|int><frac|d x|sin<rsup|n> x>=<frac|-cos
-    x|<around*|(|n-1|)>*sin<rsup|n-1> x>+<frac|n-2|n-1>*I<rsub|n-2><space|2em><around*|(|n\<gtr\>2|)>>>|<row|<cell|<around*|(|b|)>
-    K<rsub|n>>|<cell|=>|<cell|<big|int><frac|d x|cos<rsup|n> x>=<frac|sin
-    x|<around*|(|n-1|)>*cos<rsup|n-1> x>+<frac|n-2|n-1>*K<rsub|n-2><space|2em><around*|(|n\<gtr\>2|)>>>|<row|<cell|>|<cell|>|<cell|>>>>
+    x>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>>>
   </eqnarray*>
 </body>
 
