@@ -92,6 +92,21 @@
     n<around*|(|e<rsup|<frac|x|6>>+1|)>-<frac|3|2>*l
     n<around*|(|e<rsup|<frac|x|3>>+1|)>-3*arctan e<rsup|<frac|x|6>>>>>>
   </eqnarray*>
+
+  \;
+
+  2086:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|1+e<rsup|<frac|x|2>>|<around*|(|1+e<rsup|<frac|x|4>>|)><rsup|2>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|t=e<rsup|<frac|x|4>>\<rightarrow\>d
+    t=<frac|1|4>*t*d x\<rightarrow\>d x=<frac|4*d
+    t|t>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|4*<big|int><frac|1+t<rsup|2>|t*<around*|(|1+t|)><rsup|2>>*d
+    t=4*<big|int><frac|1+2*t+t<rsup|2>-2*t|t*<around*|(|1+t|)><rsup|2>>*d
+    t>>|<row|<cell|>|<cell|=>|<cell|4*<big|int><frac|d
+    t|t>-8*<big|int><frac|d t|<around*|(|1+t|)><rsup|2>>=4*l n
+    t+<frac|8|1+t>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|x+<frac|8|1+e<rsup|<frac|x|4>>>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
