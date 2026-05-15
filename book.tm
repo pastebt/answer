@@ -93,7 +93,11 @@
     2*\<theta\>|2>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|sin<around*|(|3*\<theta\>|)>>|<cell|=>|<cell|3*sin
     \<theta\>-4*sin<rsup|3> \<theta\>=4*sin
     \<theta\>*sin<around*|(|<frac|\<mathpi\>|3>-\<theta\>|)>*sin<around*|(|<frac|\<mathpi\>|3>+\<theta\>|)>>>|<row|<cell|cos<around*|(|3*\<theta\>|)>>|<cell|=>|<cell|4*cos<rsup|3>
-    \<theta\>-3*cos \<theta\>=4*cos \<theta\>*cos<around*|(|<frac|\<mathpi\>|3>-\<theta\>|)>*cos<around*|(|<frac|\<mathpi\>|3>+\<theta\>|)>>>|<row|<cell|>|<cell|>|<cell|>>>>
+    \<theta\>-3*cos \<theta\>=4*cos \<theta\>*cos<around*|(|<frac|\<mathpi\>|3>-\<theta\>|)>*cos<around*|(|<frac|\<mathpi\>|3>+\<theta\>|)>>>|<row|<cell|sin<rsup|3>
+    \<theta\>>|<cell|=>|<cell|<frac|1|4>*<around*|(|3*sin
+    \<theta\>-sin<around*|(|3*\<theta\>|)>|)>>>|<row|<cell|cos<rsup|3>
+    \<theta\>>|<cell|=>|<cell|<frac|1|4>*<around*|(|3*cos
+    \<theta\>+cos<around*|(|3*\<theta\>|)>|)>>>>>
   </eqnarray*>
 
   \;

@@ -290,6 +290,54 @@
     x+2*<big|int>x*e<rsup|x>*sin<around*|(|2*x|)>*d
     x>>|<row|<cell|>|<cell|=>|<cell|x*e<rsup|x>*cos<around*|(|2*x|)>-f<rsub|2><around*|(|x|)>+2*f<rsub|4><around*|(|x|)>>>|<row|<cell|f<rsub|4><around*|(|x|)>>|<cell|=>|<cell|x*e<rsup|x>*sin<around*|(|2*x|)>-f<rsub|3><around*|(|x|)>-2*f<rsub|5><around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|x*e<rsup|x>*sin<around*|(|2*x|)>-f<rsub|3><around*|(|x|)>-2*<around*|(|x*e<rsup|x>*cos<around*|(|2*x|)>-f<rsub|2><around*|(|x|)>+2*f<rsub|4><around*|(|x|)>|)>>>|<row|<cell|>|<cell|=>|<cell|x*e<rsup|x>*sin<around*|(|2*x|)>-2*x*e<rsup|x>*cos<around*|(|2*x|)>+2*f<rsub|2><around*|(|x|)>-f<rsub|3><around*|(|x|)>-4*f<rsub|4><around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|5>*<around*|(|x*e<rsup|x>*sin<around*|(|2*x|)>-2*x*e<rsup|x>*cos<around*|(|2*x|)>+2*f<rsub|2><around*|(|x|)>-f<rsub|3><around*|(|x|)>|)>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|x*e<rsup|x>*cos<around*|(|2*x|)>-f<rsub|2><around*|(|x|)>+2*f<rsub|4><around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|x*e<rsup|x>*cos<around*|(|2*x|)>-f<rsub|2><around*|(|x|)>>>|<row|<cell|>|<cell|+>|<cell|<frac|2|5>*<around*|(|x*e<rsup|x>*sin<around*|(|2*x|)>-2*x*e<rsup|x>*cos<around*|(|2*x|)>+2*f<rsub|2><around*|(|x|)>-f<rsub|3><around*|(|x|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2*x*e<rsup|x>*sin<around*|(|2*x|)>|5>+<frac|x*e<rsup|x>*cos<around*|(|2*x|)>|5>-<frac|f<rsub|2><around*|(|x|)>|5>-<frac|2|5>*f<rsub|3><around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2*x*e<rsup|x>*sin<around*|(|2*x|)>|5>+<frac|x*e<rsup|x>*cos<around*|(|2*x|)>|5>-<frac|f<rsub|2><around*|(|x|)>|5>>>|<row|<cell|>|<cell|->|<cell|<frac|2|5>*<around*|(|e<rsup|x>*sin<around*|(|2*x|)>-2*f<rsub|2><around*|(|x|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2*x*e<rsup|x>*sin<around*|(|2*x|)>|5>+<frac|x*e<rsup|x>*cos<around*|(|2*x|)>|5>-<frac|2*e<rsup|x>*sin<around*|(|2*x|)>|5>+<frac|3|5>*f<rsub|2><around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2*x*e<rsup|x>*sin<around*|(|2*x|)>|5>+<frac|x*e<rsup|x>*cos<around*|(|2*x|)>|5>-<frac|2*e<rsup|x>*sin<around*|(|2*x|)>|5>>>|<row|<cell|>|<cell|+>|<cell|<frac|3|5>*<around*|(|<frac|e<rsup|x>|5>*<around*|(|cos<around*|(|2*x|)>+2*sin<around*|(|2*x|)>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|x*e<rsup|x>|5>*<around*|(|2*sin<around*|(|2*x|)>+cos<around*|(|2*x|)>|)>+<frac|e<rsup|x>|25>*<around*|(|3*cos<around*|(|2*x|)>-4*sin<around*|(|2*x|)>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|e<rsup|x>|2>*<around*|(|x-1|)>-<frac|1|2>*f<rsub|1><around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|e<rsup|x>|2>*<around*|(|x-1|)>-<frac|x*e<rsup|x>|10>*<around*|(|2*sin<around*|(|2*x|)>+cos<around*|(|2*x|)>|)>-<frac|e<rsup|x>|50>*<around*|(|3*cos<around*|(|2*x|)>-4*sin<around*|(|2*x|)>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|f<rsub|1><rprime|'><around*|(|x|)>>|<cell|=>|<cell|<frac|e<rsup|x>|25>*<around*|(|10*x*sin<around*|(|2*x|)>+5*x*cos<around*|(|2*x|)>+3*cos<around*|(|2*x|)>-4*sin<around*|(|2*x|)>|)>>>|<row|<cell|>|<cell|+>|<cell|<frac|e<rsup|x>|25>*<around*|(|10*sin<around*|(|2*x|)>+20*x*cos<around*|(|2*x|)>+5*cos<around*|(|2*x|)>-10*x*sin<around*|(|2*x|)>-6*sin<around*|(|2*x|)>-8*cos<around*|(|2*x|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|e<rsup|x>|25>*<around*|(|25*x*cos<around*|(|2*x|)>|)>=x*e<rsup|x>*cos<around*|(|2*x|)>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2079:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><around*|(|x-sin
+    x|)><rsup|3>*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|x<rsup|3>-3*x<rsup|2>*sin
+    x+3*x*sin<rsup|2> x-sin<rsup|3> x|)>*d
+    x>>|<row|<cell|f<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<big|int>x<rsup|2>*sin
+    x*d x>>|<row|<cell|>|<cell|>|<cell|u=x<rsup|2>,d v=sin x*d x,v=-cos
+    x>>|<row|<cell|f<rsub|2><around*|(|x|)>>|<cell|=>|<cell|-x<rsup|2>*cos
+    x+<big|int>cos x*d<around*|(|x<rsup|2>|)>>>|<row|<cell|>|<cell|=>|<cell|-x<rsup|2>*cos
+    x+2*<big|int>x*cos x*d x>>|<row|<cell|>|<cell|=>|<cell|-x<rsup|2>*cos
+    x+2*x*sin x+2*cos x>>|<row|<cell|f<rprime|'><rsub|2><around*|(|x|)>>|<cell|=>|<cell|-2*x*cos
+    x+x<rsup|2>*sin x+2*sin x+2*x*cos x-2*sin
+    x>>|<row|<cell|>|<cell|=>|<cell|x<rsup|2>*sin
+    x>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|f<rsub|3><around*|(|x|)>>|<cell|=>|<cell|<big|int>x*sin<rsup|2>
+    x*d x>>|<row|<cell|sin<rsup|2> \<theta\>>|<cell|=>|<cell|<frac|1-cos
+    2*\<theta\>|2>>>|<row|<cell|f<rsub|3><around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>*<big|int><around*|(|x-x*cos<around*|(|2*x|)>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|2>|4>-<frac|1|2>*<big|int>x*cos<around*|(|2*x|)>*d
+    x=<frac|1|8>*<around*|(|2*x<rsup|2>-2*x*sin<around*|(|2*x|)>-cos<around*|(|2*x|)>|)>>>|<row|<cell|f<rprime|'><rsub|3><around*|(|x|)>>|<cell|=>|<cell|<frac|1|8>*<around*|(|4*x-<around*|(|2*sin<around*|(|2*x|)>+4*x*cos<around*|(|2*x|)>|)>-2*sin<around*|(|2*x|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|8>*<around*|(|4*x-4*x*cos<around*|(|2*x|)>|)>=<frac|1|2>*<around*|(|x-x*cos<around*|(|2*x|)>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|f<rsub|4><around*|(|x|)>>|<cell|=>|<cell|<big|int>sin<rsup|3>
+    x*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|1-cos<rsup|2>
+    x|)>*d<around*|(|-cos x|)>=<big|int><around*|(|cos<rsup|2>
+    x-1|)>*d<around*|(|cos x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|3>*cos<rsup|3>
+    x-cos x>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><around*|(|x<rsup|3>-3*x<rsup|2>*sin
+    x+3*x*sin<rsup|2> x-sin<rsup|3> x|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|4>|4>-3*f<rsub|2><around*|(|x|)>+3*f<rsub|3><around*|(|x|)>-f<rsub|4><around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|4>|4>-3*<around*|(|-x<rsup|2>*cos
+    x+2*x*sin x+2*cos x|)>+<frac|3|4>*<around*|(|x<rsup|2>-x*sin<around*|(|2*x|)>-<frac|cos<around*|(|2*x|)>|2>|)>+cos
+    x-<frac|1|3>*cos<rsup|3> x>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|4>|4>+3*x<rsup|2>*cos
+    x-6*x*sin x-6*cos x+<frac|3*x<rsup|2>|4>-<frac|3|4>*<around*|(|x*sin<around*|(|2*x|)>+<frac|cos<around*|(|2*x|)>|2>|)>+cos
+    x-<frac|1|3>*cos<rsup|3> x>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|4>|4>+<frac|3*x<rsup|2>|4>+3*x<rsup|2>*cos
+    x-x*<around*|(|6*sin x+<frac|3|4>*sin<around*|(|2*x|)>|)>-5*cos
+    x-<frac|3|8>*cos<around*|(|2*x|)>-<frac|1|3>*cos<rsup|3>
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|2>|4>*<around*|(|x<rsup|2>+3|)>+3*x*<around*|(|x*cos
+    x-2*sin x|)>-<frac|3|8>*<around*|(|2*x*sin<around*|(|2*x|)>+cos<around*|(|2*x|)>|)>-5*cos
+    x-<frac|1|3>*cos<rsup|3> x>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<rprime|'><around*|(|x|)>>|<cell|=>|<cell|x<rsup|3>+<frac|3*x|2>+3*<around*|(|x*cos
+    x-2*sin x|)>+3*x*<around*|(|cos x-x*sin x-2*cos
+    x|)>>>|<row|<cell|>|<cell|>|<cell|-<frac|3|4>*sin<around*|(|2*x|)>-<frac|3|2>*x*cos<around*|(|2*x|)>+<frac|3|4>*sin<around*|(|2*x|)>+5*sin
+    x+cos<rsup|2> x*sin x>>|<row|<cell|>|<cell|=>|<cell|x<rsup|3>+<frac|3*x|2>+3*x*cos
+    x-6*sin x+3*x*cos x-3*x<rsup|2>*sin x-6*x*cos
+    x>>|<row|<cell|>|<cell|>|<cell|-<frac|3|2>*x*cos<around*|(|2*x|)>+6*sin
+    x-sin x*<around*|(|1-cos<rsup|2> x|)>>>|<row|<cell|>|<cell|=>|<cell|x<rsup|3>+<frac|3*x*<around*|(|1-cos<around*|(|2*x|)>|)>|2>-sin<rsup|3>
+    x-3*x<rsup|2>*sin x>>|<row|<cell|>|<cell|=>|<cell|x<rsup|3>-3*x<rsup|2>*sin
+    x+3*x*sin<rsup|2> x-sin<rsup|3> x>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
