@@ -252,6 +252,28 @@
     x-sin x|)>+2*x*sin x+cos x-sin x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|e<rsup|x>|2>\<times\>2*x<rsup|2>*cos
     x=x<rsup|2>*e<rsup|x>*cos x>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  \;
+
+  \;
+
+  2078:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>x*e<rsup|x>*sin<rsup|2>
+    x*d x>>|<row|<cell|sin<rsup|2> \<theta\>>|<cell|=>|<cell|<frac|1-cos
+    2*\<theta\>|2>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>*<big|int>x*e<rsup|x>*<around*|(|1-cos
+    2*x|)>*d x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<big|int>x*e<rsup|x>*d
+    x-<frac|1|2>*<big|int>x*e<rsup|x>*cos<around*|(|2*x|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|e<rsup|x>|2>*<around*|(|x-1|)>-<frac|1|2>*f<rsub|1><around*|(|x|)>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int>x*e<rsup|x>*cos<around*|(|2*x|)>*d
+    x>>|<row|<cell|>|<cell|>|<cell|u=x*cos<around*|(|2*x|)>,d v=e<rsup|x>*d
+    x,v=e<rsup|x>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|x*e<rsup|x>*cos<around*|(|2*x|)>-<big|int>e<rsup|x>*d*<around*|(|x*cos<around*|(|2*x|)>|)>>>|<row|<cell|>|<cell|=>|<cell|x*e<rsup|x>*cos<around*|(|2*x|)>-<big|int>e<rsup|x>*cos<around*|(|2*x|)>*d
+    x+2*<big|int>x*e<rsup|x>*sin<around*|(|2*x|)>*d x>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
