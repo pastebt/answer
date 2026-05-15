@@ -200,7 +200,57 @@
     x|)>-<frac|e<rsup|x>|2>*<around*|(|sin x-cos
     x|)>>>|<row|<cell|>|<cell|=>|<cell|x*e<rsup|x>*<around*|(|sin x-cos
     x|)>+e<rsup|x>*cos x-F<around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|e<rsup|x>|2>*<around*|(|x*sin
-    x-x*cos x+cos x|)>>>>>
+    x-x*cos x+cos x|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<rprime|'><around*|(|x|)>>|<cell|=>|<cell|<frac|e<rsup|x>|2>*<around*|(|x*sin
+    x-x*cos x+cos x|)>+<frac|e<rsup|x>|2>*<around*|(|sin x+x*cos
+    x-<around*|(|cos x-x*sin x|)>-sin x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|e<rsup|x>|2>*<around*|(|x*sin
+    x-x*cos x+cos x+x*cos x-cos x+x*sin x|)>=x*e<rsup|x>*sin x>>>>
+  </eqnarray*>
+
+  \;
+
+  \;
+
+  2077:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>x<rsup|2>*e<rsup|x>*cos
+    x*d x>>|<row|<cell|>|<cell|>|<cell|u=x<rsup|2>*cos x,d v=e<rsup|x>*d
+    x,v=e<rsup|x>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u>>|<row|<cell|>|<cell|=>|<cell|x<rsup|2>*e<rsup|x>*cos
+    x-<big|int>e<rsup|x>*d<around*|(|x<rsup|2>*cos
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|x<rsup|2>*e<rsup|x>*cos
+    x-<big|int>e<rsup|x>*2*x*cos x*d x+<big|int>x<rsup|2>*e<rsup|x>*sin x*d
+    x>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|g<around*|(|x|)>>|<cell|=>|<cell|x*sin
+    x+x*cos x-sin x>>|<row|<cell|g<rprime|'><around*|(|x|)>>|<cell|=>|<cell|sin
+    x+x*cos x+cos x-x*sin x-cos x>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int>x*e<rsup|x>*cos
+    x*d x=<frac|e<rsup|x>|2>*<around*|(|x*sin x+x*cos x-sin
+    x|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|x<rsup|2>*e<rsup|x>*cos
+    x-2*f<rsub|1><around*|(|x|)>+<big|int>x<rsup|2>*e<rsup|x>*sin x*d
+    x>>|<row|<cell|f<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<big|int>x<rsup|2>*e<rsup|x>*sin
+    x*d x>>|<row|<cell|>|<cell|>|<cell|u=x<rsup|2>*sin x,d v=e<rsup|x>*d
+    x,v=e<rsup|x>>>|<row|<cell|f<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u>>|<row|<cell|>|<cell|=>|<cell|x<rsup|2>*e<rsup|x>*sin
+    x-<big|int>e<rsup|x>*d<around*|(|x<rsup|2>*sin
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|x<rsup|2>*e<rsup|x>*sin
+    x-2*<big|int>x*e<rsup|x>*sin x*d x-<big|int>x<rsup|2>*e<rsup|x>*cos x*d
+    x>>|<row|<cell|>|<cell|=>|<cell|x<rsup|2>*e<rsup|x>*sin
+    x-2*<big|int>x*e<rsup|x>*sin x*d x-F<around*|(|x|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|x<rsup|2>*e<rsup|x>*cos
+    x-e<rsup|x>*<around*|(|x*sin x+x*cos x-sin
+    x|)>>>|<row|<cell|>|<cell|>|<cell|+x<rsup|2>*e<rsup|x>*sin
+    x-e<rsup|x>*<around*|(|x*sin x-x*cos x+cos
+    x|)>-F<around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|x<rsup|2>*e<rsup|x>*<around*|(|sin
+    x+cos x|)>-e<rsup|x>*<around*|(|2*x*sin x-sin x+cos
+    x|)>-F<around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|e<rsup|x>|2>*<around*|(|x<rsup|2>*<around*|(|sin
+    x+cos x|)>-2*x*sin x+<around*|(|sin x-cos
+    x|)>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<rprime|'><around*|(|x|)>>|<cell|=>|<cell|<frac|e<rsup|x>|2>*<around*|(|x<rsup|2>*<around*|(|sin
+    x+cos x|)>-2*x*sin x+<around*|(|sin x-cos
+    x|)>|)>>>|<row|<cell|>|<cell|+>|<cell|<frac|e<rsup|x>|2>*<around*|(|2*x*<around*|(|sin
+    x+cos x|)>+x<rsup|2>*<around*|(|cos x-sin x|)>-2*<around*|(|sin x+x*cos
+    x|)>+cos x+sin x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|e<rsup|x>|2>*<around*|(|x<rsup|2>*<around*|(|sin
+    x+cos x|)>-2*x*sin x+<around*|(|sin x-cos
+    x|)>|)>>>|<row|<cell|>|<cell|+>|<cell|<frac|e<rsup|x>|2>*<around*|(|x<rsup|2>*<around*|(|cos
+    x-sin x|)>+2*x*sin x+cos x-sin x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|e<rsup|x>|2>\<times\>2*x<rsup|2>*cos
+    x=x<rsup|2>*e<rsup|x>*cos x>>>>
   </eqnarray*>
 </body>
 
