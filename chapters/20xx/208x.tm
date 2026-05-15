@@ -67,6 +67,31 @@
     n<around*|\||e<rsup|x>-1|\|>-<frac|x|2>+<frac|1|6>*l
     n<around*|(|e<rsup|x>+2|)>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2085:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|1+e<rsup|<frac|x|2>>+e<rsup|<frac|x|3>>+e<rsup|<frac|x|6>>>>>|<row|<cell|>|<cell|>|<cell|t=e<rsup|<frac|x|6>>\<rightarrow\>d
+    t=<frac|1|6>*e<rsup|<frac|x|6>>*d x\<rightarrow\>d x=<frac|6*d
+    t|t>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|6*d
+    t|t*<around*|(|1+t<rsup|3>+t<rsup|2>+t|)>>=6*<big|int><frac|d
+    t|t*<around*|(|t+1|)>*<around*|(|t<rsup|2>+1|)>>>>|<row|<cell|>|<cell|=>|<cell|6*<big|int><around*|(|<frac|A*t+B|t<rsup|2>+t>+<frac|C*t+D|t<rsup|2>+1>|)>*d
+    t>>|<row|<cell|>|<cell|>|<cell|<tabular*|<tformat|<cwith|2|2|3|4|cell-tborder|0ln>|<cwith|1|1|3|4|cell-bborder|0ln>|<cwith|2|2|3|4|cell-bborder|1ln>|<cwith|2|2|4|4|cell-lborder|0ln>|<cwith|2|2|2|2|cell-rborder|0ln>|<cwith|2|2|4|4|cell-rborder|0ln>|<cwith|2|2|5|6|cell-tborder|0ln>|<cwith|1|1|5|6|cell-bborder|0ln>|<cwith|2|2|5|6|cell-bborder|1ln>|<cwith|3|3|5|6|cell-tborder|1ln>|<cwith|2|2|5|5|cell-lborder|0ln>|<cwith|2|2|6|6|cell-rborder|0ln>|<cwith|2|2|7|7|cell-lborder|0ln>|<cwith|7|7|3|6|cell-tborder|0ln>|<cwith|6|6|3|6|cell-bborder|0ln>|<cwith|7|7|3|6|cell-bborder|1ln>|<cwith|7|7|6|6|cell-lborder|0ln>|<cwith|7|7|2|2|cell-rborder|0ln>|<cwith|7|7|6|6|cell-rborder|0ln>|<cwith|7|7|7|7|cell-lborder|0ln>|<table|<row|<cell|>|<cell|>|<cell|t<rsup|2>>|<cell|+1>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|\<times\>>|<cell|>|<cell|A*t>|<cell|+B>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|A*t<rsup|3>>|<cell|>|<cell|+A*t>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|B*t<rsup|2>>|<cell|>|<cell|+B>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|t<rsup|2>>|<cell|+t>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|\<times\>>|<cell|>|<cell|C*t>|<cell|+D>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|C*t<rsup|3>>|<cell|+C*t<rsup|2>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|+D*t<rsup|2>>|<cell|+D*t>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>>>>>>|<row|<cell|>|<cell|>|<cell|A+C=0>>|<row|<cell|>|<cell|>|<cell|B=1>>|<row|<cell|>|<cell|>|<cell|B+C+D=0>>|<row|<cell|>|<cell|>|<cell|A+D=0\<rightarrow\>C+D=-<frac|1|2>\<rightarrow\>A=<frac|1|2>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|6*<big|int><around*|(|<frac|<frac|1|2>*t+1|t<rsup|2>+t>+<frac|-<frac|1|2>*t-<frac|1|2>|t<rsup|2>+1>|)>*d
+    t>>|<row|<cell|>|<cell|=>|<cell|3*<big|int><frac|t+2|t<rsup|2>+t>*d
+    t-3*<big|int><frac|t+1|t<rsup|2>+1>*d
+    t>>|<row|<cell|>|<cell|=>|<cell|3*<big|int><around*|(|<frac|2|t>-<frac|1|t+1>|)>*d
+    t-3*<big|int><around*|(|<frac|t|t<rsup|2>+1>+<frac|1|t<rsup|2>+1>|)>*d
+    t>>|<row|<cell|>|<cell|=>|<cell|6*l n t-3*l
+    n<around*|(|t+1|)>-<frac|3|2>*l n<around*|(|t<rsup|2>+1|)>-3*arctan
+    t>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|x-3*l
+    n<around*|(|e<rsup|<frac|x|6>>+1|)>-<frac|3|2>*l
+    n<around*|(|e<rsup|<frac|x|3>>+1|)>-3*arctan e<rsup|<frac|x|6>>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
