@@ -107,6 +107,27 @@
     t|t>-8*<big|int><frac|d t|<around*|(|1+t|)><rsup|2>>=4*l n
     t+<frac|8|1+t>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|x+<frac|8|1+e<rsup|<frac|x|4>>>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2087:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<sqrt|e<rsup|x>-1>>>>|<row|<cell|>|<cell|>|<cell|t=<sqrt|e<rsup|x>-1>\<rightarrow\>e<rsup|x>=t<rsup|2>+1>>|<row|<cell|>|<cell|>|<cell|d
+    t=<frac|e<rsup|x>*d x|<sqrt|e<rsup|x>-1>>\<rightarrow\>d x=<frac|t*d
+    t|t<rsup|2>+1>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|<frac|t*d
+    t|t<rsup|2>+1>|t>=<big|int><frac|d t|t<rsup|2>+1>=arctan
+    t>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|arctan
+    <sqrt|e<rsup|x>-1>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<sqrt|e<rsup|x>-1>>=<big|int><frac|d
+    x|e<rsup|<frac|x|2>>*<sqrt|1-e<rsup|-x>>>=<big|int><frac|e<rsup|-<frac|x|2>>*d
+    x|<sqrt|1-<around*|(|e<rsup|-<frac|x|2>>|)><rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|-2*<big|int><frac|d
+    <around*|(|e<rsup|-<frac|x|2>>|)>|<sqrt|1-<around*|(|e<rsup|-<frac|x|2>>|)><rsup|2>>>>>|<row|<cell|>|<cell|IV.>|<cell|<big|int><frac|d
+    x|<sqrt|a<rsup|2>-x<rsup|2>>>=arcsin*<frac|x|a>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-2*arcsin<around*|(|e<rsup|-<frac|x|2>>|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
