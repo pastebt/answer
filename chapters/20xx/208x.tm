@@ -32,6 +32,21 @@
     n<around*|(|1+t|)>+<frac|1|1+t>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|x-l
     n<around*|(|1+e<rsup|x>|)>+<frac|1|1+e<rsup|x>>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2083:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|e<rsup|2*x>|1+e<rsup|x>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|t=e<rsup|x>\<rightarrow\>d t=e<rsup|x>*d
+    x\<rightarrow\>d x=<frac|d t|t>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|t*d
+    t|1+t>=<big|int><frac|1+t-1|1+t>*d t=t-l
+    n<around*|(|1+t|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|e<rsup|x>-l
+    n<around*|(|1+e<rsup|x>|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
