@@ -47,6 +47,26 @@
     n<around*|(|1+t|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|e<rsup|x>-l
     n<around*|(|1+e<rsup|x>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  2084:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|e<rsup|2*x>+e<rsup|x>-2>>>|<row|<cell|>|<cell|>|<cell|t=e<rsup|x>\<rightarrow\>d
+    t=e<rsup|x>*d x\<rightarrow\>d x=<frac|d
+    t|t>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|d
+    t|t*<around*|(|t<rsup|2>+t-2|)>>=<big|int><frac|d
+    t|t*<around*|(|t+2|)>*<around*|(|t-1|)>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|1|3*t>*<around*|(|<frac|1|t-1>-<frac|1|t+2>|)>*d
+    t=<frac|1|3>*<big|int><around*|(|<frac|1|t-1>-<frac|1|t>|)>*d
+    t-<frac|1|6>*<big|int><around*|(|<frac|1|t>-<frac|1|t+2>|)>*d
+    t>>|<row|<cell|>|<cell|=>|<cell|<frac|1|3>*l
+    n<around*|\||t-1|\|>-<frac|1|2>*l n t+<frac|1|6>*l
+    n<around*|(|t+2|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|3>*l
+    n<around*|\||e<rsup|x>-1|\|>-<frac|x|2>+<frac|1|6>*l
+    n<around*|(|e<rsup|x>+2|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
