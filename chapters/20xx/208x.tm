@@ -189,6 +189,26 @@
 
   \;
 
+  2089:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><sqrt|e<rsup|2*x>+4*e<rsup|x>-1>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<sqrt|e<rsup|2*x>+4*e<rsup|x>-1>|e<rsup|x>>*d<around*|(|e<rsup|x>|)>=<big|int><frac|e<rsup|2*x>+2*e<rsup|x>+2*e<rsup|x>-1|e<rsup|x>*<sqrt|e<rsup|2*x>+4*e<rsup|x>-1>>*d<around*|(|e<rsup|x>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<big|int><frac|e<rsup|x>+2|<sqrt|e<rsup|2*x>+4*e<rsup|x>-1>>+<frac|2|<sqrt|e<rsup|2*x>+4*e<rsup|x>-1>>|)>*d<around*|(|e<rsup|x>|)>-<big|int><frac|d<around*|(|e<rsup|x>|)>|e<rsup|x>*<sqrt|e<rsup|2*x>+4*e<rsup|x>-1>>>>|<row|<cell|>|<cell|=>|<cell|<sqrt|e<rsup|2*x>+4*e<rsup|x>-1>+2*<big|int><frac|d<around*|(|e<rsup|x>|)>|<sqrt|<around*|(|e<rsup|x>+2|)><rsup|2>-<around*|(|<sqrt|5>|)><rsup|2>>>-<big|int><frac|d<around*|(|e<rsup|x>|)>|e<rsup|x>*<sqrt|e<rsup|2*x>+4*e<rsup|x>-1>>>>|<row|<cell|>|<cell|V.>|<cell|<big|int><frac|d
+    x|<sqrt|x<rsup|2>\<pm\>a<rsup|2>>>=l n<around*|\||x+<sqrt|x<rsup|2>\<pm\>a<rsup|2>>|\|>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<sqrt|e<rsup|2*x>+4*e<rsup|x>-1>+2*l
+    n<around*|\||e<rsup|x>+2+<sqrt|e<rsup|2*x>+4*e<rsup|x>-1>|\|>-f<rsub|1><around*|(|x|)>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d<around*|(|e<rsup|x>|)>|e<rsup|x>*<sqrt|e<rsup|2*x>+4*e<rsup|x>-1>>>>|<row|<cell|>|<cell|>|<cell|t=<frac|1|e<rsup|x>>\<rightarrow\>d
+    t=-<frac|d<around*|(|e<rsup|x>|)>|e<rsup|2*x>>\<rightarrow\>d<around*|(|e<rsup|x>|)>=-<frac|d
+    t|t<rsup|2>>>>|<row|<cell|f<rsub|1><around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|-<frac|d
+    t|t<rsup|2>>|<frac|1|t>*<sqrt|<frac|1|t<rsup|2>>+<frac|4|t>-1>>=-<big|int><frac|d
+    t|<sqrt|1+4*t-t<rsup|2>>>=-<big|int><frac|d
+    t|<sqrt|5-<around*|(|4-4*t+t<rsup|2>|)>>>>>|<row|<cell|>|<cell|=>|<cell|-<big|int><frac|d
+    t|<sqrt|<around*|(|<sqrt|5>|)><rsup|2>-<around*|(|2-t|)><rsup|2>>>>>|<row|<cell|>|<cell|IV.>|<cell|<big|int><frac|d
+    x|<sqrt|a<rsup|2>-x<rsup|2>>>=arcsin*<frac|x|a>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|f<rsub|1><around*|(|t|)>>|<cell|=>|<cell|-arcsin<around*|(|<frac|2-t|<sqrt|5>>|)>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|-arcsin<around*|(|<frac|2-<frac|1|e<rsup|x>>|<sqrt|5>>|)>=-arcsin<around*|(|<frac|2*e<rsup|x>-1|e<rsup|x>*<sqrt|5>>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<sqrt|e<rsup|2*x>+4*e<rsup|x>-1>+2*l
+    n<around*|\||e<rsup|x>+2+<sqrt|e<rsup|2*x>+4*e<rsup|x>-1>|\|>-f<rsub|1><around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|<sqrt|e<rsup|2*x>+4*e<rsup|x>-1>+2*l
+    n<around*|(|e<rsup|x>+2+<sqrt|e<rsup|2*x>+4*e<rsup|x>-1>|)>+arcsin<around*|(|<frac|2*e<rsup|x>-1|e<rsup|x>*<sqrt|5>>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<rprime|'><around*|(|x|)>>|<cell|=>|<cell|<frac|2*e<rsup|2*x>+4*e<rsup|x>|2*<sqrt|e<rsup|2*x>+4*e<rsup|x>-1>>+<frac|2*e<rsup|x>+<frac|2*e<rsup|2*x>+4*e<rsup|x>|<sqrt|e<rsup|2*x>+4*e<rsup|x>-1>>|e<rsup|x>+2+<sqrt|e<rsup|2*x>+4*e<rsup|x>-1>>+<frac|-<frac|1|e<rsup|x>*<sqrt|5>>|<sqrt|1-<around*|(|<frac|2-<frac|1|e<rsup|x>>|<sqrt|5>>|)><rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|e<rsup|2*x>+2*e<rsup|x>|<sqrt|e<rsup|2*x>+4*e<rsup|x>-1>>+<frac|2*e<rsup|x>*<sqrt|e<rsup|2*x>+4*e<rsup|x>-1>+2*e<rsup|2*x>+4*e<rsup|x>|<sqrt|e<rsup|2*x>+4*e<rsup|x>-1>*<around*|(|e<rsup|x>+2+<sqrt|e<rsup|2*x>+4*e<rsup|x>-1>|)>>-<frac|1|<sqrt|5*e<rsup|2*x>-<around*|(|2*e<rsup|x>-1|)><rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|e<rsup|2*x>+2*e<rsup|x>|<sqrt|e<rsup|2*x>+4*e<rsup|x>-1>>+<frac|2*e<rsup|x>|<sqrt|e<rsup|2*x>+4*e<rsup|x>-1>>-<frac|1|<sqrt|e<rsup|2*x>+4*e<rsup|x>-1>>=<frac|e<rsup|2*x>+4*e<rsup|x>-1|<sqrt|e<rsup|2*x>+4*e<rsup|x>-1>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|e<rsup|2*x>+4*e<rsup|x>-1>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>>>
+  </eqnarray*>
+
+  \;
+
   \;
 </body>
 
