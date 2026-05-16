@@ -301,15 +301,6 @@
   2059:
 
   \;
-
-  2088:
-
-  <\eqnarray*>
-    <tformat|<table|<row|<cell|l n<around*|(|e<rsup|x>+<sqrt|e<rsup|2*x>-1>|)>+arcsin<around*|(|e<rsup|-x>|)>>|<cell|\<neq\>>|<cell|l
-    n<around*|(|e<rsup|x>+<sqrt|e<rsup|2*x>-1>|)>-arccos<around*|(|e<rsup|-x>|)>>>|<row|<cell|how
-    to get arcsin>|<cell|>|<cell|>>|<row|<cell|d<around*|(|arcsin
-    x|)>>|<cell|=>|<cell|-d<around*|(|arccos x|)>>>>>
-  </eqnarray*>
 </body>
 
 <\initial>
