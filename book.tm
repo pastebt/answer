@@ -70,7 +70,7 @@
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|sin \<alpha\>*sin
-    \<beta\>>|<cell|=>|<cell|I<suppressed|<explicit-space>>.<suppressed|<explicit-space>><frac|1|2>*<around*|[|cos<around*|(|\<alpha\>-\<beta\>|)>-cos<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|cos
+    \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|cos<around*|(|\<alpha\>-\<beta\>|)>-cos<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|cos
     \<alpha\>*cos \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|cos<around*|(|\<alpha\>-\<beta\>|)>+cos<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|sin
     \<alpha\>*cos \<beta\>>|<cell|=>|<cell|<frac|1|2>*<around*|[|sin<around*|(|\<alpha\>-\<beta\>|)>+sin<around*|(|\<alpha\>+\<beta\>|)>|]>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|sin<around*|(|\<alpha\>\<pm\>\<beta\>|)>>|<cell|=>|<cell|sin
     \<alpha\>*cos \<beta\>\<pm\>cos \<alpha\>*sin
