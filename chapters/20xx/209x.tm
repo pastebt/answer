@@ -48,7 +48,18 @@
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><around*|(|1-<frac|2|x>|)><rsup|2>*e<rsup|x>*d
-    x>>>>
+    x>>|<row|<cell|>|<cell|>|<cell|u=<around*|(|1-<frac|2|x>|)><rsup|2>,d
+    v=e<rsup|x>,v=e<rsup|x>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1-<frac|2|x>|)><rsup|2>*e<rsup|x>-<big|int>e<rsup|x>*d<around*|(|<around*|(|1-<frac|2|x>|)><rsup|2>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1-<frac|2|x>|)><rsup|2>*e<rsup|x>-<big|int>e<rsup|x><around*|(|2*<around*|(|1-<frac|2|x>|)>*<frac|2|x<rsup|2>>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1-<frac|2|x>|)><rsup|2>*e<rsup|x>-4*<big|int>e<rsup|x><around*|(|<frac|1|x<rsup|2>>-<frac|2|x<rsup|3>>|)>*d
+    x>>|<row|<cell|>|<cell|>|<cell|<around*|(|<frac|e<rsup|x>|x<rsup|2>>|)><rprime|'>=<frac|e<rsup|x>*x<rsup|2>-2*x*e<rsup|x>|x<rsup|4>>=e<rsup|x>*<around*|(|<frac|1|x<rsup|2>>-<frac|2|x<rsup|3>>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<around*|(|1-<frac|2|x>|)><rsup|2>*e<rsup|x>-<frac|4*e<rsup|x>|x<rsup|2>>=e<rsup|x>*<around*|(|1-<frac|4|x>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|e<rsup|x>|x<rsup|3>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|u=e<rsup|x>,d v=<frac|d
+    x|x<rsup|3>>,v=<frac|-1|2*x<rsup|2>>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<frac|-e<rsup|x>|2*x<rsup|2>>+<big|int><frac|e<rsup|x>|2*x<rsup|2>>*d
+    x>>|<row|<cell|f<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<big|int>e<rsup|x><around*|(|<frac|1|x<rsup|2>>-<frac|2|x<rsup|3>>|)>*d
+    x=<big|int><frac|e<rsup|2>|x<rsup|2>>*d
+    x-2*f<rsub|1>*x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|e<rsup|2>|x<rsup|2>>*d
+    x+<frac|e<rsup|2>|x<rsup|2>>-2*<big|int><frac|e<rsup|x>|2*x<rsup|2>>*d
+    x=<frac|e<rsup|2>|x<rsup|2>>>>>>
   </eqnarray*>
 </body>
 
