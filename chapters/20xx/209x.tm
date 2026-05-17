@@ -29,6 +29,25 @@
     n<around*|(|<frac|1-<sqrt|1-e<rsup|x>>|<sqrt|1-e<rsup|x>>+1>|)>+<frac|<sqrt|1-e<rsup|x>>|2*e<rsup|x>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|f<rsub|1><around*|(|x|)>+f<rsub|2><around*|(|x|)>=<frac|1|4>*l
     n<around*|(|<frac|<sqrt|1+e<rsup|x>>-1|<sqrt|1+e<rsup|x>>+1>\<times\><frac|1-<sqrt|1-e<rsup|x>>|<sqrt|1-e<rsup|x>>+1>|)>-<frac|<sqrt|1+e<rsup|x>>-<sqrt|1-e<rsup|x>>|2*e<rsup|x>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
     x|<sqrt|1+e<rsup|x>>+<sqrt|1-e<rsup|x>>>>>|<row|<cell|>|<cell|>|<cell|e<rsup|x>=cos<around*|(|2*\<theta\>|)>\<rightarrow\>e<rsup|x>*d
+    x=-2*sin<around*|(|2*\<theta\>|)>*d \<theta\>\<rightarrow\>d
+    x=<frac|-2*sin<around*|(|2*\<theta\>|)>*d
+    \<theta\>|cos<around*|(|2*\<theta\>|)>>>>|<row|<cell|sin<rsup|2>
+    \<theta\>>|<cell|=>|<cell|<frac|1-cos
+    2*\<theta\>|2>>>|<row|<cell|cos<rsup|2>
+    \<theta\>>|<cell|=>|<cell|<frac|1+cos
+    2*\<theta\>|2>>>|<row|<cell|F<around*|(|\<theta\>|)>>|<cell|=>|<cell|<big|int><frac|<frac|-2*sin<around*|(|2*\<theta\>|)>*d
+    \<theta\>|cos<around*|(|2*\<theta\>|)>>|<sqrt|2>*cos
+    \<theta\>+<sqrt|2>*sin \<theta\>>>>|<row|<cell|>|<cell|=>|<cell|-<sqrt|2>*<big|int><frac|<frac|2*sin
+    \<theta\>*cos \<theta\>|cos<rsup|2> \<theta\>-sin<rsup|2> \<theta\>>|cos
+    \<theta\>+sin \<theta\>>*d \<theta\>>>>>
+  </eqnarray*>
+
+  \;
+
+  2093:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><around*|(|1-<frac|2|x>|)><rsup|2>*e<rsup|x>*d
     x>>>>
   </eqnarray*>
 </body>
