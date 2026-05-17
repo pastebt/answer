@@ -281,7 +281,20 @@
     x>+<frac|sin<rsup|2> x+2*cos<rsup|2> x|sin<rsup|3>
     x>|)>=<frac|1|2>*<around*|(|<frac|sin<rsup|2> x+sin<rsup|2>
     x+2*cos<rsup|2> x|sin<rsup|3> x>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|sin<rsup|3>
-    x>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>>>
+    x>>>>>
+  </eqnarray*>
+
+  \;
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>l n
+    x*d x>>|<row|<cell|>|<cell|>|<cell|u=l n x,d v=d
+    x,v=x>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|u*v-<big|int>v*d
+    u>>|<row|<cell|>|<cell|=>|<cell|x*l n x-<big|int>x*d<around*|(|l n
+    x|)>=x*l n x-<big|int>x\<times\><frac|1|x>\<times\>d
+    x>>|<row|<cell|>|<cell|=>|<cell|x*l n
+    x-x>>|<row|<cell|F<rprime|'><around*|(|x|)>>|<cell|=>|<cell|l n
+    x+x\<times\><frac|1|x>-1=l n x>>>>
   </eqnarray*>
 </body>
 
