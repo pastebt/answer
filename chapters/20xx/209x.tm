@@ -85,6 +85,24 @@
     x>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|<frac|e<rsup|2*x>|x-2>-<frac|e<rsup|2*x>|x-1>|)>*d
     x>>|<row|<cell|>|<cell|=>|<cell|e<rsup|4>*<big|int><frac|e<rsup|<around*|(|2*x-4|)>>|2*x-4>*d<around*|(|2*x-4|)>-e<rsup|2>*<big|int><frac|e<rsup|<around*|(|2*x-2|)>>|2*x-2>*d<around*|(|2*x-2|)>>>|<row|<cell|>|<cell|=>|<cell|e<rsup|4>*li<around*|(|e<rsup|<around*|(|2*x-4|)>>|)>-e<rsup|2>*li<around*|(|e<rsup|<around*|(|2*x-2|)>>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  2096:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|x*e<rsup|x>|<around*|(|x+1|)><rsup|2>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<around*|(|x+1-1|)>*e<rsup|x>|<around*|(|x+1|)><rsup|2>>*d
+    x=<big|int><frac|e<rsup|x>|x+1>*d x-<big|int><frac|e<rsup|x>|<around*|(|x+1|)><rsup|2>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|u=e<rsup|x>,d
+    v=<frac|1|<around*|(|x+1|)><rsup|2>>,v=<frac|-1|x+1>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|e<rsup|x>|x+1>*d
+    x-<big|int>u*d v=<big|int><frac|e<rsup|x>|x+1>-<around*|(|u*v-<big|int>v*d
+    u|)>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|e<rsup|x>|x+1>*d
+    x-<around*|(|<frac|-e<rsup|x>|x+1>+<big|int><frac|e<rsup|x>|x+1>*d
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|e<rsup|x>|x+1>*d
+    x+<frac|e<rsup|x>|x+1>-<big|int><frac|e<rsup|x>|x+1>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|e<rsup|x>|x+1>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
