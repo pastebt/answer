@@ -103,6 +103,26 @@
     x+<frac|e<rsup|x>|x+1>-<big|int><frac|e<rsup|x>|x+1>*d
     x>>|<row|<cell|>|<cell|=>|<cell|<frac|e<rsup|x>|x+1>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2097:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|x<rsup|4>*e<rsup|2*x>|<around*|(|x-2|)><rsup|2>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|x<rsup|4>-8*x<rsup|2>+16|<around*|(|x-2|)><rsup|2>>*e<rsup|2*x>*d
+    x+8*<big|int><frac|x<rsup|2>-2|<around*|(|x-2|)><rsup|2>>*e<rsup|2*x>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<around*|(|x<rsup|2>-4|)><rsup|2>*e<rsup|2*x>|<around*|(|x-2|)><rsup|2>>*d
+    x+8*<big|int><frac|<around*|(|x<rsup|2>-4|)>*e<rsup|2*x>|<around*|(|x-2|)><rsup|2>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|x+2|)><rsup|2>*e<rsup|2*x>*d
+    x+8*<big|int><frac|<around*|(|x+2|)>*e<rsup|2*x>|x-2>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|x+2|)><rsup|2>*e<rsup|2*x>*d
+    x+8*<big|int>e<rsup|2*x>*d x+32*<big|int><frac|e<rsup|2*x>|x-2>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|x<rsup|2>+4*x+4|)>*e<rsup|2*x>*d
+    x+4*e<rsup|2*x>+32*e<rsup|4>*li<around*|(|e<rsup|2*x>|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
