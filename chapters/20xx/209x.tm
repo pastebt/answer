@@ -61,6 +61,19 @@
     x+<frac|e<rsup|2>|x<rsup|2>>-2*<big|int><frac|e<rsup|x>|2*x<rsup|2>>*d
     x=<frac|e<rsup|2>|x<rsup|2>>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2094:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><around*|(|1-<frac|1|x>|)>*e<rsup|-x>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int>e<rsup|-x>*d
+    x-<big|int><frac|e<rsup|-x>|-x>*d<around*|(|-x|)>>>|<row|<cell|>|<cell|=>|<cell|-e<rsup|-x>-li
+    <around*|(|e<rsup|-x>|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
