@@ -74,6 +74,17 @@
     x-<big|int><frac|e<rsup|-x>|-x>*d<around*|(|-x|)>>>|<row|<cell|>|<cell|=>|<cell|-e<rsup|-x>-li
     <around*|(|e<rsup|-x>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  2095:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|e<rsup|2*x>|x<rsup|2>-3*x+2>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|e<rsup|2*x>|<around*|(|x-1|)>*<around*|(|x-2|)>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|<frac|e<rsup|2*x>|x-2>-<frac|e<rsup|2*x>|x-1>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|e<rsup|4>*<big|int><frac|e<rsup|<around*|(|2*x-4|)>>|2*x-4>*d<around*|(|2*x-4|)>-e<rsup|2>*<big|int><frac|e<rsup|<around*|(|2*x-2|)>>|2*x-2>*d<around*|(|2*x-2|)>>>|<row|<cell|>|<cell|=>|<cell|e<rsup|4>*li<around*|(|e<rsup|<around*|(|2*x-4|)>>|)>-e<rsup|2>*li<around*|(|e<rsup|<around*|(|2*x-2|)>>|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
