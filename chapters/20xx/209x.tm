@@ -116,12 +116,21 @@
     x+8*<big|int><frac|x<rsup|2>-2|<around*|(|x-2|)><rsup|2>>*e<rsup|2*x>*d
     x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<around*|(|x<rsup|2>-4|)><rsup|2>*e<rsup|2*x>|<around*|(|x-2|)><rsup|2>>*d
     x+8*<big|int><frac|<around*|(|x<rsup|2>-4|)>*e<rsup|2*x>|<around*|(|x-2|)><rsup|2>>*d
-    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|x+2|)><rsup|2>*e<rsup|2*x>*d
+    x+16*<big|int><frac|e<rsup|2*x>|<around*|(|x-2|)><rsup|2>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|u=e<rsup|2*x>,d
+    v=<frac|1|<around*|(|x-2|)><rsup|2>>,v=<frac|-1|x-2>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><around*|(|x+2|)><rsup|2>*e<rsup|2*x>*d
     x+8*<big|int><frac|<around*|(|x+2|)>*e<rsup|2*x>|x-2>*d
-    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|x+2|)><rsup|2>*e<rsup|2*x>*d
+    x+16*<around*|(|<frac|-e<rsup|2*x>|x-2>+<big|int><frac|d<around*|(|e<rsup|2*x>|)>|x-2>|)>>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|x+2|)><rsup|2>*e<rsup|2*x>*d
     x+8*<big|int>e<rsup|2*x>*d x+32*<big|int><frac|e<rsup|2*x>|x-2>*d
+    x-<frac|16*e<rsup|2*x>|x-2>+32*<big|int><frac|e<rsup|2*x>|x-2>*d
     x>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|x<rsup|2>+4*x+4|)>*e<rsup|2*x>*d
-    x+4*e<rsup|2*x>+32*e<rsup|4>*li<around*|(|e<rsup|2*x>|)>>>>>
+    x+4*e<rsup|2*x>-<frac|16*e<rsup|2*x>|x-2>+64*e<rsup|4>*li<around*|(|e<rsup|2*x>|)>>>|<row|<cell|>|<cell|=>|<cell|<big|int>x<rsup|2>*e<rsup|2*x>*d
+    x+4*<big|int>x*e<rsup|2*x>*d x+2*e<rsup|2*x>+4*e<rsup|2*x>-<frac|16*e<rsup|2*x>|x-2>+64*e<rsup|4>*li<around*|(|e<rsup|2*x>|)>>>|<row|<cell|>|<cell|>|<cell|u=x<rsup|2>,d
+    v=e<rsup|2*x>,v=<frac|1|2>*e<rsup|2*x>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>*x<rsup|2>*e<rsup|2*x>-<frac|1|2>*<big|int>e<rsup|2*x>*d<around*|(|x<rsup|2>|)>+4*<big|int>x*e<rsup|2*x>*d
+    x+6*e<rsup|2*x>-<frac|16*e<rsup|2*x>|x-2>+64*e<rsup|4>*li<around*|(|e<rsup|2*x>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*x<rsup|2>*e<rsup|2*x>+3*<big|int>x*e<rsup|2*x>*d
+    x+6*e<rsup|2*x>-<frac|16*e<rsup|2*x>|x-2>+64*e<rsup|4>*li<around*|(|e<rsup|2*x>|)>>>|<row|<cell|>|<cell|>|<cell|u=x,d
+    v=e<rsup|2*x>,v=<frac|1|2>*e<rsup|2*x>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>*x<rsup|2>*e<rsup|2*x>+<frac|3|2>*x*e<rsup|2*x>-<frac|3|2>*<big|int>e<rsup|2*x>*d
+    x+6*e<rsup|2*x>-<frac|16*e<rsup|2*x>|x-2>+64*e<rsup|4>*li<around*|(|e<rsup|2*x>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*x<rsup|2>*e<rsup|2*x>+<frac|3|2>*x*e<rsup|2*x>+<frac|21|4>*e<rsup|2*x>-<frac|16*e<rsup|2*x>|x-2>+64*e<rsup|4>*li<around*|(|e<rsup|2*x>|)>>>>>
   </eqnarray*>
 </body>
 
