@@ -154,6 +154,45 @@
     x*d x=x*l n x-x>>|<row|<cell|f<rprime|'><rsub|1><around*|(|x|)>>|<cell|=>|<cell|<around*|(|x*l
     n x-x|)><rprime|'>=l n x+x\<times\><frac|1|x>-1=l n x>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2099:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>x<rsup|3>*l
+    n<rsup|3> x*d x>>|<row|<cell|>|<cell|>|<cell|u=l n<rsup|3> x,d
+    v=x<rsup|3>*d x,v=<frac|x<rsup|4>|4>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|4>|4>*l
+    n<rsup|3> x-<frac|1|4>*<big|int>x<rsup|4>*d<around*|(|l n<rsup|3>
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|4>|4>*l n<rsup|3>
+    x-<frac|3|4>*<big|int>x<rsup|4>*l n<rsup|2> x\<times\><frac|1|x>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|4>|4>*l n<rsup|3>
+    x-<frac|3|4>*<big|int>x<rsup|3>*l n<rsup|2> x*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|4>|4>*l n<rsup|3>
+    x-<frac|3|4>*<around*|(|<frac|x<rsup|4>|4>*l n<rsup|2>
+    x-<frac|1|4>*<big|int>x<rsup|4>*d<around*|(|l n<rsup|2>
+    x|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|4>|4>*l n<rsup|3>
+    x-<frac|3|4>*<around*|(|<frac|x<rsup|4>|4>*l n<rsup|2>
+    x-<frac|2|4>*<big|int>x<rsup|4>*l n x\<times\><frac|1|x>*d
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|4>|4>*l n<rsup|3>
+    x-<frac|3|4>*<around*|(|<frac|x<rsup|4>|4>*l n<rsup|2>
+    x-<frac|1|2>*<big|int>x<rsup|3>*l n x*d
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|4>|4>*l n<rsup|3>
+    x-<frac|3|4>*<around*|(|<frac|x<rsup|4>|4>*l n<rsup|2>
+    x-<frac|1|2>*<around*|(|<frac|x<rsup|4>|4>*l n
+    x-<frac|1|4>*<big|int>x<rsup|4>*d<around*|(|l n
+    x|)>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|4>|4>*l n<rsup|3>
+    x-<frac|3|4>*<around*|(|<frac|x<rsup|4>|4>*l n<rsup|2>
+    x-<frac|1|2>*<around*|(|<frac|x<rsup|4>|4>*l n
+    x-<frac|1|4>*<big|int>x<rsup|3>*d x|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|4>|4>*l
+    n<rsup|3> x-<frac|3|4>*<around*|(|<frac|x<rsup|4>|4>*l n<rsup|2>
+    x-<frac|1|2>*<around*|(|<frac|x<rsup|4>|4>*l n
+    x-<frac|x<rsup|4>|16>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|4>|4>*<around*|(|l
+    n<rsup|3> x-<frac|3|4>*l n<rsup|2> x+<frac|3|8>*l n x-<frac|3|32>|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
