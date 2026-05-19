@@ -132,6 +132,28 @@
     v=e<rsup|2*x>,v=<frac|1|2>*e<rsup|2*x>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>*x<rsup|2>*e<rsup|2*x>+<frac|3|2>*x*e<rsup|2*x>-<frac|3|2>*<big|int>e<rsup|2*x>*d
     x+6*e<rsup|2*x>-<frac|16*e<rsup|2*x>|x-2>+64*e<rsup|4>*li<around*|(|e<rsup|2*x>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*x<rsup|2>*e<rsup|2*x>+<frac|3|2>*x*e<rsup|2*x>+<frac|21|4>*e<rsup|2*x>-<frac|16*e<rsup|2*x>|x-2>+64*e<rsup|4>*li<around*|(|e<rsup|2*x>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  2098:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>l
+    n<rsup|n> x*d x>>|<row|<cell|>|<cell|>|<cell|u=l n<rsup|n> x,d v=d
+    x,v=x>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u>>|<row|<cell|>|<cell|=>|<cell|x*l n<rsup|x>
+    x-<big|int>x*d<around*|(|l n<rsup|n> x|)>>>|<row|<cell|>|<cell|=>|<cell|x*l
+    n<rsup|x> x-<big|int>x*<around*|(|n*l n<rsup|n-1> x|)>*d <around*|(|l n
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|x*l n<rsup|x>
+    x-n*<big|int>x*<around*|(|l n<rsup|n-1> x|)>\<times\><frac|1|x>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|x*l n<rsup|x> x-n*<big|int>l
+    n<rsup|<around*|(|n-1|)>> x*d x>>|<row|<cell|>|<cell|=>|<cell|x*l
+    n<rsup|x> x-n*<around*|(|x*l n<rsup|<around*|(|n-1|)>>
+    x-<around*|(|n-1|)>*<big|int>l n<rsup|<around*|(|n-2|)>> x*d
+    x|)>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int>l n
+    x*d x=x*l n x-x>>|<row|<cell|f<rprime|'><rsub|1><around*|(|x|)>>|<cell|=>|<cell|<around*|(|x*l
+    n x-x|)><rprime|'>=l n x+x\<times\><frac|1|x>-1=l n x>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
