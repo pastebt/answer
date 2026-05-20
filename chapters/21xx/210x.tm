@@ -85,6 +85,44 @@
     n<rsup|2> <around*|(|x+<sqrt|1+x<rsup|2>>|)>-2*<sqrt|1+x<rsup|2>>*l
     n<around*|(|x+<sqrt|1+x<rsup|2>>|)>+2*x>>>>
   </eqnarray*>
+
+  \;
+
+  2103:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>l
+    n<around*|(|<sqrt|1-x>+<sqrt|1+x>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<big|int>l
+    n<around*|(|<around*|(|<sqrt|1-x>+<sqrt|1+x>|)><rsup|2>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<big|int>l
+    n<around*|(|1-x+2*<sqrt|1-x<rsup|2>>+1+x|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<big|int>l
+    n<around*|(|2+2*<sqrt|1-x<rsup|2>>|)>*d
+    x>>|<row|<cell|>|<cell|>|<cell|x=sin \<theta\>>>|<row|<cell|>|<cell|>|<cell|d
+    x=cos \<theta\>*d \<theta\>>>|<row|<cell|F<around*|(|\<theta\>|)>>|<cell|=>|<cell|<frac|1|2>*<big|int>l
+    n<around*|(|2+2*cos \<theta\>|)>\<times\>cos \<theta\>*d
+    \<theta\>>>|<row|<cell|>|<cell|>|<cell|u=l n<around*|(|2+2*cos
+    \<theta\>|)>,d v=cos \<theta\>*d \<theta\>,v=sin
+    \<theta\>>>|<row|<cell|2*F<around*|(|\<theta\>|)>>|<cell|=>|<cell|sin
+    \<theta\>*l n<around*|(|2+2*cos \<theta\>|)>-<big|int>sin
+    \<theta\>*d<around*|(|l n<around*|(|2+2*cos
+    \<theta\>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|sin \<theta\>*l
+    n<around*|(|2+2*cos \<theta\>|)>-<big|int><frac|sin \<theta\>|2+2*cos
+    \<theta\>>\<times\><around*|(|-2*sin \<theta\>|)>*d
+    \<theta\>>>|<row|<cell|>|<cell|=>|<cell|sin \<theta\>*l
+    n<around*|(|2+2*cos \<theta\>|)>+<big|int><frac|sin<rsup|2>
+    \<theta\>|1+cos \<theta\>>*d \<theta\>>>|<row|<cell|>|<cell|=>|<cell|sin
+    \<theta\>*l n<around*|(|2+2*cos \<theta\>|)>+<big|int><frac|1-cos<rsup|2>
+    \<theta\>|1+cos \<theta\>>*d \<theta\>>>|<row|<cell|>|<cell|=>|<cell|sin
+    \<theta\>*l n<around*|(|2+2*cos \<theta\>|)>+<big|int><around*|(|1-cos
+    \<theta\>|)>*d \<theta\>>>|<row|<cell|>|<cell|=>|<cell|sin \<theta\>*l
+    n<around*|(|2+2*cos \<theta\>|)>+\<theta\>-sin
+    \<theta\>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>*<around*|(|x*l
+    n<around*|(|2+2*<sqrt|1-x<rsup|2>>|)>-x+arcsin
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|x*l
+    n<around*|(|<sqrt|1-x>+<sqrt|1+x>|)>-<frac|x|2>+<frac|1|2>*arcsin x>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
