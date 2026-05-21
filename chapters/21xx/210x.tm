@@ -197,6 +197,28 @@
     x|1+x>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|3>*x<rsup|<frac|3|2>>*arctan
     <sqrt|x>-<frac|x|3>+<frac|1|3>*l n<around*|(|x+1|)>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2107:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>x*arcsin<around*|(|1-x|)>*d
+    x>>|<row|<cell|>|<cell|>|<cell|u=arcsin<around*|(|1-x|)>,d v=x*d
+    x,v=<frac|x<rsup|2>|2>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|x<rsup|2>|2>*arcsin<around*|(|1-x|)>-<frac|1|2>*<big|int>x<rsup|2>*d<around*|(|arcsin<around*|(|1-x|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|2>|2>*arcsin<around*|(|1-x|)>-<frac|1|2>*<big|int>x<rsup|2>\<times\><frac|-d
+    x|<sqrt|1-<around*|(|1-x|)><rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|2>|2>*arcsin<around*|(|1-x|)>+<frac|1|2>*<big|int><frac|x<rsup|2>*d
+    x|<sqrt|2*x-x<rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|2>|2>*arcsin<around*|(|1-x|)>-<frac|1|2>*<big|int><frac|2*x-x<rsup|2>+2-2*x-2|<sqrt|2*x-x<rsup|2>>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|2>|2>*arcsin<around*|(|1-x|)>-<frac|1|2>*<big|int><sqrt|2*x-x<rsup|2>>*d
+    x-<frac|1|2>*<big|int><frac|2-2*x|<sqrt|2*x-x<rsup|2>>>*d
+    x+<big|int><frac|d x|<sqrt|1-<around*|(|1-x|)><rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|2>|2>*arcsin<around*|(|1-x|)>-<frac|1|2>*<big|int><sqrt|1-<around*|(|1-x|)><rsup|2>>*d
+    x-<sqrt|2*x-x<rsup|2>>-arcsin<around*|(|1-x|)>>>|<row|<cell|>|<cell|VI
+    \<Iota\>.>|<cell|<big|int><sqrt|a<rsup|2>-x<rsup|2>>*d
+    x=<frac|x|2>*<sqrt|a<rsup|2>-x<rsup|2>>+<frac|a<rsup|2>|2>*arcsin
+    <frac|x|a>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|x<rsup|2>-2|2>*arcsin<around*|(|1-x|)>-<sqrt|2*x-x<rsup|2>>+<frac|1|2>*<big|int><sqrt|1-<around*|(|1-x|)><rsup|2>>*d
+    <around*|(|1-x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|2>-2|2>*arcsin<around*|(|1-x|)>-<sqrt|2*x-x<rsup|2>>+<frac|1|2>*<around*|(|<frac|1-x|2>*<sqrt|2*x-x<rsup|2>>+<frac|1|2>*arcsin<around*|(|1-x|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2*x<rsup|2>-3|4>*arcsin<around*|(|1-x|)>-<frac|3+x|4>*<sqrt|2*x-x<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<rprime|'><around*|(|x|)>>|<cell|=>|<cell|x*arcsin<around*|(|1-x|)>+<frac|2*x<rsup|2>-3|4>\<times\><frac|-1|<sqrt|2*x-x<rsup|2>>>-<around*|(|<frac|1|4>*<sqrt|2*x-x<rsup|2>>+<frac|3+x|4>\<times\><frac|2-2*x|2*<sqrt|2*x-x<rsup|2>>>|)>>>|<row|<cell|>|<cell|=>|<cell|x*arcsin<around*|(|1-x|)>+<frac|3-2*x<rsup|2>|4*<sqrt|2*x-x<rsup|2>>>-<frac|<sqrt|2*x-x<rsup|2>>|4>-<frac|2-2*x+1-x<rsup|2>|4*<sqrt|2*x-x<rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|x*arcsin<around*|(|1-x|)>+<frac|3-2*x<rsup|2>-<around*|(|2*x-x<rsup|2>|)>+x<rsup|2>+2*x-3|4*<sqrt|2*x-x<rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|x*arcsin<around*|(|1-x|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
