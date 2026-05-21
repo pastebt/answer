@@ -160,6 +160,24 @@
     x>|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|x|<sqrt|1+x<rsup|2>>>*l
     n x-l n<around*|\||<sqrt|1+x<rsup|2>>+x|\|>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2105:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>x*arctan<around*|(|x+1|)>*d
+    x>>|<row|<cell|>|<cell|>|<cell|u=arctan<around*|(|x+1|)>,d v=x*d
+    x,v=<frac|x<rsup|2>|2>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|2>|2>*arctan<around*|(|x+1|)>-<frac|1|2>*<big|int>x<rsup|2>*d<around*|(|arctan<around*|(|x+1|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|2>|2>*arctan<around*|(|x+1|)>-<frac|1|2>*<big|int>x<rsup|2>\<times\><frac|d
+    x|1+<around*|(|x+1|)><rsup|2>>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|x<rsup|2>*d
+    x|1+1+2*x+x<rsup|2>>=<big|int><frac|x<rsup|2>+2*x+2-<around*|(|2*x+2|)>|x<rsup|2>+2*x+2>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|x-<big|int><frac|2*x+2|x<rsup|2>+2*x+2>*d
+    x=x-l n<around*|(|x<rsup|2>+2*x+2|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|x<rsup|2>|2>*arctan<around*|(|x+1|)>-<frac|x|2>+<frac|1|2>*l
+    n<around*|(|x<rsup|2>+2*x+2|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
