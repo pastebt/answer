@@ -178,6 +178,25 @@
     x=x-l n<around*|(|x<rsup|2>+2*x+2|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|x<rsup|2>|2>*arctan<around*|(|x+1|)>-<frac|x|2>+<frac|1|2>*l
     n<around*|(|x<rsup|2>+2*x+2|)>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2106:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><sqrt|x>*arctan
+    <sqrt|x>*d x>>|<row|<cell|>|<cell|>|<cell|u=actan <sqrt|x>,d v=<sqrt|x>*d
+    x,v=<frac|2|3>*x<rsup|<frac|3|2>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|2|3>*x<rsup|<frac|3|2>>*arctan
+    <sqrt|x>-<frac|2|3>*<big|int>x<rsup|<frac|3|2>>*d<around*|(|actan
+    <sqrt|x>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|3>*x<rsup|<frac|3|2>>*arctan
+    <sqrt|x>-<frac|2|3>*<big|int>x<rsup|<frac|3|2>>\<times\><frac|1|1+x>\<times\><frac|1|2*<sqrt|x>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|2|3>*x<rsup|<frac|3|2>>*arctan
+    <sqrt|x>-<frac|1|3>*<big|int><frac|x*d
+    x|1+x>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|3>*x<rsup|<frac|3|2>>*arctan
+    <sqrt|x>-<frac|x|3>+<frac|1|3>*l n<around*|(|x+1|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
