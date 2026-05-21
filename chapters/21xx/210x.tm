@@ -123,6 +123,43 @@
     x|)>>>|<row|<cell|>|<cell|=>|<cell|x*l
     n<around*|(|<sqrt|1-x>+<sqrt|1+x>|)>-<frac|x|2>+<frac|1|2>*arcsin x>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2104:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|l
+    n x|<around*|(|1+x<rsup|2>|)><rsup|<frac|3|2>>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|x=tan \<theta\>\<rightarrow\>sin
+    \<theta\>=<frac|x|<sqrt|1+x<rsup|2>>>,cos
+    \<theta\>=<frac|1|<sqrt|1+x<rsup|2>>>>>|<row|<cell|>|<cell|>|<cell|d
+    x=<frac|d \<theta\>|cos<rsup|2> \<theta\>>>>|<row|<cell|F<around*|(|\<theta\>|)>>|<cell|=>|<cell|<big|int><frac|l
+    n<around*|(|<frac|sin \<theta\>|cos \<theta\>>|)>|<around*|(|<frac|1|cos<rsup|2>
+    \<theta\>>|)><rsup|<frac|3|2>>>\<times\><frac|d \<theta\>|cos<rsup|2>
+    \<theta\>>>>|<row|<cell|>|<cell|=>|<cell|<big|int>cos \<theta\>*l
+    n<around*|(|<frac|sin \<theta\>|cos \<theta\>>|)>*d
+    \<theta\>>>|<row|<cell|>|<cell|=>|<cell|<big|int>cos \<theta\>*l
+    n<around*|(|sin \<theta\>|)>*d \<theta\>-<big|int>cos \<theta\>*l
+    n<around*|(|cos \<theta\>|)>*d \<theta\>>>|<row|<cell|>|<cell|>|<cell|u=l
+    n<around*|(|<frac|sin \<theta\>|cos \<theta\>>|)>,d v=cos \<theta\>*d
+    \<theta\>,v=sin \<theta\>>>|<row|<cell|F<around*|(|\<theta\>|)>>|<cell|=>|<cell|sin
+    \<theta\>*l n<around*|(|tan \<theta\>|)>-<big|int>sin
+    \<theta\>*d<around*|(|l n<around*|(|tan
+    \<theta\>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|sin \<theta\>*l
+    n<around*|(|tan \<theta\>|)>-<big|int>sin \<theta\>\<times\><frac|cos
+    \<theta\>|sin \<theta\>>\<times\><frac|1|cos<rsup|2> \<theta\>>*d
+    \<theta\>>>|<row|<cell|>|<cell|=>|<cell|sin \<theta\>*l n<around*|(|tan
+    \<theta\>|)>-<big|int><frac|d \<theta\>|cos
+    \<theta\>>>>|<row|<cell|F<rsub|c<rsub|1>><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|cos x>=l n<around*|\||<frac|1+sin x|cos x>|\|>+C=l
+    n<around*|\||tan<around*|(|<frac|x|2>+<frac|\<pi\>|4>|)>|\|>+C>>|<row|<cell|F<around*|(|\<theta\>|)>>|<cell|=>|<cell|sin
+    \<theta\>*l n<around*|(|tan \<theta\>|)>-l n<around*|\||<frac|1+sin x|cos
+    x>|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|x|<sqrt|1+x<rsup|2>>>*l
+    n x-l n<around*|\||<sqrt|1+x<rsup|2>>+x|\|>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
