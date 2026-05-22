@@ -25,6 +25,35 @@
     <frac|2*<sqrt|x>|1+x>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1+x|)>*arcsin
     <frac|2*<sqrt|x>|1+x>-2*sgn<around*|(|1-x|)>*<sqrt|x>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2111:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|arccos
+    x|<around*|(|1-x<rsup|2>|)><rsup|<frac|3|2>>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|x=cos \<theta\>\<rightarrow\>sin
+    \<theta\>=<sqrt|1-x<rsup|2>>>>|<row|<cell|F<around*|(|\<theta\>|)>>|<cell|=>|<cell|<big|int><frac|arccos<around*|(|cos
+    \<theta\>|)>|<around*|(|1-cos<rsup|2>
+    \<theta\>|)><rsup|<frac|3|2>>>*d<around*|(|cos
+    \<theta\>|)>=<big|int><frac|\<theta\>*<around*|(|-sin
+    \<theta\>|)>|sin<rsup|3> \<theta\>>*d
+    \<theta\>>>|<row|<cell|>|<cell|=>|<cell|-<big|int><frac|\<theta\>*d
+    \<theta\>|sin<rsup|2> \<theta\>>>>|<row|<cell|>|<cell|>|<cell|u=\<theta\>,d
+    v=<frac|-d \<theta\>|sin<rsup|2> \<theta\>>,v=<frac|cos \<theta\>|sin
+    \<theta\>>>>|<row|<cell|F<around*|(|\<theta\>|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u>>|<row|<cell|>|<cell|=>|<cell|<frac|\<theta\>*cos
+    \<theta\>|sin \<theta\>>-<big|int><frac|cos \<theta\>|sin \<theta\>>*d
+    \<theta\>=<frac|\<theta\>*cos \<theta\>|sin
+    \<theta\>>-<big|int><frac|d<around*|(|sin \<theta\>|)>|sin
+    \<theta\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<theta\>*cos
+    \<theta\>|sin \<theta\>>-l n<around*|(|sin
+    \<theta\>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|x*arccos
+    x|<sqrt|1-x<rsup|2>>>-l n<around*|(|<sqrt|1-x<rsup|2>>|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
