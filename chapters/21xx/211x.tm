@@ -54,6 +54,34 @@
     \<theta\>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|x*arccos
     x|<sqrt|1-x<rsup|2>>>-l n<around*|(|<sqrt|1-x<rsup|2>>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2112:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|x*arccos
+    x|<around*|(|1-x<rsup|2>|)><rsup|<frac|3|2>>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|x=cos \<theta\>\<rightarrow\>sin
+    \<theta\>=<sqrt|1-x<rsup|2>>>>|<row|<cell|F<around*|(|\<theta\>|)>>|<cell|=>|<cell|<big|int><frac|\<theta\>*cos
+    \<theta\>|sin<rsup|3> \<theta\>>\<times\><around*|(|-sin \<theta\>|)>*d
+    \<theta\>>>|<row|<cell|>|<cell|=>|<cell|<big|int>-<frac|\<theta\>*cos
+    \<theta\>|sin<rsup|2> \<theta\>>*d \<theta\>>>|<row|<cell|>|<cell|>|<cell|u=\<theta\>,d
+    v=<frac|-cos \<theta\>|sin<rsup|2> \<theta\>>*d \<theta\>,v=<frac|1|sin
+    \<theta\>>>>|<row|<cell|F<around*|(|\<theta\>|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u>>|<row|<cell|>|<cell|=>|<cell|<frac|\<theta\>|sin
+    \<theta\>>-<big|int><frac|d \<theta\>|sin
+    \<theta\>>>>|<row|<cell|F<rsub|s<rsub|1>><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|1|sin
+    x>*d x=l n<around*|\||<frac|1-cos x|sin x>|\|>=l n<around*|\||tan
+    <frac|x|2>|\|>>>|<row|<cell|F<around*|(|\<theta\>|)>>|<cell|=>|<cell|<frac|\<theta\>|sin
+    \<theta\>>-l n<around*|\||<frac|1-cos \<theta\>|sin
+    \<theta\>>|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|arccos
+    x|<sqrt|1-x<rsup|2>>>-l n<around*|\||<frac|1-x|<sqrt|1-x<rsup|2>>>|\|>=<frac|arccos
+    x|<sqrt|1-x<rsup|2>>>-l n<around*|(|<frac|<sqrt|1-x>|<sqrt|1+x>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|arccos
+    x|<sqrt|1-x<rsup|2>>>+<frac|1|2>*l n<around*|\||<frac|1+x|1-x>|\|>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
