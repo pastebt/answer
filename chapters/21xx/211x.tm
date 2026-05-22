@@ -82,6 +82,41 @@
     x|<sqrt|1-x<rsup|2>>>-l n<around*|(|<frac|<sqrt|1-x>|<sqrt|1+x>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|arccos
     x|<sqrt|1-x<rsup|2>>>+<frac|1|2>*l n<around*|\||<frac|1+x|1-x>|\|>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2113:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>x*arctan
+    x*l n<around*|(|1+x<rsup|2>|)>*d x>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int>x*arctan
+    x*d x>>|<row|<cell|>|<cell|>|<cell|u=arctan x,d v=x*d
+    x,v=<frac|x<rsup|2>|2>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<frac|x<rsup|2>|2>*arctan
+    x-<frac|1|2>*<big|int>x<rsup|2>*d*<around*|(|arctan
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|2>|2>*arctan
+    x-<frac|1|2>*<big|int><frac|1+x<rsup|2>-1|1+x<rsup|2>>*d
+    x=<frac|x<rsup|2>|2>*arctan x-<frac|x|2>+<frac|1|2>*arctan
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1+x<rsup|2>|2>*arctan
+    x-<frac|x|2>>>|<row|<cell|>|<cell|>|<cell|u=l
+    n<around*|(|1+x<rsup|2>|)>,d v=x*arctan x*d
+    x,v=<frac|1+x<rsup|2>|2>*arctan x-<frac|x|2>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u>>|<row|<cell|>|<cell|=>|<cell|l
+    n<around*|(|1+x<rsup|2>|)>*<around*|(|<frac|1+x<rsup|2>|2>*arctan
+    x-<frac|x|2>|)>-<big|int><around*|(|<frac|1+x<rsup|2>|2>*arctan
+    x-<frac|x|2>|)>\<times\>d<around*|(|l
+    n<around*|(|1+x<rsup|2>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|l
+    n<around*|(|1+x<rsup|2>|)>*<around*|(|<frac|1+x<rsup|2>|2>*arctan
+    x-<frac|x|2>|)>-<big|int><around*|(|<frac|1+x<rsup|2>|2>*arctan
+    x-<frac|x|2>|)>\<times\><frac|2*x|1+x<rsup|2>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|l n<around*|(|1+x<rsup|2>|)>*<around*|(|<frac|1+x<rsup|2>|2>*arctan
+    x-<frac|x|2>|)>-<big|int>x*arctan x*d
+    x+<big|int><frac|x<rsup|2>|1+x<rsup|2>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<around*|(|l
+    n<around*|(|1+x<rsup|2>|)>-1|)>*<around*|(|<frac|1+x<rsup|2>|2>*arctan
+    x-<frac|x|2>|)>+x-arctan x>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
