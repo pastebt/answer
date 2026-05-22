@@ -248,6 +248,24 @@
     y+<frac|y|2>*<sqrt|1-y<rsup|2>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<around*|(|x-<frac|1|2>|)>*arcsin
     <sqrt|x>+<frac|1|2>*<sqrt|x-x<rsup|2>>>>>>
   </eqnarray*>
+
+  \;
+
+  2109:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>x*arccos
+    <frac|1|x>*d x>>|<row|<cell|>|<cell|>|<cell|u=arccos <frac|1|x>,d v=x*d
+    x,v=<frac|x<rsup|2>|2>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|x<rsup|2>|2>*arccos
+    <frac|1|x>-<frac|1|2>*<big|int>x<rsup|2>*d<around*|(|arccos
+    <frac|1|x>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|2>|2>*arccos
+    <frac|1|x>-<frac|1|2>*<big|int>x<rsup|2>\<times\><frac|-1|<sqrt|1-<frac|1|x<rsup|2>>>>*d<around*|(|<frac|1|x>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|2>|2>*arccos
+    <frac|1|x>-<frac|1|2>*<big|int><frac|-x<rsup|2>|<frac|1|x>*<sqrt|x<rsup|2>-1>>\<times\><frac|-1|x<rsup|2>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|2>|2>*arccos
+    <frac|1|x>-<frac|1|2>*<big|int><frac|x*d
+    x|<sqrt|x<rsup|2>-1>>>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|2>|2>*arccos
+    <frac|1|x>-<frac|1|2>*<sqrt|x<rsup|2>-1>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
