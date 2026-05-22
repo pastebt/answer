@@ -308,13 +308,7 @@
 
   \;
 
-  2109:
-
-  <\eqnarray*>
-    <tformat|<table|<row|<cell|<frac|x<rsup|2>|2>*arccos <frac|1|x>-<frac|sgn
-    x|2>*<sqrt|x<rsup|2>-1>>|<cell|\<neq\>>|<cell|<frac|x<rsup|2>|2>*arccos
-    <frac|1|x>-<frac|1|2>*<sqrt|x<rsup|2>-1>>>>>
-  </eqnarray*>
+  \;
 </body>
 
 <\initial>
