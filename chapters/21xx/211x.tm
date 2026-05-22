@@ -117,6 +117,27 @@
     n<around*|(|1+x<rsup|2>|)>-1|)>*<around*|(|<frac|1+x<rsup|2>|2>*arctan
     x-<frac|x|2>|)>+x-arctan x>>>>
   </eqnarray*>
+
+  \;
+
+  2114:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>x*l
+    n <frac|1+x|1-x>*d x>>|<row|<cell|>|<cell|>|<cell|u=l n <frac|1+x|1-x>,d
+    v=x*d x,v=<frac|x<rsup|2>|2>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|2>|2>*l n
+    <frac|1+x|1-x>-<frac|1|2>*<big|int>x<rsup|2>*d<around*|(|l n
+    <frac|1+x|1-x>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|2>|2>*l n
+    <frac|1+x|1-x>-<frac|1|2>*<big|int>x<rsup|2>\<times\><frac|1-x|1+x>\<times\><frac|1-x-<around*|(|1+x|)>*<around*|(|-1|)>|<around*|(|1-x|)><rsup|2>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|2>|2>*l n
+    <frac|1+x|1-x>-<big|int><frac|x<rsup|2>|1-x<rsup|2>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|2>|2>*l n
+    <frac|1+x|1-x>+<big|int><frac|1-x<rsup|2>-1|1-x<rsup|2>>*d
+    x=<frac|x<rsup|2>|2>*l n <frac|1+x|1-x>+x-<frac|1|2>*l n
+    <frac|1+x|1-x>>>|<row|<cell|>|<cell|=>|<cell|x+<frac|x<rsup|2>-1|2>*l n
+    <frac|1+x|1-x>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
