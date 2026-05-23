@@ -212,6 +212,29 @@
     x-1|)>*d<around*|(|cosh x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|3>*cosh<rsup|3>
     x-cosh x>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2119:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>sinh
+    x*sinh 2*x*sinh 3*x*d x>>|<row|<cell|cosh x*cosh
+    y>|<cell|=>|<cell|<frac|1|2>*<around*|(|cosh<around*|(|x+y|)>+cosh<around*|(|x-y|)>|)>>>|<row|<cell|sinh
+    x*sinh y>|<cell|=>|<cell|<frac|1|2>*<around*|(|cosh<around*|(|x+y|)>-cosh<around*|(|x-y|)>|)>>>|<row|<cell|sinh
+    x*cosh y>|<cell|=>|<cell|<frac|1|2>*<around*|(|sinh<around*|(|x+y|)>+sinh<around*|(|x-y|)>|)>>>|<row|<cell|cosh
+    x*sinh y>|<cell|=>|<cell|<frac|1|2>*<around*|(|sinh<around*|(|x+y|)>-sinh<around*|(|x-y|)>|)>>>|<row|<cell|sinh<around*|(|2*x|)>>|<cell|=>|<cell|2*sinh
+    x*cosh x>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>*<big|int>cosh<around*|(|3*x|)>*sinh<around*|(|3*x|)>*d
+    x-<frac|1|2>*<big|int>cosh x*sinh<around*|(|3*x|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<big|int><frac|1|2>*sinh<around*|(|6*x|)>*d
+    x-<frac|1|2>*<big|int><frac|1|2>*<around*|(|sinh<around*|(|4*x|)>+sinh<around*|(|2*x|)>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4>*<big|int>sinh<around*|(|6*x|)>*d
+    x-<frac|1|4>*<big|int>sinh<around*|(|4*x|)>*d
+    x-<frac|1|4>*<big|int>sinh<around*|(|2*x|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|24>*cosh<around*|(|6*x|)>-<frac|1|16>*cosh<around*|(|4*x|)>-<frac|1|8>*cosh<around*|(|2*x|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
