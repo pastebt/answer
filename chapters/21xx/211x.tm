@@ -138,6 +138,35 @@
     <frac|1+x|1-x>>>|<row|<cell|>|<cell|=>|<cell|x+<frac|x<rsup|2>-1|2>*l n
     <frac|1+x|1-x>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2115:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|l
+    n<around*|(|x+<sqrt|1+x<rsup|2>>|)>*d
+    x|<around*|(|1+x<rsup|2>|)><rsup|<frac|3|2>>>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<sqrt|1+x<rsup|2>>*<around*|(|1+x<rsup|2>|)>>>>|<row|<cell|>|<cell|>|<cell|x=tan
+    t>>|<row|<cell|f<rsub|1><around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|<frac|1|cos<rsup|2>
+    t>*d t|<frac|1|cos t>\<times\><frac|1|cos<rsup|2> t>>=<big|int>cos t*d
+    t=sin t>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|sin<around*|(|arctan
+    x|)>=<frac|x|<sqrt|1+x<rsup|2>>>>>|<row|<cell|>|<cell|>|<cell|u=l
+    n<around*|(|x+<sqrt|1+x<rsup|2>>|)>,d
+    v=<frac|1|<around*|(|1+x<rsup|2>|)><rsup|<frac|3|2>>>*d
+    x,v=<frac|x|<sqrt|1+x<rsup|2>>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|x*l
+    n<around*|(|x+<sqrt|1+x<rsup|2>>|)>|<sqrt|1+x<rsup|2>>>-<big|int><frac|x|<sqrt|1+x<rsup|2>>>*d<around*|(|l
+    n<around*|(|x+<sqrt|1+x<rsup|2>>|)>|)>>>|<row|<cell|>|<cell|V.>|<cell|<big|int><frac|d
+    x|<sqrt|x<rsup|2>\<pm\>a<rsup|2>>>=l n<around*|\||x+<sqrt|x<rsup|2>\<pm\>a<rsup|2>>|\|>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|x*l
+    n<around*|(|x+<sqrt|1+x<rsup|2>>|)>|<sqrt|1+x<rsup|2>>>-<big|int><frac|x|<sqrt|1+x<rsup|2>>>\<times\><frac|d
+    x|<sqrt|1+x<rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|x*l
+    n<around*|(|x+<sqrt|1+x<rsup|2>>|)>|<sqrt|1+x<rsup|2>>>-<frac|1|2>*l
+    n<around*|(|1+x<rsup|2>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|x*l
+    n<around*|(|x+<sqrt|1+x<rsup|2>>|)>|<sqrt|1+x<rsup|2>>>-l
+    n*<sqrt|1+x<rsup|2>>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
