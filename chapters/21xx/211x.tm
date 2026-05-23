@@ -198,6 +198,20 @@
     x-1>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|cosh<around*|(|2*x|)>+1|2>*d
     x+<frac|1|32>*sinh<around*|(|4*x|)>-<frac|x|8>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4>*sinh<around*|(|2*x|)>+<frac|x|2>+<frac|1|32>*sinh<around*|(|4*x|)>-<frac|x|8>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|32>*sinh<around*|(|4*x|)>+<frac|1|4>*sinh<around*|(|2*x|)>+<frac|3*x|8>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2118:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>sinh<rsup|3>
+    x*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int>sinh
+    x*<around*|(|cosh<rsup|2> x-1|)>*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|cosh<rsup|2>
+    x-1|)>*d<around*|(|cosh x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|3>*cosh<rsup|3>
+    x-cosh x>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
