@@ -132,6 +132,39 @@
     x|a<rsup|2>+x<rsup|2>>=<frac|1|a>*arctan
     <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<frac|20|3*<sqrt|11>>*arctan<around*|(|<frac|3*t|<sqrt|11>>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|20|3*<sqrt|11>>*arctan<around*|(|<frac|3*tanh<around*|(|<frac|x|2>|)>|<sqrt|11>>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  2123(d)
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|cosh
+    x*d x|3*sinh x-4*cosh x>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|A*<around*|(|3*cosh
+    x-4*sinh x|)>+B*<around*|(|3*sinh x-4*cosh x|)>|3*sinh x-4*cosh x>*d
+    x>>|<row|<cell|>|<cell|>|<cell|3*A-4*B=1>>|<row|<cell|>|<cell|>|<cell|-4*A+3*B=0>>|<row|<cell|>|<cell|>|<cell|A=-<frac|3|7>,B=-<frac|4|7>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-<frac|3|7>*l
+    n<around*|\||3*sinh x-4*cosh x|\|>-<frac|4|7>*x>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|3*tanh x-4>>>|<row|<cell|>|<cell|>|<cell|t=tanh
+    x>>|<row|<cell|>|<cell|>|<cell|d t=<around*|(|1-tanh<rsup|2> x|)>*d
+    x>>|<row|<cell|>|<cell|>|<cell|d x=<frac|d
+    t|1-t<rsup|2>>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|d
+    t|<around*|(|3*t-4|)>*<around*|(|1-t<rsup|2>|)>>=<big|int><around*|(|<frac|9|3*t-4>+<frac|3*t+4|1-t<rsup|2>>|)>\<times\><frac|-d
+    t|7>>>|<row|<cell|>|<cell|=>|<cell|-<frac|3|7>*<big|int><frac|d<around*|(|3*t|)>|3*t-4>-<frac|3|7>*<big|int><frac|t|1-t<rsup|2>>*d
+    t-<frac|4|7>*<big|int><frac|1|1-t<rsup|2>>*d
+    t>>|<row|<cell|>|<cell|=>|<cell|-<frac|3|7>*l n<around*|\||3*<frac|sinh
+    x|cosh x>-4|\|>-<frac|3|7>*<around*|(|-<frac|1|2>*l
+    n<around*|\||1-t<rsup|2>|\|>|)>-<frac|4|7>*<big|int>d
+    x>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-<frac|3|7>*l
+    n<around*|\||3*<frac|sinh x|cosh x>-4|\|>-<frac|3|7><around*|(|-<frac|1|2>*l
+    n<around*|\||1-<frac|sinh<rsup|2> x|cosh<rsup|2>
+    x>|\|>|)>-<frac|4|7>*x>>|<row|<cell|>|<cell|=>|<cell|-<frac|3|7>*l
+    n<around*|\||3*<frac|sinh x|cosh x>-4|\|>-<frac|3|7><around*|(|-<frac|1|2>*l
+    n<around*|\||<frac|1|cosh<rsup|2> x>|\|>|)>-<frac|4|7>*x>>|<row|<cell|>|<cell|=>|<cell|-<frac|3|7><around*|(|l
+    n<around*|\||3*<frac|sinh x|cosh x>-4|\|>+l n<around*|\||cosh
+    x|\|>|)>-<frac|4|7>*x>>|<row|<cell|>|<cell|=>|<cell|-<frac|3|7>*l
+    n<around*|\||3*sinh x-4*cosh x|\|>-<frac|4|7>*x>>>>
+  </eqnarray*>
+
+  \ 
 </body>
 
 <\initial>
