@@ -115,6 +115,27 @@
 
   \;
 
+  \;
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|cosh x*cosh
+    y>|<cell|=>|<cell|<frac|1|2>*<around*|(|cosh<around*|(|x+y|)>+cosh<around*|(|x-y|)>|)>>>|<row|<cell|sinh
+    x*sinh y>|<cell|=>|<cell|<frac|1|2>*<around*|(|cosh<around*|(|x+y|)>-cosh<around*|(|x-y|)>|)>>>|<row|<cell|sinh
+    x*cosh y>|<cell|=>|<cell|<frac|1|2>*<around*|(|sinh<around*|(|x+y|)>+sinh<around*|(|x-y|)>|)>>>|<row|<cell|cosh
+    x*sinh y>|<cell|=>|<cell|<frac|1|2>*<around*|(|sinh<around*|(|x+y|)>-sinh<around*|(|x-y|)>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|sinh<rsup|2>
+    x>|<cell|=>|<cell|<frac|1|2><around*|(|cosh<around*|(|2*x|)>-1|)>>>|<row|<cell|cosh<rsup|2>
+    x>|<cell|=>|<cell|<frac|1|2><around*|(|cosh<around*|(|2*x|)>+1|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|sinh<around*|(|2*x|)>>|<cell|=>|<cell|2*sinh
+    x*cosh x>>|<row|<cell|cosh<around*|(|2*x|)>>|<cell|=>|<cell|sinh<rsup|2>
+    x+cosh<rsup|2> x=2*sinh<rsup|2> x+1=2*cosh<rsup|2>
+    x-1>>|<row|<cell|>|<cell|>|<cell|>>>>
+  </eqnarray*>
+
+  \;
+
+  \;
+
+  \;
+
   cos:
 
   <\eqnarray*>
