@@ -87,6 +87,30 @@
     x|a<rsup|2>+x<rsup|2>>=<frac|1|a>*arctan
     <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<frac|2|<sqrt|3>>*arctan<around*|(|<frac|t+<frac|1|2>|<frac|<sqrt|3>|2>>|)>=<frac|2|<sqrt|3>>*arctan<around*|(|<frac|2*t+1|<sqrt|3>>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|2|<sqrt|3>>*arctan<around*|(|<frac|2*tanh<around*|(|<frac|x|2>|)>+1|<sqrt|3>>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  2123(b)
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|sinh<rsup|2> x-4*sinh x*cosh x+9*cosh<rsup|2>
+    x>>>|<row|<cell|sinh<rsup|2> x>|<cell|=>|<cell|<frac|1|2><around*|(|cosh<around*|(|2*x|)>-1|)>>>|<row|<cell|cosh<rsup|2>
+    x>|<cell|=>|<cell|<frac|1|2><around*|(|cosh<around*|(|2*x|)>+1|)>>>|<row|<cell|sinh<around*|(|2*x|)>>|<cell|=>|<cell|2*sinh
+    x*cosh x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|d
+    x|<frac|1|2><around*|(|cosh<around*|(|2*x|)>-1|)>-2*sinh<around*|(|2*x|)>+9\<times\><frac|1|2>*<around*|(|cosh<around*|(|2*x|)>+1|)>>>>|<row|<cell|>|<cell|=>|<cell|2*<big|int><frac|d
+    x|cosh<around*|(|2*x|)>-1-4*sinh<around*|(|2*x|)>+9*cosh<around*|(|2*x|)>+9>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|d
+    x|5*cosh<around*|(|2*x|)>-2*sinh<around*|(|2*x|)>+4>>>|<row|<cell|>|<cell|>|<cell|t=tan
+    x>>|<row|<cell|>|<cell|>|<cell|d t=<frac|d x|cosh<rsup|2>
+    x>=<around*|(|1-t<rsup|2>|)>*d x>>|<row|<cell|>|<cell|>|<cell|d x=<frac|d
+    t|1-t<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|sinh<around*|(|2*x|)>=<frac|2*t|1-t<rsup|2>>,cosh<around*|(|2*x|)>=<frac|1+t<rsup|2>|1-t<rsup|2>>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|<frac|d
+    t|1-t<rsup|2>>|5\<times\><frac|1+t<rsup|2>|1-t<rsup|2>>-2\<times\><frac|2*t|1-t<rsup|2>>+4>=<big|int><frac|d
+    t|5+5*t<rsup|2>-4*t+4-4*t<rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|d
+    t|t<rsup|2>-4*t+9>=<big|int><frac|d <around*|(|t-2|)>|<around*|(|t-2|)><rsup|2>+<around*|(|<sqrt|5>|)><rsup|2>>>>|<row|<cell|>|<cell|\<Iota\>.>|<cell|<big|int><frac|d
+    x|a<rsup|2>+x<rsup|2>>=<frac|1|a>*arctan
+    <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<frac|1|<sqrt|5>>*arctan<around*|(|<frac|t-2|<sqrt|5>>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|<sqrt|5>>*arctan<around*|(|<frac|tanh
+    x-2|<sqrt|5>>|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
