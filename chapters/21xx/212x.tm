@@ -175,9 +175,9 @@
     x=cosh<around*|(|i*x|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-i*<big|int>sinh<around*|(|a*x|)>*sinh<around*|(|i*b*x|)>*d
     x>>|<row|<cell|sinh x*sinh y>|<cell|=>|<cell|<frac|1|2>*<around*|(|cosh<around*|(|x+y|)>-cosh<around*|(|x-y|)>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-i*<big|int>cosh<around*|(|a*x+i*b*x|)>*d
     x+i*<big|int>cosh<around*|(|a*x-i*b*x|)>*d
-    x>>|<row|<cell|>|<cell|=>|<cell|<frac|-i|a+i*b>*sinh<around*|(|<around*|(|a+i*b|)>*x|)>+<frac|i|a-i*b>*sinh<around*|(|<around*|(|a-i*b|)>*x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|-a*i*sinh<around*|(|<around*|(|a+i*b|)>*x|)>-b*sinh<around*|(|<around*|(|a+i*b|)>*x|)>+a*i*sinh<around*|(|<around*|(|a-i*b|)>*x|)>-b*sinh<around*|(|<around*|(|a-i*b|)>*x|)>|a<rsup|2>+b<rsup|2>>>>|<row|<cell|sinh
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|-i|a+i*b>*sinh<around*|(|<around*|(|a+i*b|)>*x|)>+<frac|i|a-i*b>*sinh<around*|(|<around*|(|a-i*b|)>*x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|-a*i*sinh<around*|(|<around*|(|a+i*b|)>*x|)>-b*sinh<around*|(|<around*|(|a+i*b|)>*x|)>+a*i*sinh<around*|(|<around*|(|a-i*b|)>*x|)>-b*sinh<around*|(|<around*|(|a-i*b|)>*x|)>|2<around*|(|a<rsup|2>+b<rsup|2>|)>>>>|<row|<cell|sinh
     x*cosh y>|<cell|=>|<cell|<frac|1|2>*<around*|(|sinh<around*|(|x+y|)>+sinh<around*|(|x-y|)>|)>>>|<row|<cell|cosh
-    x*sinh y>|<cell|=>|<cell|<frac|1|2>*<around*|(|sinh<around*|(|x+y|)>-sinh<around*|(|x-y|)>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|-a*i*<around*|(|sinh<around*|(|<around*|(|a+i*b|)>*x|)>-sinh<around*|(|<around*|(|a-i*b|)>*x|)>|)>-b*<around*|(|sinh<around*|(|<around*|(|a+i*b|)>*x|)>+sinh<around*|(|<around*|(|a-i*b|)>*x|)>|)>|a<rsup|2>+b<rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|-a*i*cosh<around*|(|a
+    x*sinh y>|<cell|=>|<cell|<frac|1|2>*<around*|(|sinh<around*|(|x+y|)>-sinh<around*|(|x-y|)>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|-a*i*<around*|(|sinh<around*|(|<around*|(|a+i*b|)>*x|)>-sinh<around*|(|<around*|(|a-i*b|)>*x|)>|)>-b*<around*|(|sinh<around*|(|<around*|(|a+i*b|)>*x|)>+sinh<around*|(|<around*|(|a-i*b|)>*x|)>|)>|2<around*|(|a<rsup|2>+b<rsup|2>|)>>>>|<row|<cell|>|<cell|=>|<cell|<frac|-a*i*cosh<around*|(|a
     x|)>*sinh<around*|(|i*b*x|)>-b<around*|(|sinh<around*|(|a*x|)>*cosh<around*|(|i*b*x|)>|)>|a<rsup|2>+b<rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|a*cosh<around*|(|a*x|)>*sin<around*|(|b*x|)>-b*sinh*<around*|(|a*x|)>*cos<around*|(|b*x|)>|a<rsup|2>+b<rsup|2>>>>>>
   </eqnarray*>
 
@@ -191,7 +191,12 @@
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>sinh
     a*x*cos b*x*d x>>|<row|<cell|>|<cell|>|<cell|sin
     x=-i*sinh<around*|(|i*x|)>>>|<row|<cell|>|<cell|>|<cell|cos
-    x=cosh<around*|(|i*x|)>>>|<row|<cell|>|<cell|>|<cell|>>>>
+    x=cosh<around*|(|i*x|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>sinh<around*|(|a*x|)>*cosh<around*|(|i*b*x|)>*d
+    x>>|<row|<cell|sinh x*cosh y>|<cell|=>|<cell|<frac|1|2>*<around*|(|sinh<around*|(|x+y|)>+sinh<around*|(|x-y|)>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>*<big|int>sinh<around*|(|<around*|(|a+i*b|)>*x|)>*d
+    x+<frac|1|2>*<big|int>sinh<around*|(|<around*|(|a-i*b|)>*x|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|cosh<around*|(|a*x+i*b*x|)>|2*<around*|(|a+i*b|)>>+<frac|cosh<around*|(|a*x-i*b*x|)>|2<around*|(|a-i*b|)>>>>|<row|<cell|>|<cell|=>|<cell|<frac|a*<around*|(|cosh<around*|(|a*x+i*b*x|)>+cosh<around*|(|a*x-i*b*x|)>|)>-i*b*<around*|(|cosh<around*|(|a*x+i*b*x|)>-cosh<around*|(|a*x-i*b*x|)>|)>|2*<around*|(|a<rsup|2>+b<rsup|2>|)>>>>|<row|<cell|cosh
+    x*cosh y>|<cell|=>|<cell|<frac|1|2>*<around*|(|cosh<around*|(|x+y|)>+cosh<around*|(|x-y|)>|)>>>|<row|<cell|sinh
+    x*sinh y>|<cell|=>|<cell|<frac|1|2>*<around*|(|cosh<around*|(|x+y|)>-cosh<around*|(|x-y|)>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|a*cosh<around*|(|a*x|)>*cosh<around*|(|i*b*x|)>-i*b*sinh*<around*|(|a*x|)>*sinh<around*|(|i*b*x|)>|a<rsup|2>+b<rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|a*cosh<around*|(|a*x|)>*cos<around*|(|b*x|)>+b*sinh<around*|(|a*x|)>*sin<around*|(|b*x|)>|a<rsup|2>+b<rsup|2>>>>>>
   </eqnarray*>
 </body>
 
