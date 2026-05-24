@@ -198,6 +198,20 @@
     x*cosh y>|<cell|=>|<cell|<frac|1|2>*<around*|(|cosh<around*|(|x+y|)>+cosh<around*|(|x-y|)>|)>>>|<row|<cell|sinh
     x*sinh y>|<cell|=>|<cell|<frac|1|2>*<around*|(|cosh<around*|(|x+y|)>-cosh<around*|(|x-y|)>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|a*cosh<around*|(|a*x|)>*cosh<around*|(|i*b*x|)>-i*b*sinh*<around*|(|a*x|)>*sinh<around*|(|i*b*x|)>|a<rsup|2>+b<rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|a*cosh<around*|(|a*x|)>*cos<around*|(|b*x|)>+b*sinh<around*|(|a*x|)>*sin<around*|(|b*x|)>|a<rsup|2>+b<rsup|2>>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2026:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|x<rsup|6>*<around*|(|1+x<rsup|2>|)>>>>|<row|<cell|>|<cell|>|<cell|1-y<rsup|3>=<around*|(|1+y|)>*<around*|(|1-y+y<rsup|2>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><around*|(|<frac|1-x<rsup|2>+x<rsup|4>|x<rsup|6>>-<frac|1|1+x<rsup|2>>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|x<rsup|-6>-x<rsup|-4>+x<rsup|-2>-<frac|1|1+x<rsup|2>>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|5*x<rsup|5>>+<frac|1|3*x<rsup|3>>-<frac|1|x>-arctan
+    x>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
