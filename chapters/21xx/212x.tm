@@ -68,6 +68,25 @@
     x|<sqrt|x<rsup|2>\<pm\>a<rsup|2>>>=l n<around*|\||x+<sqrt|x<rsup|2>\<pm\>a<rsup|2>>|\|>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>*<around*|(|l
     n<around*|(|e<rsup|2*x>+<sqrt|x<rsup|4*x>-1>|)>+arcsin<around*|(|e<rsup|-2*x>|)>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2123(a)
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|sinh x+2*cosh x>>>|<row|<cell|>|<cell|>|<cell|t=tanh<around*|(|<frac|x|2>|)>>>|<row|<cell|>|<cell|>|<cell|d
+    t=<frac|1|2>\<times\><frac|d x|cosh<rsup|2>
+    <frac|x|2>>=<frac|1|2>*<around*|(|1-tanh<rsup|2> <frac|x|2>|)>*d
+    x>>|<row|<cell|>|<cell|>|<cell|d x=<frac|2*d t|1-t<rsup|2>>,sinh
+    x=<frac|2*t|1-t<rsup|2>>,cosh x=<frac|1+t<rsup|2>|1-t<rsup|2>>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|<frac|2*d
+    t|1-t<rsup|2>>|<frac|2*t|1-t<rsup|2>>+<frac|2+2*t<rsup|2>|1-t<rsup|2>>>=<big|int><frac|d
+    t|t<rsup|2>+t+1>=<big|int><frac|d t|<around*|(|t+<frac|1|2>|)><rsup|2>+<around*|(|<frac|<sqrt|3>|2>|)><rsup|2>>>>|<row|<cell|>|<cell|\<Iota\>.>|<cell|<big|int><frac|d
+    x|a<rsup|2>+x<rsup|2>>=<frac|1|a>*arctan
+    <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<frac|2|<sqrt|3>>*arctan<around*|(|<frac|t+<frac|1|2>|<frac|<sqrt|3>|2>>|)>=<frac|2|<sqrt|3>>*arctan<around*|(|<frac|2*t+1|<sqrt|3>>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|2|<sqrt|3>>*arctan<around*|(|<frac|2*tanh<around*|(|<frac|x|2>|)>+1|<sqrt|3>>|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
