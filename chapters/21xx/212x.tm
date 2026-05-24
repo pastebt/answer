@@ -111,6 +111,27 @@
     <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<frac|1|<sqrt|5>>*arctan<around*|(|<frac|t-2|<sqrt|5>>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|<sqrt|5>>*arctan<around*|(|<frac|tanh
     x-2|<sqrt|5>>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2123(c)
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|0.1+cosh x>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|10*d
+    x|1+10*cosh x>>>|<row|<cell|>|<cell|>|<cell|t=tan<around*|(|<frac|x|2>|)>>>|<row|<cell|>|<cell|>|<cell|d
+    t=<around*|(|1-t<rsup|2>|)>*d<around*|(|<frac|x|2>|)>>>|<row|<cell|>|<cell|>|<cell|d
+    x=<frac|2*d t|1-t<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|cosh
+    x=<frac|1+t<rsup|2>|1-t<rsup|2>>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|10\<times\><frac|2*d
+    t|1-t<rsup|2>>|1+10\<times\><frac|1+t<rsup|2>|1-t<rsup|2>>>=<big|int><frac|20*d
+    t|1-t<rsup|2>+10+10*t<rsup|2>>=20*<big|int><frac|d
+    t|11+9*t<rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|20|3>*<big|int><frac|d
+    <around*|(|3*t|)>|11+9*t<rsup|2>>>>|<row|<cell|>|<cell|\<Iota\>.>|<cell|<big|int><frac|d
+    x|a<rsup|2>+x<rsup|2>>=<frac|1|a>*arctan
+    <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<frac|20|3*<sqrt|11>>*arctan<around*|(|<frac|3*t|<sqrt|11>>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|20|3*<sqrt|11>>*arctan<around*|(|<frac|3*tanh<around*|(|<frac|x|2>|)>|<sqrt|11>>|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
