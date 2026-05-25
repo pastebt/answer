@@ -238,6 +238,31 @@
   \;
 
   \;
+
+  2128:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|1+x<rsup|4>+x<rsup|8>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|d
+    x|<around*|(|1+x<rsup|4>|)><rsup|2>-<around*|(|x<rsup|2>|)><rsup|2>>=<big|int><frac|d
+    x|<around*|(|1+x<rsup|2>+x<rsup|4>|)>*<around*|(|1-x<rsup|2>+x<rsup|4>|)>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<big|int><frac|<around*|(|1-x<rsup|6>|)>+<around*|(|1+x<rsup|6>|)>|<around*|(|1+x<rsup|2>+x<rsup|4>|)>*<around*|(|1-x<rsup|2>+x<rsup|4>|)>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<big|int><frac|1-x<rsup|2>|1+x<rsup|2>+x<rsup|4>>*d
+    x+<frac|1|2>*<big|int><frac|1+x<rsup|2>|1-x<rsup|2>+x<rsup|4>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<big|int><frac|1-x<rsup|2>|<around*|(|1+x<rsup|2>|)><rsup|2>-3*x<rsup|2>>*d
+    x+<frac|1|2>*<big|int><frac|1+x<rsup|2>|<around*|(|1-x<rsup|2>|)><rsup|2>+3*x<rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<big|int><frac|<frac|1-x<rsup|2>|x<rsup|2>>|<around*|(|<frac|1+x<rsup|2>|x>|)><rsup|2>-3>*d
+    x+<frac|1|2>*<big|int><frac|<frac|1+x<rsup|2>|x<rsup|2>>|<around*|(|<frac|1-x<rsup|2>|x>|)><rsup|2>+3>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<big|int><frac|-d<around*|(|<frac|1+x<rsup|2>|x>|)>|<around*|(|<frac|1+x<rsup|2>|x>|)><rsup|2>-<around*|(|<sqrt|3>|)><rsup|2>>+<frac|1|2>*<big|int><frac|-d<around*|(|<frac|1-x<rsup|2>|x>|)>|<around*|(|<frac|1-x<rsup|2>|x>|)><rsup|2>+<around*|(|<sqrt|3>|)><rsup|2>>>>|<row|<cell|>|<cell|\<Iota\>.>|<cell|<big|int><frac|d
+    x|a<rsup|2>+x<rsup|2>>=<frac|1|a>*arctan
+    <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|>|<cell|\<Iota\>
+    \<Iota\>.>|<cell|<big|int><frac|d x|a<rsup|2>-x<rsup|2>>=<frac|1|2*a>*l
+    n<around*|\||<frac|a+x|a-x>|\|>+C<space|1em><around*|(|a\<neq\>0|)><space|1em>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|4*<sqrt|3>>*l
+    n<around*|\||<frac|<sqrt|3>+<frac|1+x<rsup|2>|x>|<sqrt|3>-<frac|1+x<rsup|2>|x>>|\|>-<frac|1|2*<sqrt|3>>*arctan<around*|(|<frac|<frac|1-x<rsup|2>|x>|<sqrt|3>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4*<sqrt|3>>*l
+    n<around*|\||<frac|1+<sqrt|3>*x+x<rsup|2>|1-<sqrt|3>*x+x<rsup|2>>|\|>-<frac|1|2*<sqrt|3>>*arctan<around*|(|<frac|1-x<rsup|2>|<sqrt|3>*x>|)>>>>>
+  </eqnarray*>
+
+  \;
+
+  \;
 </body>
 
 <\initial>
