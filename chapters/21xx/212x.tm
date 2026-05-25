@@ -263,6 +263,22 @@
   \;
 
   \;
+
+  2129:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<sqrt|x>+<sqrt|x|3>>>>|<row|<cell|>|<cell|>|<cell|y=<sqrt|x|6>\<rightarrow\>y<rsup|6>=x\<rightarrow\>d
+    x=6*y<rsup|5>*d y>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|6*y<rsup|5>*d
+    y|y<rsup|3>+y<rsup|2>>=6*<big|int><frac|y<rsup|3>|y+1>*d
+    y=6*<big|int><frac|<around*|(|y<rsup|3>+1|)>-1|y+1>*d
+    y>>|<row|<cell|>|<cell|=>|<cell|6*<big|int><around*|(|y<rsup|2>-y+1|)>*d
+    y-6*<big|int><frac|d y|y+1>>>|<row|<cell|>|<cell|=>|<cell|6*<around*|(|<frac|y<rsup|3>|3>-<frac|y<rsup|2>|2>+y|)>-6*l
+    n<around*|\||y+1|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|2*<sqrt|x>-3*<sqrt|x|3>+6*<sqrt|x|6>-6*l
+    n<around*|(|<sqrt|x|6>+1|)>>>>>
+  </eqnarray*>
+
+  \;
 </body>
 
 <\initial>
