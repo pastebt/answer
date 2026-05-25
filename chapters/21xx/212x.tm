@@ -185,7 +185,7 @@
 
   \;
 
-  2025:
+  2125:
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>sinh
@@ -203,7 +203,7 @@
 
   \;
 
-  2026:
+  2126:
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
@@ -212,6 +212,32 @@
     x>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|5*x<rsup|5>>+<frac|1|3*x<rsup|3>>-<frac|1|x>-arctan
     x>>>>
   </eqnarray*>
+
+  \;
+
+  2127:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|x<rsup|2>|<around*|(|1-x<rsup|2>|)><rsup|3>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|d<around*|(|<around*|(|1-x<rsup|2>|)><rsup|-2>|)>=-2\<times\><around*|(|1-x<rsup|2>|)><rsup|-3>\<times\><around*|(|-2*x|)>*d
+    x=<frac|4*x|<around*|(|1-x<rsup|2>|)><rsup|3>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|u=x,d v=<frac|x*d
+    x|<around*|(|1-x<rsup|2>|)><rsup|3>>,v=<frac|1|4*<around*|(|1-x<rsup|2>|)><rsup|2>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u>>|<row|<cell|>|<cell|=>|<cell|<frac|x|4*<around*|(|1-x<rsup|2>|)><rsup|2>>-<big|int><frac|d
+    x|4<around*|(|1-x<rsup|2>|)><rsup|2>>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<frac|1|4>*<big|int><frac|d
+    x|<around*|(|1-x<rsup|2>|)><rsup|2>>=<frac|1|4>*<big|int><around*|(|<frac|1|2>\<times\><around*|(|<frac|1|1-x>+<frac|1|1+x>|)>|)><rsup|2>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|16>*<big|int><around*|(|<frac|1|<around*|(|1-x|)><rsup|2>>+<frac|2|<around*|(|1-x<rsup|2>|)>>+<frac|1|<around*|(|1+x|)><rsup|2>>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|16>*<around*|(|<frac|1|1-x>+l
+    n<around*|\||<frac|1+x|1-x>|\|>-<frac|1|1+x>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|8*<around*|(|1-x<rsup|2>|)>>+<frac|1|16>*l
+    n<around*|\||<frac|1+x|1-x>|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|x|4*<around*|(|1-x<rsup|2>|)><rsup|2>>-<frac|1|8*<around*|(|1-x<rsup|2>|)>>-<frac|1|16>*l
+    n<around*|\||<frac|1+x|1-x>|\|>>>|<row|<cell|>|<cell|=>|<cell|<frac|2*x-x*<around*|(|1-x<rsup|2>|)>|8*<around*|(|1-x<rsup|2>|)><rsup|2>>-<frac|1|16>*l
+    n<around*|\||<frac|1+x|1-x>|\|>>>|<row|<cell|>|<cell|=>|<cell|<frac|x+x<rsup|3>|8*<around*|(|1-x<rsup|2>|)><rsup|2>>-<frac|1|16>*l
+    n<around*|\||<frac|1+x|1-x>|\|>>>>>
+  </eqnarray*>
+
+  \;
+
+  \;
 </body>
 
 <\initial>
