@@ -61,6 +61,17 @@
     t>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-l
     n<around*|\||<frac|1+<sqrt|1-x<rsup|2>>|x>|\|>-2*<frac|<sqrt|1-x<rsup|2>>|x>>>>>
   </eqnarray*>
+
+  \;
+
+  2132:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><sqrt|<frac|x|1-x*<sqrt|x>>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|y=<sqrt|x>\<rightarrow\>y<rsup|2>=x\<rightarrow\>d
+    x=2*y*d y>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|y|<sqrt|1-y<rsup|3>>>\<times\>2*y*d
+    y=2*<big|int><frac|y<rsup|2>*d y|<sqrt|1-y<rsup|3>>>=<frac|-4|3>*<sqrt|1-y<rsup|3>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-<frac|4|3>*<sqrt|1-x*<sqrt|x>>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
