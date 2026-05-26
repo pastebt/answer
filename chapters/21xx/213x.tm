@@ -72,6 +72,28 @@
     x=2*y*d y>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|y|<sqrt|1-y<rsup|3>>>\<times\>2*y*d
     y=2*<big|int><frac|y<rsup|2>*d y|<sqrt|1-y<rsup|3>>>=<frac|-4|3>*<sqrt|1-y<rsup|3>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-<frac|4|3>*<sqrt|1-x*<sqrt|x>>>>>>
   </eqnarray*>
+
+  \;
+
+  2133:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|x<rsup|5>*d
+    x|<sqrt|1+x<rsup|2>>>>>|<row|<cell|>|<cell|>|<cell|x=tan t\<rightarrow\>d
+    x=<frac|d t|cos<rsup|2> t>>>|<row|<cell|>|<cell|>|<cell|cos<rsup|2>
+    t=<frac|1|1+x<rsup|2>>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|<frac|sin<rsup|5>
+    t|cos<rsup|5> t>\<times\><frac|d t|cos<rsup|2> t>|<frac|1|cos
+    t>>=<big|int><frac|sin<rsup|5> t|cos<rsup|6> t>*d
+    t>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|sin
+    t*<around*|(|1-cos<rsup|2> t|)><rsup|2>|cos<rsup|6> t>*d
+    t>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|sin t|cos<rsup|6> t>*d
+    t-2*<big|int><frac|sin t|cos<rsup|4> t>*d t+<big|int><frac|sin
+    t|cos<rsup|2> t>*d t>>|<row|<cell|>|<cell|=>|<cell|<frac|1|5*cos<rsup|5>
+    t>-<frac|2|3*cos<rsup|3> t>+<frac|1|cos
+    t>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|15*cos
+    t>*<around*|(|<frac|3|cos<rsup|4> t>-<frac|10|cos<rsup|2>
+    t>+15|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|<sqrt|1+x<rsup|2>>|15>*<around*|(|3*<around*|(|1+x<rsup|2>|)><rsup|2>-10*<around*|(|1+x<rsup|2>|)>+15|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|<sqrt|1+x<rsup|2>>|15>*<around*|(|3*x<rsup|4>-4*x<rsup|2>+8|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
