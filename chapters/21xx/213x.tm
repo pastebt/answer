@@ -94,6 +94,32 @@
     t>*<around*|(|<frac|3|cos<rsup|4> t>-<frac|10|cos<rsup|2>
     t>+15|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|<sqrt|1+x<rsup|2>>|15>*<around*|(|3*<around*|(|1+x<rsup|2>|)><rsup|2>-10*<around*|(|1+x<rsup|2>|)>+15|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|<sqrt|1+x<rsup|2>>|15>*<around*|(|3*x<rsup|4>-4*x<rsup|2>+8|)>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2134:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<sqrt|x*<around*|(|1-x|)>|3>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|d
+    x|<sqrt|x<rsup|3>\<times\><frac|1-x|x>|3>>=<big|int><frac|d
+    x|x*<sqrt|<frac|1-x|x>|3>>>>|<row|<cell|>|<cell|>|<cell|y=<sqrt|<frac|1-x|x>|3>\<rightarrow\>y<rsup|3>=<frac|1-x|x>\<rightarrow\>x=<frac|1|y<rsup|3>+1>>>|<row|<cell|>|<cell|>|<cell|d
+    x=<frac|-3*y<rsup|2>*d y|<around*|(|y<rsup|3>+1|)><rsup|2>>>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|<frac|-3*y<rsup|2>*d
+    y|<around*|(|y<rsup|3>+1|)><rsup|2>>|<frac|1|y<rsup|3>+1>\<times\>y>=-3*<big|int><frac|y*d
+    y|y<rsup|3>+1>=-3*<big|int><frac|y*d y|<around*|(|y+1|)>*<around*|(|y<rsup|2>-y+1|)>>>>|<row|<cell|>|<cell|=>|<cell|-3*<big|int>-<frac|1|3>*<around*|(|<frac|1|y+1>-<frac|y+1|y<rsup|2>-y+1>|)>*d
+    y>>|<row|<cell|>|<cell|=>|<cell|l n<around*|\||y+1|\|>-<frac|1|2>*<big|int><frac|2*y-1+3|y<rsup|2>-y+1>*d
+    y>>|<row|<cell|>|<cell|=>|<cell|l n<around*|\||y+1|\|>-<frac|1|2>*l
+    n<around*|(|y<rsup|2>-y+1|)>-<frac|3|2>*<big|int><frac|d
+    y|y<rsup|2>-y+1>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*l n
+    <frac|<around*|(|y+1|)><rsup|2>|y<rsup|2>-y+1>-<frac|3|2>*<big|int><frac|d
+    y|<around*|(|y-<frac|1|2>|)><rsup|2>+<around*|(|<frac|<sqrt|3>|2>|)><rsup|2>>>>|<row|<cell|>|<cell|\<Iota\>.>|<cell|<big|int><frac|d
+    x|a<rsup|2>+x<rsup|2>>=<frac|1|a>*arctan
+    <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<frac|1|2>*l
+    n <frac|<around*|(|y+1|)><rsup|2>|y<rsup|2>-y+1>-<frac|3|2>\<times\><frac|2|<sqrt|3>>*arctan<around*|(|<frac|y-<frac|1|2>|<frac|<sqrt|3>|2>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*l
+    n <frac|<around*|(|y+1|)><rsup|2>|y<rsup|2>-y+1>-<sqrt|3>*arctan<around*|(|<frac|2*y-1|<sqrt|3>>|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
