@@ -53,7 +53,7 @@
     \<Iota\> \<Iota\>.>|<cell|<big|int><frac|x*d
     x|a<rsup|2>\<pm\>x<rsup|2>>=\<pm\><frac|1|2>*l
     n<around*|\||a<rsup|2>\<pm\>x<rsup|2>|\|>+C>>|<row|<cell|>|<cell|IV.>|<cell|<big|int><frac|d
-    x|<sqrt|a<rsup|2>-x<rsup|2>>>=arcsin*<frac|x|a>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|>|<cell|V.>|<cell|<big|int><frac|d
+    x|<sqrt|a<rsup|2>-x<rsup|2>>>=arcsin*<frac|x|a>+C=-arccos*<frac|x|a>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|>|<cell|V.>|<cell|<big|int><frac|d
     x|<sqrt|x<rsup|2>\<pm\>a<rsup|2>>>=l n<around*|\||x+<sqrt|x<rsup|2>\<pm\>a<rsup|2>>|\|>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|>|<cell|>|<cell|<big|int><frac|d
     x|<sqrt|x<rsup|2>\<pm\>1>>=l n<around*|\||x+<sqrt|x<rsup|2>\<pm\>1>|\|>+C>>|<row|<cell|>|<cell|VI.>|<cell|<big|int><frac|x*d
     x|<sqrt|a<rsup|2>\<pm\>x<rsup|2>>>=\<pm\><sqrt|a<rsup|2>\<pm\>x<rsup|2>>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|>|<cell|VI
