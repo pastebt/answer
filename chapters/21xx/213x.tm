@@ -30,6 +30,37 @@
     t*<around*|(|<frac|sin<rsup|4> t|3>+<frac|5*sin<rsup|2>
     t|12>+<frac|5|8>|)>+<frac|5|8>*t>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-<frac|<sqrt|x*<around*|(|1-x|)>>|24>*<around*|(|8*x<rsup|2>+10*x+15|)>+<frac|5|8>*arcsin<around*|(|<sqrt|x>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2131:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|x+2|x<rsup|2>*<sqrt|1-x<rsup|2>>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|x=sin t\<rightarrow\>cos
+    t=<sqrt|1-x<rsup|2>>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|sin
+    t+2|sin<rsup|2> t*<sqrt|1-sin<rsup|2> t>>*d<around*|(|sin
+    t|)>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|sin t+2|sin<rsup|2>
+    t>*d t=<big|int><frac|d t|sin<rsup|2> t>+2*<big|int><frac|d t|sin<rsup|2>
+    t>>>|<row|<cell|F<rsub|s<rsub|1>><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|1|sin
+    x>*d x=l n<around*|\||<frac|1-cos x|sin x>|\|>=l n<around*|\||tan
+    <frac|x|2>|\|>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|l
+    n<around*|\||<frac|1-cos t|sin t>|\|>-2*<frac|cos t|sin
+    t>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|l
+    n<around*|\||<frac|1-<sqrt|1-x<rsup|2>>|x>|\|>-<frac|2*<sqrt|1-x<rsup|2>>|x>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|x=cos
+    t\<rightarrow\>sin t=<sqrt|1-t<rsup|2>>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|cos
+    t+2|cos<rsup|2> t*<sqrt|1-cos<rsup|2> t>>\<times\><around*|(|-sin t|)>*d
+    t>>|<row|<cell|>|<cell|=>|<cell|-<big|int><frac|cos t+2|cos<rsup|2> t>*d
+    t=-<big|int><frac|d t|cos t>-2*<big|int><frac|d t|cos<rsup|2>
+    t>>>|<row|<cell|F<rsub|c<rsub|1>><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|cos x>=l n<around*|\||<frac|1+sin x|cos x>|\|>+C=l
+    n<around*|\||tan<around*|(|<frac|x|2>+<frac|\<pi\>|4>|)>|\|>+C>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|-l
+    n<around*|\||<frac|1+sin t|cos t>|\|>-2*<frac|sin t|cos
+    t>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-l
+    n<around*|\||<frac|1+<sqrt|1-x<rsup|2>>|x>|\|>-2*<frac|<sqrt|1-x<rsup|2>>|x>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
