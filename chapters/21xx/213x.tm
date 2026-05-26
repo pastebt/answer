@@ -120,6 +120,29 @@
     n <frac|<around*|(|y+1|)><rsup|2>|y<rsup|2>-y+1>-<frac|3|2>\<times\><frac|2|<sqrt|3>>*arctan<around*|(|<frac|y-<frac|1|2>|<frac|<sqrt|3>|2>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*l
     n <frac|<around*|(|y+1|)><rsup|2>|y<rsup|2>-y+1>-<sqrt|3>*arctan<around*|(|<frac|2*y-1|<sqrt|3>>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2135:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|x*<sqrt|1+x<rsup|3>+x<rsup|6>>>>>|<row|<cell|>|<cell|>|<cell|y=<frac|1|x<rsup|3>>\<rightarrow\>d
+    y=<frac|-3|x<rsup|4>>*d x\<rightarrow\>d x=<frac|-x<rsup|4>|3>*d
+    y>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|<frac|-x<rsup|4>|3>*d
+    y|x*<sqrt|1+<frac|1|y>+<frac|1|y<rsup|2>>>>=-<frac|1|3>*<big|int><frac|x<rsup|4>*d
+    y|<frac|x|y>*<sqrt|y<rsup|2>+y+1>>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|3>*<big|int><frac|x<rsup|4>*d
+    y|x<rsup|4>*<sqrt|y<rsup|2>+y+1>>=-<frac|1|3>*<big|int><frac|d
+    <around*|(|y+<frac|1|2>|)>|<sqrt|<around*|(|y+<frac|1|2>|)><rsup|2>+<around*|(|<frac|<sqrt|3>|2>|)><rsup|2>>>>>|<row|<cell|>|<cell|V.>|<cell|<big|int><frac|d
+    x|<sqrt|x<rsup|2>\<pm\>a<rsup|2>>>=l n<around*|\||x+<sqrt|x<rsup|2>\<pm\>a<rsup|2>>|\|>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|-<frac|1|3>*l
+    n<around*|\||y+<frac|1|2>+<sqrt|<around*|(|y+<frac|1|2>|)><rsup|2>+<around*|(|<frac|<sqrt|3>|2>|)><rsup|2>>|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-<frac|1|3>*l
+    n<around*|\||<frac|1|x<rsup|3>>+<frac|1|2>+<sqrt|<frac|1|x<rsup|6>>+<frac|1|x<rsup|3>>+1>|\|>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|3>*l
+    n<around*|\||<frac|2+x<rsup|3>+2*<sqrt|1+x<rsup|3>+x<rsup|6>>|2*x<rsup|3>>|\|>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|3>*l
+    n<around*|\||<frac|2+x<rsup|3>+2*<sqrt|1+x<rsup|3>+x<rsup|6>>|x<rsup|3>>|\|>-<frac|1|3>*l
+    n 2>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
