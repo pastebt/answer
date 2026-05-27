@@ -166,6 +166,34 @@
     \<theta\>>>|<row|<cell|f<rsub|1><around*|(|\<theta\>|)>>|<cell|=>|<cell|<big|int><frac|-sin
     \<theta\>*d \<theta\>|sin \<theta\>>=-\<theta\>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|-arccos<around*|(|<frac|x|a>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-<frac|1|2>*arcsin<around*|(|<frac|1+x<rsup|2>|x<rsup|2>*<sqrt|2>>|)>=<frac|1|2>*arccos<around*|(|<frac|1+x<rsup|2>|x<rsup|2>*<sqrt|2>>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2137:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|1+<sqrt|1-x<rsup|2>>|1-<sqrt|1-x<rsup|2>>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|x=sin \<theta\>\<rightarrow\>d x=cos
+    \<theta\>*d \<theta\>>>|<row|<cell|F<around*|(|\<theta\>|)>>|<cell|=>|<cell|<big|int><frac|1+cos
+    \<theta\>|1-cos \<theta\>>\<times\>cos \<theta\>*d
+    \<theta\>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|cos
+    \<theta\>*<around*|(|1+cos \<theta\>|)><rsup|2>|1-cos<rsup|2>
+    \<theta\>>*d \<theta\>=<big|int><frac|cos \<theta\>+2*cos<rsup|2>
+    \<theta\>+cos<rsup|3> \<theta\>|sin<rsup|2> \<theta\>>*d
+    \<theta\>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|d<around*|(|sin
+    \<theta\>|)>|sin<rsup|2> \<theta\>>+2*<big|int><frac|1-sin<rsup|2>
+    \<theta\>|sin<rsup|2> \<theta\>>*d \<theta\>+<big|int><frac|1-sin<rsup|2>
+    \<theta\>|sin<rsup|2> \<theta\>>*d<around*|(|sin
+    \<theta\>|)>>>|<row|<cell|>|<cell|=>|<cell|2*<big|int><frac|d<around*|(|sin
+    \<theta\>|)>|sin<rsup|2> \<theta\>>-2*\<theta\>-sin
+    \<theta\>+2*<big|int><frac|d \<theta\>|sin<rsup|2>
+    \<theta\>>>>|<row|<cell|>|<cell|=>|<cell|-<frac|2|sin
+    \<theta\>>-2*\<theta\>-sin \<theta\>-<frac|2*cos \<theta\>|sin
+    \<theta\>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-<frac|2|x>-2*arcsin*x-x-<frac|2*<sqrt|1-x<rsup|2>>|x>>>|<row|<cell|>|<cell|=>|<cell|-<frac|2+x<rsup|2>+2*<around*|\<nobracket\>|<sqrt|1-x<rsup|2>>|)>|x>-2*arcsin
+    x>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
