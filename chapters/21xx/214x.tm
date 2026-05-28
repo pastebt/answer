@@ -92,6 +92,26 @@
     x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*arcsin<rsup|2> x-<frac|arcsin
     x*<sqrt|1-x<rsup|2>>|x>+l n <around*|\||x|\|>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2143:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|x*l
+    n<around*|(|1+<sqrt|1+x<rsup|2>>|)>|<sqrt|1+x<rsup|2>>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int>l
+    n<around*|(|1+<sqrt|1+x<rsup|2>>|)>*d<around*|(|<sqrt|1+x<rsup|2>>|)>=<big|int>l
+    n<around*|(|1+<sqrt|1+x<rsup|2>>|)>*d<around*|(|1+<sqrt|1+x<rsup|2>>|)>>>|<row|<cell|>|<cell|>|<cell|y=1+<sqrt|1+x<rsup|2>>>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int>l
+    n y*d y=y*l n y-y>>|<row|<cell|>|<cell|>|<cell|u=l n y,d v=d
+    y,v=y>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|y*l n
+    y-<big|int>y*d*<around*|(|l n y|)>=y*l n
+    y-y>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<around*|(|1+<sqrt|1+x<rsup|2>>|)>*l
+    n<around*|(|1+<sqrt|1+x<rsup|2>>|)>-<around*|(|1+<sqrt|1+x<rsup|2>>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1+<sqrt|1+x<rsup|2>>|)>*l
+    n<around*|(|1+<sqrt|1+x<rsup|2>>|)>-<sqrt|1+x<rsup|2>>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
