@@ -241,6 +241,39 @@
     2>>|<row|<cell|>|<cell|=>|<cell|<frac|5+2*x|4>*<sqrt|x+x<rsup|2>>-<frac|<around*|(|x+1|)><rsup|2>|2>+<frac|3|8>*l
     n<around*|(|<frac|1|2>+x+<sqrt|x+x<rsup|2>>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2139:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|l
+    n<around*|(|1+x+x<rsup|2>|)>|<around*|(|1+x|)><rsup|2>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|u=l n<around*|(|1+x+x<rsup|2>|)>,d
+    v=<frac|1|<around*|(|1+x|)><rsup|2>>,v=<frac|-1|1+x>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u>>|<row|<cell|>|<cell|=>|<cell|-<frac|l
+    n<around*|(|1+x+x<rsup|2>|)>|1+x>+<big|int><frac|1|1+x>*d<around*|(|l
+    n<around*|(|1+x+x<rsup|2>|)>|)>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|1|1+x>*d<around*|(|l
+    n<around*|(|1+x+x<rsup|2>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|1+2*x|<around*|(|1+x|)>*<around*|(|1+x+x<rsup|2>|)>>*d
+    x=<big|int><frac|2+2*x-1|<around*|(|1+x|)>*<around*|(|1+x+x<rsup|2>|)>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|2*<big|int><frac|d
+    x|x<rsup|2>+x+1>-<big|int><frac|d x|<around*|(|1+x|)>*<around*|(|1+x+x<rsup|2>|)>>>>|<row|<cell|>|<cell|=>|<cell|2*<big|int><frac|d
+    x|x<rsup|2>+x+1>-<big|int><around*|(|<frac|1|1+x>-<frac|x|1+x+x<rsup|2>>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|2*<big|int><frac|d
+    x|x<rsup|2>+x+1>-<big|int><frac|d x|x+1>+<frac|1|2>*<big|int><frac|2*x+1-1|1+x+x<rsup|2>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|3|2>*<big|int><frac|d
+    x|x<rsup|2>+x+1>-<big|int><frac|d x|x+1>+<frac|1|2>*<big|int><frac|2*x+1|1+x+x<rsup|2>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|3|2>*<big|int><frac|d
+    x|<around*|(|x+<frac|1|2>|)><rsup|2>+<around*|(|<frac|<sqrt|3>|2>|)><rsup|2>>-l
+    n<around*|\||x+1|\|>+<frac|1|2>*l n<around*|(|1+x+x<rsup|2>|)>>>|<row|<cell|>|<cell|\<Iota\>.>|<cell|<big|int><frac|d
+    x|a<rsup|2>+x<rsup|2>>=<frac|1|a>*arctan
+    <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<frac|3|2>\<times\><frac|2|<sqrt|3>>*arctan<around*|(|<frac|x+<frac|1|2>|<frac|<sqrt|3>|2>>|)>+<frac|1|2>*l
+    n<around*|(|<frac|1+x+x<rsup|2>|1+2*x+x<rsup|2>>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-<frac|l
+    n<around*|(|1+x+x<rsup|2>|)>|1+x>+<sqrt|3>*arctan<around*|(|<frac|2*x+1|<sqrt|3>>|)>+<frac|1|2>*l
+    n<around*|(|<frac|1+x+x<rsup|2>|1+2*x+x<rsup|2>>|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
