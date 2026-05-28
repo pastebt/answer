@@ -70,28 +70,27 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|arcsin
     x|x<rsup|2>>\<cdot\><frac|1+x<rsup|2>|<sqrt|1-x<rsup|2>>>*d
-    x>>|<row|<cell|>|<cell|>|<cell|u=<frac|arcsin x|<sqrt|1-x<rsup|2>>>,d
-    v=<frac|1+x<rsup|2>|x<rsup|2>>*d x,v=<frac|x<rsup|2>-1|x>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
-    v=u*v-<big|int>v*d u>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|x<rsup|2>-1|)>*arcsin
-    x|x*<sqrt|1-x<rsup|2>>>-<big|int><frac|x<rsup|2>-1|x>*d<around*|(|<frac|arcsin
-    x|<sqrt|1-x<rsup|2>>>|)>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|x<rsup|2>-1|x>*d<around*|(|<frac|arcsin
-    x|<sqrt|1-x<rsup|2>>>|)>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|x<rsup|2>-1|x>\<times\><frac|<sqrt|1-x<rsup|2>>\<times\><frac|1|<sqrt|1-x<rsup|2>>>-<frac|-2*x|2*<sqrt|1-x<rsup|2>>>\<times\>arcsin
-    x|1-x<rsup|2>>*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|x<rsup|2>-1|x>\<times\><frac|<sqrt|1-x<rsup|2>>+x*arcsin
-    x|<around*|(|1-x<rsup|2>|)>*<sqrt|1-x<rsup|2>>>*d
-    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|<frac|-1|x>-<frac|arcsin
-    x|<sqrt|1-x<rsup|2>>>|)>*d x=-l n x-<big|int><frac|arcsin
-    x|<sqrt|1-x<rsup|2>>>*d x>>|<row|<cell|f<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|arcsin
-    x|<sqrt|1-x<rsup|2>>>*d x>>|<row|<cell|>|<cell|>|<cell|u=<frac|arcsin
-    x|x>,d v=<frac|x*d x|<sqrt|1-x<rsup|2>>>,v=-<sqrt|1-x<rsup|2>>>>|<row|<cell|f<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
-    v=u*v-<big|int>v*d u>>|<row|<cell|>|<cell|=>|<cell|<frac|-<sqrt|1-x<rsup|2>>*arcsin
-    x|x>+<big|int><sqrt|1-x<rsup|2>>*d<around*|(|<frac|arcsin
-    x|x>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|-<sqrt|1-x<rsup|2>>*arcsin
-    x|x>+<big|int><sqrt|1-x<rsup|2>>\<times\><frac|<frac|x|<sqrt|1-x<rsup|2>>>-arcsin
-    x|x<rsup|2>>*d x>>|<row|<cell|>|<cell|=>|<cell|<frac|-<sqrt|1-x<rsup|2>>*arcsin
-    x|x>+<big|int><frac|x-<sqrt|1-x<rsup|2>>*arcsin x|x<rsup|2>>*d
-    x>>|<row|<cell|>|<cell|=>|<cell|<frac|-<sqrt|1-x<rsup|2>>*arcsin x|x>+l
-    n<around*|(|x|)>-<big|int><frac|<sqrt|1-x<rsup|2>>*arcsin x|x<rsup|2>>*d
-    x>>>>
+    x>>|<row|<cell|>|<cell|=>|<cell|*<big|int>arcsin
+    x<around*|(|<frac|1|x<rsup|2>*<sqrt|1-x<rsup|2>>>+<frac|1|<sqrt|1-x<rsup|2>>>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|arcsin
+    x|x<rsup|2>*<sqrt|1-x<rsup|2>>>*d x+<big|int>arcsin x*d<around*|(|arcsin
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|f<rsub|1><around*|(|x|)>+<frac|1|2>*arcsin<rsup|2>
+    x>>|<row|<cell|g<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|x<rsup|2>*<sqrt|1-x<rsup|2>>>>>|<row|<cell|>|<cell|>|<cell|x=sin
+    \<theta\>\<rightarrow\>d x=cos \<theta\>*d
+    \<theta\>>>|<row|<cell|g<around*|(|\<theta\>|)>>|<cell|=>|<cell|<big|int><frac|cos
+    \<theta\>*d \<theta\>|sin<rsup|2> \<theta\>*cos
+    \<theta\>>=<big|int><frac|d \<theta\>|sin<rsup|2> \<theta\>>=-<frac|cos
+    \<theta\>|sin \<theta\>>>>|<row|<cell|g<around*|(|x|)>>|<cell|=>|<cell|-<frac|<sqrt|1-x<rsup|2>>|x>>>|<row|<cell|>|<cell|>|<cell|u=arcsin
+    x,d v=<frac|d x|x<rsup|2>*<sqrt|1-x<rsup|2>>>,v=-<frac|<sqrt|1-x<rsup|2>>|x>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u>>|<row|<cell|>|<cell|=>|<cell|-<frac|atcsin
+    x*<sqrt|1-x<rsup|2>>|x>+<big|int><frac|<sqrt|1-x<rsup|2>>|x>*d<around*|(|arcsin
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|-<frac|atcsin
+    x*<sqrt|1-x<rsup|2>>|x>+<big|int><frac|<sqrt|1-x<rsup|2>>|x>\<times\><frac|d
+    x|<sqrt|1-x<rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|-<frac|atcsin
+    x*<sqrt|1-x<rsup|2>>|x>+l n <around*|\||x|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|f<rsub|1><around*|(|x|)>+<frac|1|2>*arcsin<rsup|2>
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*arcsin<rsup|2> x-<frac|arcsin
+    x*<sqrt|1-x<rsup|2>>|x>+l n <around*|\||x|\|>>>>>
   </eqnarray*>
 </body>
 
