@@ -112,6 +112,40 @@
     n<around*|(|1+<sqrt|1+x<rsup|2>>|)>-<around*|(|1+<sqrt|1+x<rsup|2>>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1+<sqrt|1+x<rsup|2>>|)>*l
     n<around*|(|1+<sqrt|1+x<rsup|2>>|)>-<sqrt|1+x<rsup|2>>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2144:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>x*<sqrt|x<rsup|2>+1>*l
+    n <sqrt|x<rsup|2>-1>*d x>>|<row|<cell|>|<cell|>|<cell|y=<sqrt|x<rsup|2>+1>\<rightarrow\>y<rsup|2>=x<rsup|2>+1\<rightarrow\>2*y*d
+    y=2*x*d x>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int>y<rsup|2>*l
+    n <sqrt|y<rsup|2>-2>*d y=<frac|1|2>*<big|int>y<rsup|2>*l
+    n<around*|(|y<rsup|2>-2|)>*d y>>|<row|<cell|>|<cell|>|<cell|u=l n
+    <around*|(|y<rsup|2>-2|)>,d v=y<rsup|2>*d
+    y,v=<frac|y<rsup|3>|3>>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<frac|1|2>*<big|int>u*d
+    v=<frac|1|2>*u*v-<frac|1|2>*<big|int>v*d
+    u>>|<row|<cell|>|<cell|=>|<cell|<frac|y<rsup|3>|6>*l n
+    <around*|(|y<rsup|2>-2|)>-<big|int><frac|y<rsup|3>|6>*d<around*|(|l n
+    <around*|(|y<rsup|2>-2|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|y<rsup|3>|6>*l
+    n <around*|(|y<rsup|2>-2|)>-<frac|1|6>*<big|int><frac|y<rsup|3>\<times\>y|y<rsup|2>-2>*d
+    y>>|<row|<cell|f<rsub|1><around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|y<rsup|4>|y<rsup|2>-2>*d
+    y=<big|int><frac|y<rsup|4>-4+4|y<rsup|2>-2>*d
+    y=<big|int><around*|(|y<rsup|2>+2|)>*d y+4*<big|int><frac|d
+    y|y<rsup|2>-2>>>|<row|<cell|>|<cell|=>|<cell|<frac|y<rsup|3>|3>+2*y+4*<big|int><frac|d
+    y|y<rsup|2>-2>>>|<row|<cell|>|<cell|\<Iota\>
+    \<Iota\>.>|<cell|<big|int><frac|d x|a<rsup|2>-x<rsup|2>>=<frac|1|2*a>*l
+    n<around*|\||<frac|a+x|a-x>|\|>+C<space|1em><around*|(|a\<neq\>0|)><space|1em>>>|<row|<cell|f<rsub|1><around*|(|y|)>>|<cell|=>|<cell|<frac|y<rsup|3>|3>+2*y+<sqrt|2>*l
+    n<around*|\||<frac|y-<sqrt|2>|y+<sqrt|2>>|\|>>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<frac|y<rsup|3>|6>*l
+    n <around*|(|y<rsup|2>-2|)>-<frac|1|6>*f<rsub|1><around*|(|y|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|y<rsup|3>|6>*l
+    n <around*|(|y<rsup|2>-2|)>-<frac|1|6>*<around*|(|<frac|y<rsup|3>|3>+2*y+<sqrt|2>*l
+    n<around*|\||<frac|y-<sqrt|2>|y+<sqrt|2>>|\|>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|y<rsup|3>|6>*l
+    n <around*|(|y<rsup|2>-2|)>-<frac|y<rsup|3>+6*y|18>-<frac|<sqrt|2>|6>*l
+    n<around*|\||<frac|y-<sqrt|2>|y+<sqrt|2>>|\|>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
