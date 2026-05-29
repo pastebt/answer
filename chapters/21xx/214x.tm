@@ -227,7 +227,23 @@
     x|a<rsup|2>+x<rsup|2>>=<frac|1|a>*arctan
     <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<frac|1|2>\<times\><frac|2|<sqrt|3>>\<times\>arctan<around*|(|<frac|t+<frac|1|2>|<frac|<sqrt|3>|2>>|)>+<frac|1|4>\<times\><frac|1|t<rsup|2>+t+1>-<frac|1|4>*<big|int><frac|d
     t|<around*|(|t<rsup|2>+t+1|)><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|3>>*arctan<around*|(|<frac|2*t+1|<sqrt|3>>|)>+<frac|1|4*<around*|(|t<rsup|2>+t+1|)>>-<frac|1|4>*<big|int><frac|d
-    t|<around*|(|t<rsup|2>+t+1|)><rsup|2>>>>>>
+    t|<around*|(|t<rsup|2>+t+1|)><rsup|2>>>>|<row|<cell|f<rsub|1><around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|d
+    t|<around*|(|t<rsup|2>+t+1|)><rsup|2>>=<big|int><frac|d
+    t|<around*|(|<around*|(|t+<frac|1|2>|)><rsup|2>+<around*|(|<frac|<sqrt|3>|2>|)><rsup|2>|)><rsup|2>>=<suppressed|<tiny-box>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|d
+    t|<around*|(|<frac|3|4><around*|(|<around*|(|<frac|2*t+1|<sqrt|3>>|)><rsup|2>+1|)>|)><rsup|2>>=<frac|16|9>*<big|int><frac|d
+    t|<around*|(|<around*|(|<frac|2*t+1|<sqrt|3>>|)><rsup|2>+1|)><rsup|2>>>>|<row|<cell|>|<cell|>|<cell|<frac|2*t+1|<sqrt|3>>=tan
+    \<theta\>,d t=<frac|<sqrt|3>|2>\<times\><frac|d \<theta\>|cos<rsup|2>
+    \<theta\>>>>|<row|<cell|f<rsub|1><around*|(|\<theta\>|)>>|<cell|=>|<cell|<frac|16|9>*<big|int><frac|<frac|<sqrt|3>|2>\<times\><frac|d
+    \<theta\>|cos<rsup|2> \<theta\>>|<frac|1|cos<rsup|4>
+    \<theta\>>>=<frac|8*<sqrt|3>|9>*<big|int>cos<rsup|2> \<theta\>*d
+    \<theta\>>>|<row|<cell|F<rsub|c<rsup|2>><around*|(|x|)>>|<cell|=>|<cell|<big|int>cos<rsup|2>*x
+    d x=<frac|cos x*sin x+x|2>+C>>|<row|<cell|>|<cell|>|<cell|tan<rsup|2>
+    \<theta\>=<frac|1|cos<rsup|2> \<theta\>>\<rightarrow\>cos
+    \<theta\>=<frac|1|<sqrt|1+tan<rsup|2> \<theta\>>>\<rightarrow\>sin
+    \<theta\>=<frac|tan \<theta\>|<sqrt|1+tan<rsup|2>
+    \<theta\>>>>>|<row|<cell|f<rsub|1><around*|(|\<theta\>|)>>|<cell|=>|<cell|<frac|8*<sqrt|3>|9>\<times\><frac|<frac|1|<sqrt|1+tan<rsup|2>
+    \<theta\>>>\<times\><frac|tan \<theta\>|<sqrt|1+tan<rsup|2>
+    \<theta\>>>+\<theta\>|2>>>|<row|<cell|f<rsub|1><around*|(|t|)>>|<cell|=>|<cell|<frac|4*<sqrt|3>|9>\<times\><frac|<frac|2*t+1|<sqrt|3>>+arctan<around*|(|<frac|2*t+1|<sqrt|3>>|)>\<times\><sqrt|1+<around*|(|<frac|2*t+1|<sqrt|3>>|)><rsup|2>>|1+<around*|(|<frac|2*t+1|<sqrt|3>>|)><rsup|2>>>>>>
   </eqnarray*>
 </body>
 
