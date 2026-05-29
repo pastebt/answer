@@ -158,7 +158,49 @@
 
   \;
 
-  \;
+  2145:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|x|<sqrt|1-x<rsup|2>>>*l
+    n <frac|x|<sqrt|1-x>>*d x>>|<row|<cell|>|<cell|>|<cell|u=l n
+    <frac|x|<sqrt|1-x>>,d v=<frac|x|<sqrt|1-x<rsup|2>>>,v=-<sqrt|1-x<rsup|2>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u>>|<row|<cell|>|<cell|=>|<cell|-<sqrt|1-x<rsup|2>>*l
+    n <frac|x|<sqrt|1-x>>+<big|int><sqrt|1-x<rsup|2>>*d<around*|(|l n
+    <frac|x|<sqrt|1-x>>|)>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><sqrt|1-x<rsup|2>>*d<around*|(|l
+    n <frac|x|<sqrt|1-x>>|)>>>|<row|<cell|>|<cell|=>|<cell|<big|int><sqrt|1-x<rsup|2>>\<times\><frac|<sqrt|1-x>|x>\<times\><frac|<sqrt|1-x>-x\<times\><frac|-1|2*<sqrt|1-x>>|1-x>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><sqrt|1-x<rsup|2>>\<times\><frac|<sqrt|1-x>|x>\<times\><frac|2<around*|(|1-x|)>+x|2*<around*|(|1-x|)>*<sqrt|1-x>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<sqrt|1-x<rsup|2>>\<times\><around*|(|2-x|)>|2*x*<around*|(|1-x|)>>*d
+    x=<big|int><frac|<sqrt|1-x<rsup|2>>\<times\><around*|(|1+1-x|)>|2*x*<around*|(|1-x|)>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<sqrt|1-x<rsup|2>>|2*x*<around*|(|1-x|)>>*d
+    x+<big|int><frac|<sqrt|1-x<rsup|2>>|2*x>*d
+    x>>|<row|<cell|>|<cell|>|<cell|x=sin \<theta\>\<rightarrow\>d x=cos
+    \<theta\>*d \<theta\>>>|<row|<cell|f<rsub|1><around*|(|\<theta\>|)>>|<cell|=>|<cell|<big|int><frac|<sqrt|1-sin<rsup|2>
+    \<theta\>>|2*sin \<theta\>*<around*|(|1-sin \<theta\>|)>>*cos \<theta\>*d
+    \<theta\>+<big|int><frac|<sqrt|1-sin<rsup|2> \<theta\>>|2*sin
+    \<theta\>>\<times\>cos \<theta\>*d \<theta\>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|1-sin<rsup|2>
+    \<theta\>|2*sin \<theta\>*<around*|(|1-sin \<theta\>|)>>*d
+    \<theta\>+<big|int><frac|1-sin<rsup|2> \<theta\>|2*sin \<theta\>>*d
+    \<theta\>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<big|int><around*|(|<frac|1+sin
+    \<theta\>|sin \<theta\>>+<frac|1|sin \<theta\>>-sin \<theta\>|)>*d
+    \<theta\>=<frac|1|2>*<big|int><around*|(|<frac|2|sin \<theta\>>+1-sin
+    \<theta\>|)>*d \<theta\>>>|<row|<cell|F<rsub|s<rsub|1>><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|1|sin
+    x>*d x=l n<around*|\||<frac|1-cos x|sin x>|\|>=l n<around*|\||tan
+    <frac|x|2>|\|>>>|<row|<cell|f<rsub|1><around*|(|\<theta\>|)>>|<cell|=>|<cell|l
+    n<around*|\||<frac|1-cos \<theta\>|sin
+    \<theta\>>|\|>+<frac|\<theta\>|2>+<frac|cos
+    \<theta\>|2>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|l
+    n<around*|\||<frac|1-<sqrt|1-x<rsup|2>>|x>|\|>+<frac|1|2>*arcsin
+    x+<frac|1|2>*<sqrt|1-x<rsup|2>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-<sqrt|1-x<rsup|2>>*l
+    n <frac|x|<sqrt|1-x>>+f<rsub|1><around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|-<sqrt|1-x<rsup|2>>*l
+    n <frac|x|<sqrt|1-x>>+l n<around*|\||<frac|1-<sqrt|1-x<rsup|2>>|x>|\|>+<frac|1|2>*arcsin
+    x+<frac|1|2>*<sqrt|1-x<rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<sqrt|1-x<rsup|2>>*<around*|(|<frac|1|2>-l
+    n <frac|x|<sqrt|1-x>>|)>+l n<around*|\||<frac|1-<sqrt|1-x<rsup|2>>|x>|\|>+<frac|1|2>*arcsin
+    x>>|<row|<cell|>|<cell|>|<cell|l n<around*|\||<frac|1-<sqrt|1-x<rsup|2>>|x>|\|>=l
+    n<around*|\||<frac|1-<around*|(|1-x<rsup|2>|)>|x*<around*|(|1+<sqrt|1-x<rsup|2>>|)>>|\|>=l
+    n<around*|\||<frac|x<rsup|2>|x*<around*|(|1+<sqrt|1-x<rsup|2>>|)>>|\|>>>|<row|<cell|>|<cell|>|<cell|=l
+    n<around*|\||<frac|x|1+<sqrt|1-x<rsup|2>>>|\|>>>|<row|<cell|>|<cell|>|<cell|=-l
+    n<around*|\||<frac|1+<sqrt|1-x<rsup|2>>|x>|\|>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
