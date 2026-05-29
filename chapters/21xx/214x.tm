@@ -201,6 +201,34 @@
     n<around*|\||<frac|x|1+<sqrt|1-x<rsup|2>>>|\|>>>|<row|<cell|>|<cell|>|<cell|=-l
     n<around*|\||<frac|1+<sqrt|1-x<rsup|2>>|x>|\|>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2146:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<around*|(|2+sin x|)><rsup|2>>>>|<row|<cell|>|<cell|>|<cell|t=tan
+    <frac|x|2>>>|<row|<cell|>|<cell|>|<cell|t<rsup|2>=<frac|1-cos x|1+cos
+    x>\<rightarrow\>cos x=<frac|1-t<rsup|2>|1+t<rsup|2>>\<rightarrow\>sin
+    x=<frac|2*t|1+t<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|d x=<around*|(|cos
+    x+1|)>*d t=<frac|2|1+t<rsup|2>>*d t>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|<frac|2|1+t<rsup|2>>*d
+    t|<around*|(|2+<frac|2*t|1+t<rsup|2>>|)><rsup|2>>=<big|int><frac|2*<around*|(|1+t<rsup|2>|)>*d
+    t|<around*|(|2+2*t<rsup|2>+2*t|)><rsup|2>>=<frac|1|2>*<big|int><frac|t<rsup|2>+t+1-t|<around*|(|t<rsup|2>+t+1|)><rsup|2>>*d
+    t>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<big|int><frac|d
+    t|t<rsup|2>+t+1>-<frac|1|2>*<big|int><frac|t*d
+    t|<around*|(|t<rsup|2>+t+1|)><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<big|int><frac|d
+    t|t<rsup|2>+t+1>-<frac|1|4>*<big|int><frac|2*t+1+1|<around*|(|t<rsup|2>+t+1|)><rsup|2>>*d
+    t>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<big|int><frac|d
+    t|<around*|(|t+<frac|1|2>|)><rsup|2>+<around*|(|<frac|<sqrt|3>|2>|)><rsup|2>>-<frac|1|4>*<big|int><frac|2*t+1|<around*|(|t<rsup|2>+t+1|)><rsup|2>>*d
+    t-<frac|1|4>*<big|int><frac|d t|<around*|(|t<rsup|2>+t+1|)><rsup|2>>>>|<row|<cell|>|<cell|\<Iota\>.>|<cell|<big|int><frac|d
+    x|a<rsup|2>+x<rsup|2>>=<frac|1|a>*arctan
+    <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<frac|1|2>\<times\><frac|2|<sqrt|3>>\<times\>arctan<around*|(|<frac|t+<frac|1|2>|<frac|<sqrt|3>|2>>|)>+<frac|1|4>\<times\><frac|1|t<rsup|2>+t+1>-<frac|1|4>*<big|int><frac|d
+    t|<around*|(|t<rsup|2>+t+1|)><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|3>>*arctan<around*|(|<frac|2*t+1|<sqrt|3>>|)>+<frac|1|4*<around*|(|t<rsup|2>+t+1|)>>-<frac|1|4>*<big|int><frac|d
+    t|<around*|(|t<rsup|2>+t+1|)><rsup|2>>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
