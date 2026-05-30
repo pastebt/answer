@@ -318,6 +318,33 @@
     x>>-<frac|1|2*<sqrt|2>>*l n<around*|(|<frac|<sqrt|2>+<sqrt|1+cos
     x>|<sqrt|2>-<sqrt|1+cos x>>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2149:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|a*x<rsup|2>+b|x<rsup|2>+1>*arctan
+    x*d x>>|<row|<cell|>|<cell|=>|<cell|a*<big|int><frac|x<rsup|2>+1+<frac|b|a>-1|x<rsup|2>+1>*arctan
+    x*d x>>|<row|<cell|>|<cell|=>|<cell|a*<big|int>arctan x*d
+    x+<around*|(|b-a|)>*<big|int><frac|arctan x|x<rsup|2>+1>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|a*<big|int>arctan x*d
+    x+<around*|(|b-a|)>*<big|int>arctan x*d<around*|(|arctan
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|a*<big|int>arctan x*d
+    x+<frac|<around*|(|b-a|)>|2>*arctan<rsup|2>
+    x>>|<row|<cell|>|<cell|>|<cell|u=arctan x,d v=d
+    x,v=x>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int>arctan
+    x*d x=<big|int>u*d v=u*v-<big|int>v*d
+    u>>|<row|<cell|>|<cell|=>|<cell|x*arctan x-<big|int>x*d<around*|(|arctan
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|x*arctan x-<big|int><frac|x*d
+    x|x<rsup|2>+1>=x*arctan x-<frac|1|2>*l
+    n<around*|(|x<rsup|2>+1|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|a*f<rsub|1><around*|(|x|)>+<frac|<around*|(|b-a|)>|2>*arctan<rsup|2>
+    x>>|<row|<cell|>|<cell|=>|<cell|a*x*arctan x-<frac|a|2>*l
+    n<around*|(|x<rsup|2>+1|)>+<frac|<around*|(|b-a|)>|2>*arctan<rsup|2>
+    x>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
