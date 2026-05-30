@@ -259,6 +259,37 @@
     x|2+sin x>+<frac|4|3*<sqrt|3>>*arctan<around*|(|<frac|2*tan<around*|(|<frac|x|2>|)>+1|<sqrt|3>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|cos
     x|3*<around*|(|2+sin x|)>>+<frac|4|3*<sqrt|3>>*arctan<around*|(|<frac|2*tan<around*|(|<frac|x|2>|)>+1|<sqrt|3>>|)>+C>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2147:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|sin
+    4*x|sin<rsup|8> x+cos<rsup|8> x>*d x>>|<row|<cell|sin<rsup|2>
+    \<theta\>>|<cell|=>|<cell|<frac|1-cos
+    2*\<theta\>|2>>>|<row|<cell|cos<rsup|2>
+    \<theta\>>|<cell|=>|<cell|<frac|1+cos
+    2*\<theta\>|2>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|sin
+    4*x|<around*|(|<frac|1-cos 2*x|2>|)><rsup|4>+<around*|(|<frac|1+cos
+    2*x|2>|)><rsup|4>>*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|16*sin
+    4*x|<around*|(|1-4*cos 2*x+6*cos<rsup|2> 2*x-4*cos<rsup|3>
+    2*x+cos<rsup|4> 2*x|)>+<around*|(|1+cos
+    2*x|)><rsup|4>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|16*sin 4*x*d
+    x|2+12*cos<rsup|2> 2*x+2*cos<rsup|4> 2*x>=<big|int><frac|8*sin 4*x*d
+    x|1+6*<around*|(|<frac|1+cos 4*x|2>|)>+<around*|(|<frac|1+cos
+    4*x|2>|)><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|32*sin
+    4*x*d x|4+12+12*cos 4*x+1+2*cos 4*x+cos<rsup|2>
+    4*x>=<big|int><frac|32*sin 4*x*d x|17+14*cos 4*x+cos<rsup|2>
+    4*x>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|-8*d*<around*|(|cos
+    4*x|)>|cos<rsup|2> 4*x+14*cos 4*x+7<rsup|2>-32>=-<big|int><frac|8*d<around*|(|cos
+    4*x|)>|<around*|(|cos 4*x+7|)><rsup|2>-<around*|(|4*<sqrt|2>|)><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|-<frac|8|8*<sqrt|2>>*<big|int><around*|(|<frac|1|cos
+    4*x+7-4*<sqrt|2>>-<frac|1|cos 4*x+7+4*<sqrt|2>>|)>*d<around*|(|cos
+    4*x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|2>>*l
+    n<around*|(|<frac|cos 4*x+7+4*<sqrt|2>|cos 4*x+7-4*<sqrt|2>>|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
