@@ -51,6 +51,26 @@
     x|2*<around*|(|1+x<rsup|2>|)>>+<frac|1|4>*l n
     <frac|x<rsup|2>|1+x<rsup|2>>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2152:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|x*arctan
+    x|<sqrt|1+x<rsup|2>>>*d x>>|<row|<cell|>|<cell|>|<cell|u=arctan x,d
+    v=<frac|x*d x|<sqrt|1+x<rsup|2>>>,v=<sqrt|1+x<rsup|2>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u>>|<row|<cell|>|<cell|=>|<cell|<sqrt|1+x<rsup|2>>*arctan
+    x-<big|int><sqrt|1+x<rsup|2>>*d<around*|(|arctan
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|<sqrt|1+x<rsup|2>>*arctan
+    x-<big|int><frac|<sqrt|1+x<rsup|2>>|1+x<rsup|2>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<sqrt|1+x<rsup|2>>*arctan
+    x-<big|int><frac|d x|<sqrt|1+x<rsup|2>>>>>|<row|<cell|>|<cell|V.>|<cell|<big|int><frac|d
+    x|<sqrt|x<rsup|2>\<pm\>a<rsup|2>>>=l n<around*|\||x+<sqrt|x<rsup|2>\<pm\>a<rsup|2>>|\|>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<sqrt|1+x<rsup|2>>*arctan
+    x-l n<around*|\||x+<sqrt|1+x<rsup|2>>|\|>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
