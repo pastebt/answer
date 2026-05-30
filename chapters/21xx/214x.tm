@@ -290,6 +290,34 @@
     4*x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|2>>*l
     n<around*|(|<frac|cos 4*x+7+4*<sqrt|2>|cos 4*x+7-4*<sqrt|2>>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2148:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|sin x*<sqrt|1+cos x>>>>|<row|<cell|>|<cell|>|<cell|y=<sqrt|1+cos
+    x>\<rightarrow\>cos x=y<rsup|2>-1>>|<row|<cell|>|<cell|>|<cell|d
+    x=-<frac|2*y*d y|sin x>>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|-<frac|2*y*d
+    y|sin x>|y*sin x>=-<big|int><frac|2*d y|sin<rsup|2> x>=<big|int><frac|2*d
+    y|cos<rsup|2> x-1>=<big|int><frac|2*d
+    y|<around*|(|y<rsup|2>-1|)><rsup|2>-1>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|2*d
+    y|y<rsup|4>-2*y<rsup|2>>=<big|int><frac|2*d
+    y|y<rsup|2>*<around*|(|y<rsup|2>-2|)>>=<big|int><around*|(|<frac|1|y<rsup|2>-<around*|(|<sqrt|2>|)><rsup|2>>-<frac|1|y<rsup|2>>|)>*d
+    y>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2*<sqrt|2>>*l
+    n<around*|\||<frac|y-<sqrt|2>|y+<sqrt|2>>|\|>+<frac|1|y>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2*<sqrt|2>>*l
+    n<around*|\||<frac|<sqrt|1+cos x>-<sqrt|2>|<sqrt|1+cos
+    x>+<sqrt|2>>|\|>+<frac|1|<sqrt|1+cos x>>>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int><around*|(|<frac|-1|<around*|(|<sqrt|2>|)><rsup|2>-y<rsup|2>>-<frac|1|y<rsup|2>>|)>*d
+    y=-<frac|1|2*<sqrt|2>>*<big|int><around*|(|<frac|1|<sqrt|2>-y>+<frac|1|<sqrt|2>+y>|)>*d
+    y+<frac|1|y>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|2*<sqrt|2>>*<around*|(|l
+    n<around*|\||<sqrt|2>+y|\|>-l n<around*|\||<sqrt|2>-y|\|>|)>+<frac|1|y>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|y>-<frac|1|2*<sqrt|2>>*l
+    n<around*|\||<frac|<sqrt|2>+y|<sqrt|2>-y>|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|<sqrt|1+cos
+    x>>-<frac|1|2*<sqrt|2>>*l n<around*|(|<frac|<sqrt|2>+<sqrt|1+cos
+    x>|<sqrt|2>-<sqrt|1+cos x>>|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
