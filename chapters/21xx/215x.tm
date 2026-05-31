@@ -112,6 +112,40 @@
     x*<sqrt|1-x<rsup|2>>*<around*|(|<frac|-2-x<rsup|2>|3>|)>-<frac|x<rsup|3>+6*x|9>>>|<row|<cell|>|<cell|=>|<cell|-arccos
     x*<sqrt|1-x<rsup|2>>*<around*|(|<frac|2+x<rsup|2>|3>|)>-<frac|x<rsup|3>+6*x|9>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2155:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|x<rsup|4>*arctan
+    x|1+x<rsup|2>>*d x>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|x<rsup|4>|1+x<rsup|2>>*d
+    x=<big|int><around*|(|x<rsup|2>-1+<frac|1|1+x<rsup|2>>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|3>|3>-x+arctan
+    x>>|<row|<cell|d<around*|(|f<rsub|1>|)>/d
+    x>|<cell|=>|<cell|x<rsup|2>-1+<frac|1|1+x<rsup|2>>=<frac|x<rsup|4>-1+1|1+x<rsup|2>>=<frac|x<rsup|4>|1+x<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|u=arctan
+    x,d v=<frac|x<rsup|4>|1+x<rsup|2>>,v=<frac|x<rsup|3>|3>-x+arctan
+    x>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u>>|<row|<cell|>|<cell|=>|<cell|arctan
+    x*<around*|(|<frac|x<rsup|3>|3>-x+arctan
+    x|)>-<big|int><around*|(|<frac|x<rsup|3>|3>-x+arctan
+    x|)>*d<around*|(|arctan x|)>>>|<row|<cell|f<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<big|int><around*|(|<frac|x<rsup|3>|3>-x+arctan
+    x|)>*d<around*|(|arctan x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|3>*<big|int><frac|x<rsup|3>-3*x|x<rsup|2>+1>*d
+    x+<big|int>arctan x*d<around*|(|arctan
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|3>*<big|int><frac|x<rsup|3>+x-4*x|x<rsup|2>+1>*d
+    x+<frac|1|2>*arctan<rsup|2> x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|3>*<big|int><around*|(|x-<frac|4*x|x<rsup|2>+1>|)>*d
+    x+<frac|1|2>*arctan<rsup|2> x>>|<row|<cell|>|<cell|=>|<cell|<frac|x<rsup|2>|6>-<frac|2|3>*l
+    n<around*|(|1+x<rsup|2>|)>+<frac|1|2>*arctan<rsup|2>
+    x>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|arctan
+    x*<around*|(|<frac|x<rsup|3>|3>-x+arctan
+    x|)>-<around*|(|<frac|x<rsup|2>|6>-<frac|2|3>*l
+    n<around*|(|1+x<rsup|2>|)>+<frac|1|2>*arctan<rsup|2>
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*arctan<rsup|2>
+    x+arctan*x*<frac|x<rsup|3>-3*x|3>-<frac|x<rsup|2>|6>+<frac|2|3>*l
+    n<around*|(|1+x<rsup|2>|)>>>|<row|<cell|>|<cell|>|<cell|>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
