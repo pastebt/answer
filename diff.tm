@@ -307,6 +307,14 @@
   2092
 
   \;
+
+  2156
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|-<frac|x|4*<around*|(|1+x<rsup|2>|)>>-<frac|1-x<rsup|2>|4*<around*|(|1+x<rsup|2>|)>>*arctan
+    x>|<cell|\<neq\>>|<cell|<frac|x<rsup|2>-1|4*<around*|(|1+x<rsup|2>|)>>*arctan
+    x+<frac|x|4*<around*|(|1+x<rsup|2>|)>>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
