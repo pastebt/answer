@@ -249,6 +249,28 @@
     x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4>*arcsin<rsup|2>
     x+<frac|x*<sqrt|1-x<rsup|2>>|2>*arcsin x-<frac|x<rsup|2>|4>>>>>
   </eqnarray*>
+
+  \;
+
+  2159:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>x*<around*|(|1+x<rsup|2>|)>*arccot
+    x*d x>>|<row|<cell|>|<cell|>|<cell|u=arccot x,d
+    v=x*<around*|(|1+x<rsup|2>|)>*d x,v=<frac|x<rsup|2>|2>+<frac|x<rsup|4>|4>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u>>|<row|<cell|>|<cell|=>|<cell|<frac|2*x<rsup|2>+x<rsup|4>|4>*arccot
+    x-<big|int><frac|2*x<rsup|2>+x<rsup|4>|4>*d<around*|(|arccot
+    x|)>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|2*x<rsup|2>+x<rsup|4>|4>*d<around*|(|arccot
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|2*x<rsup|2>+x<rsup|4>|4>\<times\><frac|-d
+    x|1+x<rsup|2>>=-<frac|1|4>*<big|int><frac|x<rsup|2>+x<rsup|4>+1+x<rsup|2>-1|1+x<rsup|2>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|4>*<big|int><around*|(|x<rsup|2>+1-<frac|1|1+x<rsup|2>>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|4>*<around*|(|<frac|x<rsup|3>|3>+x+arccot
+    x|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|2*x<rsup|2>+x<rsup|4>|4>*arccot
+    x-f<rsub|1><around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2*x<rsup|2>+x<rsup|4>|4>*arccot
+    x+<frac|1|4>*<around*|(|<frac|x<rsup|3>|3>+x+arccot
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|1+x<rsup|2>|)><rsup|2>|4>*arccot
+    x+<frac|x<rsup|3>|12>+<frac|x|4>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
