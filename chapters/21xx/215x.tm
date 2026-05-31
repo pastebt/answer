@@ -71,6 +71,24 @@
     x|<sqrt|x<rsup|2>\<pm\>a<rsup|2>>>=l n<around*|\||x+<sqrt|x<rsup|2>\<pm\>a<rsup|2>>|\|>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<sqrt|1+x<rsup|2>>*arctan
     x-l n<around*|\||x+<sqrt|1+x<rsup|2>>|\|>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2153:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|sin
+    2*x|<sqrt|1+cos<rsup|4> x>>*d x>>|<row|<cell|sin
+    <around*|(|2*\<theta\>|)>>|<cell|=>|<cell|2*sin \<theta\>*cos
+    \<theta\>=<around*|(|sin \<theta\>+cos \<theta\>|)><rsup|2>-1=<frac|2*tan
+    \<theta\>|1+tan<rsup|2> \<theta\>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|2*sin
+    x*cos x|<sqrt|1+cos<rsup|4> x>>*d x=<big|int><frac|-d<around*|(|cos<rsup|2>
+    x|)>|<sqrt|1+<around*|(|cos<rsup|2> x|)><rsup|2>>>>>|<row|<cell|>|<cell|V.>|<cell|<big|int><frac|d
+    x|<sqrt|x<rsup|2>\<pm\>a<rsup|2>>>=l n<around*|\||x+<sqrt|x<rsup|2>\<pm\>a<rsup|2>>|\|>+C<space|1em><around*|(|a\<gtr\>0|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-l
+    n<around*|\||cos<rsup|2> x+<sqrt|1+cos<rsup|4> x>|\|>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
