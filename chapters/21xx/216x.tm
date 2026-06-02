@@ -111,6 +111,26 @@
     1>-<frac|1|4*coth 1>*<around*|(|x-l n<around*|(|e<rsup|x>*cosh
     1+1|)>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  2164:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><sqrt|tanh<rsup|2>
+    x+1>*d x>>|<row|<cell|>|<cell|>|<cell|y-tanh x=<sqrt|tanh<rsup|2>
+    x+1>>>|<row|<cell|>|<cell|>|<cell|y<rsup|2>-2*y*tanh x+tanh<rsup|2>
+    x=tanh<rsup|2> x+1>>|<row|<cell|>|<cell|>|<cell|tanh
+    x=<frac|y<rsup|2>-1|2*y>\<rightarrow\>y-tanh
+    x=y-<frac|y<rsup|2>-1|2*y>=<frac|y<rsup|2>+1|2*y>>>|<row|<cell|>|<cell|>|<cell|d<around*|(|tanh
+    x|)>=<frac|1|2>\<times\><frac|2*y*y-<around*|(|y<rsup|2>-1|)>|y<rsup|2>>*d
+    y>>|<row|<cell|>|<cell|>|<cell|<around*|(|1-tanh<rsup|2> x|)>*d
+    x=<frac|y<rsup|2>+1|2*y<rsup|2>>*d y>>|<row|<cell|>|<cell|>|<cell|d
+    x=<frac|y<rsup|2>+1|2*y<rsup|2>>\<times\><frac|d
+    y|1-<around*|(|<frac|y<rsup|2>-1|2*y>|)><rsup|2>>=<frac|2*<around*|(|y<rsup|2>+1|)>|4*y<rsup|2>-<around*|(|y<rsup|2>-1|)><rsup|2>>*d
+    y>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|y<rsup|2>+1|2*y>\<times\><frac|2*<around*|(|y<rsup|2>+1|)>|4*y<rsup|2>-<around*|(|y<rsup|2>-1|)><rsup|2>>*d
+    y>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
