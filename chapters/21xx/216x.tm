@@ -86,6 +86,31 @@
     e<rsup|<frac|x|2>>|e<rsup|<frac|x|2>>*<around*|(|1+e<rsup|x>|)>>=<frac|arctan
     e<rsup|<frac|x|2>>|e<rsup|<frac|x|2>>*<around*|(|1+e<rsup|x>|)>>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2163:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<around*|(|e<rsup|x+1>+1|)><rsup|2>-<around*|(|e<rsup|x-1>+1|)><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|d
+    x|e<rsup|2*<around*|(|x+1|)>>+2*e<rsup|x-1>+1-<around*|(|e<rsup|2*<around*|(|x-1|)>>+2*e<rsup|x-1>+1|)>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|d
+    x|e<rsup|2*x>*<around*|(|e<rsup|2>-e<rsup|-2>|)>+2*e<rsup|x>*<around*|(|e-e<rsup|-1>|)>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|e<rsup|2>-e<rsup|-2>>*<big|int><frac|d
+    x|e<rsup|x><around*|(|e<rsup|x>+<frac|2|e+e<rsup|-1>>|)>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|e<rsup|2>-e<rsup|-2>>\<times\><frac|e+e<rsup|-1>|2>\<times\><big|int><around*|(|<frac|1|e<rsup|x>>-<frac|1|e<rsup|x>+<frac|2|e+e<rsup|-1>>>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2*<around*|(|e-e<rsup|-1>|)>>*<around*|(|-e<rsup|-x>-<big|int><around*|(|1-<frac|e<rsup|x>|e<rsup|x>+<frac|2|e+e<rsup|-1>>>|)>\<times\><frac|e+e<rsup|-1>|2>*d
+    x|)>>>|<row|<cell|>|<cell|>|<cell|sinh
+    x=<frac|e<rsup|x>-e<rsup|-x>|2>>>|<row|<cell|>|<cell|>|<cell|cosh
+    x=<frac|e<rsup|x>+e<rsup|-x>|2>>>|<row|<cell|>|<cell|>|<cell|coth
+    x=<frac|e<rsup|x>+e<rsup|-x>|e<rsup|x>-e<rsup|-x>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|=>|<cell|<frac|-e<rsup|-x>|4*sinh
+    1>-<frac|e+e<rsup|-1>|4*<around*|(|e-e<rsup|-1>|)>>*<around*|(|x-l
+    n<around*|(|e<rsup|x>+<frac|2|e+e<rsup|-1>>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|-e<rsup|-x>|4*sinh
+    1>-<frac|1|4*coth 1>*<around*|(|x-l n<around*|(|<frac|e+e<rsup|-1>|2>*e<rsup|x>+1|)>+l
+    n <frac|2|e+e<rsup|-1>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|-e<rsup|-x>|4*sinh
+    1>-<frac|1|4*coth 1>*<around*|(|x-l n<around*|(|e<rsup|x>*cosh
+    1+1|)>|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
