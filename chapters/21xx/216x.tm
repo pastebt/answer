@@ -179,6 +179,17 @@
     <frac|x|2>-<big|int><frac|e<rsup|x>|2*cos<rsup|2> <frac|x|2>>*d
     x>>|<row|<cell|>|<cell|=>|<cell|e<rsup|x>*tan <frac|x|2>>>>>
   </eqnarray*>
+
+  \;
+
+  2166:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><around*|\||x|\|>*d
+    x>>|<row|<cell|>|<cell|a:>|<cell|x\<gtr\>0\<rightarrow\>x=<around*|\||x|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>x*d
+    x=<frac|1|2>*x<rsup|2>=<frac|x|2>*<around*|\||x|\|>>>|<row|<cell|>|<cell|b:>|<cell|x\<less\>0\<rightarrow\>-x=<around*|\||x|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>-x*d
+    x=-<frac|1|2>*x<rsup|2>=<frac|x|2>*<around*|\||x|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|x|2>*<around*|\||x|\|>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
