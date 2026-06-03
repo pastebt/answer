@@ -203,6 +203,16 @@
     x=<frac|1|3>*x<rsup|3>=<frac|x<rsup|2>|3>*<around*|\||x|\|>>>|<row|<cell|>|<cell|b:>|<cell|x\<less\>0\<rightarrow\>-x=<around*|\||x|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-<big|int>x<rsup|2>*d
     x=-<frac|1|3>*x<rsup|3>=<frac|x<rsup|2>|3>*<around*|\||x|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|x<rsup|2>|3>*<around*|\||x|\|>>>>>
   </eqnarray*>
+
+  \;
+
+  2168:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><around*|(|x+<around*|\||x|\|>|)><rsup|2>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|x<rsup|2>+2*x*<around*|\||x|\|>+<around*|(|<around*|\||x|\|>|)><rsup|2>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|3>*x<rsup|3>+<frac|2|3>*x<rsup|2>*<around*|\||x|\|>+<frac|1|3>*x<rsup|3>=<frac|2|3>*x<rsup|3>+<frac|2|3>*x<rsup|2>*<around*|\||x|\|>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|3>*x<rsup|2>*<around*|(|x+<around*|\||x|\|>|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
