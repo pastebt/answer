@@ -190,6 +190,19 @@
     x=<frac|1|2>*x<rsup|2>=<frac|x|2>*<around*|\||x|\|>>>|<row|<cell|>|<cell|b:>|<cell|x\<less\>0\<rightarrow\>-x=<around*|\||x|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>-x*d
     x=-<frac|1|2>*x<rsup|2>=<frac|x|2>*<around*|\||x|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|x|2>*<around*|\||x|\|>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2167:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>x*<around*|\||x|\|>*d
+    x>>|<row|<cell|>|<cell|a:>|<cell|x\<gtr\>0\<rightarrow\>x=<around*|\||x|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>x<rsup|2>*d
+    x=<frac|1|3>*x<rsup|3>=<frac|x<rsup|2>|3>*<around*|\||x|\|>>>|<row|<cell|>|<cell|b:>|<cell|x\<less\>0\<rightarrow\>-x=<around*|\||x|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|-<big|int>x<rsup|2>*d
+    x=-<frac|1|3>*x<rsup|3>=<frac|x<rsup|2>|3>*<around*|\||x|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|x<rsup|2>|3>*<around*|\||x|\|>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
