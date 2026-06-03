@@ -213,6 +213,17 @@
     x>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|x<rsup|2>+2*x*<around*|\||x|\|>+<around*|(|<around*|\||x|\|>|)><rsup|2>|)>*d
     x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|3>*x<rsup|3>+<frac|2|3>*x<rsup|2>*<around*|\||x|\|>+<frac|1|3>*x<rsup|3>=<frac|2|3>*x<rsup|3>+<frac|2|3>*x<rsup|2>*<around*|\||x|\|>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|3>*x<rsup|2>*<around*|(|x+<around*|\||x|\|>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  2169:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><around*|(|<around*|\||1+x|\|>-<around*|\||1-x|\|>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|\||1+x|\|>*d
+    x-<big|int><around*|\||1-x|\|>*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|\||1+x|\|>*d<around*|(|1+x|)>+<big|int><around*|\||1-x|\|>*d<around*|(|1-x|)>>>|<row|<cell|>|<cell|>|<cell|<big|int><around*|\||x|\|>*d
+    x=<frac|x|2>*<around*|\||x|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|<around*|(|1+x|)>*<around*|\||1+x|\|>|2>+<frac|<around*|(|1-x|)>*<around*|\||1-x|\|>|2>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
