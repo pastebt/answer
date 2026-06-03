@@ -118,9 +118,15 @@
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><sqrt|tanh<rsup|2>
-    x+1>*d x>>|<row|<cell|>|<cell|>|<cell|y-tanh x=<sqrt|tanh<rsup|2>
-    x+1>>>|<row|<cell|>|<cell|>|<cell|y<rsup|2>-2*y*tanh x+tanh<rsup|2>
-    x=tanh<rsup|2> x+1>>|<row|<cell|>|<cell|>|<cell|tanh
+    x+1>*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><sqrt|<frac|sinh<rsup|2>
+    x+cosh<rsup|2> x|cosh<rsup|2> x>>*d x=<big|int><frac|<sqrt|sinh<rsup|2>
+    x+cosh<rsup|2> x>|cosh x>*d x>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|y=tanh
+    x\<rightarrow\>d y=d<around*|(|tanh x|)>=<around*|(|1-tanh<rsup|2> x|)>*d
+    x>>|<row|<cell|>|<cell|>|<cell|d x=<frac|d
+    y|1-y<rsup|2>>>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|<sqrt|y<rsup|2>+1>|1-y<rsup|2>>*d
+    y>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|y-tanh
+    x=<sqrt|tanh<rsup|2> x+1>>>|<row|<cell|>|<cell|>|<cell|y<rsup|2>-2*y*tanh
+    x+tanh<rsup|2> x=tanh<rsup|2> x+1>>|<row|<cell|>|<cell|>|<cell|tanh
     x=<frac|y<rsup|2>-1|2*y>\<rightarrow\>y-tanh
     x=y-<frac|y<rsup|2>-1|2*y>=<frac|y<rsup|2>+1|2*y>>>|<row|<cell|>|<cell|>|<cell|d<around*|(|tanh
     x|)>=<frac|1|2>\<times\><frac|2*y*y-<around*|(|y<rsup|2>-1|)>|y<rsup|2>>*d
