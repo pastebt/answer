@@ -118,24 +118,39 @@
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><sqrt|tanh<rsup|2>
-    x+1>*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><sqrt|<frac|sinh<rsup|2>
-    x+cosh<rsup|2> x|cosh<rsup|2> x>>*d x=<big|int><frac|<sqrt|sinh<rsup|2>
-    x+cosh<rsup|2> x>|cosh x>*d x>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|y=tanh
-    x\<rightarrow\>d y=d<around*|(|tanh x|)>=<around*|(|1-tanh<rsup|2> x|)>*d
+    x+1>*d x>>|<row|<cell|>|<cell|>|<cell|y=tanh x\<rightarrow\>d
+    y=d<around*|(|tanh x|)>=<around*|(|1-tanh<rsup|2> x|)>*d
     x>>|<row|<cell|>|<cell|>|<cell|d x=<frac|d
     y|1-y<rsup|2>>>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|<sqrt|y<rsup|2>+1>|1-y<rsup|2>>*d
-    y>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|y-tanh
-    x=<sqrt|tanh<rsup|2> x+1>>>|<row|<cell|>|<cell|>|<cell|y<rsup|2>-2*y*tanh
-    x+tanh<rsup|2> x=tanh<rsup|2> x+1>>|<row|<cell|>|<cell|>|<cell|tanh
-    x=<frac|y<rsup|2>-1|2*y>\<rightarrow\>y-tanh
-    x=y-<frac|y<rsup|2>-1|2*y>=<frac|y<rsup|2>+1|2*y>>>|<row|<cell|>|<cell|>|<cell|d<around*|(|tanh
-    x|)>=<frac|1|2>\<times\><frac|2*y*y-<around*|(|y<rsup|2>-1|)>|y<rsup|2>>*d
-    y>>|<row|<cell|>|<cell|>|<cell|<around*|(|1-tanh<rsup|2> x|)>*d
-    x=<frac|y<rsup|2>+1|2*y<rsup|2>>*d y>>|<row|<cell|>|<cell|>|<cell|d
-    x=<frac|y<rsup|2>+1|2*y<rsup|2>>\<times\><frac|d
-    y|1-<around*|(|<frac|y<rsup|2>-1|2*y>|)><rsup|2>>=<frac|2*<around*|(|y<rsup|2>+1|)>|4*y<rsup|2>-<around*|(|y<rsup|2>-1|)><rsup|2>>*d
-    y>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|y<rsup|2>+1|2*y>\<times\><frac|2*<around*|(|y<rsup|2>+1|)>|4*y<rsup|2>-<around*|(|y<rsup|2>-1|)><rsup|2>>*d
-    y>>>>
+    y>>|<row|<cell|>|<cell|>|<cell|y=tan t\<rightarrow\>d y=<frac|d
+    t|cos<rsup|2> t>>>|<row|<cell|>|<cell|>|<cell|sin
+    t=<frac|y|<sqrt|1+y<rsup|2>>>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|<frac|1|cos
+    t>|1-<frac|sin<rsup|2> t|cos<rsup|2> t>>\<times\><frac|d t|cos<rsup|2>
+    t>=<big|int><frac|d t|cos t*<around*|(|cos<rsup|2> t-sin<rsup|2>
+    t|)>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|cos t*d t|cos<rsup|2>
+    t*<around*|(|1-2*sin<rsup|2> t|)>>=<big|int><frac|d<around*|(|sin
+    t|)>|<around*|(|1-sin<rsup|2> t|)>*<around*|(|1-2*sin<rsup|2>
+    t|)>>>>|<row|<cell|>|<cell|=>|<cell|-<big|int><around*|(|<frac|1|1-sin<rsup|2>
+    t>-<frac|2|1-2*sin<rsup|2> t>|)>*d <around*|(|sin
+    t|)>>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|<frac|1|<frac|1|2>-sin<rsup|2>
+    t>-<frac|1|1-sin<rsup|2> t>|)>*d<around*|(|sin
+    t|)>>>|<row|<cell|>|<cell|\<Iota\> \<Iota\>.>|<cell|<big|int><frac|d
+    x|a<rsup|2>-x<rsup|2>>=<frac|1|2*a>*l
+    n<around*|\||<frac|a+x|a-x>|\|>+C<space|1em><around*|(|a\<neq\>0|)><space|1em>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<frac|1|<sqrt|2>>*l
+    n<around*|\||<frac|<frac|1|<sqrt|2>>+sin t|<frac|1|<sqrt|2>>-sin
+    t>|\|>-<frac|1|2>*l n<around*|\||<frac|1+sin t|1-sin
+    t>|\|>>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<frac|1|<sqrt|2>>*l
+    n<around*|\||<frac|<frac|1|<sqrt|2>>+<frac|y|<sqrt|1+y<rsup|2>>>|<frac|1|<sqrt|2>>-<frac|y|<sqrt|1+y<rsup|2>>>>|\|>-<frac|1|2>*l
+    n<around*|\||<frac|1+<frac|y|<sqrt|1+y<rsup|2>>>|1-<frac|y|<sqrt|1+y<rsup|2>>>>|\|>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|2>>*l
+    n<around*|\||<frac|<sqrt|1+y<rsup|2>>+<sqrt|2>*y|<sqrt|1+y<rsup|2>>-<sqrt|2>*y>|\|>-<frac|1|2>*l
+    n<around*|\||<frac|<sqrt|1+y<rsup|2>>+y|<sqrt|1+y<rsup|2>>-y>|\|>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|2>>*l
+    n<around*|\||<frac|<sqrt|1+y<rsup|2>>+<sqrt|2>*y|<sqrt|1+y<rsup|2>>-<sqrt|2>*y>|\|>-<frac|1|2>*l
+    n<around*|\||<frac|<around*|(|<sqrt|1+y<rsup|2>>+y|)><rsup|2>|1+y<rsup|2>-y<rsup|2>>|\|>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|2>>*l
+    n<around*|\||<frac|<sqrt|1+y<rsup|2>>+<sqrt|2>*y|<sqrt|1+y<rsup|2>>-<sqrt|2>*y>|\|>-l
+    n<around*|\||y+<sqrt|1+y<rsup|2>>|\|>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|<sqrt|2>>*l
+    n<around*|\||<frac|<sqrt|1+tanh<rsup|2> x>+<sqrt|2>*tanh
+    x|<sqrt|1+tanh<rsup|2> x>-<sqrt|2>*tanh x>|\|>-l n<around*|\||tanh
+    x+<sqrt|1+tanh<rsup|2> x>|\|>>>>>
   </eqnarray*>
 </body>
 
