@@ -22,7 +22,7 @@
   3:
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|1<rsup|3>>|<cell|=>|<cell|<around*|(|1|)><rsup|2>>>|<row|<cell|1<rsup|3>+2<rsup|3>+\<ldots\>+n<rsup|3>>|<cell|=>|<cell|<around*|(|1+2+\<cdots\>+n|)><rsup|2>>>|<row|<cell|1<rsup|3>+2<rsup|3>+\<ldots\>+n<rsup|3>+<around*|(|n+1|)><rsup|3>>|<cell|=>|<cell|<around*|(|1+2+\<cdots\>+n|)><rsup|2>+<around*|(|n+1|)><rsup|3>>>>>
+    <tformat|<table|<row|<cell|1<rsup|3>>|<cell|=>|<cell|<around*|(|1|)><rsup|2>>>|<row|<cell|1<rsup|3>+2<rsup|3>+\<ldots\>+n<rsup|3>>|<cell|=>|<cell|<around*|(|1+2+\<cdots\>+n|)><rsup|2>>>|<row|<cell|F<around*|(|x|)>=1<rsup|3>+2<rsup|3>+\<ldots\>+n<rsup|3>+<around*|(|n+1|)><rsup|3>>|<cell|=>|<cell|<around*|(|1+2+\<cdots\>+n|)><rsup|2>+<around*|(|n+1|)><rsup|3>>>|<row|<cell|1+2+\<cdots\>+n>|<cell|=>|<cell|<frac|n*<around*|(|1+n|)>|2>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<around*|(|<frac|n*<around*|(|1+n|)>|2>|)><rsup|2>+<around*|(|n+1|)><rsup|3>>>|<row|<cell|>|<cell|=>|<cell|<frac|n<rsup|2><around*|(|n+1|)><rsup|2>+4*<around*|(|n+1|)><rsup|3>|4>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|n+1|)><rsup|2>*<around*|(|n<rsup|2>+4*n+4|)>|4>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|n+1|)><rsup|2>*<around*|(|<around*|(|n+1|)>+1|)><rsup|2>|4>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<frac|<around*|(|n+1|)>*<around*|(|<around*|(|n+1|)>+1|)>|2>|)><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1+2+\<cdots\>+<around*|(|n+1|)>|)><rsup|2>>>>>
   </eqnarray*>
 </body>
 
