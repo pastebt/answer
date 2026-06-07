@@ -56,6 +56,14 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|2|)>>|<cell|=>|<cell|<around*|(|1+x|)><rsup|2>=1+2*x+x<rsup|2>>>|<row|<cell|>|<cell|>|<cell|x\<gtr\>-1\<rightarrow\>x<rsup|2>\<geqslant\>0,x<rsup|2>=0\<rightarrow\>x=0>>|<row|<cell|F<around*|(|2|)>>|<cell|\<gtr\>>|<cell|1+2*x>>|<row|<cell|F<around*|(|n|)>>|<cell|\<gtr\>>|<cell|1+n*x>>|<row|<cell|F<around*|(|n+1|)>>|<cell|=>|<cell|<around*|(|1+x|)><rsup|n>*<around*|(|1+x|)>>>|<row|<cell|>|<cell|\<gtr\>>|<cell|<around*|(|1+n*x|)>*<around*|(|1+x|)>=1+x+n*x+n*x<rsup|2>>>|<row|<cell|>|<cell|=>|<cell|1+<around*|(|n+1|)>*x+n*x<rsup|2>>>|<row|<cell|>|<cell|>|<cell|n*x<rsup|2>\<gtr\>0>>|<row|<cell|F<around*|(|n+1|)>>|<cell|\<gtr\>>|<cell|1+<around*|(|n+1|)>*x>>>>
   </eqnarray*>
+
+  \;
+
+  8:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<around*|(|1+x|)><rsup|n>\<gtr\>1+n*x>>|<row|<cell|>|<cell|>|<cell|x=<frac|1|n>\<rightarrow\>x\<gtr\>-1>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|*<around*|(|1+<frac|1|n>|)><rsup|n>>>|<row|<cell|>|<cell|\<gtr\>>|<cell|1+n\<times\><frac|1|n>=2>>|<row|<cell|<around*|(|1+<frac|1|n>|)><rsup|n>>|<cell|\<gtr\>>|<cell|2>>|<row|<cell|<around*|(|1+<frac|1|n+1>|)><rsup|n>>|<cell|\<gtr\>>|<cell|2>>|<row|<cell|<around*|(|<frac|<around*|(|n+1|)>+1|n+1>|)><rsup|n+1>>|<cell|\<gtr\>>|<cell|2>>|<row|<cell|<around*|(|n+2|)><rsup|n+1>>|<cell|\<gtr\>>|<cell|2*<around*|(|n+1|)><rsup|n+1>>>|<row|<cell|<around*|(|n+1|)><rsup|n+1>>|<cell|\<less\>>|<cell|<frac|<around*|(|n+2|)><rsup|n+1>|2>>>|<row|<cell|<frac|<around*|(|n+1|)><rsup|n+1>|2<rsup|n>>>|<cell|\<less\>>|<cell|<frac|<around*|(|n+2|)><rsup|n+1>|2<rsup|n+1>>>>|<row|<cell|F<around*|(|2|)>>|<cell|=>|<cell|2!=2>>|<row|<cell|>|<cell|\<less\>>|<cell|<around*|(|<frac|2+1|2>|)><rsup|2>=<frac|9|4>>>|<row|<cell|F<around*|(|n|)>>|<cell|=>|<cell|n!>>|<row|<cell|>|<cell|\<less\>>|<cell|<around*|(|<frac|n+1|2>|)><rsup|n>>>|<row|<cell|F<around*|(|n+1|)>>|<cell|=>|<cell|<around*|(|n+1|)>!>>|<row|<cell|>|<cell|\<less\>>|<cell|<around*|(|<frac|n+1|2>|)><rsup|n>\<times\><around*|(|n+1|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|n+1|)><rsup|n+1>|2<rsup|n>>>>|<row|<cell|>|<cell|\<less\>>|<cell|<frac|<around*|(|n+2|)><rsup|n+1>|2<rsup|n+1>>=<around*|(|<frac|<around*|(|<around*|(|n+1|)>+1|)>|2>|)><rsup|n+1>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
