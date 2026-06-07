@@ -32,6 +32,22 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|1|)>>|<cell|=>|<cell|2<rsup|1-1>>>|<row|<cell|>|<cell|=>|<cell|2<rsup|0>=1>>|<row|<cell|>|<cell|=>|<cell|2<rsup|1>-1=1>>|<row|<cell|F<around*|(|n|)>>|<cell|=>|<cell|2<rsup|n>-1>>|<row|<cell|F<around*|(|n+1|)>>|<cell|=>|<cell|F<around*|(|n|)>+2<rsup|<around*|(|n+1|)>-1>>>|<row|<cell|>|<cell|=>|<cell|2<rsup|n>-1+2<rsup|<around*|(|n+1|)>-1>=2\<times\>2<rsup|n>-1>>|<row|<cell|>|<cell|=>|<cell|2<rsup|n+1>-1>>>>
   </eqnarray*>
+
+  \;
+
+  5:
+
+  \;
+
+  \;
+
+  \;
+
+  6:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|1|)>>|<cell|=>|<cell|<around*|(|1+x<rsub|1>|)>>>|<row|<cell|F<around*|(|2|)>>|<cell|=>|<cell|<around*|(|1+x<rsub|1>|)>*<around*|(|1+x<rsub|2>|)>>>|<row|<cell|>|<cell|=>|<cell|1+x<rsub|1>+x<rsub|2>+x<rsub|1>*x<rsub|2>>>|<row|<cell|>|<cell|>|<cell|x<rsub|1>*x<rsub|2>\<gtr\>0>>|<row|<cell|F<around*|(|2|)>>|<cell|\<gtr\>>|<cell|1+x<rsub|1>+x<rsub|2>>>|<row|<cell|F<around*|(|3|)>>|<cell|=>|<cell|<around*|(|1+x<rsub|1>+x<rsub|2>+x<rsub|1>*x<rsub|2>|)>*<around*|(|1+x<rsub|3>|)>>>|<row|<cell|>|<cell|\<gtr\>>|<cell|<around*|(|1+x<rsub|1>+x<rsub|2>|)>*<around*|(|1+x<rsub|3>|)>=1+x<rsub|1>+x<rsub|2>+x<rsub|3>+x<rsub|1>*x<rsub|3>+x<rsub|2>*x<rsub|3>>>|<row|<cell|>|<cell|>|<cell|x<rsub|1>*x<rsub|3>+x<rsub|2>*x<rsub|3>\<gtr\>0>>|<row|<cell|F<around*|(|3|)>>|<cell|\<gtr\>>|<cell|1+x<rsub|1>+x<rsub|2>+x<rsub|3>>>|<row|<cell|F<around*|(|n|)>>|<cell|\<gtr\>>|<cell|1+x<rsub|1>+x<rsub|2>+\<cdots\>+x<rsub|n>>>|<row|<cell|F<around*|(|n+1|)>>|<cell|\<gtr\>>|<cell|<around*|(|1+x<rsub|1>+x<rsub|2>+\<cdots\>+x<rsub|n>|)>*<around*|(|1+x<rsub|n+1>|)>>>|<row|<cell|>|<cell|=>|<cell|1+x<rsub|1>+x<rsub|2>+\<cdots\>+x<rsub|n>+x<rsub|n+1>+<around*|(|x<rsub|1>+x<rsub|2>+\<cdots\>+x<rsub|n>|)>*x<rsub|n+1>>>|<row|<cell|>|<cell|>|<cell|<around*|(|x<rsub|1>+x<rsub|2>+\<cdots\>+x<rsub|n>|)>*x<rsub|n+1>\<gtr\>0>>|<row|<cell|F<around*|(|n+1|)>>|<cell|\<gtr\>>|<cell|1+x<rsub|1>+x<rsub|2>+\<cdots\>+x<rsub|n>+x<rsub|n+1>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
