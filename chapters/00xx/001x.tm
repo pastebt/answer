@@ -41,6 +41,14 @@
     x<rsub|1>+sin x<rsub|2>=G<around*|(|2|)>>>|<row|<cell|F<around*|(|n|)>>|<cell|\<leqslant\>>|<cell|G<around*|(|n|)>>>|<row|<cell|F<around*|(|n+1|)>>|<cell|=>|<cell|<around*|\||sin<around*|(|<big|sum><rsup|n><rsub|k=1>x<rsub|k>+x<rsub|n+1>|)>|\|>>>|<row|<cell|>|<cell|\<leqslant\>>|<cell|<big|sum><rsup|n><rsub|k=1>sin
     x<rsub|k>+sin x<rsub|n+1>>>|<row|<cell|>|<cell|=>|<cell|G<around*|(|n+1|)>>>>>
   </eqnarray*>
+
+  \;
+
+  10(d):
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|n|)>>|<cell|=>|<cell|<around*|(|2*n|)>!>>|<row|<cell|G<around*|(|n|)>>|<cell|=>|<cell|2<rsup|2*n>*<around*|(|n!|)><rsup|2>>>|<row|<cell|F<around*|(|n|)>>|<cell|=>|<cell|<with|math-display|false|<with|math-display|true|>><big|prod><rsub|i=1><rsup|n><around*|(|2*i-1|)>\<times\><big|prod><rsub|i=1><rsup|n><around*|(|2*i|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|G<around*|(|n|)>>|<cell|=>|<cell|2<rsup|2*n>*<around*|(|n!|)><rsup|2>=<around*|(|2<rsup|n>*n!|)><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<big|prod><rsub|i=1><rsup|n><around*|(|2*i|)>|)><rsup|2>>>|<row|<cell|2*i-1>|<cell|\<less\>>|<cell|2*i>>|<row|<cell|<with|math-display|false|<with|math-display|true|>><big|prod><rsub|i=1><rsup|n><around*|(|2*i-1|)>>|<cell|\<less\>>|<cell|<big|prod><rsub|i=1><rsup|n><around*|(|2*i|)>>>|<row|<cell|<with|math-display|false|<with|math-display|true|>><big|prod><rsub|i=1><rsup|n><around*|(|2*i-1|)>\<times\><big|prod><rsub|i=1><rsup|n><around*|(|2*i|)>>|<cell|\<less\>>|<cell|<around*|(|<big|prod><rsub|i=1><rsup|n><around*|(|2*i|)>|)><rsup|2>>>|<row|<cell|F<around*|(|n|)>>|<cell|\<less\>>|<cell|G<around*|(|n|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
