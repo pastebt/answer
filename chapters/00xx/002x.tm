@@ -3,10 +3,18 @@
 <style|<tuple|generic|chinese>>
 
 <\body>
-  21:
+  21(a):
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|>|<cell|1:>|<cell|x\<gtr\>0,y\<gtr\>0>>|<row|<cell|>|<cell|>|<cell|x=<around*|\||x|\|>,y=<around*|\||y|\|>>>|<row|<cell|<around*|\||x-y|\|>>|<cell|=>|<cell|<around*|\||<around*|\||x|\|>-<around*|\||y|\|>|\|>>>|<row|<cell|>|<cell|2:>|<cell|x\<gtr\>0,y\<less\>0>>|<row|<cell|>|<cell|>|<cell|x=<around*|\||x|\|>,y=-<around*|\||y|\|>>>|<row|<cell|<around*|\||x-y|\|>>|<cell|=>|<cell|<around*|\||<around*|\||x|\|>+<around*|\||y|\|>|\|>\<gtr\><around*|\||<around*|\||x|\|>-<around*|\||y|\|>|\|>>>|<row|<cell|>|<cell|3:>|<cell|x\<less\>0,y\<less\>0>>|<row|<cell|>|<cell|>|<cell|x=-<around*|\||x|\|>,y=-<around*|\||y|\|>>>|<row|<cell|<around*|\||x-y|\|>>|<cell|=>|<cell|<around*|\||-<around*|\||x|\|>+<around*|\||y|\|>|\|>=<around*|\||<around*|\||x|\|>-<around*|\||y|\|>|\|>>>|<row|<cell|>|<cell|4:>|<cell|x\<less\>0,y\<gtr\>0>>|<row|<cell|>|<cell|>|<cell|x=-<around*|\||x|\|>,y=<around*|\||y|\|>>>|<row|<cell|<around*|\||x-y|\|>>|<cell|=>|<cell|<around*|\||-<around*|\||x|\|>-<around*|\||y|\|>|\|>=<around*|\||<around*|\||x|\|>+<around*|\||y|\|>|\|>\<gtr\><around*|\||<around*|\||x|\|>-<around*|\||y|\|>|\|>>>>>
+  </eqnarray*>
+
+  \;
+
+  21(b):
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|\||x+x<rsub|1>+\<cdots\>+x<rsub|n>|\|>>|<cell|\<geqslant\>>|<cell|<around*|\||x|\|>-<around*|\||x<rsub|1>+x<rsub|2>+\<cdots\>+x<rsub|n>|\|>>>|<row|<cell|<around*|\||x<rsub|1>|\|>+<around*|\||x<rsub|2>|\|>+\<cdots\>+<around*|\||x<rsub|n>|\|>>|<cell|\<geqslant\>>|<cell|<around*|\||x<rsub|1>+x<rsub|2>+\<cdots\>+x<rsub|n>|\|>>>|<row|<cell|-<around*|(|<around*|\||x<rsub|1>|\|>+<around*|\||x<rsub|2>|\|>+\<cdots\>+<around*|\||x<rsub|n>|\|>|)>>|<cell|\<leqslant\>>|<cell|-<around*|\||x<rsub|1>+x<rsub|2>+\<cdots\>+x<rsub|n>|\|>>>|<row|<cell|<around*|\||x|\|>-<around*|(|<around*|\||x<rsub|1>|\|>+<around*|\||x<rsub|2>|\|>+\<cdots\>+<around*|\||x<rsub|n>|\|>|)>>|<cell|\<leqslant\>>|<cell|<around*|\||x|\|>-<around*|\||x<rsub|1>+x<rsub|2>+\<cdots\>+x<rsub|n>|\|>>>|<row|<cell|<around*|\||x+x<rsub|1>+\<cdots\>+x<rsub|n>|\|>>|<cell|\<geqslant\>>|<cell|<around*|\||x|\|>-<around*|\||x<rsub|1>+x<rsub|2>+\<cdots\>+x<rsub|n>|\|>>>|<row|<cell|>|<cell|\<geqslant\>>|<cell|<around*|\||x|\|>-<around*|(|<around*|\||x<rsub|1>|\|>+<around*|\||x<rsub|2>|\|>+\<cdots\>+<around*|\||x<rsub|n>|\|>|)>>>>>
   </eqnarray*>
 </body>
 
