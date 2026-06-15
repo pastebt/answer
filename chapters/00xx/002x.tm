@@ -16,6 +16,14 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|<around*|\||x+x<rsub|1>+\<cdots\>+x<rsub|n>|\|>>|<cell|\<geqslant\>>|<cell|<around*|\||x|\|>-<around*|\||x<rsub|1>+x<rsub|2>+\<cdots\>+x<rsub|n>|\|>>>|<row|<cell|<around*|\||x<rsub|1>|\|>+<around*|\||x<rsub|2>|\|>+\<cdots\>+<around*|\||x<rsub|n>|\|>>|<cell|\<geqslant\>>|<cell|<around*|\||x<rsub|1>+x<rsub|2>+\<cdots\>+x<rsub|n>|\|>>>|<row|<cell|-<around*|(|<around*|\||x<rsub|1>|\|>+<around*|\||x<rsub|2>|\|>+\<cdots\>+<around*|\||x<rsub|n>|\|>|)>>|<cell|\<leqslant\>>|<cell|-<around*|\||x<rsub|1>+x<rsub|2>+\<cdots\>+x<rsub|n>|\|>>>|<row|<cell|<around*|\||x|\|>-<around*|(|<around*|\||x<rsub|1>|\|>+<around*|\||x<rsub|2>|\|>+\<cdots\>+<around*|\||x<rsub|n>|\|>|)>>|<cell|\<leqslant\>>|<cell|<around*|\||x|\|>-<around*|\||x<rsub|1>+x<rsub|2>+\<cdots\>+x<rsub|n>|\|>>>|<row|<cell|<around*|\||x+x<rsub|1>+\<cdots\>+x<rsub|n>|\|>>|<cell|\<geqslant\>>|<cell|<around*|\||x|\|>-<around*|\||x<rsub|1>+x<rsub|2>+\<cdots\>+x<rsub|n>|\|>>>|<row|<cell|>|<cell|\<geqslant\>>|<cell|<around*|\||x|\|>-<around*|(|<around*|\||x<rsub|1>|\|>+<around*|\||x<rsub|2>|\|>+\<cdots\>+<around*|\||x<rsub|n>|\|>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  22:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|\||x+1|\|>>|<cell|\<less\>>|<cell|0.01>>|<row|<cell|-0.01\<less\>>|<cell|x+1>|<cell|\<less\>0.01>>|<row|<cell|-0.01-1>|<cell|x>|<cell|\<less\>0.01-1>>|<row|<cell|-1.01\<less\>>|<cell|x>|<cell|\<less\>-0.99>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
