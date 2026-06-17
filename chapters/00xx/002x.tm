@@ -32,6 +32,14 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|<around*|\||x-2|\|>>|<cell|\<geqslant\>>|<cell|10>>|<row|<cell|x-2\<geqslant\>10>|<cell|;>|<cell|x-2\<leqslant\>-10>>|<row|<cell|x\<geqslant\>12>|<cell|;>|<cell|x\<leqslant\>-8>>>>
   </eqnarray*>
+
+  \;
+
+  24:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|>|<cell|<around*|\||x|\|>\<gtr\><around*|\||x+1|\|>>>|<row|<cell|>|<cell|a:>|<cell|x\<gtr\>0\<rightarrow\>x\<gtr\>x+1>>|<row|<cell|>|<cell|b:>|<cell|x\<less\>0>>|<row|<cell|>|<cell|>|<cell|-x\<gtr\><around*|\||x+1|\|>>>|<row|<cell|>|<cell|b<around*|(|1|)>:>|<cell|-x\<gtr\>-<around*|(|x+1|)>>>|<row|<cell|>|<cell|b<around*|(|2|)>:>|<cell|-x\<gtr\>x+1>>|<row|<cell|>|<cell|>|<cell|x\<less\><frac|-1|2>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
