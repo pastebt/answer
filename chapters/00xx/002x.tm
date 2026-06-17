@@ -50,6 +50,16 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|<around*|\||2*x-1|\|>>|<cell|\<less\>>|<cell|<around*|\||x-1|\|>>>|<row|<cell|>|<cell|a:>|<cell|<around*|(|2*x-1|)>\<less\><around*|\||x-1|\|>>>|<row|<cell|>|<cell|a<around*|(|1|)>:>|<cell|2*x-1\<less\>x-1>>|<row|<cell|>|<cell|>|<cell|x\<less\>0\<rightarrow\><around*|\||2*x-1|\|>=-<around*|(|2*x-1|)>>>|<row|<cell|>|<cell|a<around*|(|2|)>:>|<cell|2*x-1\<less\>-x+1>>|<row|<cell|>|<cell|>|<cell|x\<less\><frac|2|3>>>|<row|<cell|>|<cell|b:>|<cell|-<around*|(|2*x-1|)>\<less\><around*|\||x-1|\|>>>|<row|<cell|>|<cell|b<around*|(|1|)>:>|<cell|1-2*x\<less\>x-1>>|<row|<cell|>|<cell|>|<cell|x\<gtr\><frac|2|3>\<rightarrow\>2*x-1\<gtr\>0\<rightarrow\><around*|\||2*x-1|\|>=2*x-1>>|<row|<cell|>|<cell|b<around*|(|2|)>:>|<cell|-<around*|(|2*x-1|)>\<less\>-<around*|(|x-1|)>>>|<row|<cell|>|<cell|>|<cell|1-2*x\<less\>1-x>>|<row|<cell|>|<cell|>|<cell|x\<gtr\>0>>|<row|<cell|>|<cell|>|<cell|0\<less\>x\<less\><frac|2|3>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  26:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|>|<cell|<around*|\||x+2|\|>+<around*|\||x-2|\|>\<leqslant\>12>>|<row|<cell|>|<cell|a:>|<cell|x+2+x-2\<leqslant\>12>>|<row|<cell|>|<cell|>|<cell|2*x\<leqslant\>12>>|<row|<cell|>|<cell|>|<cell|x\<leqslant\>6>>|<row|<cell|>|<cell|b:>|<cell|-<around*|(|x+2|)>-<around*|(|x-2|)>\<leqslant\>12>>|<row|<cell|>|<cell|>|<cell|-2*x\<leqslant\>12>>|<row|<cell|>|<cell|>|<cell|x\<geqslant\>-6>>|<row|<cell|>|<cell|c:>|<cell|-<around*|(|x+2|)>+<around*|(|x-2|)>\<leqslant\>12>>|<row|<cell|>|<cell|>|<cell|-4\<leqslant\>12>>|<row|<cell|>|<cell|d:>|<cell|x+2-<around*|(|x-2|)>\<leqslant\>12>>|<row|<cell|>|<cell|>|<cell|4\<leqslant\>12>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|-6\<leqslant\>x\<leqslant\>6>>|<row|<cell|>|<cell|>|<cell|<around*|\||x|\|>\<leqslant\>6>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
