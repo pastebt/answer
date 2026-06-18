@@ -60,6 +60,14 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|>|<cell|>|<cell|<around*|\||x+2|\|>+<around*|\||x-2|\|>\<leqslant\>12>>|<row|<cell|>|<cell|a:>|<cell|x+2+x-2\<leqslant\>12>>|<row|<cell|>|<cell|>|<cell|2*x\<leqslant\>12>>|<row|<cell|>|<cell|>|<cell|x\<leqslant\>6>>|<row|<cell|>|<cell|b:>|<cell|-<around*|(|x+2|)>-<around*|(|x-2|)>\<leqslant\>12>>|<row|<cell|>|<cell|>|<cell|-2*x\<leqslant\>12>>|<row|<cell|>|<cell|>|<cell|x\<geqslant\>-6>>|<row|<cell|>|<cell|c:>|<cell|-<around*|(|x+2|)>+<around*|(|x-2|)>\<leqslant\>12>>|<row|<cell|>|<cell|>|<cell|-4\<leqslant\>12>>|<row|<cell|>|<cell|d:>|<cell|x+2-<around*|(|x-2|)>\<leqslant\>12>>|<row|<cell|>|<cell|>|<cell|4\<leqslant\>12>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|-6\<leqslant\>x\<leqslant\>6>>|<row|<cell|>|<cell|>|<cell|<around*|\||x|\|>\<leqslant\>6>>>>
   </eqnarray*>
+
+  \;
+
+  27:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|>|<cell|<around*|\||x+2|\|>-<around*|\||x|\|>\<gtr\>1>>|<row|<cell|>|<cell|a:>|<cell|x+2-x\<gtr\>1>>|<row|<cell|>|<cell|b:>|<cell|-<around*|(|x+2|)>+x\<gtr\>1>>|<row|<cell|>|<cell|c:>|<cell|x+2+x\<gtr\>1>>|<row|<cell|>|<cell|>|<cell|2*x\<gtr\>-1>>|<row|<cell|>|<cell|>|<cell|x\<gtr\>-<frac|1|2>>>|<row|<cell|>|<cell|d:>|<cell|x\<gtr\>0\<rightarrow\>-x-2-x\<gtr\>1>>|<row|<cell|>|<cell|>|<cell|-2*x\<gtr\>3>>|<row|<cell|>|<cell|>|<cell|x\<less\><frac|-3|2>\<rightarrow\><around*|\||x|\|>=-x>>|<row|<cell|>|<cell|>|<cell|-<frac|1|2>\<less\>x>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
