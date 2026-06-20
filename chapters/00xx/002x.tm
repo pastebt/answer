@@ -68,6 +68,14 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|>|<cell|>|<cell|<around*|\||x+2|\|>-<around*|\||x|\|>\<gtr\>1>>|<row|<cell|>|<cell|a:>|<cell|x+2-x\<gtr\>1>>|<row|<cell|>|<cell|b:>|<cell|-<around*|(|x+2|)>+x\<gtr\>1>>|<row|<cell|>|<cell|c:>|<cell|x+2+x\<gtr\>1>>|<row|<cell|>|<cell|>|<cell|2*x\<gtr\>-1>>|<row|<cell|>|<cell|>|<cell|x\<gtr\>-<frac|1|2>>>|<row|<cell|>|<cell|d:>|<cell|x\<gtr\>0\<rightarrow\>-x-2-x\<gtr\>1>>|<row|<cell|>|<cell|>|<cell|-2*x\<gtr\>3>>|<row|<cell|>|<cell|>|<cell|x\<less\><frac|-3|2>\<rightarrow\><around*|\||x|\|>=-x>>|<row|<cell|>|<cell|>|<cell|-<frac|1|2>\<less\>x>>>>
   </eqnarray*>
+
+  \;
+
+  28:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|>|<cell|<around*|\||<around*|\||x+1|\|>-<around*|\||x-1|\|>|\|>\<less\>1>>|<row|<cell|>|<cell|a:>|<cell|<around*|\||x+1|\|>-<around*|\||x-1|\|>\<less\>1>>|<row|<cell|>|<cell|a<around*|(|1|)>:>|<cell|x+1+x-1\<less\>1>>|<row|<cell|>|<cell|>|<cell|2*x\<less\>1>>|<row|<cell|>|<cell|>|<cell|x\<less\><frac|1|2>>>|<row|<cell|>|<cell|a<around*|(|2|)>:>|<cell|-<around*|(|x+1|)>-<around*|(|x-1|)>\<less\>1>>|<row|<cell|>|<cell|>|<cell|-2*x\<less\>1>>|<row|<cell|>|<cell|>|<cell|x\<gtr\>-<frac|1|2>>>|<row|<cell|>|<cell|b:>|<cell|<around*|\||x+1|\|>-<around*|\||x-1|\|>\<gtr\>-1>>|<row|<cell|>|<cell|b<around*|(|1|)>:>|<cell|x+1+x-1\<gtr\>-1>>|<row|<cell|>|<cell|>|<cell|x\<gtr\>-<frac|1|2>>>|<row|<cell|>|<cell|b<around*|(|2|)>:>|<cell|-<around*|(|x+1|)>-<around*|(|x-1|)>\<gtr\>-1>>|<row|<cell|>|<cell|>|<cell|-2*x\<gtr\>-1>>|<row|<cell|>|<cell|>|<cell|x\<less\><frac|1|2>>>|<row|<cell|>|<cell|>|<cell|-<frac|1|2>\<less\>x\<less\><frac|1|2>>>|<row|<cell|>|<cell|>|<cell|<around*|\||x|\|>\<less\><frac|1|2>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
