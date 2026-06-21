@@ -76,6 +76,16 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|>|<cell|>|<cell|<around*|\||<around*|\||x+1|\|>-<around*|\||x-1|\|>|\|>\<less\>1>>|<row|<cell|>|<cell|a:>|<cell|<around*|\||x+1|\|>-<around*|\||x-1|\|>\<less\>1>>|<row|<cell|>|<cell|a<around*|(|1|)>:>|<cell|x+1+x-1\<less\>1>>|<row|<cell|>|<cell|>|<cell|2*x\<less\>1>>|<row|<cell|>|<cell|>|<cell|x\<less\><frac|1|2>>>|<row|<cell|>|<cell|a<around*|(|2|)>:>|<cell|-<around*|(|x+1|)>-<around*|(|x-1|)>\<less\>1>>|<row|<cell|>|<cell|>|<cell|-2*x\<less\>1>>|<row|<cell|>|<cell|>|<cell|x\<gtr\>-<frac|1|2>>>|<row|<cell|>|<cell|b:>|<cell|<around*|\||x+1|\|>-<around*|\||x-1|\|>\<gtr\>-1>>|<row|<cell|>|<cell|b<around*|(|1|)>:>|<cell|x+1+x-1\<gtr\>-1>>|<row|<cell|>|<cell|>|<cell|x\<gtr\>-<frac|1|2>>>|<row|<cell|>|<cell|b<around*|(|2|)>:>|<cell|-<around*|(|x+1|)>-<around*|(|x-1|)>\<gtr\>-1>>|<row|<cell|>|<cell|>|<cell|-2*x\<gtr\>-1>>|<row|<cell|>|<cell|>|<cell|x\<less\><frac|1|2>>>|<row|<cell|>|<cell|>|<cell|-<frac|1|2>\<less\>x\<less\><frac|1|2>>>|<row|<cell|>|<cell|>|<cell|<around*|\||x|\|>\<less\><frac|1|2>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  29:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|>|<cell|<around*|\||x*<around*|(|1-x|)>|\|>\<less\>0.05>>|<row|<cell|>|<cell|a:>|<cell|x*<around*|(|1-x|)>\<less\>0.05>>|<row|<cell|>|<cell|>|<cell|x-x<rsup|2>\<less\>0.05>>|<row|<cell|>|<cell|>|<cell|x<rsup|2>-x+0.05\<gtr\>0>>|<row|<cell|>|<cell|>|<cell|<around*|(|x-<frac|1|2>|)><rsup|2>-<frac|1|4>+0.05\<gtr\>0>>|<row|<cell|>|<cell|>|<cell|<around*|(|x-<frac|1|2>|)><rsup|2>\<gtr\>0.2>>|<row|<cell|>|<cell|>|<cell|x-<frac|1|2>\<gtr\><sqrt|0.2>,x-<frac|1|2>\<less\>-<sqrt|0.2>>>|<row|<cell|>|<cell|>|<cell|x\<gtr\><frac|1|2>+<sqrt|0.2>,x\<less\><frac|1|2>-<sqrt|0.2>>>|<row|<cell|>|<cell|b:>|<cell|x*<around*|(|1-x|)>\<gtr\>-0.05>>|<row|<cell|>|<cell|>|<cell|x<rsup|2>-x-0.05\<less\>0>>|<row|<cell|>|<cell|>|<cell|<around*|(|x-<frac|1|2>|)><rsup|2>-<frac|1|4>-0.05\<less\>0>>|<row|<cell|>|<cell|>|<cell|<around*|(|x-<frac|1|2>|)><rsup|2>\<less\>0.3>>|<row|<cell|>|<cell|>|<cell|x-<frac|1|2>\<less\><sqrt|0.3>,x-<frac|1|2>\<gtr\>-<sqrt|0.3>>>|<row|<cell|>|<cell|>|<cell|x\<less\><frac|1|2>+<sqrt|0.3>,x\<gtr\><frac|1|2>-<sqrt|0.3>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|a\<wedge\>b:>|<cell|<frac|1|2>+<sqrt|0.2>\<less\>x\<less\><frac|1|2>+<sqrt|0.3>;<frac|1|2>-<sqrt|0.3>\<less\>x\<less\><frac|1|2>-<sqrt|0.2>>>|<row|<cell|>|<cell|>|<cell|<frac|5+<sqrt|20>|10>\<less\>x\<less\><frac|5+<sqrt|30>|10>;<frac|5-<sqrt|30>|10>\<less\>x\<less\><frac|5-<sqrt|20>|10>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
