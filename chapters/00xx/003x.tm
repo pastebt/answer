@@ -37,6 +37,15 @@
     <tformat|<table|<row|<cell|x>|<cell|=>|<cell|12.125>>|<row|<cell|\<Delta\>=<around*|\||x-a|\|>>|<cell|\<less\>>|<cell|0.05>>|<row|<cell|>|<cell|>|<cell|<around*|\||12.125-a|\|>\<less\>0.05>>|<row|<cell|>|<cell|>|<cell|-0.05\<less\>12.125-a\<less\>0.05>>|<row|<cell|>|<cell|>|<cell|-12.125-0.05\<less\>-a\<less\>0.05-12.125>>|<row|<cell|>|<cell|>|<cell|-12.175\<less\>-a\<less\>-12.075>>|<row|<cell|>|<cell|>|<cell|12.175\<gtr\>a\<gtr\>12.075>>|<row|<cell|\<b-delta\>>|<cell|=>|<cell|<frac|\<Delta\>|<around*|\||a|\|>>\<less\><frac|0.005|<around*|\||a|\|>>>>|<row|<cell|>|<cell|>|<cell|<frac|0.005|12.175>=0.00410\<gtr\>\<b-delta\>>>|<row|<cell|\<b-delta\>>|<cell|\<less\>>|<cell|0.41/100>>>>
   </eqnarray*>
 
+  \;
+
+  34:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|>|<cell|<around*|(|2.50-0.01|)>\<times\><around*|(|4.0-0.02|)>\<leqslant\>S\<leqslant\><around*|(|2.50+0.01|)>\<times\><around*|(|4.0+0.02|)>>>|<row|<cell|>|<cell|>|<cell|9.9102
+    cm<rsup|2>\<leqslant\>S\<leqslant\>10.0902 cm<rsup|2>>>>>
+  </eqnarray*>
+
   <\eqnarray*>
     <tformat|<table|<row|<cell|>|<cell|>|<cell|>>>>
   </eqnarray*>
