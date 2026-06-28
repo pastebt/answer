@@ -43,7 +43,8 @@
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|>|<cell|>|<cell|<around*|(|2.50-0.01|)>\<times\><around*|(|4.0-0.02|)>\<leqslant\>S\<leqslant\><around*|(|2.50+0.01|)>\<times\><around*|(|4.0+0.02|)>>>|<row|<cell|>|<cell|>|<cell|9.9102
-    cm<rsup|2>\<leqslant\>S\<leqslant\>10.0902 cm<rsup|2>>>>>
+    cm<rsup|2>\<leqslant\>S\<leqslant\>10.0902
+    cm<rsup|2>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|10-9.9102=0.0898>>|<row|<cell|>|<cell|>|<cell|10.0902-10=0.0902>>|<row|<cell|>|<cell|>|<cell|\<Delta\>\<leqslant\>0.0902>>|<row|<cell|>|<cell|>|<cell|\<delta\>\<leqslant\><frac|\<Delta\>|10>=0.00902=0.902/100>>|<row|<cell|>|<cell|>|<cell|>>>>
   </eqnarray*>
 
   <\eqnarray*>
