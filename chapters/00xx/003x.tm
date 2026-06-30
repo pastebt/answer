@@ -44,7 +44,20 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|>|<cell|>|<cell|<around*|(|2.50-0.01|)>\<times\><around*|(|4.0-0.02|)>\<leqslant\>S\<leqslant\><around*|(|2.50+0.01|)>\<times\><around*|(|4.0+0.02|)>>>|<row|<cell|>|<cell|>|<cell|9.9102
     cm<rsup|2>\<leqslant\>S\<leqslant\>10.0902
-    cm<rsup|2>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|10-9.9102=0.0898>>|<row|<cell|>|<cell|>|<cell|10.0902-10=0.0902>>|<row|<cell|>|<cell|>|<cell|\<Delta\>\<leqslant\>0.0902>>|<row|<cell|>|<cell|>|<cell|\<delta\>\<leqslant\><frac|\<Delta\>|10>=0.00902=0.902/100>>|<row|<cell|>|<cell|>|<cell|>>>>
+    cm<rsup|2>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|10-9.9102=0.0898>>|<row|<cell|>|<cell|>|<cell|10.0902-10=0.0902>>|<row|<cell|>|<cell|>|<cell|\<Delta\>\<leqslant\>0.0902>>|<row|<cell|>|<cell|>|<cell|\<delta\>\<leqslant\><frac|\<Delta\>|10>=0.00902=0.902/100>>>>
+  </eqnarray*>
+
+  \;
+
+  35:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|m>|<cell|=>|<cell|<frac|P|v>>>|<row|<cell|>|<cell|=>|<cell|<frac|12.59
+    \<b-up-g\>|3.2 cm<rsup|3>>=3.934>>|<row|<cell|m<rsub|1>>|<cell|=>|<cell|<frac|12.59-0.01
+    \<b-up-g\>|3.2+0.2 cm<rsup|3>>=<frac|12.58|3.4>=3.7>>|<row|<cell|m<rsub|2>>|<cell|=>|<cell|<frac|12.59+0.01
+    \<b-up-g\>|3.2-0.2 cm<rsup|3>>=<frac|12.6|3.0>=4.2>>|<row|<cell|m<rsub|3>>|<cell|=>|<cell|<frac|12.59-0.01
+    \<b-up-g\>|3.2-0.2 cm<rsup|3>>=<frac|12.58|3.0>=4.193>>|<row|<cell|m<rsub|4>>|<cell|=>|<cell|<frac|12.59+0.01
+    \<b-up-g\>|3.2+0.2 cm<rsup|3>>=<frac|12.6|3.4>=3.706>>>>
   </eqnarray*>
 
   <\eqnarray*>

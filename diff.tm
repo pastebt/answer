@@ -11,6 +11,14 @@
 
   \;
 
+  34:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|0.91/100>|<cell|\<neq\>>|<cell|0.902/100>>>>
+  </eqnarray*>
+
+  \;
+
   \;
 
   1634:
