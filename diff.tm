@@ -350,6 +350,23 @@
     <tformat|<table|<row|<cell|<frac|x<rsup|3>|3>+<frac|2|3>*sgn
     x>|<cell|\<neq\>>|<cell|<frac|x<rsup|3>|3>>>>>
   </eqnarray*>
+
+  \;
+
+  2172:
+
+  \;
+
+  2173:
+
+  \;
+
+  2174:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|x-<frac|x|2>*<around*|\||x|\|>+<frac|1|6> sgn
+    x>|<cell|\<neq\>>|<cell|x-<frac|x|2>*<around*|\||x|\|>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
