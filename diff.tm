@@ -333,6 +333,23 @@
     x>|<cell|\<neq\>>|<cell|<frac|x<rsup|2>-1|4*<around*|(|1+x<rsup|2>|)>>*arctan
     x+<frac|x|4*<around*|(|1+x<rsup|2>|)>>>>>>
   </eqnarray*>
+
+  \;
+
+  2170:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|e<rsup|x>-1>|<cell|\<neq\>>|<cell|e<rsup|x>>>>>
+  </eqnarray*>
+
+  \;
+
+  2171:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|x<rsup|3>|3>+<frac|2|3>*sgn
+    x>|<cell|\<neq\>>|<cell|<frac|x<rsup|3>|3>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
