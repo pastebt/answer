@@ -75,6 +75,15 @@
     v=u*v-<big|int>v*d u>>|<row|<cell|>|<cell|=>|<cell|x*f<rprime|'><around*|(|x|)>-<big|int>f<rprime|'><around*|(|x|)>*d
     x>>|<row|<cell|>|<cell|=>|<cell|x*f<rprime|'><around*|(|x|)>-f<around*|(|x|)>>>>>
   </eqnarray*>
+
+  \;
+
+  2177:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>f<rprime|'><around*|(|2*x|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<big|int>f<rprime|'><around*|(|2*x|)>*d<around*|(|2*x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*f<around*|(|2*x|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
