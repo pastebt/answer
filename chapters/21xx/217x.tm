@@ -52,6 +52,17 @@
   </eqnarray*>
 
   \;
+
+  \;
+
+  2175:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|1.>|<cell|-\<infty\>\<less\>x\<less\>0>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>d
+    x=x>>|<row|<cell|>|<cell|2.>|<cell|0\<leqslant\>x\<leqslant\>1>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><around*|(|x+1|)>*d
+    x=<frac|x<rsup|2>|2>+x>>|<row|<cell|>|<cell|3.>|<cell|1\<less\>x\<less\>+\<infty\>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>2*x*d
+    x=x<rsup|2>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
