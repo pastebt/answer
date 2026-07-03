@@ -63,6 +63,18 @@
     x=<frac|x<rsup|2>|2>+x>>|<row|<cell|>|<cell|3.>|<cell|1\<less\>x\<less\>+\<infty\>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>2*x*d
     x=x<rsup|2>>>>>
   </eqnarray*>
+
+  \;
+
+  2176:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>x*f<rprime|''><around*|(|x|)>*d
+    x>>|<row|<cell|>|<cell|>|<cell|u=x,d v=f<rprime|''><around*|(|x|)>*d
+    x,v=f<rprime|'><around*|(|x|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u>>|<row|<cell|>|<cell|=>|<cell|x*f<rprime|'><around*|(|x|)>-<big|int>f<rprime|'><around*|(|x|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|x*f<rprime|'><around*|(|x|)>-f<around*|(|x|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
