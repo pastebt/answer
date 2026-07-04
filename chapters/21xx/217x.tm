@@ -84,6 +84,17 @@
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>f<rprime|'><around*|(|2*x|)>*d
     x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<big|int>f<rprime|'><around*|(|2*x|)>*d<around*|(|2*x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*f<around*|(|2*x|)>>>>>
   </eqnarray*>
+
+  \;
+
+  2178:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|f<rprime|'><around*|(|x<rsup|2>|)>>|<cell|=>|<cell|<frac|1|x>>>|<row|<cell|y>|<cell|=>|<cell|x<rsup|2>>>|<row|<cell|f<rprime|'><around*|(|y|)>>|<cell|=>|<cell|<frac|1|<sqrt|y>>>>|<row|<cell|<big|int>f<rprime|'><around*|(|y|)>*d
+    y>|<cell|=>|<cell|<big|int>y<rsup|-<frac|1|2>>*d
+    y=2*y<rsup|<frac|1|2>>=2*<sqrt|y>>>|<row|<cell|<big|int>f<rprime|'><around*|(|y|)>*d
+    y>|<cell|=>|<cell|f<around*|(|y|)>>>|<row|<cell|f<around*|(|x|)>>|<cell|=>|<cell|2*<sqrt|x>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
