@@ -95,6 +95,19 @@
     y=2*y<rsup|<frac|1|2>>=2*<sqrt|y>>>|<row|<cell|<big|int>f<rprime|'><around*|(|y|)>*d
     y>|<cell|=>|<cell|f<around*|(|y|)>>>|<row|<cell|f<around*|(|x|)>>|<cell|=>|<cell|2*<sqrt|x>>>>>
   </eqnarray*>
+
+  \;
+
+  2179(a):
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|f<rprime|'><around*|(|sin<rsup|2>
+    x|)>>|<cell|=>|<cell|cos<rsup|2> x>>|<row|<cell|>|<cell|=>|<cell|1-sin<rsup|2>
+    x>>|<row|<cell|>|<cell|>|<cell|y=sin<rsup|2>
+    x>>|<row|<cell|f<rprime|'><around*|(|y|)>>|<cell|=>|<cell|1-y>>|<row|<cell|<big|int>f<rprime|'><around*|(|y|)>*d
+    y>|<cell|=>|<cell|f<around*|(|y|)>>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|1-y|)>*d
+    y>>|<row|<cell|>|<cell|=>|<cell|y-<frac|y<rsup|2>|2>>>|<row|<cell|f<around*|(|x|)>>|<cell|=>|<cell|x-<frac|1|2>*x<rsup|2>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
