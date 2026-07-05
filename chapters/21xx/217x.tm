@@ -108,6 +108,21 @@
     y>|<cell|=>|<cell|f<around*|(|y|)>>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|1-y|)>*d
     y>>|<row|<cell|>|<cell|=>|<cell|y-<frac|y<rsup|2>|2>>>|<row|<cell|f<around*|(|x|)>>|<cell|=>|<cell|x-<frac|1|2>*x<rsup|2>>>>>
   </eqnarray*>
+
+  \;
+
+  2179(b):
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|a:>|<cell|0\<less\>x\<leqslant\>1>>|<row|<cell|f<rprime|'><around*|(|l
+    n x|)>>|<cell|=>|<cell|1>>|<row|<cell|>|<cell|>|<cell|y=l n
+    x>>|<row|<cell|f<rprime|'><around*|(|y|)>>|<cell|=>|<cell|1>>|<row|<cell|<big|int>f<rprime|'><around*|(|y|)>*d
+    y>|<cell|=>|<cell|f<around*|(|y|)>>>|<row|<cell|>|<cell|=>|<cell|<big|int>d
+    y=y>>|<row|<cell|f<around*|(|x|)>>|<cell|=>|<cell|x>>|<row|<cell|>|<cell|b:>|<cell|1\<less\>x\<less\>+\<infty\>>>|<row|<cell|f<rprime|'><around*|(|l
+    n x|)>>|<cell|=>|<cell|x>>|<row|<cell|f<rprime|'><around*|(|y|)>>|<cell|=>|<cell|e<rsup|y>>>|<row|<cell|<big|int>f<rprime|'><around*|(|y|)>*d
+    y>|<cell|=>|<cell|f<around*|(|y|)>>>|<row|<cell|>|<cell|=>|<cell|<big|int>e<rsup|y>*d
+    y=e<rsup|y>>>|<row|<cell|f<around*|(|0|)>>|<cell|=>|<cell|0>>|<row|<cell|f<around*|(|x|)>>|<cell|=>|<cell|e<rsup|x>-1>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
