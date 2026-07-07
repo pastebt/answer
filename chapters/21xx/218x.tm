@@ -18,7 +18,9 @@
 
   \;
 
-  2180(1):
+  \;
+
+  2180(a):
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|f<around*|(|x|)>>|<cell|=>|<cell|x<rsup|n><space|1em><around*|(|n\<gtr\>0|)>>>|<row|<cell|f<rsup|-1><around*|(|x|)>>|<cell|=>|<cell|x<rsup|<frac|1|n>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>f<around*|(|x|)>*d
