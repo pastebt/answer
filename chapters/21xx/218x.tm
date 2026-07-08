@@ -29,6 +29,20 @@
     x>|<cell|=>|<cell|<big|int>x<rsup|<frac|1|n>>*d
     x=<frac|n|n+1>*x<rsup|<frac|n+1|n>>>>|<row|<cell|>|<cell|=>|<cell|x*f<rsup|-1><around*|(|x|)>-F<around*|(|f<rsup|-1><around*|(|x|)>|)>>>|<row|<cell|>|<cell|=>|<cell|x\<times\>x<rsup|<frac|1|n>>-<frac|1|n+1><around*|(|x<rsup|<frac|1|n>>|)><rsup|n+1>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|n+1>*<around*|(|<around*|(|n+1|)>*x<rsup|<frac|n+1|n>>-x<rsup|<frac|n+1|n>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|n|n+1>*x<rsup|<frac|n+1|n>>>>>>
   </eqnarray*>
+
+  \;
+
+  2180(b):
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|f<around*|(|x|)>>|<cell|=>|<cell|e<rsup|x>>>|<row|<cell|f<rsup|-1><around*|(|x|)>>|<cell|=>|<cell|l
+    n x>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>f<around*|(|x|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int>e<rsup|x>*d
+    x=e<rsup|x>>>|<row|<cell|<big|int>f<rsup|-1><around*|(|x|)>*d
+    x>|<cell|=>|<cell|x*f<rsup|-1><around*|(|x|)>-F<around*|(|f<rsup|-1><around*|(|x|)>|)>>>|<row|<cell|>|<cell|=>|<cell|x*l
+    n x-e<rsup|l n x>=x*l n x-x>>|<row|<cell|<around*|(|x*l n
+    x-x|)><rprime|'>>|<cell|=>|<cell|x\<times\><frac|1|x>+l n x-1=l n x>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
