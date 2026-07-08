@@ -43,6 +43,28 @@
     n x-e<rsup|l n x>=x*l n x-x>>|<row|<cell|<around*|(|x*l n
     x-x|)><rprime|'>>|<cell|=>|<cell|x\<times\><frac|1|x>+l n x-1=l n x>>>>
   </eqnarray*>
+
+  \;
+
+  2180(c):
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|f<around*|(|x|)>>|<cell|=>|<cell|arcsin
+    x>>|<row|<cell|f<rsup|-1><around*|(|x|)>>|<cell|=>|<cell|sin
+    x>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>f<around*|(|x|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int>arcsin x*d
+    x>>|<row|<cell|>|<cell|>|<cell|u=arcsin x,d v=d
+    x,v=x>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u>>|<row|<cell|>|<cell|=>|<cell|x*arcsin
+    x-<big|int>x*d<around*|(|arcsin x|)>>>|<row|<cell|>|<cell|=>|<cell|x*arcsin
+    x-<big|int><frac|x|<sqrt|1-x<rsup|2>>>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|x*arcsin
+    x+<sqrt|1-x<rsup|2>>>>|<row|<cell|<big|int>f<rsup|-1><around*|(|x|)>>|<cell|=>|<cell|x*f<rsup|-1><around*|(|x|)>-F<around*|(|f<rsup|-1><around*|(|x|)>|)>>>|<row|<cell|>|<cell|=>|<cell|x*sin
+    x-sin x*<around*|(|arcsin <around*|(|sin x|)>|)>-<sqrt|1-sin<rsup|2>
+    x>>>|<row|<cell|>|<cell|=>|<cell|x*sin x-x*sin x-<sqrt|cos<rsup|2>
+    x>>>|<row|<cell|>|<cell|=>|<cell|-cos
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int>sin x*d x>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
