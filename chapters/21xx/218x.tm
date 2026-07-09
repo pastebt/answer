@@ -65,6 +65,32 @@
     x>>>|<row|<cell|>|<cell|=>|<cell|-cos
     x>>|<row|<cell|>|<cell|=>|<cell|<big|int>sin x*d x>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2180(d):
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|f<around*|(|x|)>>|<cell|=>|<cell|artanh
+    x>>|<row|<cell|f<rsup|-1><around*|(|x|)>>|<cell|=>|<cell|tanh
+    x>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>f<around*|(|x|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<big|int>artanh x*d
+    x>>|<row|<cell|>|<cell|>|<cell|u=artanh x,d v=d
+    x,v=x>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u>>|<row|<cell|>|<cell|=>|<cell|x*artanh
+    x-<big|int>x*d<around*|(|artanh x|)>>>|<row|<cell|>|<cell|=>|<cell|x*artanh
+    x-<big|int><frac|x*d x|1-x<rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|x*artanh
+    x+<frac|1|2>*l n<around*|(|1-x<rsup|2>|)>>>|<row|<cell|<big|int>f<rsup|-1><around*|(|x|)>>|<cell|=>|<cell|x*f<rsup|-1><around*|(|x|)>-F<around*|(|f<rsup|-1><around*|(|x|)>|)>>>|<row|<cell|>|<cell|=>|<cell|x*tanh
+    x-<around*|(|tanh x*artanh<around*|(|tanh x|)>+<frac|1|2>*l
+    n<around*|(|1-tanh<rsup|2> x|)>|)>>>|<row|<cell|>|<cell|=>|<cell|x*tanh
+    x-x*tanh x-<frac|1|2>*l n<around*|(|1-<frac|sinh<rsup|2> x|cosh<rsup|2>
+    x>|)>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|2>*l
+    n<around*|(|<frac|1|cosh<rsup|2> x>|)>=l n<around*|(|cosh
+    x|)>>>|<row|<cell|<big|int>tanh<around*|(|a*x|)>*d
+    x>|<cell|=>|<cell|<frac|1|a>*l n<around*|(|cosh<around*|(|a*x|)>|)>+C>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
