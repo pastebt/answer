@@ -91,6 +91,16 @@
     x|)>>>|<row|<cell|<big|int>tanh<around*|(|a*x|)>*d
     x>|<cell|=>|<cell|<frac|1|a>*l n<around*|(|cosh<around*|(|a*x|)>|)>+C>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2181:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F>|<cell|=>|<cell|<big|sum><rsup|n-1><rsub|i=0>f<around*|(|\<xi\><rsub|i>|)>*\<Delta\>*x<rsub|i>>>|<row|<cell|>|<cell|>|<cell|-1\<leqslant\>x\<leqslant\>4>>|<row|<cell|\<xi\><rsub|i>>|<cell|=>|<cell|-1+<frac|4-<around*|(|-1|)>|n>*<around*|(|i+<frac|1|2>|)>>>|<row|<cell|\<Delta\>*x<rsub|i>>|<cell|=>|<cell|<frac|4-<around*|(|-1|)>|n>>>|<row|<cell|f<around*|(|x|)>>|<cell|=>|<cell|1+x>>|<row|<cell|F>|<cell|=>|<cell|<big|sum><rsub|i=0><rsup|n-1><around*|(|1+<around*|(|-1+<frac|5|n>*<around*|(|i+<frac|1|2>|)>|)>|)>\<times\><frac|5|n>>>|<row|<cell|>|<cell|=>|<cell|<big|sum><rsub|i=0><rsup|n-1><around*|(|<frac|25|2*n<rsup|2>>+<frac|25*i|n<rsup|2>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|25|2*n>+<frac|25|n<rsup|2>>\<times\><big|sum><rsub|i=0><rsup|n-1>i>>|<row|<cell|>|<cell|=>|<cell|<frac|25|2*n>+<frac|25|n<rsup|2>>\<times\><frac|n*<around*|(|n-1|)>|2>>>|<row|<cell|>|<cell|=>|<cell|<frac|25|2*n>+<frac|25*<around*|(|n-1|)>|2*n>=<frac|25|2>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
