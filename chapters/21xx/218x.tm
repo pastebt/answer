@@ -121,6 +121,16 @@
     <tformat|<table|<row|<cell|f<around*|(|x|)>>|<cell|=>|<cell|<sqrt|x><space|2em><around*|(|0\<leqslant\>x\<leqslant\>1|)>>>|<row|<cell|<wide*|S|\<wide-bar\>><rsub|n>>|<cell|=>|<cell|<big|sum><rsub|k=0><rsup|n-1>f<around*|(|\<xi\><rsub|k>|)>*\<Delta\>
     x<rsub|k>>>|<row|<cell|\<xi\><rsub|k>>|<cell|=>|<cell|<frac|k|n>>>|<row|<cell|<wide*|S|\<wide-bar\>><rsub|n>>|<cell|=>|<cell|<big|sum><rsub|k=0><rsup|n-1><sqrt|<frac|k|n>>\<times\><frac|1|n>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|n>*<big|sum><rsub|k=0><rsup|n-1><sqrt|<frac|k|n>>>>|<row|<cell|<wide|S|\<wide-bar\>><rsub|n>>|<cell|=>|<cell|<frac|1|n>*<big|sum><rsub|k=1><rsup|n><sqrt|<frac|k|n>>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2182(c):
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|f<around*|(|x|)>>|<cell|=>|<cell|2<rsup|x><space|2em><around*|(|0\<leqslant\>x\<leqslant\>10|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
