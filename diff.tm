@@ -375,6 +375,10 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|x<rsup|2>+<frac|1|2>>|<cell|\<neq\>>|<cell|x<rsup|2>>>>>
   </eqnarray*>
+
+  \;
+
+  2182(c):
 </body>
 
 <\initial>
