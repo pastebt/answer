@@ -131,6 +131,20 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|f<around*|(|x|)>>|<cell|=>|<cell|2<rsup|x><space|2em><around*|(|0\<leqslant\>x\<leqslant\>10|)>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2184:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|T><around*|(|v<rsub|0>+g*t|)>*d
+    t>>|<row|<cell|f<rsub|1><around*|(|t|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|T>v<rsub|0>*d
+    t>>|<row|<cell|>|<cell|=>|<cell|<big|sum><rsub|i=0><rsup|n-1>v<rsub|0>*<frac|T|n>=v<rsub|0>*<big|sum><rsub|i=0><rsup|n-1><frac|T|n>=v<rsub|0>*T>>|<row|<cell|f<rsub|2><around*|(|t|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|T>g*t*d
+    t=g*<big|int><rsub|0><rsup|T>t*d t>>|<row|<cell|>|<cell|=>|<cell|g*<big|sum><rsub|i=0><rsup|n-1><frac|i*T|n>\<times\><frac|T|n>=<frac|g*T<rsup|2>|n<rsup|2>>\<times\><frac|<around*|(|n-1|)>*<around*|(|n-2|)>|2>>>|<row|<cell|>|<cell|=>|<cell|<frac|g*T<rsup|2>|2>\<times\><frac|<around*|(|n-1|)>*<around*|(|n-2|)>|n<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|lim<rsub|n-\<infty\>>
+    <frac|<around*|(|n-1|)>*<around*|(|n-2|)>|n<rsup|2>>=1>>|<row|<cell|f<rsub|2><around*|(|t|)>>|<cell|=>|<cell|<frac|g*T<rsup|2>|2>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|v<rsub|0>*T+<frac|g*T<rsup|2>|2>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
