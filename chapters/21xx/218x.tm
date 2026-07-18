@@ -142,8 +142,24 @@
     <tformat|<table|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|T><around*|(|v<rsub|0>+g*t|)>*d
     t>>|<row|<cell|f<rsub|1><around*|(|t|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|T>v<rsub|0>*d
     t>>|<row|<cell|>|<cell|=>|<cell|<big|sum><rsub|i=0><rsup|n-1>v<rsub|0>*<frac|T|n>=v<rsub|0>*<big|sum><rsub|i=0><rsup|n-1><frac|T|n>=v<rsub|0>*T>>|<row|<cell|f<rsub|2><around*|(|t|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|T>g*t*d
-    t=g*<big|int><rsub|0><rsup|T>t*d t>>|<row|<cell|>|<cell|=>|<cell|g*<big|sum><rsub|i=0><rsup|n-1><frac|i*T|n>\<times\><frac|T|n>=<frac|g*T<rsup|2>|n<rsup|2>>\<times\><frac|<around*|(|n-1|)>*<around*|(|n-2|)>|2>>>|<row|<cell|>|<cell|=>|<cell|<frac|g*T<rsup|2>|2>\<times\><frac|<around*|(|n-1|)>*<around*|(|n-2|)>|n<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|lim<rsub|n-\<infty\>>
-    <frac|<around*|(|n-1|)>*<around*|(|n-2|)>|n<rsup|2>>=1>>|<row|<cell|f<rsub|2><around*|(|t|)>>|<cell|=>|<cell|<frac|g*T<rsup|2>|2>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|v<rsub|0>*T+<frac|g*T<rsup|2>|2>>>>>
+    t=g*<big|int><rsub|0><rsup|T>t*d t>>|<row|<cell|>|<cell|=>|<cell|g*<big|sum><rsub|i=0><rsup|n-1><frac|i*T|n>\<times\><frac|T|n>=<frac|g*T<rsup|2>|n<rsup|2>>\<times\><frac|<around*|(|n-1|)>*n|2>>>|<row|<cell|>|<cell|=>|<cell|<frac|g*T<rsup|2>|2>\<times\><frac|<around*|(|n-1|)>*n|n<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
+    <frac|n-1|n>=1-lim<rsub|n\<rightarrow\>\<infty\>>
+    <frac|1|n>=1>>|<row|<cell|f<rsub|2><around*|(|t|)>>|<cell|=>|<cell|<frac|g*T<rsup|2>|2>>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|v<rsub|0>*T+<frac|g*T<rsup|2>|2>>>>>
+  </eqnarray*>
+
+  \;
+
+  \;
+
+  2185:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|-1><rsup|2>x<rsup|2>*d
+    x>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|-1><rsup|0>x<rsup|2>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
+    <big|sum><rsub|i=0><rsup|n-1><around*|(|-1+<frac|i|n>\<times\>1|)><rsup|2>\<times\><frac|1|n>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>><around*|(|<frac|1|n>
+    <big|sum><rsub|i=0><rsup|n-1><around*|(|<frac|i<rsup|2>|n<rsup|2>>-<frac|2*i|n>+1|)>|)>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>><around*|(|<frac|1|n>*<around*|(|<frac|1|n<rsup|2>>\<times\><frac|<around*|(|n-1|)>*n*<around*|(|2*n-1|)>|6>|)>-<frac|2|n>\<times\><frac|<around*|(|n-1|)>*n|2>+n|)>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>><around*|(|<frac|2*n<rsup|2>-3*n+1|6*n<rsup|2>>-<frac|n-1|n>+1|)>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>><around*|(|<frac|1|3>-<frac|1|2*n>+<frac|1|6*n<rsup|2>>+<frac|1|n>|)>=<frac|1|3>>>|<row|<cell|f<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|2>x<rsup|2>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>><around*|(|<big|sum><rsub|i=0><rsup|n-1><around*|(|0+2\<times\><frac|i|n>|)><rsup|2>\<times\><frac|2|n>|)>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>><around*|(|<frac|8|n<rsup|3>>*<big|sum><rsub|i=0><rsup|n-1>i<rsup|2>|)>=lim<rsub|n\<rightarrow\>\<infty\>><around*|(|<frac|8|n<rsup|3>>\<times\><frac|<around*|(|n-1|)>*n*<around*|(|2*n-1|)>|6>|)>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>><around*|(|<frac|4|3>\<times\><frac|2*n<rsup|2>-3*n+1|n<rsup|2>>|)>=lim<rsub|n\<rightarrow\>\<infty\>><around*|(|<frac|8|3>-<frac|12|n>+<frac|4|n<rsup|2>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|8|3>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|f<rsub|1><around*|(|x|)>+f<rsub|2><around*|(|x|)>=<frac|1|3>+<frac|8|3>=3>>>>
   </eqnarray*>
 </body>
 
