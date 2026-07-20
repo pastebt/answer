@@ -161,6 +161,17 @@
     <big|sum><rsub|i=0><rsup|n-1><around*|(|<frac|i<rsup|2>|n<rsup|2>>-<frac|2*i|n>+1|)>|)>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>><around*|(|<frac|1|n>*<around*|(|<frac|1|n<rsup|2>>\<times\><frac|<around*|(|n-1|)>*n*<around*|(|2*n-1|)>|6>|)>-<frac|2|n>\<times\><frac|<around*|(|n-1|)>*n|2>+n|)>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>><around*|(|<frac|2*n<rsup|2>-3*n+1|6*n<rsup|2>>-<frac|n-1|n>+1|)>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>><around*|(|<frac|1|3>-<frac|1|2*n>+<frac|1|6*n<rsup|2>>+<frac|1|n>|)>=<frac|1|3>>>|<row|<cell|f<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|2>x<rsup|2>*d
     x>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>><around*|(|<big|sum><rsub|i=0><rsup|n-1><around*|(|0+2\<times\><frac|i|n>|)><rsup|2>\<times\><frac|2|n>|)>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>><around*|(|<frac|8|n<rsup|3>>*<big|sum><rsub|i=0><rsup|n-1>i<rsup|2>|)>=lim<rsub|n\<rightarrow\>\<infty\>><around*|(|<frac|8|n<rsup|3>>\<times\><frac|<around*|(|n-1|)>*n*<around*|(|2*n-1|)>|6>|)>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>><around*|(|<frac|4|3>\<times\><frac|2*n<rsup|2>-3*n+1|n<rsup|2>>|)>=lim<rsub|n\<rightarrow\>\<infty\>><around*|(|<frac|8|3>-<frac|12|n>+<frac|4|n<rsup|2>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|8|3>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|f<rsub|1><around*|(|x|)>+f<rsub|2><around*|(|x|)>=<frac|1|3>+<frac|8|3>=3>>>>
   </eqnarray*>
+
+  \;
+
+  2186:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|1>a<rsup|x>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<frac|a<rsup|x>|l n
+    a><mid|\|><rsub|0><rsup|1>=<frac|a<rsup|1>-a<rsup|0>|l n a>=<frac|a-1|l n
+    a>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
