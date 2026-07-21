@@ -172,6 +172,16 @@
     a><mid|\|><rsub|0><rsup|1>=<frac|a<rsup|1>-a<rsup|0>|l n a>=<frac|a-1|l n
     a>>>>>
   </eqnarray*>
+
+  \;
+
+  2187:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|<frac|\<pi\>|2>>sin
+    x*d x>>|<row|<cell|>|<cell|=>|<cell|-cos
+    x\|<rsub|0><rsup|<frac|\<pi\>|2>>=-<around*|(|0-1|)>=1>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
