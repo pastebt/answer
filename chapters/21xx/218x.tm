@@ -182,6 +182,16 @@
     x*d x>>|<row|<cell|>|<cell|=>|<cell|-cos
     x\|<rsub|0><rsup|<frac|\<pi\>|2>>=-<around*|(|0-1|)>=1>>>>
   </eqnarray*>
+
+  \;
+
+  2188:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|x>cos
+    t*d t>>|<row|<cell|>|<cell|=>|<cell|sin t\|<rsub|0><rsup|x>=sin x-sin
+    0=sin x>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
