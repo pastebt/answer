@@ -192,6 +192,15 @@
     t*d t>>|<row|<cell|>|<cell|=>|<cell|sin t\|<rsub|0><rsup|x>=sin x-sin
     0=sin x>>>>
   </eqnarray*>
+
+  \;
+
+  2189:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|a><rsup|b><frac|d
+    x|x<rsup|2>><space|2em><around*|(|0\<less\>a\<less\>b|)>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|x>\|<rsub|a><rsup|b>=-<frac|1|b>-<around*|(|-<frac|1|a>|)>=<frac|1|a>-<frac|1|b>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
