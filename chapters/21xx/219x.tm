@@ -21,6 +21,15 @@
     x|x><space|2em><around*|(|0\<less\>a\<less\>b|)>>>|<row|<cell|>|<cell|=>|<cell|l
     n x\|<rsub|a><rsup|b>=l n b-l n a=l n <frac|b|a>>>>>
   </eqnarray*>
+
+  \;
+
+  2192:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|\<pi\>>l
+    n<around*|(|1-2*\<alpha\>*cos x+\<alpha\><rsup|2>|)>*d x>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
