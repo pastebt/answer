@@ -28,7 +28,10 @@
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|\<pi\>>l
-    n<around*|(|1-2*\<alpha\>*cos x+\<alpha\><rsup|2>|)>*d x>>>>
+    n<around*|(|1-2*\<alpha\>*cos x+\<alpha\><rsup|2>|)>*d
+    x>>|<row|<cell|>|<cell|>|<cell|\<xi\><rsub|i>=<frac|i*\<pi\>|n>,\<Delta\>
+    x<rsub|i>=<frac|\<pi\>|n>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>><around*|(|<big|sum><rsub|i=0><rsup|n-1>l
+    n<around*|(|1-2*\<alpha\>*cos<around*|(|<frac|i*\<pi\>|n>|)>+\<alpha\><rsup|2>|)>*<frac|\<pi\>|n>|)>>>>>
   </eqnarray*>
 </body>
 

@@ -136,6 +136,17 @@
 
   \;
 
+  2183:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int>x<rsup|4>*d
+    x>>|<row|<cell|<wide*|S|\<wide-bar\>>>|<cell|=>|<cell|<big|sum><rsub|i=1><rsup|n><around*|(|1+1-<around*|(|<frac|1|2>|)><rsup|i>|)><rsup|4>\<times\><around*|(|<frac|1|2>|)><rsup|i>>>>>
+  </eqnarray*>
+
+  \;
+
+  \;
+
   2184:
 
   <\eqnarray*>
