@@ -129,7 +129,7 @@
   2182(c):
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|f<around*|(|x|)>>|<cell|=>|<cell|2<rsup|x><space|2em><around*|(|0\<leqslant\>x\<leqslant\>10|)>>>>>
+    <tformat|<table|<row|<cell|f<around*|(|x|)>>|<cell|=>|<cell|2<rsup|x><space|2em><around*|(|0\<leqslant\>x\<leqslant\>10|)>>>|<row|<cell|<wide*|S<rsub|n>|\<bar\>>>|<cell|=>|<cell|<big|sum><rsub|i=0><rsup|n-1>2<rsup|<frac|10*i|n>>\<times\><frac|10|n>>>|<row|<cell|>|<cell|=>|<cell|<frac|10|n>\<times\>f<rsub|1><around*|(|n|)>>>|<row|<cell|2<rsup|<frac|10|n>>*f<rsub|1><around*|(|n|)>-f<rsub|1><around*|(|n|)>>|<cell|=>|<cell|2<rsup|<frac|10|n>>\<times\><big|sum><rsub|i=0><rsup|n-1>2<rsup|<frac|10*i|n>>-<big|sum><rsub|i=0><rsup|n-1>2<rsup|<frac|10*i|n>>>>|<row|<cell|>|<cell|=>|<cell|<big|sum><rsub|i=1><rsup|n>2<rsup|<frac|10*i|n>>-<big|sum><rsub|i=0><rsup|n-1>2<rsup|<frac|10*i|n>>>>|<row|<cell|>|<cell|=>|<cell|2<rsup|<frac|10*n|n>>-2<rsup|<frac|10\<times\>0|n>>=2<rsup|10>-1=1023>>|<row|<cell|f<rsub|1><around*|(|n|)>>|<cell|=>|<cell|<frac|1023|2<rsup|<frac|10|n>>-1>>>|<row|<cell|<wide*|S<rsub|n>|\<bar\>>>|<cell|=>|<cell|<frac|10|n>\<times\><frac|1023|2<rsup|<frac|10|n>>-1>=<frac|10230|n*<around*|(|2<rsup|<frac|10|n>>-1|)>>>>|<row|<cell|<wide|S<rsub|n>|\<bar\>>>|<cell|=>|<cell|<big|sum><rsub|i=1><rsup|n>2<rsup|<frac|10*i|n>>\<times\><frac|10|n>=2<rsup|<frac|10|n>>\<times\><wide*|S<rsub|n>|\<bar\>>>>|<row|<cell|>|<cell|=>|<cell|2<rsup|<frac|10|n>>\<times\><frac|10230|n*<around*|(|2<rsup|<frac|10|n>>-1|)>>>>>>
   </eqnarray*>
 
   \;
