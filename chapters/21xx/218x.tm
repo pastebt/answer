@@ -189,8 +189,18 @@
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|1>a<rsup|x>*d
     x>>|<row|<cell|>|<cell|=>|<cell|<frac|a<rsup|x>|l n
     a><mid|\|><rsub|0><rsup|1>=<frac|a<rsup|1>-a<rsup|0>|l n a>=<frac|a-1|l n
-    a>>>>>
+    a>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<rsub|1><around*|(|n|)>>|<cell|=>|<cell|<big|sum><rsub|i=0><rsup|n-1>a<rsup|<frac|i|n>>\<times\><frac|1|n>=<frac|1|n>\<times\><big|sum><rsub|i=0><rsup|n-1>a<rsup|<frac|i|n>>=<frac|1|n>*f<rsub|1><around*|(|n|)>>>|<row|<cell|a<rsup|<frac|1|n>>*f<rsub|1><around*|(|n|)>-f<rsub|1><around*|(|n|)>>|<cell|=>|<cell|a<rsup|<frac|1|n>>\<times\><big|sum><rsub|i=0><rsup|n-1>a<rsup|<frac|i|n>>-<big|sum><rsub|i=0><rsup|n-1>a<rsup|<frac|i|n>>>>|<row|<cell|>|<cell|=>|<cell|<big|sum><rsub|i=1><rsup|n>a<rsup|<frac|i|n>>-<big|sum><rsub|i=0><rsup|n-1>a<rsup|<frac|i|n>>=a<rsup|<frac|n|n>>-a<rsup|<frac|0|n>>=a-1>>|<row|<cell|f<rsub|1><around*|(|n|)>>|<cell|=>|<cell|<frac|a-1|a<rsup|<frac|1|n>>-1>>>|<row|<cell|F<rsub|1><around*|(|n|)>>|<cell|=>|<cell|<frac|1|n>\<times\><frac|a-1|a<rsup|<frac|1|n>>-1>=<around*|(|a-1|)>\<times\><frac|<frac|1|n>|a<rsup|<frac|1|n>>-1>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>><around*|(|a-1|)>\<times\><frac|<frac|1|n>|a<rsup|<frac|1|n>>-1>=<around*|(|a-1|)>*lim<rsub|n\<rightarrow\>\<infty\>>
+    <frac|<frac|1|n>|a<rsup|<frac|1|n>>-1>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|a-1|)>*f<rsub|2><around*|(|n|)>>>|<row|<cell|>|<cell|>|<cell|y=<frac|1|n>>>|<row|<cell|f<rsub|2><around*|(|y|)>>|<cell|=>|<cell|lim<rsub|y\<rightarrow\>0>
+    <frac|y|a<rsup|y>-1>=lim<rsub|y\<rightarrow\>0>
+    <frac|y<rprime|'>|<around*|(|a<rsup|y>-1|)><rprime|'>>=lim<rsub|y\<rightarrow\>0>
+    <frac|1|l n a\<times\>a<rsup|y>>=<frac|1|l n
+    a>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<around*|(|a-1|)>*f<rsub|2><around*|(|y|)>=<frac|a-1|l
+    n a>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
 
   \;
 
