@@ -28,8 +28,20 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|a><rsup|b><frac|d
     x|x><space|2em><around*|(|0\<less\>a\<less\>b|)>>>|<row|<cell|>|<cell|=>|<cell|l
-    n x\|<rsub|a><rsup|b>=l n b-l n a=l n <frac|b|a>>>>>
+    n x\|<rsub|a><rsup|b>=l n b-l n a=l n
+    <frac|b|a>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|\<xi\><rsub|i>>|<cell|=>|<cell|a\<times\><around*|(|<frac|b|a>|)><rsup|<frac|i|n>>>>|<row|<cell|\<Delta\>
+    x<rsub|i>>|<cell|=>|<cell|a<around*|(|<frac|b|a>|)><rsup|<frac|i+1|n>>-a<around*|(|<frac|b|a>|)><rsup|<frac|i|n>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
+    F<rsub|1<around*|(|n|)>>>>|<row|<cell|F<rsub|1><around*|(|n|)>>|<cell|=>|<cell|<big|sum><rsub|i=0><rsup|n-1>f<around*|(|\<xi\><rsub|i>|)>*\<Delta\>
+    x<rsub|i>>>|<row|<cell|>|<cell|=>|<cell|<big|sum><rsub|i=0><rsup|n-1><frac|a<around*|(|<frac|b|a>|)><rsup|<frac|i+1|n>>-a<around*|(|<frac|b|a>|)><rsup|<frac|i|n>>|a\<times\><around*|(|<frac|b|a>|)><rsup|<frac|i|n>>>=<big|sum><rsub|i=0><rsup|n-1><around*|(|<around*|(|<frac|b|a>|)><rsup|<frac|1|n>>-1|)>>>|<row|<cell|>|<cell|=>|<cell|n\<times\><around*|(|<around*|(|<frac|b|a>|)><rsup|<frac|1|n>>-1|)>>>|<row|<cell|>|<cell|>|<cell|y=<frac|1|n>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
+    F<rsub|1<around*|(|n|)>>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|y\<rightarrow\>0>
+    F<rsub|1><around*|(|y|)>=lim<rsub|y\<rightarrow\>0>
+    <frac|<around*|(|<frac|b|a>|)><rsup|y>-1|y>=lim<rsub|y\<rightarrow\>0>
+    <frac|<around*|(|<around*|(|<frac|b|a>|)><rsup|y>-1|)><rprime|'>|y<rprime|'>>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|y\<rightarrow\>0>
+    <around*|(|l n<around*|(|<frac|b|a>|)>*<around*|(|<frac|b|a>|)><rsup|y>|)>>>|<row|<cell|>|<cell|=>|<cell|l
+    n <frac|b|a>>>>>
   </eqnarray*>
+
+  \;
 
   \;
 
