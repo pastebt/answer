@@ -209,7 +209,20 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|<frac|\<pi\>|2>>sin
     x*d x>>|<row|<cell|>|<cell|=>|<cell|-cos
-    x\|<rsub|0><rsup|<frac|\<pi\>|2>>=-<around*|(|0-1|)>=1>>>>
+    x\|<rsub|0><rsup|<frac|\<pi\>|2>>=-<around*|(|0-1|)>=1>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|\<xi\><rsub|k>>|<cell|=>|<cell|<frac|<frac|\<pi\>|2>*k|n>=<frac|\<pi\>*k|2*n>>>|<row|<cell|\<Delta\>
+    x<rsub|k>>|<cell|=>|<cell|<frac|\<pi\>|2*n>>>|<row|<cell|sin
+    x>|<cell|=>|<cell|<frac|e<rsup|i*x>-e<rsup|-i*x>|2*i>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>><around*|(|<big|sum><rsub|k=0><rsup|n-1>f<around*|(|\<xi\><rsub|k>|)>*\<Delta\>
+    x<rsub|k>|)>>>|<row|<cell|F<rsub|1><around*|(|n|)>>|<cell|=>|<cell|<big|sum><rsub|k=0><rsup|n-1>f<around*|(|\<xi\><rsub|k>|)>*\<Delta\>
+    x<rsub|k>>>|<row|<cell|>|<cell|=>|<cell|<big|sum><rsub|k=0><rsup|n-1><around*|(|<frac|e<rsup|i*<frac|\<pi\>*k|2*n>>-e<rsup|-i*<frac|\<pi\>*k|2*n>>|2*i>\<times\><frac|\<pi\>|2*n>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<pi\>|4*n*i>*<big|sum><rsub|k=0><rsup|n-1><around*|(|e<rsup|i*<frac|\<pi\>*k|2*n>>-e<rsup|-i*<frac|\<pi\>*k|2*n>>|)>=<frac|\<pi\>|4*n*i>\<times\><around*|(|f<rsub|1><around*|(|n|)>-f<rsub|2><around*|(|n|)>|)>>>|<row|<cell|f<rsub|1><around*|(|n|)>>|<cell|=>|<cell|<big|sum><rsub|k=0><rsup|n-1>e<rsup|i*<frac|\<pi\>*k|2*n>>=<frac|e<rsup|i*<frac|\<pi\>*n|2*n>>-e<rsup|i*<frac|\<pi\>\<times\>0|2*n>>|e<rsup|i*<frac|\<pi\>|2*n>>-1>=<frac|e<rsup|i*<frac|\<pi\>|2>>-1|e<rsup|i*<frac|\<pi\>|2*n>>-1>>>|<row|<cell|f<rsub|2><around*|(|n|)>>|<cell|=>|<cell|<big|sum><rsub|k=0><rsup|n-1>e<rsup|-i*<frac|\<pi\>*k|2*n>>=<frac|e<rsup|-i*<frac|\<pi\>*n|2*n>>-e<rsup|-i*<frac|\<pi\>\<times\>0|2*n>>|e<rsup|-i*<frac|\<pi\>|2*n>>-1>=<frac|e<rsup|-i*<frac|\<pi\>|2>>-1|e<rsup|-i*<frac|\<pi\>|2*n>>-1>>>|<row|<cell|F<rsub|1><around*|(|n|)>>|<cell|=>|<cell|<around*|(|e<rsup|i*<frac|\<pi\>|2>>-1|)>*<frac|<frac|\<pi\>|4*n*i>|e<rsup|i*<frac|\<pi\>|2*n>>-1>-<around*|(|e<rsup|-i*<frac|\<pi\>|2>>-1|)>*<frac|<frac|\<pi\>|4*n*i>|e<rsup|-i*<frac|\<pi\>|2*n>>-1>>>|<row|<cell|>|<cell|>|<cell|y=<frac|1|n>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
+    F<rsub|1><around*|(|n|)>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|y\<rightarrow\>0>
+    F<rsub|1><around*|(|y|)>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|y\<rightarrow\>0><around*|(|<around*|(|e<rsup|i*<frac|\<pi\>|2>>-1|)>*<frac|<frac|\<pi\>|4*n*i>|e<rsup|i*<frac|\<pi\>|2*n>>-1>-<around*|(|e<rsup|-i*<frac|\<pi\>|2>>-1|)>*<frac|<frac|\<pi\>|4*n*i>|e<rsup|-i*<frac|\<pi\>|2*n>>-1>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|e<rsup|i*<frac|\<pi\>|2>>-1|)>*lim<rsub|y\<rightarrow\>0>
+    <frac|<frac|\<pi\>|4*i>*y|e<rsup|i*<frac|\<pi\>|2>*y>-1>-<around*|(|e<rsup|-i*<frac|\<pi\>|2>>-1|)>*lim<rsub|y\<rightarrow\>0>
+    <frac|<frac|\<pi\>|4*i>*y|e<rsup|-i*<frac|\<pi\>|2>*y>-1>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|e<rsup|i*<frac|\<pi\>|2>>-1|)>*lim<rsub|y\<rightarrow\>0>
+    <frac|<around*|(|<frac|\<pi\>|4*i>*y|)><rprime|'>|<around*|(|e<rsup|i*<frac|\<pi\>|2>*y>-1|)><rprime|'>>-<around*|(|e<rsup|-i*<frac|\<pi\>|2>>-1|)>*lim<rsub|y\<rightarrow\>0>
+    <frac|<around*|(|<frac|\<pi\>|4*i>*y|)><rprime|'>|<around*|(|e<rsup|-i*<frac|\<pi\>|2>*y>-1|)><rprime|'>>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|e<rsup|i*<frac|\<pi\>|2>>-1|)>*lim<rsub|y\<rightarrow\>0>
+    <frac|<frac|\<pi\>|4*i>|i*<frac|\<pi\>|2>*e<rsup|i*<frac|\<pi\>|2>*y>>-<around*|(|e<rsup|-i*<frac|\<pi\>|2>>-1|)>*lim<rsub|y\<rightarrow\>0>
+    <frac|<frac|\<pi\>|4*i>|-i*<frac|\<pi\>|2>*e<rsup|-i*<frac|\<pi\>|2>*y>>>>|<row|<cell|>|<cell|=>|<cell|<frac|e<rsup|i*<frac|\<pi\>|2>>-1|-2>+<frac|e<rsup|-i*<frac|\<pi\>|2>>-1|-2>=-<frac|e<rsup|i*<frac|\<pi\>|2>>+e<rsup|-i*<frac|\<pi\>|2>>|2>+1>>|<row|<cell|>|<cell|=>|<cell|-cos
+    <frac|\<pi\>|2>+1=-0+1=1>>>>
   </eqnarray*>
 
   \;
