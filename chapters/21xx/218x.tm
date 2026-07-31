@@ -232,8 +232,22 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|x>cos
     t*d t>>|<row|<cell|>|<cell|=>|<cell|sin t\|<rsub|0><rsup|x>=sin x-sin
-    0=sin x>>>>
+    0=sin x>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|\<xi\><rsub|k>>|<cell|=>|<cell|<frac|x*k|n>>>|<row|<cell|\<Delta\>
+    x<rsub|k>>|<cell|=>|<cell|<frac|x|n>>>|<row|<cell|cos
+    t>|<cell|=>|<cell|<frac|e<rsup|i*t>+e<rsup|-i*t>|2>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>><around*|(|F<rsub|1><around*|(|n|)>|)>>>|<row|<cell|F<rsub|1><around*|(|n|)>>|<cell|=>|<cell|<big|sum><rsub|k=0><rsup|n-1>f<around*|(|\<xi\><rsub|k>|)>
+    \<Delta\> x<rsub|k>>>|<row|<cell|>|<cell|=>|<cell|<big|sum><rsub|k=0><rsup|n-1><around*|(|<frac|e<rsup|i*<frac|x*k|n>>+e<rsup|-i*<frac|x*k|n>>|2>\<times\><frac|x|n>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|x|2*n>\<times\><around*|(|f<rsub|1><around*|(|n|)>+f<rsub|2><around*|(|n|)>|)>>>|<row|<cell|f<rsub|1><around*|(|n|)>>|<cell|=>|<cell|<big|sum><rsub|k=0><rsup|n-1>e<rsup|i*<frac|x*k|n>>=<frac|e<rsup|i*<frac|x*n|n>>-e<rsup|i*<frac|x\<times\>0|n>>|e<rsup|i*<frac|x|n>>-1>=<frac|e<rsup|x*i>-1|e<rsup|i*<frac|x|n>>-1>>>|<row|<cell|f<rsub|2><around*|(|n|)>>|<cell|=>|<cell|<big|sum><rsub|k=0><rsup|n-1>e<rsup|-i*<frac|x*k|n>>=<frac|e<rsup|-i*<frac|x*n|n>>-e<rsup|-i*<frac|x\<times\>0|n>>|e<rsup|-i*<frac|x|n>>-1>=<frac|e<rsup|-x*i>-1|e<rsup|-i*<frac|x|n>>-1>>>|<row|<cell|>|<cell|>|<cell|y=<frac|1|n>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>><around*|(|F<rsub|1><around*|(|n|)>|)>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>><around*|(|<around*|(|e<rsup|x*i>-1|)>*<frac|<frac|x|2*n>|e<rsup|i*<frac|x|n>>-1>+<around*|(|e<rsup|-x*i>-1|)>*<frac|<frac|x|2*n>|e<rsup|-i*<frac|x|n>>-1>|)>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|y\<rightarrow\>0><around*|(|F<rsub|1><around*|(|y|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|e<rsup|x*i>-1|)>*lim<rsub|y\<rightarrow\>0>
+    <frac|<frac|x*y|2>|e<rsup|i*x*y>-1>+<around*|(|e<rsup|-x*i>-1|)>*lim<rsub|y\<rightarrow\>0>
+    <frac|<frac|x*y|2>|e<rsup|-i*x*y>-1>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|e<rsup|x*i>-1|)>*lim<rsub|y\<rightarrow\>0>
+    <frac|<around*|(|<frac|x*y|2>|)><rprime|'>|<around*|(|e<rsup|i*x*y>-1|)><rprime|'>>+<around*|(|e<rsup|-x*i>-1|)>*lim<rsub|y\<rightarrow\>0>
+    <frac|<around*|(|<frac|x*y|2>|)><rprime|'>|<around*|(|e<rsup|-i*x*y>-1|)><rprime|'>>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|e<rsup|x*i>-1|)>*lim<rsub|y\<rightarrow\>0>
+    <frac|<frac|x|2>|i*x*e<rsup|i*x*y>>+<around*|(|e<rsup|-x*i>-1|)>*lim<rsub|y\<rightarrow\>0>
+    <frac|<frac|x|2>|-i*x*e<rsup|-i*x*y>>>>|<row|<cell|>|<cell|=>|<cell|<frac|e<rsup|x*i>-1|2*i>*lim<rsub|y\<rightarrow\>0>
+    <frac|1|e<rsup|i*x*y>>-<frac|e<rsup|-x*i>-1|2*i>*lim<rsub|y\<rightarrow\>0>
+    <frac|1|e<rsup|-i*x*y>>>>|<row|<cell|>|<cell|=>|<cell|<frac|e<rsup|x*i>-e<rsup|-x*i>|2*i>=sin
+    x>>>>
   </eqnarray*>
+
+  \;
 
   \;
 
