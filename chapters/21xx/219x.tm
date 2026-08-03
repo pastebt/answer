@@ -57,7 +57,16 @@
     n<around*|(|1-2*\<alpha\>*cos<around*|(|<frac|i*\<pi\>|n>|)>+\<alpha\><rsup|2>|)>*<frac|\<pi\>|n>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<pi\>|n>*<big|sum><rsup|n-1><rsub|i=0>l
     n<around*|(|1-2*\<alpha\>*cos<around*|(|<frac|i*\<pi\>|n>|)>+\<alpha\><rsup|2>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<pi\>|n>\<times\>l
     n<around*|(|<big|prod><rsup|n-1><rsub|i=0><around*|(|1-2*\<alpha\>*cos<around*|(|<frac|i*\<pi\>|n>|)>+\<alpha\><rsup|2>|)>|)>>>|<row|<cell|F<rsub|2><around*|(|n|)>>|<cell|=>|<cell|l
-    n<around*|(|<big|prod><rsup|n-1><rsub|i=0><around*|(|1-2*\<alpha\>*cos<around*|(|<frac|i*\<pi\>|n>|)>+\<alpha\><rsup|2>|)>|)>>>>>
+    n<around*|(|<big|prod><rsup|n-1><rsub|i=0><around*|(|1-2*\<alpha\>*cos<around*|(|<frac|i*\<pi\>|n>|)>+\<alpha\><rsup|2>|)>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<rsub|0><around*|(|x|)>>|<cell|=>|<cell|<big|int>l
+    n<around*|(|1-2*\<alpha\>*cos x+\<alpha\><rsup|2>|)>*d
+    x>>|<row|<cell|>|<cell|>|<cell|y=1-2*\<alpha\>*cos
+    x+\<alpha\><rsup|2>>>|<row|<cell|>|<cell|>|<cell|cos
+    x=<frac|y-1-\<alpha\><rsup|2>|2*\<alpha\>>>>|<row|<cell|>|<cell|>|<cell|sin
+    x=<sqrt|1-cos<rsup|2> x>=<sqrt|1-<around*|(|<frac|y-1-\<alpha\><rsup|2>|2*\<alpha\>>|)><rsup|2>>>>|<row|<cell|>|<cell|>|<cell|d
+    y=-2*\<alpha\>*<around*|(|-sin x|)>*d x>>|<row|<cell|>|<cell|>|<cell|d
+    x=<frac|d y|2*\<alpha\>*sin x>>>|<row|<cell|F<rsub|0><around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|l
+    n y|2*\<alpha\>*sin x>*d y>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|l
+    n y*d y|<sqrt|4*\<alpha\><rsup|2>-<around*|(|y-1-\<alpha\><rsup|2>|)><rsup|2>>>>>>>
   </eqnarray*>
 </body>
 
