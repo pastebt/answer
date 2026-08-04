@@ -22,6 +22,17 @@
     x<mid|\|><rsub|0><rsup|\<pi\>>=-<around*|(|cos \<pi\>-cos
     0|)>>>|<row|<cell|>|<cell|=>|<cell|-<around*|(|-1-1|)>=2>>>>
   </eqnarray*>
+
+  \;
+
+  2208:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|<frac|1|<sqrt|3>>><rsup|<sqrt|3>><frac|d
+    x|1+x<rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|arctan
+    x<mid|\|><rsub|<frac|1|<sqrt|3>>><rsup|<sqrt|3>>=arctan <sqrt|3>-arctan
+    <frac|1|<sqrt|3>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<pi\>|3>-<frac|\<pi\>|6>=<frac|\<pi\>|6>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
