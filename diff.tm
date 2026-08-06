@@ -212,7 +212,7 @@
   1945:
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|<around*|(|<frac|1|6>*x<rsup|5>-<frac|*a<rsup|2>|24>*x<rsup|3>-<frac|*a<rsup|4>|16>*x|)>*<sqrt|a<rsup|2>-x<rsup|2>>+<frac|*a<rsup|6>|16>*arcsin<around*|(|<frac|x|<around*|\||a|\|>>|)>>|<cell|\<neq\>>|<cell|<around*|(|<frac|1|6>*x<rsup|5>-<frac|*a<rsup|2>|24>*x<rsup|3>-<frac|*a<rsup|4>|16>*x|)>*<sqrt|a<rsup|2>-x<rsup|2>>+<frac|*a<rsup|6>|16>*arcsin<around*|(|<frac|x|a>|)>>>>>
+    <tformat|<table|<row|<cell|>|<cell|>|<cell|<around*|(|<frac|1|6>*x<rsup|5>-<frac|a<rsup|2>|24>*x<rsup|3>-<frac|a<rsup|4>|16>*x|)>*<sqrt|a<rsup|2>-x<rsup|2>>+<frac|a<rsup|6>|16>*arcsin<around*|(|<frac|x|<around*|\||a|\|>>|)>>>|<row|<cell|>|<cell|\<neq\>>|<cell|<around*|(|<frac|1|6>*x<rsup|5>-<frac|a<rsup|2>|24>*x<rsup|3>-<frac|a<rsup|4>|16>*x|)>*<sqrt|a<rsup|2>-x<rsup|2>>+<frac|a<rsup|6>|16>*arcsin<around*|(|<frac|x|a>|)>>>>>
   </eqnarray*>
 
   \;
@@ -238,7 +238,7 @@
   1956:
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|-2*arcsin<around*|(|<frac|1|<around*|\||x-2|\|>>|)>-<sqrt|<frac|x-3|x-1>>>|<cell|\<neq\>>|<cell|-2*arcsin<around*|(|<frac|1|x-2>|)>-<sqrt|<frac|x-3|x-1>>>>>>
+    <tformat|<table|<row|<cell|>|<cell|>|<cell|-2*arcsin<around*|(|<frac|1|<around*|\||x-2|\|>>|)>-<sqrt|<frac|x-3|x-1>>>>|<row|<cell|>|<cell|\<neq\>>|<cell|-2*arcsin<around*|(|<frac|1|x-2>|)>-<sqrt|<frac|x-3|x-1>>>>>>
   </eqnarray*>
 
   \;
