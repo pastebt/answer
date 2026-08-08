@@ -27,6 +27,42 @@
     x+<big|int><rsub|1><rsup|2><around*|(|x-1|)>*d
     x>>|<row|<cell|>|<cell|=>|<cell|<around*|(|x-<frac|x<rsup|2>|2>|)>\|<rsub|0><rsup|1>+<around*|(|<frac|x<rsup|2>|2>-x|)><mid|\|><rsub|1><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1-<frac|1|2>|)>-0+<around*|(|<frac|4|2>-2|)>-<around*|(|<frac|1|2>-1|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>+0+<frac|1|2>=1>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2212:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|-1><rsup|1><frac|d
+    x|x<rsup|2>-2*x*cos \<alpha\>+1>>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|-1><rsup|1><frac|d
+    x|x<rsup|2>-2*x*cos \<alpha\>+cos<rsup|2> \<alpha\>+sin<rsup|2>
+    \<alpha\>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|-1><rsup|1><frac|d
+    x|<around*|(|x-cos \<alpha\>|)><rsup|2>+sin<rsup|2>
+    \<alpha\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|sin<rsup|2>
+    \<alpha\>>*<big|int><rsub|-1><rsup|1><frac|d x|<around*|(|<frac|x-cos
+    \<alpha\>|sin \<alpha\>>|)><rsup|2>+1>>>|<row|<cell|>|<cell|>|<cell|y=<frac|x-cos
+    \<alpha\>|sin \<alpha\>>>>|<row|<cell|>|<cell|>|<cell|d y=<frac|d x|sin
+    \<alpha\>>\<rightarrow\>d x=sin \<alpha\>*d
+    y>>|<row|<cell|F<rsub|1><around*|(|y|)>>|<cell|=>|<cell|<frac|1|sin<rsup|2>
+    \<alpha\>>*<big|int><frac|sin \<alpha\>*d y|y<rsup|2>+1>=<frac|1|sin
+    \<alpha\>>*<big|int><frac|d y|y<rsup|2>+1>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|sin
+    \<alpha\>>\<times\>arctan y>>|<row|<cell|F<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<frac|actan<around*|(|<frac|x-cos
+    \<alpha\>|sin \<alpha\>>|)>|sin \<alpha\>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|sin
+    \<alpha\>>*<around*|(|arctan<around*|(|<frac|1-cos \<alpha\>|sin
+    \<alpha\>>|)>-arctan<around*|(|<frac|-1-cos \<alpha\>|sin
+    \<alpha\>>|)>|)>>>|<row|<cell|>|<cell|>|<cell|arctan x\<pm\>arctan
+    y=arctan<around*|(|<frac|x\<pm\>y|1\<mp\>x*y>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|sin
+    \<alpha\>>\<times\>arctan*<around*|(|<frac|<frac|1-cos \<alpha\>|sin
+    \<alpha\>>-<frac|-1-cos \<alpha\>|sin \<alpha\>>|1+<around*|(|<frac|1-cos
+    \<alpha\>|sin \<alpha\>>|)>*<around*|(|<frac|-1-cos \<alpha\>|sin
+    \<alpha\>>|)>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|sin
+    \<alpha\>>\<times\>arctan<around*|(|<frac|<frac|2|sin
+    \<alpha\>>|1-<frac|1-cos<rsup|2> \<alpha\>|sin<rsup|2>
+    \<alpha\>>>|)>=<frac|1|sin \<alpha\>>\<times\>arctan
+    \<infty\>=<frac|\<pi\>|2*sin \<alpha\>>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
