@@ -63,6 +63,28 @@
     \<alpha\>>>|)>=<frac|1|sin \<alpha\>>\<times\>arctan
     \<infty\>=<frac|\<pi\>|2*sin \<alpha\>>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2213:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|2*\<pi\>><frac|d
+    x|1+\<varepsilon\>*cos x><space|1em><around*|(|0\<leqslant\>\<varepsilon\>\<less\>1|)>>>|<row|<cell|F<rsub|0><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|1+\<varepsilon\>*cos x>>>|<row|<cell|>|<cell|>|<cell|t=tan
+    <frac|x|2>>>|<row|<cell|>|<cell|>|<cell|cos
+    x=<frac|1-t<rsup|2>|1+t<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|d
+    x=<around*|(|cos x+1|)>*d t=<frac|2|1+t<rsup|2>>*d
+    t>>|<row|<cell|F<rsub|0><around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|<frac|2|1+t<rsup|2>>*d
+    t|1+\<varepsilon\>\<times\><frac|1-t<rsup|2>|1+t<rsup|2>>>=<big|int><frac|2*d
+    t|1+t<rsup|2>+\<varepsilon\>-\<varepsilon\>*t<rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|2*d
+    t|<around*|(|1+\<varepsilon\>|)>+<around*|(|1-\<varepsilon\>|)>*t<rsup|2>>=<frac|2|1-\<varepsilon\>>*<big|int><frac|d
+    t|<frac|1+\<varepsilon\>|1-\<varepsilon\>>+t<rsup|2>>>>|<row|<cell|>|<cell|\<Iota\>.>|<cell|<big|int><frac|d
+    x|a<rsup|2>+x<rsup|2>>=<frac|1|a>*arctan
+    <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|F<rsub|0><around*|(|t|)>>|<cell|=>|<cell|<frac|2|1-\<varepsilon\>>\<times\><sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>\<times\>arctan<around*|(|t\<times\><sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|<sqrt|1-\<varepsilon\><rsup|2>>>*arctan<around*|(|t*<sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>>>|<row|<cell|F<rsub|0><around*|(|x|)>>|<cell|=>|<cell|<frac|2|<sqrt|1-\<varepsilon\><rsup|2>>>*arctan<around*|(|tan<around*|(|<frac|x|2>|)>*<sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
