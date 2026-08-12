@@ -92,6 +92,26 @@
     x>|2>>=<frac|2|2+\<varepsilon\>*e<rsup|i*x>+\<varepsilon\>*e<rsup|-i*x>>>>|<row|<cell|f<around*|(|\<xi\><rsub|k>|)>>|<cell|=>|<cell|<frac|2|2+\<varepsilon\>*e<rsup|i*<frac|2*\<pi\>*k|n>>+\<varepsilon\>*e<rsup|-i*<frac|2*\<pi\>*k|n>>>>>|<row|<cell|F<rsub|1><around*|(|n|)>>|<cell|=>|<cell|<big|sum><rsub|k=0><rsup|n-1>f<around*|(|\<xi\><rsub|k>|)>*\<Delta\>
     x<rsub|i>>>|<row|<cell|>|<cell|=>|<cell|<big|sum><rsub|k=0><rsup|n-1><around*|(|<frac|2|2+\<varepsilon\>*e<rsup|i*<frac|2*\<pi\>*k|n>>+\<varepsilon\>*e<rsup|-i*<frac|2*\<pi\>*k|n>>>\<times\><frac|2*\<pi\>|n>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|4*\<pi\>|n>\<times\><big|sum><rsub|k=0><rsup|n-1><frac|1|2+\<varepsilon\>*e<rsup|i*<frac|2*\<pi\>*k|n>>+\<varepsilon\>*e<rsup|-i*<frac|2*\<pi\>*k|n>>>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2214:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|-1><rsup|1><frac|d
+    x|<sqrt|<around*|(|1-2*a*x+a<rsup|2>|)>*<around*|(|1-2*b*x+b<rsup|2>|)>>><space|1em><around*|(|<around*|\||a|\|>\<less\>1,<around*|\||b|\|>\<less\>1,a*b\<gtr\>0|)>>>|<row|<cell|F<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<sqrt|<around*|(|n-x|)>*<around*|(|m-x|)>>>=<big|int><frac|d
+    x|<sqrt|n*m-<around*|(|n+m|)>*x+x<rsup|2>>>>>|<row|<cell|>|<cell|>|<cell|y+x=<sqrt|n*m-<around*|(|n+m|)>*x+x<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|y<rsup|2>+2*x*y+x<rsup|2>=n*m-<around*|(|n+m|)>*x+x<rsup|2>>>|<row|<cell|>|<cell|>|<cell|x=<frac|n*m-y<rsup|2>|2*y+n+m>>>|<row|<cell|>|<cell|>|<cell|d
+    x=d<around*|(|<frac|n*m-y<rsup|2>|2*y+n+m>|)>=<frac|-2*y*<around*|(|2*y+n+m|)>-2*<around*|(|n*m-y<rsup|2>|)>|<around*|(|2*y+n+m|)><rsup|2>>*d
+    y>>|<row|<cell|>|<cell|>|<cell|y+x=y+<frac|n*m-y<rsup|2>|2*y+n+m>=<frac|2*y<rsup|2>+y*<around*|(|n+m|)>+n*m-y<rsup|2>|2*y+n+m>>>|<row|<cell|F<rsub|1><around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|<frac|-2*y*<around*|(|2*y+n+m|)>-2*<around*|(|n*m-y<rsup|2>|)>|<around*|(|2*y+n+m|)><rsup|2>>*d
+    y|<frac|2*y<rsup|2>+y*<around*|(|n+m|)>+n*m-y<rsup|2>|2*y+n+m>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|<frac|-4*y<rsup|2>-2*y*<around*|(|n+m|)>-2*n*m+2*y<rsup|2>|<around*|(|2*y+n+m|)><rsup|2>>|<frac|y<rsup|2>+y*<around*|(|n+m|)>+n*m|2*y+n+m>>*d
+    y=<big|int><frac|<frac|-2*<around*|(|y<rsup|2>+y*<around*|(|n+m|)>+n*m|)>|2*y+n+m>|y<rsup|2>+y*<around*|(|n+m|)>+n*m>*d
+    y>>|<row|<cell|>|<cell|=>|<cell|-2*<big|int><frac|d
+    y|2*y+n+m>=-<big|int><frac|d<around*|(|2*y|)>|2*y+n+m>=-l
+    n<around*|(|2*y+n+m|)>>>|<row|<cell|>|<cell|>|<cell|>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
