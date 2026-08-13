@@ -101,7 +101,9 @@
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|-1><rsup|1><frac|d
-    x|<sqrt|<around*|(|1-2*a*x+a<rsup|2>|)>*<around*|(|1-2*b*x+b<rsup|2>|)>>><space|1em><around*|(|<around*|\||a|\|>\<less\>1,<around*|\||b|\|>\<less\>1,a*b\<gtr\>0|)>>>|<row|<cell|F<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
+    x|<sqrt|<around*|(|1-2*a*x+a<rsup|2>|)>*<around*|(|1-2*b*x+b<rsup|2>|)>>><space|1em><around*|(|<around*|\||a|\|>\<less\>1,<around*|\||b|\|>\<less\>1,a*b\<gtr\>0|)>>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|-1><rsup|1><frac|d
+    x|<sqrt|2*a\<times\>2*b>\<times\><sqrt|<around*|(|<frac|1+a<rsup|2>|2*a>-x|)>*<around*|(|<frac|1+b<rsup|2>|2*b>-x|)>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2*<sqrt|a*b>>*<big|int><rsub|-1><rsup|1><frac|d
+    x|<sqrt|<around*|(|<frac|1+a<rsup|2>|2*a>-x|)>*<around*|(|<frac|1+b<rsup|2>|2*b>-x|)>>>>>|<row|<cell|>|<cell|>|<cell|n=<frac|1+a<rsup|2>|2*a>,m=<frac|1+b<rsup|2>|2*b>>>|<row|<cell|F<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|d
     x|<sqrt|<around*|(|n-x|)>*<around*|(|m-x|)>>>=<big|int><frac|d
     x|<sqrt|n*m-<around*|(|n+m|)>*x+x<rsup|2>>>>>|<row|<cell|>|<cell|>|<cell|y+x=<sqrt|n*m-<around*|(|n+m|)>*x+x<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|y<rsup|2>+2*x*y+x<rsup|2>=n*m-<around*|(|n+m|)>*x+x<rsup|2>>>|<row|<cell|>|<cell|>|<cell|x=<frac|n*m-y<rsup|2>|2*y+n+m>>>|<row|<cell|>|<cell|>|<cell|d
     x=d<around*|(|<frac|n*m-y<rsup|2>|2*y+n+m>|)>=<frac|-2*y*<around*|(|2*y+n+m|)>-2*<around*|(|n*m-y<rsup|2>|)>|<around*|(|2*y+n+m|)><rsup|2>>*d
@@ -110,7 +112,9 @@
     y=<big|int><frac|<frac|-2*<around*|(|y<rsup|2>+y*<around*|(|n+m|)>+n*m|)>|2*y+n+m>|y<rsup|2>+y*<around*|(|n+m|)>+n*m>*d
     y>>|<row|<cell|>|<cell|=>|<cell|-2*<big|int><frac|d
     y|2*y+n+m>=-<big|int><frac|d<around*|(|2*y|)>|2*y+n+m>=-l
-    n<around*|(|2*y+n+m|)>>>|<row|<cell|>|<cell|>|<cell|>>>>
+    n<around*|(|2*y+n+m|)>>>|<row|<cell|F<rsub|1><around*|(|x|)>>|<cell|=>|<cell|-l
+    n<around*|(|2*<around*|(|<sqrt|n*m-<around*|(|n+m|)>*x+x<rsup|2>>-x|)>+n+m|)>>>|<row|<cell|>|<cell|=>|<cell|-l
+    n<around*|(|2*<around*|(|<sqrt|<around*|(|n-x|)>*<around*|(|m-x|)>>-x|)>+n+m|)>>>>>
   </eqnarray*>
 </body>
 
