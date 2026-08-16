@@ -179,7 +179,26 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|<frac|\<pi\>|2>><frac|d
     x|a<rsup|2>*sin<rsup|2> x+b<rsup|2>*cos<rsup|2>
-    x><space|1em><around*|(|a*b\<neq\>0|)>>>|<row|<cell|>|<cell|>|<cell|t=tan
+    x><space|1em><around*|(|a*b\<neq\>0|)>>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|0><rsup|<frac|\<pi\>|4>><frac|d
+    x|a<rsup|2>*sin<rsup|2> x+b<rsup|2>*cos<rsup|2>
+    x>+<big|int><rsub|<frac|\<pi\>|4>><rsup|<frac|\<pi\>|2>><frac|d
+    x|a<rsup|2>*sin<rsup|2> x+b<rsup|2>*cos<rsup|2>
+    x>>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|0><rsup|<frac|\<pi\>|4>><frac|<frac|1|cos<rsup|2>
+    x>*d x|a<rsup|2>*<frac|sin<rsup|2> x|cos<rsup|2>
+    x>+b<rsup|2>>+<big|int><rsub|<frac|\<pi\>|4>><rsup|<frac|\<pi\>|2>><frac|<frac|1|sin<rsup|2>
+    x>*d x|a<rsup|2>+<frac|cos<rsup|2> x|sin<rsup|2>
+    x>*b<rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|0><rsup|<frac|\<pi\>|4>><frac|d<around*|(|tan
+    x|)>|tan<rsup|2> x+<frac|b<rsup|2>|a<rsup|2>>>\<times\><frac|1|a<rsup|2>>+<big|int><rsub|<frac|\<pi\>|4>><rsup|<frac|\<pi\>|2>><frac|-d<around*|(|cot
+    x|)>|<frac|a<rsup|2>|b<rsup|2>>+cot<rsup|2>
+    x>\<times\><frac|1|b<rsup|2>>>>|<row|<cell|>|<cell|\<Iota\>.>|<cell|<big|int><frac|d
+    x|a<rsup|2>+x<rsup|2>>=<frac|1|a>*arctan
+    <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<around*|(|<frac|1|a<rsup|2>>\<times\><around*|\||<frac|a|b>|\|>\<times\>arctan<around*|(|<around*|\||<frac|a|b>|\|>*tan
+    x|)>|)>\|<rsub|0><rsup|<frac|\<pi\>|4>>-<around*|(|<frac|1|b<rsup|2>>\<times\><around*|\||<frac|b|a>|\|>\<times\>arctan<around*|(|<around*|\||<frac|b|a>|\|>*cot
+    x|)>|)>\|<rsub|<frac|\<pi\>|4>><rsup|<frac|\<pi\>|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<around*|\||a*b|\|>>*arctan<around*|(|<around*|\||<frac|a|b>|\|>*tan
+    <frac|\<pi\>|4>|)>-0-<around*|(|<frac|1|<around*|\||a*b|\|>>*arctan<around*|(|<around*|\||<frac|b|a>|\|>*cot
+    <frac|\<pi\>|2>|)>-<frac|1|<around*|\||a*b|\|>>*arctan<around*|(|<around*|\||<frac|b|a>|\|>*cot
+    <frac|\<pi\>|4>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<around*|\||a*b|\|>>*arctan<around*|(|<around*|\||<frac|a|b>|\|>|)>+<frac|1|<around*|\||a*b|\|>>*arctan<around*|(|<around*|\||<frac|b|a>|\|>|)>>>|<row|<cell|>|<cell|>|<cell|arctan
+    x+arctan <frac|1|x>=<frac|\<pi\>|2>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|<around*|\||a*b|\|>>\<times\><frac|\<pi\>|2>=<frac|\<pi\>|2*<around*|\||a*b|\|>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|t=tan
     <frac|x|2>>>|<row|<cell|>|<cell|>|<cell|cos
     x=<frac|1-t<rsup|2>|1+t<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|sin
     x=<frac|2*t|1+t<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|d x=<around*|(|cos
