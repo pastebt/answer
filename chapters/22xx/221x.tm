@@ -36,7 +36,7 @@
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|-1><rsup|1><frac|d
-    x|x<rsup|2>-2*x*cos \<alpha\>+1>>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|-1><rsup|1><frac|d
+    x|x<rsup|2>-2*x*cos \<alpha\>+1><space|1em><around*|(|0\<less\>\<alpha\>\<less\>\<mathpi\>|)>>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|-1><rsup|1><frac|d
     x|x<rsup|2>-2*x*cos \<alpha\>+cos<rsup|2> \<alpha\>+sin<rsup|2>
     \<alpha\>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|-1><rsup|1><frac|d
     x|<around*|(|x-cos \<alpha\>|)><rsup|2>+sin<rsup|2>
@@ -49,11 +49,31 @@
     \<alpha\>>*<big|int><frac|sin \<alpha\>*d y|y<rsup|2>+1>=<frac|1|sin
     \<alpha\>>*<big|int><frac|d y|y<rsup|2>+1>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|sin
     \<alpha\>>\<times\>arctan y>>|<row|<cell|F<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<frac|actan<around*|(|<frac|x-cos
-    \<alpha\>|sin \<alpha\>>|)>|sin \<alpha\>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|sin
+    \<alpha\>|sin \<alpha\>>|)>|sin \<alpha\>>>>|<row|<cell|F<around*|(|x|)>\|<rsub|-1><rsup|1>>|<cell|=>|<cell|<frac|1|sin
     \<alpha\>>*<around*|(|arctan<around*|(|<frac|1-cos \<alpha\>|sin
     \<alpha\>>|)>-arctan<around*|(|<frac|-1-cos \<alpha\>|sin
-    \<alpha\>>|)>|)>>>|<row|<cell|>|<cell|>|<cell|arctan x\<pm\>arctan
-    y=arctan<around*|(|<frac|x\<pm\>y|1\<mp\>x*y>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|sin
+    \<alpha\>>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|sin
+    \<alpha\>>*<around*|(|arctan<around*|(|<frac|1-cos \<alpha\>|sin
+    \<alpha\>>|)>+arctan<around*|(|<frac|1+cos \<alpha\>|sin
+    \<alpha\>>|)>|)>>>|<row|<cell|>|<cell|>|<cell|<frac|1-cos \<alpha\>|sin
+    \<alpha\>>\<times\><frac|1+cos \<alpha\>|sin
+    \<alpha\>>=<frac|1-cos<rsup|2> \<alpha\>|sin<rsup|2>
+    \<alpha\>>=1>>|<row|<cell|>|<cell|>|<cell|y=<frac|1-cos \<alpha\>|sin
+    \<alpha\>>\<rightarrow\><frac|1|y>=<frac|1+cos \<alpha\>|sin
+    \<alpha\>>>>|<row|<cell|>|<cell|>|<cell|arctan x+arctan
+    <frac|1|x>=<mid|{><rsub|-<frac|\<pi\>|2>,if
+    x\<less\>0><rsup|<frac|\<pi\>|2>,if x\<gtr\>0>>>|<row|<cell|>|<cell|>|<cell|0\<less\>\<alpha\>\<less\>\<pi\>\<rightarrow\>sin
+    \<alpha\>\<geqslant\>0,1\<pm\>cos \<alpha\>\<geqslant\>0\<rightarrow\>y\<gtr\>0>>|<row|<cell|F<around*|(|x|)>\|<rsub|-1><rsup|1>>|<cell|=>|<cell|<frac|1|sin
+    \<alpha\>>*<around*|(|arctan y+arctan <frac|1|y>|)>=<frac|1|sin
+    \<alpha\>>\<times\><frac|\<pi\>|2>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<pi\>|2*sin
+    \<alpha\>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|arctan
+    x=<frac|i|2>*l n<around*|(|<frac|i+x|i-x>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|sin
+    \<alpha\>>*<around*|(|<frac|i|2>*l n<around*|(|<frac|i+<frac|1-cos
+    \<alpha\>|sin \<alpha\>>|i-<frac|1-cos \<alpha\>|sin
+    \<alpha\>>>|)>-<frac|i|2>*l n<around*|(|<frac|i-<frac|1+cos \<alpha\>|sin
+    \<alpha\>>|i+<frac|1+cos \<alpha\>|sin
+    \<alpha\>>>|)>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|arctan
+    x\<pm\>arctan y=arctan<around*|(|<frac|x\<pm\>y|1\<mp\>x*y>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|sin
     \<alpha\>>\<times\>arctan*<around*|(|<frac|<frac|1-cos \<alpha\>|sin
     \<alpha\>>-<frac|-1-cos \<alpha\>|sin \<alpha\>>|1+<around*|(|<frac|1-cos
     \<alpha\>|sin \<alpha\>>|)>*<around*|(|<frac|-1-cos \<alpha\>|sin
@@ -83,7 +103,7 @@
     t|<around*|(|1+\<varepsilon\>|)>+<around*|(|1-\<varepsilon\>|)>*t<rsup|2>>=<frac|2|1-\<varepsilon\>>*<big|int><frac|d
     t|<frac|1+\<varepsilon\>|1-\<varepsilon\>>+t<rsup|2>>>>|<row|<cell|>|<cell|\<Iota\>.>|<cell|<big|int><frac|d
     x|a<rsup|2>+x<rsup|2>>=<frac|1|a>*arctan
-    <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|F<rsub|0><around*|(|t|)>>|<cell|=>|<cell|<frac|2|1-\<varepsilon\>>\<times\><sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>\<times\>arctan<around*|(|t\<times\><sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|<sqrt|1-\<varepsilon\><rsup|2>>>*arctan<around*|(|t*<sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>>>|<row|<cell|F<rsub|0><around*|(|x|)>>|<cell|=>|<cell|<frac|2|<sqrt|1-\<varepsilon\><rsup|2>>>*arctan<around*|(|tan<around*|(|<frac|x|2>|)>*<sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|F<rsub|0><around*|(|2*\<pi\>|)>-F<rsub|0><around*|(|0|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|<sqrt|1-\<varepsilon\><rsup|2>>>*<around*|(|arctan<around*|(|tan<around*|(|\<pi\>|)>*<sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>-arctan<around*|(|tan<around*|(|0|)>*<sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2*\<pi\>|<sqrt|1-\<varepsilon\><rsup|2>>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|\<xi\><rsub|k>=<frac|2*\<pi\>*k|n>>>|<row|<cell|>|<cell|>|<cell|\<Delta\>
+    <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|F<rsub|0><around*|(|t|)>>|<cell|=>|<cell|<frac|2|1-\<varepsilon\>>\<times\><sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>\<times\>arctan<around*|(|t\<times\><sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|<sqrt|1-\<varepsilon\><rsup|2>>>*arctan<around*|(|t*<sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>>>|<row|<cell|F<rsub|0><around*|(|x|)>>|<cell|=>|<cell|<frac|2|<sqrt|1-\<varepsilon\><rsup|2>>>*arctan<around*|(|tan<around*|(|<frac|x|2>|)>*<sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>>>|<row|<cell|F<around*|(|x|)>\|<rsub|0><rsup|2*\<pi\>>>|<cell|=>|<cell|F<rsub|0><around*|(|2*\<pi\>|)>-F<rsub|0><around*|(|0|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|<sqrt|1-\<varepsilon\><rsup|2>>>*<around*|(|arctan<around*|(|tan<around*|(|\<pi\>|)>*<sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>-arctan<around*|(|tan<around*|(|0|)>*<sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2*\<pi\>|<sqrt|1-\<varepsilon\><rsup|2>>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|\<xi\><rsub|k>=<frac|2*\<pi\>*k|n>>>|<row|<cell|>|<cell|>|<cell|\<Delta\>
     x<rsub|k>=<frac|2*\<pi\>|n>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>><around*|(|<big|sum><rsub|k=0><rsup|n-1>f<around*|(|\<xi\><rsub|k>|)>*\<Delta\>
     x<rsub|k>|)>=lim<rsub|n\<rightarrow\>\<infty\>>
     F<rsub|1><around*|(|n|)>>>|<row|<cell|F<rsub|1><around*|(|n|)>>|<cell|=>|<cell|<big|sum><rsub|k=0><rsup|n-1>f<around*|(|\<xi\><rsub|k>|)>*\<Delta\>
