@@ -66,8 +66,23 @@
     \<alpha\>\<geqslant\>0,1\<pm\>cos \<alpha\>\<geqslant\>0\<rightarrow\>y\<gtr\>0>>|<row|<cell|F<around*|(|x|)>\|<rsub|-1><rsup|1>>|<cell|=>|<cell|<frac|1|sin
     \<alpha\>>*<around*|(|arctan y+arctan <frac|1|y>|)>=<frac|1|sin
     \<alpha\>>\<times\><frac|\<pi\>|2>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<pi\>|2*sin
-    \<alpha\>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|arctan
-    x=<frac|i|2>*l n<around*|(|<frac|i+x|i-x>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|sin
+    \<alpha\>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|sin<around*|(|\<alpha\>\<pm\>\<beta\>|)>>|<cell|=>|<cell|sin
+    \<alpha\>*cos \<beta\>\<pm\>cos \<alpha\>*sin
+    \<beta\>>>|<row|<cell|sin<around*|(|arctan
+    x|)>>|<cell|=>|<cell|<frac|x|<sqrt|1+x<rsup|2>>>>>|<row|<cell|cos<around*|(|arctan
+    x|)>>|<cell|=>|<cell|<frac|1|<sqrt|1+x<rsup|2>>>>>|<row|<cell|S<around*|(|x|)>>|<cell|=>|<cell|sin<around*|(|arctan
+    x+arctan <frac|1|x>|)>>>|<row|<cell|>|<cell|=>|<cell|sin<around*|(|arctan
+    x|)>*cos<around*|(|arctan <frac|1|x>|)>+cos<around*|(|arctan
+    x|)>*sin<around*|(|arctan <frac|1|x>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|x|<sqrt|1+x<rsup|2>>>\<times\><frac|1|<sqrt|1+<frac|1|x<rsup|2>>>>+<frac|1|<sqrt|1+x<rsup|2>>>\<times\><frac|<frac|1|x>|<sqrt|1+<frac|1|x<rsup|2>>>>>>|<row|<cell|>|<cell|=>|<cell|<sqrt|x<rsup|2>>\<times\><around*|(|<frac|x|<sqrt|1+x<rsup|2>>>\<times\><frac|1|<sqrt|x<rsup|2>+1>>+<frac|1|<sqrt|1+x<rsup|2>>>\<times\><frac|<frac|1|x>|<sqrt|x<rsup|2>+1>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|<sqrt|x<rsup|2>>|x>\<times\><frac|x<rsup|2>+1|1+x<rsup|2>>=<frac|<sqrt|x<rsup|2>>|x>=<frac|<around*|\||x|\|>|x>>>|<row|<cell|>|<cell|>|<cell|x\<gtr\>0\<rightarrow\>S<around*|(|x|)>=1\<rightarrow\>arctan
+    x+arctan <frac|1|x>=<frac|\<pi\>|2>>>|<row|<cell|>|<cell|>|<cell|x\<less\>0\<rightarrow\>S<around*|(|x|)>=-1\<rightarrow\>arctan
+    x+arctan <frac|1|x>=-<frac|\<pi\>|2>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|arctan
+    x=<frac|i|2>*l n<around*|(|<frac|i+x|i-x>|)>>>|<row|<cell|A<around*|(|x|)>>|<cell|=>|<cell|arctan
+    x+arctan <frac|1|x>>>|<row|<cell|>|<cell|=>|<cell|<frac|i|2>*l
+    n<around*|(|<frac|i+x|i-x>|)>+<frac|i|2>*l
+    n<around*|(|<frac|i+<frac|1|x>|i-<frac|1|x>>|)>=<frac|i|2>*l
+    n<around*|(|<frac|<around*|(|i+x|)>*<around*|(|i+<frac|1|x>|)>|<around*|(|i-x|)>*<around*|(|i-<frac|1|x>|)>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|i|2>*l
+    n<around*|(|<frac|-1+i*x+<frac|i|x>+1|-1-i*x-<frac|i|x>+1>|)>=<frac|i|2>*l
+    n<around*|(|-1|)>=<frac|i|2>*l n e<rsup|i*\<pi\>>=<frac|i|2>\<times\>i*\<pi\>>>|<row|<cell|>|<cell|=>|<cell|-<frac|\<pi\>|2>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|sin
     \<alpha\>>*<around*|(|<frac|i|2>*l n<around*|(|<frac|i+<frac|1-cos
     \<alpha\>|sin \<alpha\>>|i-<frac|1-cos \<alpha\>|sin
     \<alpha\>>>|)>-<frac|i|2>*l n<around*|(|<frac|i-<frac|1+cos \<alpha\>|sin
@@ -103,7 +118,14 @@
     t|<around*|(|1+\<varepsilon\>|)>+<around*|(|1-\<varepsilon\>|)>*t<rsup|2>>=<frac|2|1-\<varepsilon\>>*<big|int><frac|d
     t|<frac|1+\<varepsilon\>|1-\<varepsilon\>>+t<rsup|2>>>>|<row|<cell|>|<cell|\<Iota\>.>|<cell|<big|int><frac|d
     x|a<rsup|2>+x<rsup|2>>=<frac|1|a>*arctan
-    <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|F<rsub|0><around*|(|t|)>>|<cell|=>|<cell|<frac|2|1-\<varepsilon\>>\<times\><sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>\<times\>arctan<around*|(|t\<times\><sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|<sqrt|1-\<varepsilon\><rsup|2>>>*arctan<around*|(|t*<sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>>>|<row|<cell|F<rsub|0><around*|(|x|)>>|<cell|=>|<cell|<frac|2|<sqrt|1-\<varepsilon\><rsup|2>>>*arctan<around*|(|tan<around*|(|<frac|x|2>|)>*<sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>>>|<row|<cell|F<around*|(|x|)>\|<rsub|0><rsup|2*\<pi\>>>|<cell|=>|<cell|F<rsub|0><around*|(|2*\<pi\>|)>-F<rsub|0><around*|(|0|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|<sqrt|1-\<varepsilon\><rsup|2>>>*<around*|(|arctan<around*|(|tan<around*|(|\<pi\>|)>*<sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>-arctan<around*|(|tan<around*|(|0|)>*<sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2*\<pi\>|<sqrt|1-\<varepsilon\><rsup|2>>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|\<xi\><rsub|k>=<frac|2*\<pi\>*k|n>>>|<row|<cell|>|<cell|>|<cell|\<Delta\>
+    <frac|x|a>+C<space|1em><around*|(|a\<neq\>0|)>>>|<row|<cell|F<rsub|0><around*|(|t|)>>|<cell|=>|<cell|<frac|2|1-\<varepsilon\>>\<times\><sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>\<times\>arctan<around*|(|t\<times\><sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|<sqrt|1-\<varepsilon\><rsup|2>>>*arctan<around*|(|t*<sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>>>|<row|<cell|F<rsub|0><around*|(|x|)>>|<cell|=>|<cell|<frac|2|<sqrt|1-\<varepsilon\><rsup|2>>>*arctan<around*|(|tan<around*|(|<frac|x|2>|)>*<sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>=T<around*|(|x|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|c=cot
+    <frac|x|2>>>|<row|<cell|>|<cell|>|<cell|cos
+    x=<frac|c<rsup|2>-1|c<rsup|2>+1>>>|<row|<cell|>|<cell|>|<cell|d
+    x=<frac|-2*d c|c<rsup|2>+1>>>|<row|<cell|F<rsub|0><around*|(|c|)>>|<cell|=>|<cell|<big|int><frac|<frac|-2*d
+    c|c<rsup|2>+1>|1+\<varepsilon\>*<frac|c<rsup|2>-1|c<rsup|2>+1>>=-2*<big|int><frac|d
+    c|c<rsup|2>+1+\<varepsilon\>*<around*|(|c<rsup|2>-1|)>>=-2*<big|int><frac|d
+    c|c<rsup|2><around*|(|1+\<varepsilon\>|)>+1-\<varepsilon\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|-2|1+\<varepsilon\>>*<big|int><frac|d
+    c|c<rsup|2>+<frac|1-\<varepsilon\>|1+e>>>>|<row|<cell|>|<cell|=>|<cell|<frac|-2|1+\<varepsilon\>>\<times\><sqrt|<frac|1+\<varepsilon\>|1-\<varepsilon\>>>*arccot<around*|(|c*<sqrt|<frac|1+\<varepsilon\>|1-\<varepsilon\>>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|-2|<sqrt|1-\<varepsilon\><rsup|2>>>*arccot<around*|(|c*<sqrt|<frac|1+\<varepsilon\>|1-\<varepsilon\>>>|)>>>|<row|<cell|F<rsub|0><around*|(|x|)>>|<cell|=>|<cell|<frac|-2|<sqrt|1-\<varepsilon\><rsup|2>>>*arccot<around*|(|cot<around*|(|<frac|x|2>|)>*<sqrt|<frac|1+\<varepsilon\>|1-\<varepsilon\>>>|)>=C<around*|(|x|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>\|<rsub|0><rsup|2*\<pi\>>>|<cell|=>|<cell|F<around*|(|x|)>\|<rsub|0><rsup|*<frac|\<pi\>|2>>+F<around*|(|x|)><mid|\|><rsub|<frac|\<pi\>|2>><rsup|\<pi\>>+F<around*|(|x|)><mid|\|><rsub|\<pi\>><rsup|<frac|3*\<pi\>|2>>+F<around*|(|x|)><mid|\|><rsub|<frac|3*\<pi\>|2>><rsup|2*\<pi\>>>>|<row|<cell|>|<cell|=>|<cell|T<around*|(|x|)>\|<rsub|0><rsup|*<frac|\<pi\>|2>>+C<around*|(|x|)><mid|\|><rsub|<frac|\<pi\>|2>><rsup|\<pi\>>+C<around*|(|x|)><mid|\|><rsub|\<pi\>><rsup|<frac|3*\<pi\>|2>>+T<around*|(|x|)><mid|\|><rsub|<frac|3*\<pi\>|2>><rsup|2*\<pi\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|<sqrt|1-\<varepsilon\><rsup|2>>>*arctan<around*|(|tan<around*|(|<frac|<frac|\<pi\>|2>|2>|)>*<sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>-<frac|2|<sqrt|1-\<varepsilon\><rsup|2>>>*arctan<around*|(|tan<around*|(|<frac|0|2>|)>*<sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>>>|<row|<cell|>|<cell|+>|<cell|<frac|-2|<sqrt|1-\<varepsilon\><rsup|2>>>*arccot<around*|(|cot<around*|(|<frac|\<pi\>|2>|)>*<sqrt|<frac|1+\<varepsilon\>|1-\<varepsilon\>>>|)>-<frac|-2|<sqrt|1-\<varepsilon\><rsup|2>>>*arccot<around*|(|cot<around*|(|<frac|<frac|\<pi\>|2>|2>|)>*<sqrt|<frac|1+\<varepsilon\>|1-\<varepsilon\>>>|)>>>|<row|<cell|>|<cell|+>|<cell|<frac|-2|<sqrt|1-\<varepsilon\><rsup|2>>>*arccot<around*|(|cot<around*|(|<frac|<frac|3*\<pi\>|2>|2>|)>*<sqrt|<frac|1+\<varepsilon\>|1-\<varepsilon\>>>|)>-<frac|-2|<sqrt|1-\<varepsilon\><rsup|2>>>*arccot<around*|(|cot<around*|(|<frac|\<pi\>|2>|)>*<sqrt|<frac|1+\<varepsilon\>|1-\<varepsilon\>>>|)>>>|<row|<cell|>|<cell|+>|<cell|<frac|2|<sqrt|1-\<varepsilon\><rsup|2>>>*arctan<around*|(|tan<around*|(|<frac|2*\<pi\>|2>|)>*<sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>-<frac|2|<sqrt|1-\<varepsilon\><rsup|2>>>*arctan<around*|(|tan<around*|(|<frac|<frac|3*\<pi\>|2>|2>|)>*<sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|<sqrt|1-\<varepsilon\><rsup|2>>>*arctan<around*|(|<sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>+<frac|2|<sqrt|1-\<varepsilon\><rsup|2>>>*arccot<around*|(|<sqrt|<frac|1+\<varepsilon\>|1-\<varepsilon\>>>|)>>>|<row|<cell|>|<cell|+>|<cell|<frac|-2|<sqrt|1-\<varepsilon\><rsup|2>>>*arccot<around*|(|-<sqrt|<frac|1+\<varepsilon\>|1-\<varepsilon\>>>|)>-<frac|2|<sqrt|1-\<varepsilon\><rsup|2>>>*arctan<around*|(|-<sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|4|<sqrt|1-\<varepsilon\><rsup|2>>>*<around*|(|arctan<around*|(|<sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>+arccot<around*|(|<sqrt|<frac|1+\<varepsilon\>|1-\<varepsilon\>>>|)>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|x|)>\|<rsub|0><rsup|2*\<pi\>>>|<cell|=>|<cell|F<rsub|0><around*|(|2*\<pi\>|)>-F<rsub|0><around*|(|0|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|<sqrt|1-\<varepsilon\><rsup|2>>>*<around*|(|arctan<around*|(|tan<around*|(|\<pi\>|)>*<sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>-arctan<around*|(|tan<around*|(|0|)>*<sqrt|<frac|1-\<varepsilon\>|1+\<varepsilon\>>>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2*\<pi\>|<sqrt|1-\<varepsilon\><rsup|2>>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|\<Delta\>
     x<rsub|k>=<frac|2*\<pi\>|n>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>><around*|(|<big|sum><rsub|k=0><rsup|n-1>f<around*|(|\<xi\><rsub|k>|)>*\<Delta\>
     x<rsub|k>|)>=lim<rsub|n\<rightarrow\>\<infty\>>
     F<rsub|1><around*|(|n|)>>>|<row|<cell|F<rsub|1><around*|(|n|)>>|<cell|=>|<cell|<big|sum><rsub|k=0><rsup|n-1>f<around*|(|\<xi\><rsub|k>|)>*\<Delta\>
@@ -177,9 +199,11 @@
 
 <\initial>
   <\collection>
+    <associate|magnification|1>
     <associate|page-height|auto>
     <associate|page-medium|paper>
     <associate|page-type|letter>
     <associate|page-width|auto>
+    <associate|preamble|false>
   </collection>
 </initial>

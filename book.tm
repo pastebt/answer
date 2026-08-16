@@ -113,6 +113,22 @@
     t=<frac|2|1+t<rsup|2>>*d t>>|<row|<cell|>|<cell|>|<cell|>>>>
   </eqnarray*>
 
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|t>|<cell|=>|<cell|cot
+    <frac|x|2>>>|<row|<cell|t<rsup|2>>|<cell|=>|<cell|<frac|cos<rsup|2>
+    <frac|x|2>|sin<rsup|2> <frac|x|2>>=<frac|1+cos x|1-cos
+    x>>>|<row|<cell|cos x>|<cell|=>|<cell|<frac|t<rsup|2>-1|t<rsup|2>+1>>>|<row|<cell|sin
+    x>|<cell|=>|<cell|<frac|2*t|t<rsup|2>+1>>>|<row|<cell|d
+    t>|<cell|=>|<cell|d<around*|(|<frac|cos <frac|x|2>|sin
+    <frac|x|2>>|)>=<frac|-sin<rsup|2> <frac|x|2>-cos<rsup|2>
+    <frac|x|2>|sin<rsup|2> <frac|x|2>>*d <frac|x|2>=<frac|-<frac|1|2>*d
+    x|<frac|1|2>*<around*|(|1-cos x|)>>>>|<row|<cell|>|<cell|=>|<cell|<frac|-1|<around*|(|1-cos
+    x|)>>*d x=<frac|d x|cos x-1>>>|<row|<cell|d
+    x>|<cell|=>|<cell|<around*|(|cos x-1|)>*d
+    t=<around*|(|<frac|t<rsup|2>-1|t<rsup|2>+1>-1|)>*d x=<frac|-2*d
+    t|t<rsup|2>+1>>>>>
+  </eqnarray*>
+
   \;
 
   \;
