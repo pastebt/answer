@@ -201,7 +201,9 @@
     <frac|\<pi\>|4>|)>-0-<around*|(|<frac|1|<around*|\||a*b|\|>>*arctan<around*|(|<around*|\||<frac|b|a>|\|>*cot
     <frac|\<pi\>|2>|)>-<frac|1|<around*|\||a*b|\|>>*arctan<around*|(|<around*|\||<frac|b|a>|\|>*cot
     <frac|\<pi\>|4>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<around*|\||a*b|\|>>*arctan<around*|(|<around*|\||<frac|a|b>|\|>|)>+<frac|1|<around*|\||a*b|\|>>*arctan<around*|(|<around*|\||<frac|b|a>|\|>|)>>>|<row|<cell|>|<cell|>|<cell|arctan
-    x+arctan <frac|1|x>=<frac|\<pi\>|2>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|<around*|\||a*b|\|>>\<times\><frac|\<pi\>|2>=<frac|\<pi\>|2*<around*|\||a*b|\|>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|t=tan
+    x+arctan <frac|1|x>=<choice|<tformat|<table|<row|<cell|<frac|\<pi\>|2>,>|<cell|if
+    x\<gtr\>0>|<cell|>>|<row|<cell|-<frac|\<pi\>|2>,>|<cell|if
+    x\<less\>0>|<cell|>>>>>>>|<row|<cell|>|<cell|>|<cell|<around*|\||<frac|a|b>|\|>\<gtr\>0>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|<around*|\||a*b|\|>>\<times\><frac|\<pi\>|2>=<frac|\<pi\>|2*<around*|\||a*b|\|>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|t=tan
     <frac|x|2>>>|<row|<cell|>|<cell|>|<cell|cos
     x=<frac|1-t<rsup|2>|1+t<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|sin
     x=<frac|2*t|1+t<rsup|2>>>>|<row|<cell|>|<cell|>|<cell|d x=<around*|(|cos
