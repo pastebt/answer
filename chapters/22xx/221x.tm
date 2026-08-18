@@ -237,7 +237,17 @@
 
   \;
 
-  \;
+  2217:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|-1><rsup|1><frac|d|d
+    x><around*|(|<frac|1|1+2<rsup|<frac|1|x>>>|)>*d
+    x>>|<row|<cell|f<around*|(|x|)>>|<cell|=>|<cell|<frac|1|1+2<rsup|<frac|1|x>>>>>|<row|<cell|d
+    <around*|(|f<around*|(|x|)>|)>>|<cell|=>|<cell|<frac|-1|<around*|(|1+2<rsup|<frac|1|x>>|)><rsup|2>>\<times\>d<around*|(|2<rsup|<frac|1|x>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|-1|<around*|(|1+2<rsup|<frac|1|x>>|)><rsup|2>>\<times\>l
+    n 2\<times\>2<rsup|<frac|1|x>>\<times\>d<around*|(|<frac|1|x>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|-1|<around*|(|1+2<rsup|<frac|1|x>>|)><rsup|2>>\<times\>l
+    n 2\<times\>2<rsup|<frac|1|x>>\<times\><frac|-1|x<rsup|2>>\<times\>d
+    x>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
