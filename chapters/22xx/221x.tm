@@ -222,6 +222,22 @@
     n<around*|\||<frac|a+x|a-x>|\|>+C<space|1em><around*|(|a\<neq\>0|)><space|1em>>>|<row|<cell|F<rsub|2><around*|(|y|)>>|<cell|=>|<cell|<frac|1|2*m>*l
     n<around*|\||<frac|m-y|m+y>|\|>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2216:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|(|a|)>>|<cell|>|<cell|x=0>>|<row|<cell|<around*|(|b|)>>|<cell|>|<cell|sec
+    <frac|\<pi\>|2>=\<infty\>>>|<row|<cell|<around*|(|c|)>>|<cell|>|<cell|arctan
+    <frac|1|x>=\<infty\>>>>>
+  </eqnarray*>
+
+  \;
+
+  \;
 </body>
 
 <\initial>
