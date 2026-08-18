@@ -242,11 +242,24 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|-1><rsup|1><frac|d|d
     x><around*|(|<frac|1|1+2<rsup|<frac|1|x>>>|)>*d
-    x>>|<row|<cell|f<around*|(|x|)>>|<cell|=>|<cell|<frac|1|1+2<rsup|<frac|1|x>>>>>|<row|<cell|d
-    <around*|(|f<around*|(|x|)>|)>>|<cell|=>|<cell|<frac|-1|<around*|(|1+2<rsup|<frac|1|x>>|)><rsup|2>>\<times\>d<around*|(|2<rsup|<frac|1|x>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|-1|<around*|(|1+2<rsup|<frac|1|x>>|)><rsup|2>>\<times\>l
-    n 2\<times\>2<rsup|<frac|1|x>>\<times\>d<around*|(|<frac|1|x>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|-1|<around*|(|1+2<rsup|<frac|1|x>>|)><rsup|2>>\<times\>l
-    n 2\<times\>2<rsup|<frac|1|x>>\<times\><frac|-1|x<rsup|2>>\<times\>d
-    x>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>>>
+    x>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|f<around*|(|x|)>>|<cell|=>|<cell|<frac|1|1+2<rsup|<frac|1|x>>>>>|<row|<cell|<frac|d|d
+    x> <around*|(|f<around*|(|x|)>|)>>|<cell|=>|<cell|<frac|-1|<around*|(|1+2<rsup|<frac|1|x>>|)><rsup|2>>\<times\><frac|d|d
+    x><around*|(|2<rsup|<frac|1|x>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|-1|<around*|(|1+2<rsup|<frac|1|x>>|)><rsup|2>>\<times\>l
+    n 2\<times\>2<rsup|<frac|1|x>>\<times\><frac|d|d
+    x><around*|(|<frac|1|x>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|-1|<around*|(|1+2<rsup|<frac|1|x>>|)><rsup|2>>\<times\>l
+    n 2\<times\>2<rsup|<frac|1|x>>\<times\><frac|-1|x<rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|l
+    n 2|x<rsup|2>>\<times\><frac|2<rsup|<frac|1|x>>|1+2<rsup|1+<frac|1|x>>+2<rsup|<frac|2|x>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|l
+    n 2|x<rsup|2>>\<times\><frac|1|2<rsup|-<frac|1|x>>+2+2<rsup|<frac|1|x>>>=G<around*|(|x|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|\<xi\><rsub|i>>|<cell|=>|<cell|-1+<frac|2*i|n>>>|<row|<cell|\<Delta\>
+    x<rsub|i>>|<cell|=>|<cell|<frac|2|n>>>|<row|<cell|g<rsub|1><around*|(|n|)>>|<cell|=>|<cell|<frac|l
+    n 2|<around*|(|<frac|2*i|n>-1|)><rsup|2>>\<times\><frac|1|2<rsup|<frac|1|1-<frac|2*i|n>>>+2+2<rsup|<frac|1|<frac|2*i|n>-1>>>>>|<row|<cell|g<around*|(|n|)>>|<cell|=>|<cell|<big|sum><rsub|i=0><rsup|n-1>g<rsub|1><around*|(|n|)>*\<Delta\>
+    x<rsub|i>>>|<row|<cell|>|<cell|=>|<cell|<big|sum><rsub|i=0><rsup|n-1><frac|l
+    n 2|<around*|(|<frac|2*i|n>-1|)><rsup|2>>\<times\><frac|1|2<rsup|<frac|1|1-<frac|2*i|n>>>+2+2<rsup|<frac|1|<frac|2*i|n>-1>>>\<times\><frac|2|n>>>|<row|<cell|>|<cell|=>|<cell|l
+    n 4*<big|sum><rsub|i=0><rsup|n-1><frac|n<rsup|2>|<around*|(|2*i-n|)><rsup|2>>\<times\><frac|1|n>\<times\><frac|1|2<rsup|<frac|n|n-2*i>>+2+2<rsup|<frac|n|2*i-n>>>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|g<around*|(|n|)>>|<cell|=>|<cell|G<around*|(|x|)><mid|\|><stack|<tformat|<table|<row|<cell|0>>|<row|<cell|>>|<row|<cell|-1>>>>>>>|<row|<cell|\<xi\><rsub|i>>|<cell|=>|<cell|<frac|-i|n>>>|<row|<cell|\<Delta\>
+    x<rsub|i>>|<cell|=>|<cell|<frac|-1|n>>>|<row|<cell|g<rsub|1><around*|(|n|)>>|<cell|=>|<cell|<big|sum><rsub|i=0><rsup|n-1><frac|l
+    n 2|<around*|(|<frac|-i|n>|)><rsup|2>>\<times\><frac|1|2<rsup|<frac|i|n>>+2+2<rsup|<frac|-i|n>>>\<times\><frac|-1|n>>>|<row|<cell|>|<cell|=>|<cell|-n*l
+    n 2*<big|sum><rsub|i=0><rsup|n-1><frac|1|i<rsup|2>>\<times\><frac|1|2<rsup|<frac|i|n>>+2+2<rsup|<frac|-i|n>>>>>|<row|<cell|>|<cell|=>|<cell|-n*l
+    n 2*<big|sum><rsub|i=0><rsup|n-1><frac|1|i<rsup|2>>\<times\><frac|2<rsup|<frac|i|n>>|2<rsup|<frac|2*i|n>>+2\<times\>2<rsup|<frac|i|n>>+1>>>|<row|<cell|>|<cell|=>|<cell|-n*l
+    n 2*<big|sum><rsub|i=0><rsup|n-1><frac|1|i<rsup|2>>\<times\><frac|2<rsup|<frac|i|n>>|<around*|(|2<rsup|<frac|i|n>>+1|)><rsup|2>>>>>>
   </eqnarray*>
 </body>
 
