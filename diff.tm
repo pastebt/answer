@@ -1,4 +1,4 @@
-<TeXmacs|2.1.4>
+<TeXmacs|2.1.5>
 
 <style|<tuple|generic|chinese>>
 
@@ -387,6 +387,12 @@
   2193: \U 2205:
 
   \;
+
+  2217:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|2|3>>|<cell|\<neq\>>|<cell|-<frac|1|3>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
