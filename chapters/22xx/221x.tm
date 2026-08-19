@@ -261,6 +261,25 @@
     n 2*<big|sum><rsub|i=0><rsup|n-1><frac|1|i<rsup|2>>\<times\><frac|2<rsup|<frac|i|n>>|2<rsup|<frac|2*i|n>>+2\<times\>2<rsup|<frac|i|n>>+1>>>|<row|<cell|>|<cell|=>|<cell|-n*l
     n 2*<big|sum><rsub|i=0><rsup|n-1><frac|1|i<rsup|2>>\<times\><frac|2<rsup|<frac|i|n>>|<around*|(|2<rsup|<frac|i|n>>+1|)><rsup|2>>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2218:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|100*\<pi\>><sqrt|1-cos
+    2*x>*d x>>|<row|<cell|>|<cell|>|<cell|1-cos 2*x=2*sin<rsup|2>
+    x>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|100*\<pi\>><sqrt|2*sin<rsup|2>
+    x>*d x>>|<row|<cell|>|<cell|=>|<cell|<sqrt|2>*<big|int><rsub|0><rsup|100*\<pi\>><sqrt|sin<rsup|2>
+    x>*d x>>|<row|<cell|>|<cell|=>|<cell|<sqrt|2>*<big|int><rsub|0><rsup|100*\<pi\>><around*|\||sin
+    x|\|>*d x>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|\<pi\>><around*|\||sin
+    x|\|>*d x=<big|int><rsub|0><rsup|\<pi\>>sin x*d x=-cos
+    x<mid|\|><stack|<tformat|<table|<row|<cell|\<pi\>>>|<row|<cell|0>>>>>>>|<row|<cell|>|<cell|=>|<cell|-<around*|(|-1-1|)>=2>>|<row|<cell|f<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|\<pi\>><rsup|2*\<pi\>><around*|\||sin
+    x|\|>*d x=<big|int><rsub|\<pi\>><rsup|2*\<pi\>>-sin x*d x=cos
+    x<mid|\|><stack|<tformat|<table|<row|<cell|2*\<pi\>>>|<row|<cell|0>>>>>>>|<row|<cell|>|<cell|=>|<cell|1-<around*|(|-1|)>=2>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<sqrt|2>\<times\><around*|(|2+2|)>\<times\><frac|100*\<pi\>|2*\<pi\>>=200*<sqrt|2>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
