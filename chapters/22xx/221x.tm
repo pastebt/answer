@@ -288,7 +288,7 @@
   2219:
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|F<around*|(|n|)>>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>><around*|(|<frac|1|n<rsup|2>>+<frac|2|n<rsup|2>>+\<cdots\>+<frac|n-1|n<rsup|2>>|)>>>|<row|<cell|\<xi\><rsub|i>>|<cell|=>|<cell|<frac|i|n>>>|<row|<cell|\<Delta\>
+    <tformat|<table|<row|<cell|F<around*|(|n|)>>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>><around*|(|<frac|1|n<rsup|2>>+<frac|2|n<rsup|2>>+\<cdots\>+<frac|n-1|n<rsup|2>>|)>>>|<row|<cell|\<xi\><rsub|i>>|<cell|=>|<cell|<frac|i|n>\<rightarrow\>\<xi\><rsub|0>=0,\<xi\><rsub|n>=1>>|<row|<cell|\<Delta\>
     x<rsub|i>>|<cell|=>|<cell|<frac|1|n>>>|<row|<cell|F<around*|(|n|)>>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
     <big|sum><rsub|i=0><rsup|n-1><frac|i|n>\<times\><frac|1|n>=lim<rsub|n\<rightarrow\>\<infty\>>
     <big|sum><rsub|i=0><rsup|n-1>\<xi\><rsub|i>*\<Delta\>
