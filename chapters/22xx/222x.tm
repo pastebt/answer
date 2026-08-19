@@ -26,7 +26,21 @@
     <big|sum><rsub|i=1><rsup|n><frac|\<Delta\>
     x<rsub|i>|1+<around*|(|\<xi\><rsub|i>|)><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|0><rsup|1><frac|d
     x|1+x<rsup|2>>=arctan x<mid|\|><stack|<tformat|<table|<row|<cell|1>>|<row|<cell|0>>>>>=arctan
-    1-arctan 0>>|<row|<cell|>|<cell|=>|<cell|<frac|\<pi\>|4>>>|<row|<cell|>|<cell|>|<cell|>>>>
+    1-arctan 0>>|<row|<cell|>|<cell|=>|<cell|<frac|\<pi\>|4>>>>>
+  </eqnarray*>
+
+  \;
+
+  2222:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|n|)>>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
+    <frac|1|n><around*|(|sin <frac|\<pi\>|n>+sin
+    <frac|2*\<pi\>|n>+\<cdots\>+sin <frac|<around*|(|n-1|)>*\<pi\>|n>|)>>>|<row|<cell|>|<cell|>|<cell|\<xi\><rsub|i>=<frac|i|n>\<rightarrow\>\<xi\><rsub|0>=0,\<xi\><rsub|n>=1>>|<row|<cell|>|<cell|>|<cell|\<Delta\>
+    x<rsub|i>=<frac|1|n>>>|<row|<cell|F<around*|(|n|)>>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
+    <big|sum><rsub|i=0><rsup|n-1>sin<around*|(|\<pi\>*\<xi\><rsub|i>|)>*\<Delta\>
+    x<rsub|i>>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|0><rsup|1>sin<around*|(|\<pi\>*x|)>*d
+    x=<frac|1|\<pi\>>*<big|int><rsub|0><rsup|1>sin<around*|(|\<pi\>*x|)>*d<around*|(|\<pi\>*x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|\<pi\>>*<around*|(|-cos<around*|(|\<pi\>*x|)>|)>\<barsuchthat\><stack|<tformat|<table|<row|<cell|1>>|<row|<cell|0>>>>>=<frac|-1|\<pi\>>*<around*|(|-1-1|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|\<pi\>>>>>>
   </eqnarray*>
 </body>
 
