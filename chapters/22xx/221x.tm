@@ -280,6 +280,21 @@
     x|\|>*d x=<big|int><rsub|\<pi\>><rsup|2*\<pi\>>-sin x*d x=cos
     x<mid|\|><stack|<tformat|<table|<row|<cell|2*\<pi\>>>|<row|<cell|0>>>>>>>|<row|<cell|>|<cell|=>|<cell|1-<around*|(|-1|)>=2>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<sqrt|2>\<times\><around*|(|2+2|)>\<times\><frac|100*\<pi\>|2*\<pi\>>=200*<sqrt|2>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2219:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|n|)>>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>><around*|(|<frac|1|n<rsup|2>>+<frac|2|n<rsup|2>>+\<cdots\>+<frac|n-1|n<rsup|2>>|)>>>|<row|<cell|\<xi\><rsub|i>>|<cell|=>|<cell|<frac|i|n>>>|<row|<cell|\<Delta\>
+    x<rsub|i>>|<cell|=>|<cell|<frac|1|n>>>|<row|<cell|F<around*|(|n|)>>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
+    <big|sum><rsub|i=0><rsup|n-1><frac|i|n>\<times\><frac|1|n>=lim<rsub|n\<rightarrow\>\<infty\>>
+    <big|sum><rsub|i=0><rsup|n-1>\<xi\><rsub|i>*\<Delta\>
+    x<rsub|i>>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|0><rsup|1>x*d
+    x=<frac|1|2>*x<rsup|2><mid|\|><stack|<tformat|<table|<row|<cell|1>>|<row|<cell|0>>>>>=<frac|1|2>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
