@@ -57,6 +57,21 @@
     x<rsub|i>>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|0><rsup|1>x<rsup|p>*d
     x=<frac|x<rsup|p+1>|p+1><mid|\|><stack|<tformat|<table|<row|<cell|1>>|<row|<cell|0>>>>>=<frac|1|p+1>-0>>|<row|<cell|>|<cell|=>|<cell|<frac|1|p+1>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2224:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|n|)>>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
+    <frac|1|n>*<around*|(|<sqrt|1+<frac|1|n>>+<sqrt|1+<frac|2|n>>+\<cdots\>+<sqrt|1+<frac|n|n>>|)>>>|<row|<cell|>|<cell|>|<cell|\<xi\><rsub|i>=1+<frac|i|n>\<rightarrow\>\<xi\><rsub|0>=1,\<xi\><rsub|n>=2>>|<row|<cell|>|<cell|>|<cell|\<Delta\>
+    x<rsub|i>=<frac|1|n>>>|<row|<cell|F<around*|(|n|)>>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
+    <big|sum><rsub|i=1><rsup|n><sqrt|\<xi\><rsub|i>>*\<Delta\>
+    x<rsub|i>>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|1><rsup|2><sqrt|x>*d
+    x=<frac|2|3>*x<rsup|<frac|3|2>><mid|\|><stack|<tformat|<table|<row|<cell|2>>|<row|<cell|1>>>>>=<frac|2|3>*<around*|(|2<rsup|<frac|3|2>>-1<rsup|<frac|3|2>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|3>*<around*|(|2*<sqrt|2>-1|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
