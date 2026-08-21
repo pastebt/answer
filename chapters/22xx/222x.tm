@@ -1,4 +1,4 @@
-<TeXmacs|2.1.4>
+<TeXmacs|2.1.5>
 
 <style|<tuple|generic|chinese>>
 
@@ -71,6 +71,35 @@
     <big|sum><rsub|i=1><rsup|n><sqrt|\<xi\><rsub|i>>*\<Delta\>
     x<rsub|i>>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|1><rsup|2><sqrt|x>*d
     x=<frac|2|3>*x<rsup|<frac|3|2>><mid|\|><stack|<tformat|<table|<row|<cell|2>>|<row|<cell|1>>>>>=<frac|2|3>*<around*|(|2<rsup|<frac|3|2>>-1<rsup|<frac|3|2>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|3>*<around*|(|2*<sqrt|2>-1|)>>>>>
+  </eqnarray*>
+
+  \;
+
+  \;
+
+  2225:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|n|)>>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
+    <frac|<sqrt|n!|n>|n>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
+    <sqrt|<frac|n!|n<rsup|n>>|n>>>|<row|<cell|>|<cell|=>|<cell|e<rsup|l n
+    F<around*|(|n|)>>=e<rsup|l n lim<rsub|n\<rightarrow\>\<infty\>>
+    <sqrt|<frac|n!|n<rsup|n>>|n>>>>|<row|<cell|L<around*|(|n|)>>|<cell|=>|<cell|l
+    n lim<rsub|n\<rightarrow\>\<infty\>> <sqrt|<frac|n!|n<rsup|n>>|n>=lim<rsub|n\<rightarrow\>\<infty\>>
+    l n<around*|(|<sqrt|<frac|n!|n<rsup|n>>|n>|)>=lim<rsub|n\<rightarrow\>\<infty\>>
+    <frac|1|n>*l n <frac|n!|n<rsup|n>>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
+    <frac|1|n>*<around*|(|l n <frac|n|n>+l n <frac|n-1|n>+\<cdots\>+l n
+    <frac|1|n>|)>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
+    <frac|1|n>*<big|sum><rsub|i=1><rsup|n>l n
+    <frac|i|n>>>|<row|<cell|\<xi\><rsub|i>>|<cell|=>|<cell|<frac|i|n>>>|<row|<cell|\<Delta\>
+    x<rsub|i>>|<cell|=>|<cell|<frac|1|n>>>|<row|<cell|L<around*|(|n|)>>|<cell|=>|<cell|<big|int><rsub|<frac|1|n>><rsup|1>l
+    n x*d x=<around*|(|x*l n x-x|)>\<barsuchthat\><stack|<tformat|<table|<row|<cell|1>>|<row|<cell|<frac|1|n>>>>>>>>|<row|<cell|>|<cell|=>|<cell|1\<times\>l
+    n 1-1-<around*|(|<frac|1|n>\<times\>l n
+    <frac|1|n>-<frac|1|n>|)>>>|<row|<cell|m<around*|(|n|)>>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>><around*|(|<frac|1|n>\<times\>l
+    n <frac|1|n>-<frac|1|n>|)>=lim<rsub|n\<rightarrow\>\<infty\>> <frac|l n
+    n-1|n>=lim<rsub|n\<rightarrow\>\<infty\>> <frac|<around*|(|l n
+    n-1|)><rprime|'>|n<rprime|'>>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
+    <frac|1|n>=0>>|<row|<cell|L<around*|(|n|)>>|<cell|=>|<cell|-1>>|<row|<cell|F<around*|(|n|)>>|<cell|=>|<cell|e<rsup|-1>=<frac|1|e>>>>>
   </eqnarray*>
 </body>
 
