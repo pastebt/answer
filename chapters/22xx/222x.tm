@@ -1,4 +1,4 @@
-<TeXmacs|2.1.5>
+<TeXmacs|2.1.4>
 
 <style|<tuple|generic|chinese>>
 
@@ -100,6 +100,18 @@
     n-1|n>=lim<rsub|n\<rightarrow\>\<infty\>> <frac|<around*|(|l n
     n-1|)><rprime|'>|n<rprime|'>>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
     <frac|1|n>=0>>|<row|<cell|L<around*|(|n|)>>|<cell|=>|<cell|-1>>|<row|<cell|F<around*|(|n|)>>|<cell|=>|<cell|e<rsup|-1>=<frac|1|e>>>>>
+  </eqnarray*>
+
+  \;
+
+  \;
+
+  2226:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|n|)>>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>><around*|(|<frac|1|n>*<big|sum><rsub|k=1><rsup|n>f<around*|(|a+k*<frac|b-a|n>|)>|)>>>|<row|<cell|\<xi\><rsub|k>>|<cell|=>|<cell|a+k*<frac|b-a|n>>>|<row|<cell|\<Delta\>
+    x<rsub|k>>|<cell|=>|<cell|<frac|b-a|n>>>|<row|<cell|F<around*|(|n|)>>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>><around*|(|<frac|b-a|n>\<times\><frac|1|b-a>\<times\><big|sum><rsub|k=1><rsup|n>f<around*|(|a+k*<frac|b-a|n>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|b-a>*<big|int><rsub|a><rsup|b>f<around*|(|x|)>*d
+    x>>>>
   </eqnarray*>
 </body>
 
