@@ -124,8 +124,17 @@
     <tformat|<table|<row|<cell|F<around*|(|n|)>>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>><around*|[|<around*|(|1+<frac|1|n>|)>*sin
     <frac|\<mathpi\>|n<rsup|2>>+<around*|(|1+<frac|2|n>|)>*sin
     <frac|2*\<mathpi\>|n<rsup|2>>+\<cdots\>+<around*|(|1+<frac|n-1|n>|)>*sin
-    <frac|<around*|(|n-1|)>*\<mathpi\>|n<rsup|2>>|]>>>>>
+    <frac|<around*|(|n-1|)>*\<mathpi\>|n<rsup|2>>|]>>>|<row|<cell|sin
+    x>|<cell|=>|<cell|x-<frac|x<rsup|3>|3!>+<frac|x<rsup|5>|5!>-\<cdots\>=<big|sum><rsub|n=0><rsup|\<infty\>><around*|(|-1|)><rsup|n>
+    <frac|x<rsup|2*n+1>|<around*|(|2*n+1|)>!>>>|<row|<cell|sin
+    <frac|\<mathpi\>|n<rsup|2>>>|<cell|=>|<cell|<frac|\<mathpi\>|n<rsup|2>>-<frac|<around*|(|<frac|\<mathpi\>|n<rsup|2>>|)><rsup|3>|3!>+\<cdots\>\<approx\><frac|\<mathpi\>|n<rsup|2>>>>|<row|<cell|F<around*|(|n|)>>|<cell|\<approx\>>|<cell|lim<rsub|n\<rightarrow\>\<infty\>><around*|[|<around*|(|1+<frac|1|n>|)>*<frac|\<mathpi\>|n<rsup|2>>+<around*|(|1+<frac|2|n>|)>*<frac|2*\<mathpi\>|n<rsup|2>>+\<cdots\>+<around*|(|1+<frac|n-1|n>|)>*<frac|<around*|(|n-1|)>*\<mathpi\>|n<rsup|2>>|]>>>|<row|<cell|>|<cell|=>|<cell|\<mathpi\>*lim<rsub|n\<rightarrow\>\<infty\>>
+    <frac|1|n>*<around*|[|<around*|(|1+<frac|1|n>|)>*<frac|1|n>+<around*|(|1+<frac|2|n>|)>*<frac|2|n>+\<cdots\>+<around*|(|1+<frac|n-1|n>|)>*<frac|<around*|(|n-1|)>|n>|]>>>|<row|<cell|\<xi\><rsub|i>>|<cell|=>|<cell|<frac|i|n>\<rightarrow\>\<xi\><rsub|1>=<frac|1|n>,\<xi\><rsub|n-1>=<frac|n-1|n>>>|<row|<cell|\<Delta\>
+    x<rsub|i>>|<cell|=>|<cell|<frac|1|n>>>|<row|<cell|F<around*|(|n|)>>|<cell|=>|<cell|\<mathpi\>*<big|int><rsub|0><rsup|1><around*|(|1+x|)>*x*d
+    x=\<mathpi\>*<big|int><rsub|0><rsup|1><around*|(|x+x<rsup|2>|)>*d
+    x=\<mathpi\>*<around*|(|<frac|1|2>*x+<frac|2|3>*x<rsup|3>|)><mid|\|><stack|<tformat|<table|<row|<cell|1>>|<row|<cell|0>>>>>>>|<row|<cell|>|<cell|=>|<cell|\<mathpi\>*<around*|(|<frac|1|2>+<frac|2|3>|)>=<frac|5|6>*\<mathpi\>>>>>
   </eqnarray*>
+
+  \;
 </body>
 
 <\initial>
