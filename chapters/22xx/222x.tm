@@ -135,6 +135,18 @@
   </eqnarray*>
 
   \;
+
+  2228:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|n|)>>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
+    sin <frac|\<pi\>|n>\<cdot\><big|sum><rsub|k=1><rsup|n><frac|1|2+cos
+    <frac|k*\<pi\>|n>>>>|<row|<cell|sin <frac|\<pi\>|n>>|<cell|\<approx\>>|<cell|<frac|\<pi\>|n>>>|<row|<cell|\<xi\><rsub|k>>|<cell|=>|<cell|<frac|k*\<pi\>|n>>>|<row|<cell|\<Delta\>
+    x<rsub|k>>|<cell|=>|<cell|<frac|\<pi\>|n>>>|<row|<cell|F<around*|(|n|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|\<pi\>><frac|d
+    x|2+cos x>=<frac|1|2>*<big|int><rsub|0><rsup|\<pi\>><frac|d
+    x|1+<frac|1|2>*cos x>>>|<row|<cell|2213:>|<cell|>|<cell|<big|int><rsub|0><rsup|2*\<pi\>><frac|d
+    x|1+\<varepsilon\>*cos x><space|1em><around*|(|0\<leqslant\>\<varepsilon\>\<less\>1|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2*\<pi\>|<sqrt|1-\<varepsilon\><rsup|2>>>>>|<row|<cell|\<varepsilon\>>|<cell|=>|<cell|<frac|1|2>>>|<row|<cell|F<around*|(|n|)>>|<cell|=>|<cell|<frac|1|2>\<times\><frac|\<pi\>|<sqrt|1-<around*|(|<frac|1|2>|)><rsup|2>>>=<frac|1|2>\<times\><frac|\<pi\>|<sqrt|<frac|3|4>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<pi\>|<sqrt|3>>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
