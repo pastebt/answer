@@ -1,4 +1,4 @@
-<TeXmacs|2.1.5>
+<TeXmacs|2.1.4>
 
 <style|<tuple|generic|chinese>>
 
@@ -146,6 +146,24 @@
     x|2+cos x>=<frac|1|2>*<big|int><rsub|0><rsup|\<pi\>><frac|d
     x|1+<frac|1|2>*cos x>>>|<row|<cell|2213:>|<cell|>|<cell|<big|int><rsub|0><rsup|2*\<pi\>><frac|d
     x|1+\<varepsilon\>*cos x><space|1em><around*|(|0\<leqslant\>\<varepsilon\>\<less\>1|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2*\<pi\>|<sqrt|1-\<varepsilon\><rsup|2>>>>>|<row|<cell|\<varepsilon\>>|<cell|=>|<cell|<frac|1|2>>>|<row|<cell|F<around*|(|n|)>>|<cell|=>|<cell|<frac|1|2>\<times\><frac|\<pi\>|<sqrt|1-<around*|(|<frac|1|2>|)><rsup|2>>>=<frac|1|2>\<times\><frac|\<pi\>|<sqrt|<frac|3|4>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<pi\>|<sqrt|3>>>>>>
+  </eqnarray*>
+
+  \;
+
+  \;
+
+  2229:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|n|)>>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
+    <frac|<big|sum><rsub|k=1><rsup|n><sqrt|<around*|(|n*x+k|)>*<around*|(|n*x+k+1|)>>|n<rsup|2>><space|1em><around*|(|x\<gtr\>0|)>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
+    <frac|1|n>*<big|sum><rsub|k=1><rsup|n><sqrt|<frac|<around*|(|n*x+k|)>*<around*|(|n*x+k+1|)>|n<rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
+    <frac|1|n>*<big|sum><rsub|k=1><rsup|n><sqrt|<around*|(|x+<frac|k|n>|)>*<around*|(|x+<frac|k|n>+<frac|1|n>|)>>>>|<row|<cell|>|<cell|>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
+    <frac|1|n>=0>>|<row|<cell|F<around*|(|n|)>>|<cell|\<approx\>>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
+    <frac|1|n>*<big|sum><rsub|k=1><rsup|n><sqrt|<around*|(|x+<frac|k|n>|)>*<around*|(|x+<frac|k|n>|)>>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
+    <frac|1|n>*<big|sum><rsub|k=1><rsup|n><around*|(|x+<frac|k|n>|)>>>|<row|<cell|>|<cell|>|<cell|\<xi\><rsub|k>=<frac|k|n>>>|<row|<cell|>|<cell|>|<cell|\<Delta\>
+    y<rsub|k>=<frac|1|n>>>|<row|<cell|F<around*|(|n|)>>|<cell|\<approx\>>|<cell|<big|int><rsub|0><rsup|1><around*|(|x+y|)>*d
+    y>>|<row|<cell|>|<cell|=>|<cell|<around*|(|x*y+<frac|1|2>*y<rsup|2>|)><mid|\|><stack|<tformat|<table|<row|<cell|1>>|<row|<cell|0>>>>>=<around*|(|x+<frac|1|2>|)>-0>>|<row|<cell|>|<cell|=>|<cell|x+<frac|1|2>>>>>
   </eqnarray*>
 </body>
 
