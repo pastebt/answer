@@ -54,6 +54,20 @@
     x>-0>>|<row|<cell|>|<cell|=>|<cell|<frac|<sqrt|1+<around*|(|x<rsup|2>|)><rsup|2>>\<times\>d<around*|(|x<rsup|2>|)>|d
     x>>>|<row|<cell|>|<cell|=>|<cell|2*x*<sqrt|1+x<rsup|4>>>>>>
   </eqnarray*>
+
+  \;
+
+  2232(b):
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|d|d
+    x>*<big|int><rsub|x<rsup|2>><rsup|x<rsup|3>><frac|d
+    t|<sqrt|1+t<rsup|4>>>>>|<row|<cell|G<around*|(|t|)>>|<cell|=>|<cell|<big|int><frac|d
+    t|<sqrt|1+t<rsup|4>>>>>|<row|<cell|G<rprime|'><around*|(|t|)>>|<cell|=>|<cell|<frac|1|<sqrt|1+t<rsup|4>>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|d|d
+    x><around*|(|G<around*|(|x<rsup|3>|)>-G<around*|(|x<rsup|2>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|d
+    x>*<around*|(|G<rprime|'><around*|(|x<rsup|3>|)>-G<rprime|'><around*|(|x<rsup|2>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|d
+    x>*<around*|(|<frac|d<around*|(|x<rsup|3>|)>|<sqrt|1+<around*|(|x<rsup|3>|)><rsup|4>>>-<frac|d<around*|(|x<rsup|2>|)>|<sqrt|1+<around*|(|x<rsup|2>|)><rsup|4>>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|3*x<rsup|2>|<sqrt|1+x<rsup|12>>>-<frac|2*x|<sqrt|1+x<rsup|8>>>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
