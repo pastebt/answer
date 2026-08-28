@@ -1,4 +1,4 @@
-<TeXmacs|2.1.5>
+<TeXmacs|2.1.4>
 
 <style|<tuple|generic|chinese>>
 
@@ -39,6 +39,20 @@
     b><around*|(|G<around*|(|b|)>-G<around*|(|a|)>|)>=<frac|d
     G<around*|(|b|)>|d b>-0>>|<row|<cell|>|<cell|=>|<cell|G<rprime|'><around*|(|b|)>>>|<row|<cell|>|<cell|=>|<cell|sin
     b<rsup|2>>>>>
+  </eqnarray*>
+
+  \;
+
+  2232(a):
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|d|d
+    x>*<big|int><rsub|0><rsup|x<rsup|2>><sqrt|1+t<rsup|2>>*d
+    t>>|<row|<cell|G<around*|(|t|)>>|<cell|=>|<cell|<big|int><sqrt|1+t<rsup|2>>*d
+    t>>|<row|<cell|G<rprime|'><around*|(|t|)>>|<cell|=>|<cell|<sqrt|1+t<rsup|2>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|d|d
+    x><around*|(|G<around*|(|x<rsup|2>|)>-G<around*|(|0|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|G<rprime|'><around*|(|x<rsup|2>|)>|d
+    x>-0>>|<row|<cell|>|<cell|=>|<cell|<frac|<sqrt|1+<around*|(|x<rsup|2>|)><rsup|2>>\<times\>d<around*|(|x<rsup|2>|)>|d
+    x>>>|<row|<cell|>|<cell|=>|<cell|2*x*<sqrt|1+x<rsup|4>>>>>>
   </eqnarray*>
 </body>
 
