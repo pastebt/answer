@@ -105,6 +105,23 @@
     x>>|<row|<cell|>|<cell|=>|<cell|cos<around*|(|\<mathpi\>*sin<rsup|2>
     x|)>*<around*|(|sin x-cos x|)>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2233(a):
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>0>
+    <frac|<big|int><rsub|0><rsup|x>cos t<rsup|2> d
+    t|x>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>0>
+    <frac|<frac|d|d x> <big|int><rsub|0><rsup|x>cos t<rsup|2> d t|<frac|d x|d
+    x>>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>0><around*|(|<frac|cos
+    x<rsup|2>*d x|d x>-<frac|cos 0<rsup|2>*d 0|d
+    x>|)>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>0> cos
+    x<rsup|2>=1>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
