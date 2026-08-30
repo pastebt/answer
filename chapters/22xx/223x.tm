@@ -137,6 +137,29 @@
     x-<around*|(|arctan 0|)><rsup|2>*d 0|)>|<frac|1|<sqrt|1+<frac|1|x<rsup|2>>>>>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>+\<infty\>>
     <around*|(|arctan x|)><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<frac|\<pi\>|2>|)><rsup|2>=<frac|\<pi\><rsup|2>|4>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2233(c):
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>+\<infty\>>
+    <frac|<around*|(|<big|int><rsub|0><rsup|x>e<rsup|t<rsup|2>>*d
+    t|)><rsup|2>|<big|int><rsub|0><rsup|x>e<rsup|2*t<rsup|2>>*d
+    t>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>+\<infty\>>
+    <frac|<frac|d|d x><around*|(|<around*|(|<big|int><rsub|0><rsup|x>e<rsup|t<rsup|2>>*d
+    t|)><rsup|2>|)>|<frac|d|d x> <big|int><rsub|0><rsup|x>e<rsup|2*t<rsup|2>>*d
+    t>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>+\<infty\>>
+    <frac|2*<frac|d|d x><around*|(|<big|int><rsub|0><rsup|x>e<rsup|t<rsup|2>>*d
+    t|)>|<frac|d|d x><around*|(|e<rsup|2*x<rsup|2>>*d x-e<rsup|2*0<rsup|2>>*d
+    0|)>>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>+\<infty\>>
+    <frac|<frac|2|d x><around*|(|e<rsup|x<rsup|2>>*d x-e<rsup|0<rsup|2>>*d
+    0|)>|e<rsup|2*x<rsup|2>>>=lim<rsub|x\<rightarrow\>+\<infty\>>
+    <frac|e<rsup|x<rsup|2>>|e<rsup|2*x<rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>+\<infty\>>
+    <frac|1|e<rsup|x<rsup|2>>>=0>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
