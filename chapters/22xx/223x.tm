@@ -160,6 +160,25 @@
     <frac|e<rsup|x<rsup|2>>|e<rsup|2*x<rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>+\<infty\>>
     <frac|1|e<rsup|x<rsup|2>>>=0>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2233(d):
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
+    <big|int><rsub|0><rsup|1>f<around*|(|n*x|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>*<big|int><rsub|0><rsup|1>f<around*|(|n*x|)>\<times\><frac|d<around*|(|n*x|)>|n>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
+    <frac|<big|int><rsub|0><rsup|1>f<around*|(|n*x|)>*d<around*|(|n*x|)>|n>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
+    <frac|<frac|d|d n> <big|int><rsub|0><rsup|1>f<around*|(|n*x|)>*d<around*|(|n*x|)>|<frac|d
+    n|d n>>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
+    <frac|<frac|d|d n><around*|(|f<around*|(|n|)>*d n-f<around*|(|0|)>*d
+    0|)>|1>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
+    f<around*|(|n|)>>>|<row|<cell|>|<cell|>|<cell|x\<rightarrow\>\<infty\>,f<around*|(|x|)>\<rightarrow\>A>>|<row|<cell|F<around*|(|n|)>>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
+    f<around*|(|n|)>>>|<row|<cell|>|<cell|=>|<cell|A>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
