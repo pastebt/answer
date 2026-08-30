@@ -179,6 +179,21 @@
     f<around*|(|n|)>>>|<row|<cell|>|<cell|>|<cell|x\<rightarrow\>\<infty\>,f<around*|(|x|)>\<rightarrow\>A>>|<row|<cell|F<around*|(|n|)>>|<cell|=>|<cell|lim<rsub|n\<rightarrow\>\<infty\>>
     f<around*|(|n|)>>>|<row|<cell|>|<cell|=>|<cell|A>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2234:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>\<infty\>>
+    <big|int><rsub|0><rsup|x>e<rsup|t<rsup|2>> d
+    t>>|<row|<cell|G<around*|(|t|)>>|<cell|=>|<cell|<big|int>e<rsup|t<rsup|2>>
+    d t>>|<row|<cell|G<rprime|'><around*|(|t|)>>|<cell|=>|<cell|e<rsup|t<rsup|2>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>\<infty\>>
+    <big|int><rsub|0><rsup|x><frac|1|2*t>*e<rsup|t<rsup|2>>*d<around*|(|t<rsup|2>|)>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>\<infty\>>
+    <around*|(|G<around*|(|x|)>-G<around*|(|0|)>|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
