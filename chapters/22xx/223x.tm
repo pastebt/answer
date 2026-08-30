@@ -122,6 +122,21 @@
     x>|)>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>0> cos
     x<rsup|2>=1>>>>
   </eqnarray*>
+
+  \;
+
+  2233(b):
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>+\<infty\>>
+    <frac|<big|int><rsub|0><rsup|x><around*|(|arctan t|)><rsup|2>*d
+    t|<sqrt|x<rsup|2>+1>>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>+\<infty\>>
+    <frac|<frac|d|d x> <big|int><rsub|0><rsup|x><around*|(|arctan
+    t|)><rsup|2>*d t|<frac|d|d x> <sqrt|x<rsup|2>+1>>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>+\<infty\>>
+    <frac|<frac|1|d x><around*|(|<around*|(|arctan x|)><rsup|2>*d
+    x-<around*|(|arctan 0|)><rsup|2>*d 0|)>|<frac|1|<sqrt|1+<frac|1|x<rsup|2>>>>>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>+\<infty\>>
+    <around*|(|arctan x|)><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<frac|\<pi\>|2>|)><rsup|2>=<frac|\<pi\><rsup|2>|4>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
