@@ -187,12 +187,19 @@
   2234:
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>\<infty\>>
-    <big|int><rsub|0><rsup|x>e<rsup|t<rsup|2>> d
-    t>>|<row|<cell|G<around*|(|t|)>>|<cell|=>|<cell|<big|int>e<rsup|t<rsup|2>>
-    d t>>|<row|<cell|G<rprime|'><around*|(|t|)>>|<cell|=>|<cell|e<rsup|t<rsup|2>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>\<infty\>>
-    <big|int><rsub|0><rsup|x><frac|1|2*t>*e<rsup|t<rsup|2>>*d<around*|(|t<rsup|2>|)>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>\<infty\>>
-    <around*|(|G<around*|(|x|)>-G<around*|(|0|)>|)>>>>>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|x>e<rsup|t<rsup|2>>
+    d t>>|<row|<cell|G<around*|(|t|)>>|<cell|=>|<cell|<big|int>e<rsup|t<rsup|2>>
+    d t>>|<row|<cell|G<rprime|'><around*|(|t|)>>|<cell|=>|<cell|e<rsup|t<rsup|2>>>>|<row|<cell|D<around*|(|x|)>>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>\<infty\>>
+    <frac|F<around*|(|x|)>|<frac|e<rsup|x<rsup|2>>|2*x>>=lim<rsub|x\<rightarrow\>\<infty\>>
+    <frac|2*x*<around*|(|G<around*|(|x|)>-G<around*|(|0|)>|)>|e<rsup|x<rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>\<infty\>>
+    <frac|d<around*|(|2*x*<around*|(|G<around*|(|x|)>-G<around*|(|0|)>|)>|)>|d<around*|(|e<rsup|x<rsup|2>>|)>>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>\<infty\>>
+    <frac|2*x*G<rprime|'><around*|(|x|)>+2*G<around*|(|x|)>|2*x*e<rsup|x<rsup|2>>>=lim<rsub|x\<rightarrow\>\<infty\>>
+    <frac|2*x*e<rsup|x<rsup|2>>+2*G*<around*|(|x|)>|2*x*e<rsup|x<rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|1+lim<rsub|x\<rightarrow\>\<infty\>>
+    <frac|G<around*|(|x|)>|x*e<rsup|x<rsup|2>>>=1+lim<rsub|x\<rightarrow\>\<infty\>>
+    <frac|G<rprime|'><around*|(|x|)>|e<rsup|x<rsup|2>>+2*x<rsup|2>*e<rsup|x<rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|1+lim<rsub|x\<rightarrow\>\<infty\>>
+    <frac|e<rsup|x<rsup|2>>|e<rsup|x<rsup|2>>+2*x<rsup|2>*e<rsup|x<rsup|2>>>=1+lim<rsub|x\<rightarrow\>\<infty\>>
+    <frac|1|1+2*x<rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|1>>|<row|<cell|<big|int><rsub|0><rsup|x>e<rsup|t<rsup|2>>
+    d t>|<cell|\<sim\>>|<cell|<frac|1|2*x>*e<rsup|x<rsup|2>>>>>>
   </eqnarray*>
 </body>
 
