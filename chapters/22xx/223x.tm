@@ -201,6 +201,34 @@
     <frac|1|1+2*x<rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|1>>|<row|<cell|<big|int><rsub|0><rsup|x>e<rsup|t<rsup|2>>
     d t>|<cell|\<sim\>>|<cell|<frac|1|2*x>*e<rsup|x<rsup|2>>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2235:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>+0>
+    <frac|<big|int><rsub|0><rsup|sin x><sqrt|tan t>*d
+    t|<big|int><rsub|0><rsup|tan x><sqrt|sin t>*d
+    t>>>|<row|<cell|G<around*|(|t|)>>|<cell|=>|<cell|<big|int><sqrt|tan t>*d
+    t>>|<row|<cell|G<rprime|'><around*|(|t|)>>|<cell|=>|<cell|<sqrt|tan
+    t>>>|<row|<cell|H<around*|(|t|)>>|<cell|=>|<cell|<big|int><sqrt|sin t>*d
+    t>>|<row|<cell|H<rprime|'><around*|(|t|)>>|<cell|=>|<cell|<sqrt|sin
+    t>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>+0>
+    <frac|<big|int><rsub|0><rsup|sin x><sqrt|tan t>*d
+    t|<big|int><rsub|0><rsup|tan x><sqrt|sin t>*d
+    t>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>+0>
+    <frac|<frac|d|d x> <big|int><rsub|0><rsup|sin x><sqrt|tan t>*d
+    t|<frac|d|d x> <big|int><rsub|0><rsup|tan x><sqrt|sin t>*d
+    t>=lim<rsub|x\<rightarrow\>+0> <frac|<frac|d|d
+    x><around*|(|G<around*|(|sin x|)>-G<around*|(|0|)>|)>|<frac|d|d
+    x><around*|(|H<around*|(|tan x|)>-H<around*|(|0|)>|)>>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>+0>
+    <frac|G<rprime|'><around*|(|sin x|)>|H<rprime|'><around*|(|tan
+    x|)>>=lim<rsub|x\<rightarrow\>+0> <frac|<sqrt|tan<around*|(|sin
+    x|)>>|<sqrt|sin<around*|(|tan x|)>>>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
