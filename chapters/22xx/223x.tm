@@ -242,6 +242,18 @@
     <frac|<sqrt|sin<around*|(|tan x|)>>|<sqrt|tan<around*|(|sin
     x|)>>>=<frac|1|F<around*|(|x|)>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<sqrt|1>=1>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2236:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<varphi\><around*|(|x|)>>|<cell|=>|<cell|<frac|<big|int><rsub|0><rsup|x>t*f<around*|(|t|)>*d
+    t|<big|int><rsub|0><rsup|x>f<around*|(|t|)>*d
+    t>=<frac|G<around*|(|x|)>-G<around*|(|0|)>|H<around*|(|x|)>-H<around*|(|0|)>>>>|<row|<cell|\<varphi\><rprime|'><around*|(|x|)>>|<cell|=>|<cell|<around*|(|<frac|G<around*|(|x|)>-G<around*|(|0|)>|H<around*|(|x|)>-H<around*|(|0|)>>|)><rprime|'>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|G<around*|(|x|)>-G<around*|(|0|)>|)><rprime|'>*<around*|(|H<around*|(|x|)>-H<around*|(|0|)>|)>-<around*|(|G<around*|(|x|)>-G<around*|(|0|)>|)>*<around*|(|H<around*|(|x|)>-H<around*|(|0|)>|)><rprime|'>|<around*|(|H<around*|(|x|)>-H<around*|(|0|)>|)><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|x*f<around*|(|x|)>|)><around*|(|H<around*|(|x|)>-H<around*|(|0|)>|)>-<around*|(|G<around*|(|x|)>-G<around*|(|0|)>|)>*f<around*|(|x|)>|<around*|(|H<around*|(|x|)>-H<around*|(|0|)>|)><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|f<around*|(|x|)>|<around*|(|H<around*|(|x|)>-H<around*|(|0|)>|)><rsup|2>>\<times\><around*|(|x<around*|(|H<around*|(|x|)>-H<around*|(|0|)>|)>-<around*|(|G<around*|(|x|)>-G<around*|(|0|)>|)>|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
