@@ -227,7 +227,20 @@
     x><around*|(|H<around*|(|tan x|)>-H<around*|(|0|)>|)>>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>+0>
     <frac|G<rprime|'><around*|(|sin x|)>|H<rprime|'><around*|(|tan
     x|)>>=lim<rsub|x\<rightarrow\>+0> <frac|<sqrt|tan<around*|(|sin
-    x|)>>|<sqrt|sin<around*|(|tan x|)>>>>>>>
+    x|)>>|<sqrt|sin<around*|(|tan x|)>>>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>+0>
+    <frac|<around*|(|<sqrt|tan<around*|(|sin
+    x|)>>|)><rprime|'>|<around*|(|<sqrt|sin<around*|(|tan
+    x|)>>|)><rprime|'>>=lim<rsub|x\<rightarrow\>+0>
+    <frac|<frac|1|2*<sqrt|tan<around*|(|sin
+    x|)>>>\<times\><frac|1|cos<rsup|2>*<around*|(|sin x|)>>\<times\>cos
+    x|<frac|1|2*<sqrt|sin<around*|(|tan x|)>>>\<times\>cos<around*|(|tan
+    x|)>\<times\><frac|1|cos<rsup|2> x>>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>+0>
+    <frac|<sqrt|sin<around*|(|tan x|)>>|<sqrt|tan<around*|(|sin
+    x|)>>>\<times\>lim<rsub|x\<rightarrow\>+0> <frac|cos<rsup|3>
+    x|cos<around*|(|tan x|)>\<times\>cos<rsup|2><around*|(|sin
+    x|)>>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>+0>
+    <frac|<sqrt|sin<around*|(|tan x|)>>|<sqrt|tan<around*|(|sin
+    x|)>>>=<frac|1|F<around*|(|x|)>>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<sqrt|1>=1>>>>
   </eqnarray*>
 </body>
 
