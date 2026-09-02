@@ -252,7 +252,19 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|\<varphi\><around*|(|x|)>>|<cell|=>|<cell|<frac|<big|int><rsub|0><rsup|x>t*f<around*|(|t|)>*d
     t|<big|int><rsub|0><rsup|x>f<around*|(|t|)>*d
-    t>=<frac|G<around*|(|x|)>-G<around*|(|0|)>|H<around*|(|x|)>-H<around*|(|0|)>>>>|<row|<cell|\<varphi\><rprime|'><around*|(|x|)>>|<cell|=>|<cell|<around*|(|<frac|G<around*|(|x|)>-G<around*|(|0|)>|H<around*|(|x|)>-H<around*|(|0|)>>|)><rprime|'>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|G<around*|(|x|)>-G<around*|(|0|)>|)><rprime|'>*<around*|(|H<around*|(|x|)>-H<around*|(|0|)>|)>-<around*|(|G<around*|(|x|)>-G<around*|(|0|)>|)>*<around*|(|H<around*|(|x|)>-H<around*|(|0|)>|)><rprime|'>|<around*|(|H<around*|(|x|)>-H<around*|(|0|)>|)><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|x*f<around*|(|x|)>|)><around*|(|H<around*|(|x|)>-H<around*|(|0|)>|)>-<around*|(|G<around*|(|x|)>-G<around*|(|0|)>|)>*f<around*|(|x|)>|<around*|(|H<around*|(|x|)>-H<around*|(|0|)>|)><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|f<around*|(|x|)>|<around*|(|H<around*|(|x|)>-H<around*|(|0|)>|)><rsup|2>>\<times\><around*|(|x<around*|(|H<around*|(|x|)>-H<around*|(|0|)>|)>-<around*|(|G<around*|(|x|)>-G<around*|(|0|)>|)>|)>>>>>
+    t>=<frac|G<around*|(|x|)>-G<around*|(|0|)>|H<around*|(|x|)>-H<around*|(|0|)>>>>|<row|<cell|\<varphi\><rprime|'><around*|(|x|)>>|<cell|=>|<cell|<around*|(|<frac|G<around*|(|x|)>-G<around*|(|0|)>|H<around*|(|x|)>-H<around*|(|0|)>>|)><rprime|'>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|G<around*|(|x|)>-G<around*|(|0|)>|)><rprime|'>*<around*|(|H<around*|(|x|)>-H<around*|(|0|)>|)>-<around*|(|G<around*|(|x|)>-G<around*|(|0|)>|)>*<around*|(|H<around*|(|x|)>-H<around*|(|0|)>|)><rprime|'>|<around*|(|H<around*|(|x|)>-H<around*|(|0|)>|)><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|x*f<around*|(|x|)>|)><around*|(|H<around*|(|x|)>-H<around*|(|0|)>|)>-<around*|(|G<around*|(|x|)>-G<around*|(|0|)>|)>*f<around*|(|x|)>|<around*|(|H<around*|(|x|)>-H<around*|(|0|)>|)><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|f<around*|(|x|)>|<around*|(|H<around*|(|x|)>-H<around*|(|0|)>|)><rsup|2>>\<times\><around*|(|x<around*|(|H<around*|(|x|)>-H<around*|(|0|)>|)>-<around*|(|G<around*|(|x|)>-G<around*|(|0|)>|)>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int>t*f<around*|(|t|)>*d
+    t>>|<row|<cell|>|<cell|>|<cell|u=t,d v=f<around*|(|t|)>*d
+    t\<rightarrow\>v=<big|int>f<around*|(|t|)>*d
+    t>>|<row|<cell|F<around*|(|t|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u>>|<row|<cell|>|<cell|=>|<cell|t*<big|int>f<around*|(|t|)>*d
+    t-<big|int><big|int>f<around*|(|t|)>*d
+    t>>|<row|<cell|<big|int><big|int>f<around*|(|t|)>*d
+    t>|<cell|=>|<cell|t*<big|int>f<around*|(|t|)>*d
+    t-<big|int>t*f<around*|(|t|)>*d t>>|<row|<cell|<big|int><big|int>f<around*|(|t|)>*d
+    t<mid|\|><stack|<tformat|<table|<row|<cell|x>>|<row|<cell|>>|<row|<cell|0>>>>>>|<cell|=>|<cell|<around*|(|t*<big|int>f<around*|(|t|)>*d
+    t-<big|int>t*f<around*|(|t|)>*d t|)><mid|\|><stack|<tformat|<table|<row|<cell|x>>|<row|<cell|>>|<row|<cell|0>>>>>>>|<row|<cell|>|<cell|=>|<cell|x<around*|(|H<around*|(|x|)>-H<around*|(|0|)>|)>-<around*|(|G<around*|(|x|)>-G<around*|(|0|)>|)>>>|<row|<cell|\<varphi\><rprime|'><around*|(|x|)>>|<cell|=>|<cell|<frac|f<around*|(|x|)>|<around*|(|H<around*|(|x|)>-H<around*|(|0|)>|)><rsup|2>>\<times\><around*|(|<big|int><big|int>f<around*|(|t|)>*d
+    t<mid|\|><stack|<tformat|<table|<row|<cell|x>>|<row|<cell|>>|<row|<cell|0>>>>>|)>>>|<row|<cell|>|<cell|>|<cell|f<around*|(|x|)>\<gtr\>0,x\<geqslant\>0>>|<row|<cell|>|<cell|>|<cell|<around*|(|<big|int><big|int>f<around*|(|t|)>*d
+    t<mid|\|><stack|<tformat|<table|<row|<cell|x>>|<row|<cell|>>|<row|<cell|0>>>>>|)>\<gtr\>0>>|<row|<cell|>|<cell|>|<cell|<around*|(|H<around*|(|x|)>-H<around*|(|0|)>|)><rsup|2>\<gtr\>0>>|<row|<cell|\<varphi\><rprime|'><around*|(|x|)>>|<cell|\<gtr\>>|<cell|0>>>>
   </eqnarray*>
 </body>
 
