@@ -393,6 +393,12 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|<frac|2|3>>|<cell|\<neq\>>|<cell|-<frac|1|3>>>>>
   </eqnarray*>
+
+  \;
+
+  2236:
+
+  \;
 </body>
 
 <\initial>
