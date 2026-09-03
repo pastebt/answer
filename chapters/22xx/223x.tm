@@ -277,6 +277,17 @@
     x=<frac|x<rsup|3>|3><mid|\|><stack|<tformat|<table|<row|<cell|1>>|<row|<cell|>>|<row|<cell|0>>>>>=<frac|1|3>>>|<row|<cell|F<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|1><rsup|2><around*|(|2-x|)>*d
     x=<around*|(|2*x-<frac|x<rsup|2>|2>|)><mid|\|><stack|<tformat|<table|<row|<cell|2>>|<row|<cell|>>|<row|<cell|1>>>>>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|2\<times\>2-<frac|2<rsup|2>|2>|)>-<around*|(|2\<times\>1-<frac|1<rsup|2>|2>|)>=<around*|(|4-2|)>-<around*|(|2-<frac|1|2>|)>=<frac|1|2>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|F<rsub|1><around*|(|x|)>+F<rsub|2><around*|(|x|)>=<frac|1|3>+<frac|1|2>>>|<row|<cell|>|<cell|=>|<cell|<frac|5|6>>>>>
   </eqnarray*>
+
+  \;
+
+  2237(b):
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|1>f<around*|(|x|)>*d
+    x,<space|1em>f<around*|(|x|)>=<choice|<tformat|<table|<row|<cell|x,>|<cell|0\<leqslant\>x\<leqslant\>t,>|<cell|>>|<row|<cell|t\<cdot\><frac|1-x|1-t>,>|<cell|t\<leqslant\>x\<leqslant\>1.>|<cell|>>>>>>>|<row|<cell|F<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|t>x*d
+    x=<frac|x<rsup|2>|2><mid|\|><stack|<tformat|<table|<row|<cell|t>>|<row|<cell|>>|<row|<cell|0>>>>>=<frac|t<rsup|2>|2>>>|<row|<cell|F<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|t><rsup|1>t\<cdot\><frac|1-x|1-t>*d
+    x=<frac|t|1-t>*<around*|(|x-<frac|x<rsup|2>|2>|)><mid|\|><stack|<tformat|<table|<row|<cell|1>>|<row|<cell|>>|<row|<cell|t>>>>>=<frac|t|1-t>*<around*|(|<around*|(|1-<frac|1|2>|)>-<around*|(|t-<frac|t<rsup|2>|2>|)>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|F<rsub|1><around*|(|x|)>+F<rsub|2><around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|t<rsup|2>|2>+<frac|t|1-t><around*|(|<frac|1|2>-t+<frac|t<rsup|2>|2>|)>=<frac|t<rsup|2>-t<rsup|3>+t-2*t<rsup|2>+t<rsup|3>|2*<around*|(|1-t|)>>=<frac|t-t<rsup|2>|2*<around*|(|1-t|)>>>>|<row|<cell|>|<cell|=>|<cell|<frac|t|2>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
