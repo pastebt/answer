@@ -266,6 +266,17 @@
     t<mid|\|><stack|<tformat|<table|<row|<cell|x>>|<row|<cell|>>|<row|<cell|0>>>>>|)>>>|<row|<cell|>|<cell|>|<cell|f<around*|(|x|)>\<gtr\>0,x\<geqslant\>0>>|<row|<cell|>|<cell|>|<cell|<around*|(|<big|int><big|int>f<around*|(|t|)>*d
     t<mid|\|><stack|<tformat|<table|<row|<cell|x>>|<row|<cell|>>|<row|<cell|0>>>>>|)>\<gtr\>0>>|<row|<cell|>|<cell|>|<cell|<around*|(|H<around*|(|x|)>-H<around*|(|0|)>|)><rsup|2>\<gtr\>0>>|<row|<cell|\<varphi\><rprime|'><around*|(|x|)>>|<cell|\<gtr\>>|<cell|0>>>>
   </eqnarray*>
+
+  \;
+
+  2237(a):
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|2>f<around*|(|x|)>*d
+    x,f<around*|(|x|)>=<choice|<tformat|<table|<row|<cell|x<rsup|2>,>|<cell|0\<leqslant\>x\<leqslant\>1,>|<cell|>>|<row|<cell|2-x,>|<cell|1\<less\>x\<leqslant\>2;>|<cell|>>>>>>>|<row|<cell|F<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|1>x<rsup|2>*d
+    x=<frac|x<rsup|3>|3><mid|\|><stack|<tformat|<table|<row|<cell|1>>|<row|<cell|>>|<row|<cell|0>>>>>=<frac|1|3>>>|<row|<cell|F<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|1><rsup|2><around*|(|2-x|)>*d
+    x=<around*|(|2*x-<frac|x<rsup|2>|2>|)><mid|\|><stack|<tformat|<table|<row|<cell|2>>|<row|<cell|>>|<row|<cell|1>>>>>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|2\<times\>2-<frac|2<rsup|2>|2>|)>-<around*|(|2\<times\>1-<frac|1<rsup|2>|2>|)>=<around*|(|4-2|)>-<around*|(|2-<frac|1|2>|)>=<frac|1|2>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|F<rsub|1><around*|(|x|)>+F<rsub|2><around*|(|x|)>=<frac|1|3>+<frac|1|2>>>|<row|<cell|>|<cell|=>|<cell|<frac|5|6>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
