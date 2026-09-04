@@ -288,6 +288,19 @@
     x=<frac|x<rsup|2>|2><mid|\|><stack|<tformat|<table|<row|<cell|t>>|<row|<cell|>>|<row|<cell|0>>>>>=<frac|t<rsup|2>|2>>>|<row|<cell|F<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|t><rsup|1>t\<cdot\><frac|1-x|1-t>*d
     x=<frac|t|1-t>*<around*|(|x-<frac|x<rsup|2>|2>|)><mid|\|><stack|<tformat|<table|<row|<cell|1>>|<row|<cell|>>|<row|<cell|t>>>>>=<frac|t|1-t>*<around*|(|<around*|(|1-<frac|1|2>|)>-<around*|(|t-<frac|t<rsup|2>|2>|)>|)>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|F<rsub|1><around*|(|x|)>+F<rsub|2><around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|t<rsup|2>|2>+<frac|t|1-t><around*|(|<frac|1|2>-t+<frac|t<rsup|2>|2>|)>=<frac|t<rsup|2>-t<rsup|3>+t-2*t<rsup|2>+t<rsup|3>|2*<around*|(|1-t|)>>=<frac|t-t<rsup|2>|2*<around*|(|1-t|)>>>>|<row|<cell|>|<cell|=>|<cell|<frac|t|2>>>>>
   </eqnarray*>
+
+  \;
+
+  2238(a):
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|1>x<around*|\||x-\<alpha\>|\|>*d
+    x>>|<row|<cell|>|<cell|>|<cell|\<alpha\>\<less\>0:>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|1>x*<around*|(|x-\<alpha\>|)>*d
+    x=<around*|(|<frac|x<rsup|3>|3>-<frac|\<alpha\>*x<rsup|2>|2>|)><mid|\|><stack|<tformat|<table|<row|<cell|1>>|<row|<cell|>>|<row|<cell|0>>>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|3>-<frac|\<alpha\>|2>>>|<row|<cell|>|<cell|>|<cell|0\<leqslant\>\<alpha\>\<leqslant\>1:>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|\<alpha\>>x<around*|(|\<alpha\>-x|)>*d
+    x+<big|int><rsub|\<alpha\>><rsup|1>x*<around*|(|x-\<alpha\>|)>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<frac|\<alpha\>*x<rsup|2>|2>-<frac|x<rsup|3>|3>|)><mid|\|><stack|<tformat|<table|<row|<cell|\<alpha\>>>|<row|<cell|>>|<row|<cell|0>>>>>+<around*|(|<frac|x<rsup|3>|3>-<frac|\<alpha\>*x<rsup|2>|2>|)><mid|\|><stack|<tformat|<table|<row|<cell|1>>|<row|<cell|>>|<row|<cell|\<alpha\>>>>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<alpha\><rsup|3>|2>-<frac|\<alpha\><rsup|3>|3>+<frac|1|3>-<frac|\<alpha\>|2>-<around*|(|<frac|\<alpha\><rsup|3>|3>-<frac|\<alpha\><rsup|3>|2>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|3>-<frac|\<alpha\>|2>+<frac|\<alpha\><rsup|3>|3>>>|<row|<cell|>|<cell|>|<cell|\<alpha\>\<gtr\>1:>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|1>x*<around*|(|\<alpha\>-x|)>*d
+    x=<around*|(|<frac|\<alpha\>*x<rsup|2>|2>-<frac|x<rsup|3>|3>|)><mid|\|><stack|<tformat|<table|<row|<cell|1>>|<row|<cell|>>|<row|<cell|0>>>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<alpha\>|2>-<frac|1|3>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
