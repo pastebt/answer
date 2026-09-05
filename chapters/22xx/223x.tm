@@ -310,6 +310,15 @@
     <tformat|<table|<row|<cell|I>|<cell|=>|<cell|<big|int><rsub|0><rsup|\<mathpi\>><frac|sin<rsup|2>
     x|1+2*\<alpha\>*cos x+\<alpha\><rsup|2>>*d x>>>>
   </eqnarray*>
+
+  \;
+
+  2238(c):
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|I>|<cell|=>|<cell|<big|int><rsub|0><rsup|\<mathpi\>><frac|sin
+    x*d x|<sqrt|1-2*\<alpha\>*cos x+\<alpha\><rsup|2>>>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
