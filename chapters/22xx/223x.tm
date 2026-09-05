@@ -301,6 +301,15 @@
     x>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<frac|\<alpha\>*x<rsup|2>|2>-<frac|x<rsup|3>|3>|)><mid|\|><stack|<tformat|<table|<row|<cell|\<alpha\>>>|<row|<cell|>>|<row|<cell|0>>>>>+<around*|(|<frac|x<rsup|3>|3>-<frac|\<alpha\>*x<rsup|2>|2>|)><mid|\|><stack|<tformat|<table|<row|<cell|1>>|<row|<cell|>>|<row|<cell|\<alpha\>>>>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<alpha\><rsup|3>|2>-<frac|\<alpha\><rsup|3>|3>+<frac|1|3>-<frac|\<alpha\>|2>-<around*|(|<frac|\<alpha\><rsup|3>|3>-<frac|\<alpha\><rsup|3>|2>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|3>-<frac|\<alpha\>|2>+<frac|\<alpha\><rsup|3>|3>>>|<row|<cell|>|<cell|>|<cell|\<alpha\>\<gtr\>1:>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|1>x*<around*|(|\<alpha\>-x|)>*d
     x=<around*|(|<frac|\<alpha\>*x<rsup|2>|2>-<frac|x<rsup|3>|3>|)><mid|\|><stack|<tformat|<table|<row|<cell|1>>|<row|<cell|>>|<row|<cell|0>>>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<alpha\>|2>-<frac|1|3>>>>>
   </eqnarray*>
+
+  \;
+
+  2238(b):
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|I>|<cell|=>|<cell|<big|int><rsub|0><rsup|\<mathpi\>><frac|sin<rsup|2>
+    x|1+2*\<alpha\>*cos x+\<alpha\><rsup|2>>*d x>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
