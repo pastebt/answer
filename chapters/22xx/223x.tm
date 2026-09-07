@@ -319,6 +319,34 @@
     <tformat|<table|<row|<cell|I>|<cell|=>|<cell|<big|int><rsub|0><rsup|\<mathpi\>><frac|sin
     x*d x|<sqrt|1-2*\<alpha\>*cos x+\<alpha\><rsup|2>>>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2239:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|l
+    n 2>x*e<rsup|-x>*d x>>|<row|<cell|<big|int><rsub|a><rsup|b>f<around*|(|x|)>*g<rprime|'><around*|(|x|)>*d
+    x>|<cell|=>|<cell|f<around*|(|x|)>*g<around*|(|x|)>\<barsuchthat\><stack|<tformat|<table|<row|<cell|b>>|<row|<cell|a>>>>>-<big|int><rsub|a><rsup|b>g<around*|(|x|)>*f<rprime|'><around*|(|x|)>*d
+    x>>|<row|<cell|f<around*|(|x|)>>|<cell|=>|<cell|x>>|<row|<cell|g<around*|(|x|)>>|<cell|=>|<cell|-e<rsup|-x>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|l
+    n 2>f<around*|(|x|)>*g<rprime|'><around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|x\<times\><around*|(|-e<rsup|-x>|)><mid|\|><stack|<tformat|<table|<row|<cell|l
+    n 2>>|<row|<cell|0>>>>>-<big|int><rsub|0><rsup|l n 2>-e<rsup|-x>*d
+    x>>|<row|<cell|>|<cell|=>|<cell|l n 2\<times\><around*|(|-e<rsup|-l n
+    2>|)>-e<rsup|-x><mid|\|><stack|<tformat|<table|<row|<cell|l n
+    2>>|<row|<cell|0>>>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*l n
+    <frac|1|2>-<around*|(|e<rsup|-l n 2>-e<rsup|0>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*l
+    n <frac|1|2>+<frac|1|2>=<frac|1|2>*<around*|(|1+l n
+    <frac|1|2>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<around*|(|l n e+l
+    n <frac|1|2>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*l n
+    <frac|e|2>>>|<row|<cell|>|<cell|=>|<cell|l n
+    2\<times\><around*|(|-e<rsup|-l n 2>|)>-e<rsup|-x><mid|\|><stack|<tformat|<table|<row|<cell|l
+    n 2>>|<row|<cell|0>>>>>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|2>*l n
+    2-<around*|(|e<rsup|-l n 2>-e<rsup|0>|)>=-<frac|1|2>*l n
+    2+<frac|1|2>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<around*|(|1-l n
+    2|)>=<frac|1|2>*l n <frac|e|2>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
