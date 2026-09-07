@@ -48,6 +48,19 @@
     n e-e|)>-<around*|(|1\<times\>l n 1-1|)>|)>-<around*|(|<around*|(|1*l n
     1-1|)>-<around*|(|<frac|1|e>*l n <frac|1|e>-<frac|1|e>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|0-<around*|(|-1|)>|)>-<around*|(|<around*|(|-1|)>-<around*|(|-<frac|1|e>-<frac|1|e>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|1+1-<frac|2|e>=2*<around*|(|1-<frac|1|e>|)>>>>>
   </eqnarray*>
+
+  \;
+
+  2243:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|1>arccos
+    x*d x>>|<row|<cell|>|<cell|=>|<cell|x*arccos
+    x<mid|\|><stack|<tformat|<table|<row|<cell|1>>|<row|<cell|>>|<row|<cell|0>>>>>-<big|int><rsub|0><rsup|1>x*d<around*|(|arccos
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|0-<big|int><rsub|0><rsup|1>x\<times\><around*|(|<frac|d
+    x|-<sqrt|1-x<rsup|2>>>|)>>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|0><rsup|1><frac|x*d
+    x|<sqrt|1-x<rsup|2>>>=<frac|1|2>*<big|int><rsub|0><rsup|1><frac|d<around*|(|x<rsup|2>|)>|<sqrt|1-x<rsup|2>>>=-<frac|1|2>*<big|int><rsub|0><rsup|1><frac|d<around*|(|1-x<rsup|2>|)>|<sqrt|1-x<rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|-<frac|1|2>\<times\>2\<times\><sqrt|1-x<rsup|2>>|)><mid|\|><stack|<tformat|<table|<row|<cell|1>>|<row|<cell|>>|<row|<cell|0>>>>>=<around*|(|-1\<times\><sqrt|1-1<rsup|2>>|)>-<around*|(|-1\<times\><sqrt|1-0<rsup|2>>|)>>>|<row|<cell|>|<cell|=>|<cell|1>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
