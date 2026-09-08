@@ -1,4 +1,4 @@
-<TeXmacs|2.1.5>
+<TeXmacs|2.1.4>
 
 <style|<tuple|generic|chinese>>
 
@@ -60,6 +60,24 @@
     x|)>>>|<row|<cell|>|<cell|=>|<cell|0-<big|int><rsub|0><rsup|1>x\<times\><around*|(|<frac|d
     x|-<sqrt|1-x<rsup|2>>>|)>>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|0><rsup|1><frac|x*d
     x|<sqrt|1-x<rsup|2>>>=<frac|1|2>*<big|int><rsub|0><rsup|1><frac|d<around*|(|x<rsup|2>|)>|<sqrt|1-x<rsup|2>>>=-<frac|1|2>*<big|int><rsub|0><rsup|1><frac|d<around*|(|1-x<rsup|2>|)>|<sqrt|1-x<rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|-<frac|1|2>\<times\>2\<times\><sqrt|1-x<rsup|2>>|)><mid|\|><stack|<tformat|<table|<row|<cell|1>>|<row|<cell|>>|<row|<cell|0>>>>>=<around*|(|-1\<times\><sqrt|1-1<rsup|2>>|)>-<around*|(|-1\<times\><sqrt|1-0<rsup|2>>|)>>>|<row|<cell|>|<cell|=>|<cell|1>>>>
+  </eqnarray*>
+
+  \;
+
+  2244:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|<sqrt|3>>x*arctan
+    x*d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|0><rsup|<sqrt|3>><frac|1|2>*arctan
+    x*d<around*|(|x<rsup|2>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<around*|(|<around*|(|x<rsup|2>*arctan
+    x|)><mid|\|><stack|<tformat|<table|<row|<cell|<sqrt|3>>>|<row|<cell|>>|<row|<cell|0>>>>>-<big|int><rsub|0><rsup|<sqrt|3>>x<rsup|2>*d<around*|(|arctan
+    x|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2><around*|(|<around*|(|<around*|(|3*arctan
+    <sqrt|3>|)>-0|)>-<big|int><rsub|0><rsup|<sqrt|3>><frac|x<rsup|2>|1+x<rsup|2>>*d
+    x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<around*|(|3\<times\><frac|\<mathpi\>|3>-<big|int><rsub|0><rsup|<sqrt|3>><around*|(|1-<frac|1|1+x<rsup|2>>|)>*d
+    x|)>=<frac|1|2>*<around*|(|\<mathpi\>-f<rsub|1><around*|(|x|)>|)>>>|<row|<cell|f<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|<sqrt|3>><around*|(|1-<frac|1|1+x<rsup|2>>|)>*d
+    x=x<mid|\|><stack|<tformat|<table|<row|<cell|<sqrt|3>>>|<row|<cell|>>|<row|<cell|0>>>>>-<big|int><rsub|0><rsup|<sqrt|3>><frac|d
+    x|1+x<rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<sqrt|3>-arctan
+    x<mid|\|><stack|<tformat|<table|<row|<cell|<sqrt|3>>>|<row|<cell|>>|<row|<cell|0>>>>>=<sqrt|3>-<frac|\<mathpi\>|3>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>*<around*|(|\<mathpi\>-<sqrt|3>+<frac|\<mathpi\>|3>|)>=<frac|2*\<mathpi\>|3>-<frac|<sqrt|3>|2>>>>>
   </eqnarray*>
 </body>
 
