@@ -79,6 +79,16 @@
     x|1+x<rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<sqrt|3>-arctan
     x<mid|\|><stack|<tformat|<table|<row|<cell|<sqrt|3>>>|<row|<cell|>>|<row|<cell|0>>>>>=<sqrt|3>-<frac|\<mathpi\>|3>>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<frac|1|2>*<around*|(|\<mathpi\>-<sqrt|3>+<frac|\<mathpi\>|3>|)>=<frac|2*\<mathpi\>|3>-<frac|<sqrt|3>|2>>>>>
   </eqnarray*>
+
+  \;
+
+  2245:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|-1><rsup|1><frac|x*d
+    x|<sqrt|5-4*x>>>>|<row|<cell|>|<cell|>|<cell|y=5-4*x>>|<row|<cell|>|<cell|>|<cell|d
+    y = -*4*d x>>|<row|<cell|>|<cell|>|<cell|d x=-<frac|d y|4>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
