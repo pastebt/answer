@@ -1,4 +1,4 @@
-<TeXmacs|2.1.5>
+<TeXmacs|2.1.4>
 
 <style|<tuple|generic|chinese>>
 
@@ -91,6 +91,17 @@
     y>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|16>*<big|int><rsub|9><rsup|1><frac|5-y|<sqrt|y>>*d
     y>>|<row|<cell|>|<cell|=>|<cell|<frac|1|16>*<big|int><rsub|1><rsup|9><around*|(|<frac|5|<sqrt|y>>-<sqrt|y>|)>*d
     y>>|<row|<cell|>|<cell|=>|<cell|<frac|1|16>*<around*|(|5\<times\><sqrt|y>\<times\>2-<frac|2|3>\<times\>y<rsup|<frac|3|2>>|)><mid|\|><stack|<tformat|<table|<row|<cell|9>>|<row|<cell|>>|<row|<cell|1>>>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|16>*<around*|(|<around*|(|30-18|)>-<around*|(|10-<frac|2|3>|)>|)>=<frac|1|16>\<times\><around*|(|2+<frac|2|3>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|6>>>>>
+  </eqnarray*>
+
+  \;
+
+  \;
+
+  2246:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|a>x<rsup|2>*<sqrt|a<rsup|2>-x<rsup|2>>*d
+    x>>>>
   </eqnarray*>
 </body>
 
