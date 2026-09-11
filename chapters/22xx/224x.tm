@@ -1,4 +1,4 @@
-<TeXmacs|2.1.4>
+<TeXmacs|2.1.5>
 
 <style|<tuple|generic|chinese>>
 
@@ -101,7 +101,25 @@
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|a>x<rsup|2>*<sqrt|a<rsup|2>-x<rsup|2>>*d
-    x>>>>
+    x>>|<row|<cell|>|<cell|>|<cell|<frac|x|a>=sin
+    \<theta\>>>|<row|<cell|>|<cell|>|<cell|d x=a*cos \<theta\>*d
+    \<theta\>>>|<row|<cell|>|<cell|>|<cell|sin
+    \<theta\>=<frac|0|a>=0\<rightarrow\>\<theta\>=0>>|<row|<cell|>|<cell|>|<cell|sin
+    \<theta\>=<frac|a|a>=1\<rightarrow\>\<theta\>=<frac|\<mathpi\>|2>>>|<row|<cell|F<around*|(|\<theta\>|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|<frac|\<mathpi\>|2>>a<rsup|2>*sin<rsup|2>
+    \<theta\>*<sqrt|a<rsup|2>-a<rsup|2>*sin<rsup|2> \<theta\>>\<times\>a*cos
+    \<theta\>*d \<theta\>>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|0><rsup|<frac|\<mathpi\>|2>>a<rsup|4>*sin<rsup|2>
+    \<theta\>*<sqrt|1-sin<rsup|2> \<theta\>>*cos \<theta\>*d
+    \<theta\>>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|0><rsup|<frac|\<mathpi\>|2>>a<rsup|4>*sin<rsup|2>
+    \<theta\>*cos<rsup|2> \<theta\>*d \<theta\>>>|<row|<cell|sin
+    <around*|(|2*\<theta\>|)>>|<cell|=>|<cell|2*sin \<theta\>*cos
+    \<theta\>=<around*|(|sin \<theta\>+cos \<theta\>|)><rsup|2>-1=<frac|2*tan
+    \<theta\>|1+tan<rsup|2> \<theta\>>>>|<row|<cell|F<around*|(|\<theta\>|)>>|<cell|=>|<cell|<frac|a<rsup|4>|4>*<big|int><rsub|0><rsup|<frac|\<mathpi\>|2>>sin<rsup|2><around*|(|2*\<theta\>|)>*d
+    \<theta\>>>|<row|<cell|sin<rsup|2> \<theta\>>|<cell|=>|<cell|<frac|1-cos
+    2*\<theta\>|2>>>|<row|<cell|F<around*|(|\<theta\>|)>>|<cell|=>|<cell|<frac|a<rsup|4>|8>*<big|int><rsub|0><rsup|<frac|\<mathpi\>|2>><around*|(|1-cos
+    4*\<theta\>|)>*d \<theta\>=<frac|a<rsup|4>|32>*<big|int><rsub|0><rsup|<frac|\<mathpi\>|2>><around*|(|1-cos
+    4*\<theta\>|)>*d<around*|(|4*\<theta\>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|a<rsup|4>|32>\<times\><around*|(|4*\<theta\>-sin
+    <around*|(|4*\<theta\>|)>|)><mid|\|><stack|<tformat|<table|<row|<cell|<frac|\<mathpi\>|2>>>|<row|<cell|>>|<row|<cell|0>>>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|a<rsup|4>|32>\<times\><around*|(|<around*|(|4\<times\><frac|\<mathpi\>|2>-sin<around*|(|2*\<mathpi\>|)>|)>-<around*|(|0-sin
+    0|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|a<rsup|4>*\<mathpi\>|16>>>>>
   </eqnarray*>
 </body>
 
