@@ -121,6 +121,15 @@
     <around*|(|4*\<theta\>|)>|)><mid|\|><stack|<tformat|<table|<row|<cell|<frac|\<mathpi\>|2>>>|<row|<cell|>>|<row|<cell|0>>>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|a<rsup|4>|32>\<times\><around*|(|<around*|(|4\<times\><frac|\<mathpi\>|2>-sin<around*|(|2*\<mathpi\>|)>|)>-<around*|(|0-sin
     0|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|a<rsup|4>*\<mathpi\>|16>>>>>
   </eqnarray*>
+
+  \;
+
+  2247:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|0.75><frac|d
+    x|<around*|(|x+1|)>*<sqrt|x<rsup|2>+1>>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
