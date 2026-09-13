@@ -145,6 +145,21 @@
     <frac|<around*|(|11-6*<sqrt|2>|)>*<around*|(|3-2*<sqrt|2>|)>|7*<around*|(|9-8|)>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|2>>*l
     n <frac|9+4*<sqrt|2>|7>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2248:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|l
+    n 2><sqrt|e<rsup|x>-1>*d x>>|<row|<cell|>|<cell|>|<cell|y=<sqrt|e<rsup|x>-1>>>|<row|<cell|>|<cell|>|<cell|y<rsup|2>=e<rsup|x>-1>>|<row|<cell|>|<cell|>|<cell|e<rsup|x>=y<rsup|2>+1>>|<row|<cell|>|<cell|>|<cell|e<rsup|x>*d
+    x=2*y*d y>>|<row|<cell|>|<cell|>|<cell|d x=<frac|2*y|e<rsup|x>>*d
+    y=<frac|2*y|y<rsup|2>+1>*d y>>|<row|<cell|>|<cell|>|<cell|y<around*|(|l n
+    2|)>=<sqrt|e<rsup|l n 2>-1>=1>>|<row|<cell|>|<cell|>|<cell|y<around*|(|0|)>=0>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|1>y\<times\><frac|2*y|y<rsup|2>+1>\<times\>d
+    y=2*<big|int><rsub|0><rsup|1><around*|(|1-<frac|1|y<rsup|2>+1>|)>*d y>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
