@@ -128,7 +128,22 @@
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|0.75><frac|d
-    x|<around*|(|x+1|)>*<sqrt|x<rsup|2>+1>>>>>>
+    x|<around*|(|x+1|)>*<sqrt|x<rsup|2>+1>>>>|<row|<cell|>|<cell|>|<cell|y-x=<sqrt|x<rsup|2>+1>>>|<row|<cell|>|<cell|>|<cell|y<rsup|2>-2*x*y+x<rsup|2>=x<rsup|2>+1>>|<row|<cell|>|<cell|>|<cell|x=<frac|y<rsup|2>-1|2*y>>>|<row|<cell|>|<cell|>|<cell|x+1=<frac|y<rsup|2>+2*y-1|2*y>>>|<row|<cell|>|<cell|>|<cell|<sqrt|x<rsup|2>+1>=y-x=y-<frac|y<rsup|2>-1|2*y>=<frac|2*y<rsup|2>-y<rsup|2>+1|2*y>=<frac|y<rsup|2>+1|2*y>>>|<row|<cell|>|<cell|>|<cell|d
+    x=<frac|1|2>\<times\><frac|2*y\<times\>y-<around*|(|y<rsup|2>-1|)>|y<rsup|2>>*d
+    y=<frac|y<rsup|2>+1|2*y<rsup|2>>*d y>>|<row|<cell|>|<cell|>|<cell|y<around*|(|0.75|)>=<frac|3|4>+<sqrt|<frac|9|16>+1>=2>>|<row|<cell|>|<cell|>|<cell|y<around*|(|0|)>=1>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int><rsub|1><rsup|2><frac|<frac|y<rsup|2>+1|2*y<rsup|2>>*d
+    y|<frac|y<rsup|2>+2*y-1|2*y>\<times\><frac|y<rsup|2>+1|2*y>>=<big|int><rsub|1><rsup|2><frac|2*d
+    y|y<rsup|2>+2*y-1>=<big|int><rsub|1><rsup|2><frac|2*d
+    y|<around*|(|y+1|)><rsup|2>-2>>>|<row|<cell|>|<cell|\<Iota\>
+    \<Iota\>.>|<cell|<big|int><frac|d x|a<rsup|2>-x<rsup|2>>=<frac|1|2*a>*l
+    n<around*|\||<frac|a+x|a-x>|\|>+C<space|1em><around*|(|a\<neq\>0|)><space|1em>>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int><rsub|1><rsup|2><frac|-2*d
+    <around*|(|y+1|)>|<around*|(|<sqrt|2>|)><rsup|2>-<around*|(|y+1|)><rsup|2>>=<frac|-1|<sqrt|2>>*l
+    n<around*|\||<frac|<sqrt|2>+y+1|<sqrt|2>-<around*|(|y+1|)>>|\|><mid|\|><stack|<tformat|<table|<row|<cell|2>>|<row|<cell|>>|<row|<cell|1>>>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|2>>*l
+    n <frac|3-<sqrt|2>|3+<sqrt|2>>-<frac|1|<sqrt|2>>*l n
+    <frac|2-<sqrt|2>|2+<sqrt|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|2>>*<around*|(|l
+    n <frac|11-6*<sqrt|2>|7>-l n <frac|6-4*<sqrt|2>|2>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|2>>*l
+    n <frac|11-6*<sqrt|2>|7*<around*|(|3-2*<sqrt|2>|)>>=<frac|1|<sqrt|2>>*l n
+    <frac|<around*|(|11-6*<sqrt|2>|)>*<around*|(|3-2*<sqrt|2>|)>|7*<around*|(|9-8|)>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<sqrt|2>>*l
+    n <frac|9+4*<sqrt|2>|7>>>>>
   </eqnarray*>
 </body>
 
