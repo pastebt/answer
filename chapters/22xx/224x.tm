@@ -171,7 +171,16 @@
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|1><frac|arcsin
-    <sqrt|x>|<sqrt|x*<around*|(|1-x|)>>>*d x>>>>
+    <sqrt|x>|<sqrt|x*<around*|(|1-x|)>>>*d
+    x>>|<row|<cell|G<around*|(|x|)>>|<cell|=>|<cell|<big|int><frac|arcsin
+    <sqrt|x>|<sqrt|x*<around*|(|1-x|)>>>*d
+    x>>|<row|<cell|>|<cell|>|<cell|y=arcsin
+    <sqrt|x>>>|<row|<cell|>|<cell|>|<cell|sin
+    y=<sqrt|x>>>|<row|<cell|>|<cell|>|<cell|x=sin<rsup|2>
+    y>>|<row|<cell|>|<cell|>|<cell|d x=2*sin y*cos y*d
+    y>>|<row|<cell|G<around*|(|y|)>>|<cell|=>|<cell|<big|int><frac|y\<times\>2*sin
+    y*cos y*d y|<sqrt|sin<rsup|2> y*<around*|(|1-sin<rsup|2>
+    y|)>>>=<big|int>2*y*d y=y<rsup|2>>>|<row|<cell|>|<cell|>|<cell|x=1\<rightarrow\>y=<frac|\<mathpi\>|2>>>|<row|<cell|>|<cell|>|<cell|x=0\<rightarrow\>y=0>>|<row|<cell|G<around*|(|<frac|\<mathpi\>|2>|)>>|<cell|=>|<cell|<frac|\<mathpi\><rsup|2>|4>>>|<row|<cell|G<around*|(|0|)>>|<cell|=>|<cell|0>>|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|G<around*|(|<frac|\<mathpi\>|2>|)>-G<around*|(|0|)>=<frac|\<mathpi\><rsup|2>|4>>>>>
   </eqnarray*>
 </body>
 
