@@ -1,4 +1,4 @@
-<TeXmacs|2.1.5>
+<TeXmacs|2.1.4>
 
 <style|<tuple|generic|chinese>>
 
@@ -161,6 +161,17 @@
     y=2*<big|int><rsub|0><rsup|1><around*|(|1-<frac|1|y<rsup|2>+1>|)>*d
     y>>|<row|<cell|>|<cell|=>|<cell|2\<times\><around*|(|y-arctan
     y|)><mid|\|><stack|<tformat|<table|<row|<cell|1>>|<row|<cell|>>|<row|<cell|0>>>>>=2\<times\><around*|(|1-<frac|\<mathpi\>|4>|)>>>|<row|<cell|>|<cell|=>|<cell|2-<frac|\<mathpi\>|2>>>>>
+  </eqnarray*>
+
+  \;
+
+  \;
+
+  2249:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|1><frac|arcsin
+    <sqrt|x>|<sqrt|x*<around*|(|1-x|)>>>*d x>>>>
   </eqnarray*>
 </body>
 
