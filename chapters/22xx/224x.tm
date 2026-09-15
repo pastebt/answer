@@ -158,7 +158,9 @@
     x=2*y*d y>>|<row|<cell|>|<cell|>|<cell|d x=<frac|2*y|e<rsup|x>>*d
     y=<frac|2*y|y<rsup|2>+1>*d y>>|<row|<cell|>|<cell|>|<cell|y<around*|(|l n
     2|)>=<sqrt|e<rsup|l n 2>-1>=1>>|<row|<cell|>|<cell|>|<cell|y<around*|(|0|)>=0>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|1>y\<times\><frac|2*y|y<rsup|2>+1>\<times\>d
-    y=2*<big|int><rsub|0><rsup|1><around*|(|1-<frac|1|y<rsup|2>+1>|)>*d y>>>>
+    y=2*<big|int><rsub|0><rsup|1><around*|(|1-<frac|1|y<rsup|2>+1>|)>*d
+    y>>|<row|<cell|>|<cell|=>|<cell|2\<times\><around*|(|y-arctan
+    y|)><mid|\|><stack|<tformat|<table|<row|<cell|1>>|<row|<cell|>>|<row|<cell|0>>>>>=2\<times\><around*|(|1-<frac|\<mathpi\>|4>|)>>>|<row|<cell|>|<cell|=>|<cell|2-<frac|\<mathpi\>|2>>>>>
   </eqnarray*>
 </body>
 
