@@ -15,6 +15,25 @@
     t|x<rsup|2>*<around*|(|t<rsup|2>+2|)>>=<big|int><frac|d
     t|<around*|(|<sqrt|2>|)><rsup|2>+t<rsup|2>>>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  \;
+
+  2254:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|a><rsup|b>f<around*|(|x|)>*d
+    x>>|<row|<cell|F<rsub|2><around*|(|z|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|1>f<around*|(|a+<around*|(|b-a|)>*z|)>*d
+    z>>|<row|<cell|G<around*|(|x|)>>|<cell|=>|<cell|<big|int>f<around*|(|x|)>*d
+    x>>|<row|<cell|F<rsub|1><around*|(|x|)>>|<cell|=>|<cell|G<around*|(|b|)>-G<around*|(|a|)>>>|<row|<cell|>|<cell|>|<cell|y=a+<around*|(|b-a|)>*z>>|<row|<cell|>|<cell|>|<cell|d
+    z=<frac|d y|b-a>>>|<row|<cell|F<rsub|2><around*|(|y|)>>|<cell|=>|<cell|<big|int><rsub|a><rsup|b><frac|f<around*|(|y|)>|b-a>*d
+    y>>|<row|<cell|>|<cell|=>|<cell|<frac|1|b-a>*<big|int><rsub|a><rsup|b>f<around*|(|y|)>*d
+    y=<frac|1|b-a>*F<rsub|1><around*|(|y|)>>>|<row|<cell|F<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<around*|(|b-a|)>*F<rsub|2><around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|b-a|)>*<big|int><rsub|0><rsup|1>f<around*|(|a+<around*|(|b-a|)>*x|)>*d
+    x>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
