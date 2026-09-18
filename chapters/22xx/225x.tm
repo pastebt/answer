@@ -34,6 +34,21 @@
     y=<frac|1|b-a>*F<rsub|1><around*|(|y|)>>>|<row|<cell|F<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<around*|(|b-a|)>*F<rsub|2><around*|(|x|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|b-a|)>*<big|int><rsub|0><rsup|1>f<around*|(|a+<around*|(|b-a|)>*x|)>*d
     x>>>>
   </eqnarray*>
+
+  \;
+
+  \;
+
+  2255:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|a>x<rsup|3>*f<around*|(|x<rsup|2>|)>*d
+    x>>|<row|<cell|>|<cell|>|<cell|y=x<rsup|2>>>|<row|<cell|>|<cell|>|<cell|d
+    y=2*x*d x>>|<row|<cell|>|<cell|>|<cell|d x=<frac|d
+    y|2*x>>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|a<rsup|2>>y\<times\>x\<times\>f<around*|(|y|)>\<times\><frac|d
+    y|2*x>=<frac|1|2>*<big|int><rsub|0><rsup|a<rsup|2>>y*f*<around*|(|y|)>*d
+    y>>|<row|<cell|>|<cell|>|<cell|>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
