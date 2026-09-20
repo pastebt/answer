@@ -1,4 +1,4 @@
-<TeXmacs|2.1.4>
+<TeXmacs|2.1.5>
 
 <style|generic>
 
@@ -48,6 +48,18 @@
     y|2*x>>>|<row|<cell|F<around*|(|y|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|a<rsup|2>>y\<times\>x\<times\>f<around*|(|y|)>\<times\><frac|d
     y|2*x>=<frac|1|2>*<big|int><rsub|0><rsup|a<rsup|2>>y*f*<around*|(|y|)>*d
     y>>|<row|<cell|>|<cell|>|<cell|>>>>
+  </eqnarray*>
+
+  \;
+
+  2257(a):
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|<frac|\<mathpi\>|2>>f<around*|(|sin
+    x|)>*d x>>|<row|<cell|>|<cell|>|<cell|y=sin
+    x>>|<row|<cell|>|<cell|>|<cell|d y=cos x*d
+    x>>|<row|<cell|G<around*|(|y|)>>|<cell|=>|<cell|<big|int>f<around*|(|y|)>*d
+    y>>|<row|<cell|F<around*|(|y|)>>|<cell|>|<cell|>>>>
   </eqnarray*>
 </body>
 
