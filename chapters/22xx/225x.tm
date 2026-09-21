@@ -55,11 +55,18 @@
   2257(a):
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|<frac|\<mathpi\>|2>>f<around*|(|sin
+    <tformat|<table|<row|<cell|F<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|<frac|\<mathpi\>|2>>f<around*|(|sin
     x|)>*d x>>|<row|<cell|>|<cell|>|<cell|y=sin
     x>>|<row|<cell|>|<cell|>|<cell|d y=cos x*d
     x>>|<row|<cell|G<around*|(|y|)>>|<cell|=>|<cell|<big|int>f<around*|(|y|)>*d
-    y>>|<row|<cell|F<around*|(|y|)>>|<cell|>|<cell|>>>>
+    y>>|<row|<cell|F<rsub|1><around*|(|y|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|1><frac|f<around*|(|y|)>*d
+    y|cos x>=<big|int><rsub|0><rsup|1><frac|f<around*|(|y|)>*d
+    y|<sqrt|1-y<rsup|2>>>>>|<row|<cell|F<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|<frac|\<mathpi\>|2>>f<around*|(|cos
+    x|)>*d x>>|<row|<cell|>|<cell|>|<cell|y=cos
+    x>>|<row|<cell|>|<cell|>|<cell|d y=-sin x*d
+    x>>|<row|<cell|F<rsub|2><around*|(|y|)>>|<cell|=>|<cell|<big|int><rsub|1><rsup|0><frac|f<around*|(|y|)>*d
+    y|-sin x>=<big|int><rsub|0><rsup|1><frac|f<around*|(|y|)>*d
+    y|<sqrt|1-y<rsup|2>>>>>>>
   </eqnarray*>
 </body>
 
