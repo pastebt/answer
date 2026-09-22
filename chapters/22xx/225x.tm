@@ -68,6 +68,20 @@
     y|-sin x>=<big|int><rsub|0><rsup|1><frac|f<around*|(|y|)>*d
     y|<sqrt|1-y<rsup|2>>>>>>>
   </eqnarray*>
+
+  \;
+
+  2257(b):
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<rsub|1><around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|\<mathpi\>>x*f<around*|(|sin
+    x|)>*d x>>|<row|<cell|F<rsub|2><around*|(|x|)>>|<cell|=>|<cell|<frac|\<mathpi\>|2>*<big|int><rsub|0><rsup|\<mathpi\>>f<around*|(|sin
+    x|)>*d x>>|<row|<cell|>|<cell|>|<cell|y=sin
+    x>>|<row|<cell|>|<cell|>|<cell|d y=cos x*d
+    x>>|<row|<cell|F<rsub|2><around*|(|y|)>>|<cell|=>|<cell|<frac|\<mathpi\>|2>*<around*|(|<big|int><rsub|0><rsup|1><frac|f<around*|(|y|)>*d
+    y|<sqrt|1-y<rsup|2>>>+<big|int><rsub|1><rsup|0><frac|f<around*|(|y|)>*d
+    y|<sqrt|1-y<rsup|2>>>|)>>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
