@@ -1,4 +1,4 @@
-<TeXmacs|2.1.5>
+<TeXmacs|2.1.4>
 
 <style|<tuple|generic|chinese>>
 
@@ -409,6 +409,10 @@
   \;
 
   2256:
+
+  \;
+
+  2257(b):
 </body>
 
 <\initial>
