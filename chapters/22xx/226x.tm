@@ -16,6 +16,15 @@
     t>>|<row|<cell|>|<cell|=>|<cell|<big|int><around*|(|<frac|x<rsup|2>|x<rsup|2>-1>+x|)>*e<rsup|t>*d
     t>>>>
   </eqnarray*>
+
+  \;
+
+  2261:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|2*\<mathpi\>>f<around*|(|x|)>*cos
+    x*d x>>|<row|<cell|>|<cell|>|<cell|sin x=t>>>>
+  </eqnarray*>
 </body>
 
 <\initial>
