@@ -23,7 +23,9 @@
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|2*\<mathpi\>>f<around*|(|x|)>*cos
-    x*d x>>|<row|<cell|>|<cell|>|<cell|sin x=t>>>>
+    x*d x>>|<row|<cell|>|<cell|>|<cell|sin
+    x=t>>|<row|<cell|G<around*|(|t|)>>|<cell|=>|<cell|<big|int>f<around*|(|arcsin
+    t|)> d t>>>>
   </eqnarray*>
 </body>
 
