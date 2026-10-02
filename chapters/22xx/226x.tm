@@ -25,7 +25,12 @@
     <tformat|<table|<row|<cell|F<around*|(|x|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|2*\<mathpi\>>f<around*|(|x|)>*cos
     x*d x>>|<row|<cell|>|<cell|>|<cell|sin
     x=t>>|<row|<cell|G<around*|(|t|)>>|<cell|=>|<cell|<big|int>f<around*|(|arcsin
-    t|)> d t>>>>
+    t|)> d t>>|<row|<cell|G<around*|(|x|)>>|<cell|=>|<cell|<big|int>f<around*|(|x|)>*cos
+    x*d x>>|<row|<cell|>|<cell|>|<cell|u=f<around*|(|x|)>,d v=cos x*d x,v=sin
+    x>>|<row|<cell|G<around*|(|x|)>>|<cell|=>|<cell|<big|int>u*d
+    v=u*v-<big|int>v*d u>>|<row|<cell|>|<cell|=>|<cell|sin
+    x*f<around*|(|x|)>-<big|int>sin x*d<around*|(|f<around*|(|x|)>|)>>>|<row|<cell|G<around*|(|t|)>>|<cell|=>|<cell|t*f<around*|(|arcsin
+    t|)>-<big|int>t*d*<around*|(|f<around*|(|arcsin t|)>|)>>>>>
   </eqnarray*>
 </body>
 
